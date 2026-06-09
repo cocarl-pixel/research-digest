@@ -3,669 +3,282 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Research Digest — Daily Intelligence Feed</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>Biotech Research Digest</title>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
   :root {
-    --navy:       #0D1B2A;
-    --navy-mid:   #152233;
-    --navy-light: #1E3147;
-    --teal:       #00B4A6;
-    --teal-dim:   #007A70;
-    --teal-faint: rgba(0,180,166,0.10);
-    --off-white:  #F7F9FC;
-    --text-main:  #1A2B3C;
-    --text-mid:   #4A6070;
-    --text-dim:   #7A95A8;
-    --border:     #DDE5EC;
-    --card-bg:    #FFFFFF;
-    --sidebar-w:  220px;
+    --navy: #1F3864;
+    --navy2: #2E4DA3;
+    --accent: #4F6FD4;
+    --bg: #F4F6FB;
+    --card: #ffffff;
+    --band: #EEF2FF;
+    --border: #D4DCF0;
+    --green: #C6EFCE;
+    --green-text: #276221;
+    --yellow: #FFEB9C;
+    --yellow-text: #7D5A00;
+    --pink: #FFCCCC;
+    --pink-text: #9C0006;
+    --muted: #6B7A9B;
+    --text: #1a2340;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
 
-    --tag-aav-bg:   #E1F5EE; --tag-aav-fg:   #0A5740;
-    --tag-ab-bg:    #EEEDFE; --tag-ab-fg:    #2D2580;
-    --tag-ai-bg:    #E3F0FC; --tag-ai-fg:    #094B8A;
-    --tag-comp-bg:  #FEF3E2; --tag-comp-fg:  #7A4A00;
-    --tag-pot-bg:   #FDECEA; --tag-pot-fg:   #7A2010;
-    --tag-bio-bg:   #EAF5DC; --tag-bio-fg:   #2A5500;
-    --tag-reg-bg:   #F5EAF7; --tag-reg-fg:   #5C2070;
+  header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+    color: white;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 12px rgba(31,56,100,0.18);
+  }
+  header h1 { font-size: 1.35rem; font-weight: 700; letter-spacing: -0.3px; }
+  header .meta { font-size: 0.78rem; opacity: 0.75; margin-top: 4px; }
+  #reload-btn {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 7px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    transition: background 0.15s;
+  }
+  #reload-btn:hover { background: rgba(255,255,255,0.25); }
 
-    --src-pm-bg:  #EDE7F6; --src-pm-fg:  #3A1A8A;
-    --src-bx-bg:  #E3F2FD; --src-bx-fg:  #0A3D7A;
-    --src-wb-bg:  #EFF7E5; --src-wb-fg:  #275500;
-    --src-li-bg:  #E3F0FC; --src-li-fg:  #094B8A;
-
-    --score5-bg: #E8F5E9; --score5-fg: #1A5E20;
-    --score4-bg: #E3F2FD; --score4-fg: #0D47A1;
-    --score3-bg: #FFF8E1; --score3-fg: #B07800;
-  }
-
-  html, body { height: 100%; font-family: 'IBM Plex Sans', sans-serif; background: var(--off-white); color: var(--text-main); font-size: 14px; }
-
-  /* ── Layout ── */
-  .app { display: flex; height: 100vh; overflow: hidden; }
-
-  /* ── Sidebar ── */
-  .sidebar {
-    width: var(--sidebar-w); flex-shrink: 0;
-    background: var(--navy); color: #fff;
-    display: flex; flex-direction: column;
-    overflow-y: auto;
-  }
-  .sidebar-logo {
-    padding: 20px 18px 14px;
-    border-bottom: 1px solid var(--navy-light);
-  }
-  .sidebar-logo .wordmark {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px; font-weight: 500;
-    color: var(--teal); letter-spacing: .08em;
-    text-transform: uppercase;
-  }
-  .sidebar-logo .tagline {
-    font-size: 11px; color: rgba(255,255,255,0.45);
-    margin-top: 3px; line-height: 1.4;
-  }
-  .sidebar-section { padding: 14px 0 6px; }
-  .sidebar-label {
-    font-size: 10px; font-weight: 600; letter-spacing: .1em;
-    text-transform: uppercase; color: rgba(255,255,255,0.35);
-    padding: 0 18px; margin-bottom: 4px;
-  }
-  .sidebar-item {
-    display: flex; align-items: center; gap: 9px;
-    padding: 8px 18px; cursor: pointer;
-    font-size: 13px; color: rgba(255,255,255,0.65);
-    border-left: 2px solid transparent;
-    transition: background .12s, color .12s, border-color .12s;
-    user-select: none;
-  }
-  .sidebar-item:hover { background: var(--navy-light); color: #fff; }
-  .sidebar-item.active {
-    background: var(--teal-faint);
-    color: #fff; border-left-color: var(--teal);
-  }
-  .sidebar-item .dot {
-    width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
-  }
-  .sidebar-item .count-badge {
-    margin-left: auto; font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px; color: rgba(255,255,255,0.35);
-  }
-  .sidebar-item.active .count-badge { color: var(--teal); }
-  .sidebar-footer {
-    margin-top: auto; padding: 14px 18px;
-    border-top: 1px solid var(--navy-light);
-    font-size: 11px; color: rgba(255,255,255,0.3);
-    line-height: 1.5;
-  }
-  .sidebar-footer a { color: var(--teal); text-decoration: none; }
-
-  /* ── Main ── */
-  .main { flex: 1; display: flex; flex-direction: column; min-width: 0; overflow: hidden; }
-
-  /* ── Top bar ── */
-  .topbar {
-    background: var(--navy); color: #fff;
-    padding: 0 24px;
-    display: flex; align-items: center; gap: 16px;
-    height: 52px; flex-shrink: 0;
-    border-bottom: 2px solid var(--teal);
-  }
-  .topbar-title {
-    font-size: 13px; font-weight: 500; color: #fff;
-    white-space: nowrap;
-  }
-  .topbar-date {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px; color: var(--teal); margin-left: 2px;
-  }
-  .topbar-pulse {
-    display: flex; align-items: center; gap: 6px;
-    margin-left: auto;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px; color: rgba(255,255,255,0.5);
-  }
-  .pulse-dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--teal);
-    animation: pulse 2s ease-in-out infinite;
-  }
-  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
-  .topbar-count {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 18px; font-weight: 500; color: var(--teal);
-    margin-left: 6px;
-  }
-  .topbar-count-label { font-size: 11px; color: rgba(255,255,255,0.4); }
-
-  /* ── Controls bar ── */
-  .controls {
-    background: var(--card-bg);
+  .filters {
+    background: var(--card);
     border-bottom: 1px solid var(--border);
-    padding: 10px 24px;
-    display: flex; align-items: center; gap: 12px;
-    flex-shrink: 0;
+    padding: 14px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
   }
-  .search-wrap { position: relative; flex: 1; max-width: 380px; }
-  .search-wrap svg {
-    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
-    color: var(--text-dim); pointer-events: none;
-  }
-  .search-wrap input {
-    width: 100%; padding: 7px 10px 7px 32px;
-    border: 1px solid var(--border); border-radius: 6px;
-    font-family: 'IBM Plex Sans', sans-serif; font-size: 13px;
-    background: var(--off-white); color: var(--text-main);
-    outline: none; transition: border-color .15s;
-  }
-  .search-wrap input:focus { border-color: var(--teal); background: #fff; }
-  .controls select {
-    padding: 7px 10px; border: 1px solid var(--border);
-    border-radius: 6px; font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 13px; background: var(--off-white); color: var(--text-main);
-    outline: none; cursor: pointer;
-  }
-  .controls select:focus { border-color: var(--teal); }
-  .controls-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-  .result-count {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px; color: var(--text-dim);
-  }
-
-  /* ── Config bar (Sheet ID setup) ── */
-  .config-bar {
-    background: #FFF8E1; border-bottom: 1px solid #FFE082;
-    padding: 10px 24px; display: flex; align-items: center; gap: 12px;
-    flex-shrink: 0; font-size: 12px; color: #5D4037;
-  }
-  .config-bar.hidden { display: none; }
-  .config-bar svg { color: #F9A825; flex-shrink: 0; }
-  .config-bar input {
-    flex: 1; max-width: 420px;
-    padding: 6px 10px; border: 1px solid #FFE082;
-    border-radius: 5px; font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px; background: #fff; color: var(--text-main);
-    outline: none;
-  }
-  .config-bar input:focus { border-color: var(--teal); }
-  .btn-connect {
-    padding: 6px 14px; background: var(--teal); color: #fff;
-    border: none; border-radius: 5px; font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 12px; font-weight: 500; cursor: pointer;
-    transition: background .15s;
-  }
-  .btn-connect:hover { background: var(--teal-dim); }
-  .btn-demo {
-    padding: 6px 14px; background: transparent; color: #5D4037;
-    border: 1px solid #FFE082; border-radius: 5px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 12px; cursor: pointer;
-  }
-
-  /* ── Articles area ── */
-  .articles-wrap { flex: 1; overflow-y: auto; padding: 20px 24px; }
-  .empty-state {
-    display: flex; flex-direction: column; align-items: center;
-    justify-content: center; padding: 60px 0;
-    color: var(--text-dim); text-align: center;
-  }
-  .empty-state svg { margin-bottom: 12px; opacity: .4; }
-  .empty-state p { font-size: 14px; }
-  .empty-state small { font-size: 12px; margin-top: 4px; display: block; }
-
-  .articles-grid { display: flex; flex-direction: column; gap: 10px; }
-
-  .card {
-    background: var(--card-bg); border: 1px solid var(--border);
-    border-left: 3px solid transparent;
-    border-radius: 8px; padding: 14px 16px;
-    transition: border-left-color .15s, box-shadow .15s, transform .15s;
-    cursor: default;
-  }
-  .card:hover {
-    border-left-color: var(--teal);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-    transform: translateY(-1px);
-  }
-  .card-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
-  .card-title {
-    flex: 1; font-size: 13px; font-weight: 500; color: var(--text-main);
-    line-height: 1.45; text-decoration: none;
-  }
-  .card-title:hover { color: var(--teal-dim); text-decoration: underline; }
-  .card-tags { display: flex; gap: 5px; flex-shrink: 0; align-items: flex-start; flex-wrap: wrap; justify-content: flex-end; max-width: 200px; }
-  .tag {
-    font-size: 10px; font-weight: 600; letter-spacing: .03em;
-    padding: 3px 8px; border-radius: 10px; white-space: nowrap;
-  }
-  .score-badge {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px; font-weight: 500;
-    padding: 3px 7px; border-radius: 10px; white-space: nowrap;
-  }
-  .card-summary { font-size: 12px; color: var(--text-mid); line-height: 1.6; margin-bottom: 10px; }
-  .card-footer { display: flex; align-items: center; gap: 10px; }
-  .meta-pill {
-    font-family: 'IBM Plex Mono', monospace; font-size: 10px;
-    color: var(--text-dim); background: var(--off-white);
-    padding: 2px 8px; border-radius: 8px;
-  }
-  .card-link {
-    margin-left: auto; font-size: 11px; color: var(--teal-dim);
-    text-decoration: none; display: flex; align-items: center; gap: 3px;
+  .filter-label { font-size: 0.75rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-right: 4px; }
+  .chip {
+    padding: 5px 13px;
+    border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: white;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    color: var(--muted);
     font-weight: 500;
   }
-  .card-link:hover { color: var(--teal); }
+  .chip.active { background: var(--navy); border-color: var(--navy); color: white; }
+  .chip:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
+  .sep { width: 1px; height: 24px; background: var(--border); margin: 0 4px; }
 
-  /* ── Loading state ── */
-  .loading { display: flex; flex-direction: column; align-items: center; padding: 60px 0; gap: 12px; }
-  .spinner {
-    width: 28px; height: 28px; border: 2px solid var(--border);
-    border-top-color: var(--teal); border-radius: 50%;
-    animation: spin .7s linear infinite;
+  .stats-bar {
+    padding: 10px 32px;
+    font-size: 0.8rem;
+    color: var(--muted);
+    display: flex;
+    gap: 20px;
+    align-items: center;
   }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .loading p { font-size: 13px; color: var(--text-dim); }
+  .stats-bar strong { color: var(--text); }
 
-  /* ── Scrollbar ── */
-  .articles-wrap::-webkit-scrollbar { width: 5px; }
-  .articles-wrap::-webkit-scrollbar-track { background: transparent; }
-  .articles-wrap::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  .grid {
+    padding: 0 32px 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 16px;
+  }
 
-  /* ── Responsive ── */
-  @media (max-width: 700px) {
-    .sidebar { display: none; }
-    .card-tags { max-width: 120px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: box-shadow 0.15s, transform 0.1s;
+  }
+  .card:hover { box-shadow: 0 4px 18px rgba(31,56,100,0.12); transform: translateY(-1px); }
+
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .card-title { font-weight: 600; font-size: 0.9rem; line-height: 1.4; flex: 1; }
+  .card-title a { color: var(--navy2); text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; }
+
+  .score-badge {
+    flex-shrink: 0;
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.85rem;
+  }
+  .score-5 { background: var(--green); color: var(--green-text); }
+  .score-4 { background: var(--yellow); color: var(--yellow-text); }
+  .score-3 { background: var(--pink); color: var(--pink-text); }
+
+  .card-summary { font-size: 0.82rem; color: #444; line-height: 1.5; }
+
+  .card-footer { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 2px; }
+  .tag {
+    font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;
+    background: var(--band); color: var(--navy2); font-weight: 600;
+    border: 1px solid #c8d4f8;
+  }
+  .tag.source { background: #f0f4ff; color: var(--muted); font-weight: 500; }
+  .date-tag { font-size: 0.7rem; color: var(--muted); margin-left: auto; }
+
+  .loading { text-align: center; padding: 80px 32px; color: var(--muted); font-size: 1rem; }
+  .error-msg { text-align: center; padding: 60px 32px; color: #9C0006; }
+  .empty { text-align: center; padding: 60px 32px; color: var(--muted); font-size: 0.9rem; }
+
+  @media (max-width: 640px) {
+    header { padding: 18px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
+    .filters, .stats-bar { padding: 12px 16px; }
+    .grid { padding: 0 16px 24px; grid-template-columns: 1fr; }
   }
 </style>
 </head>
 <body>
-<div class="app">
 
-  <!-- Sidebar -->
-  <nav class="sidebar" aria-label="Topic navigation">
-    <div class="sidebar-logo">
-      <div class="wordmark">Research Digest</div>
-      <div class="tagline">Daily intelligence feed</div>
-    </div>
-
-    <div class="sidebar-section">
-      <div class="sidebar-label">Topics</div>
-      <div class="sidebar-item active" data-topic="all" onclick="setTopic(this,'all')">
-        <span class="dot" style="background:#7A95A8"></span>
-        All articles
-        <span class="count-badge" id="cnt-all">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="AAV / LNP" onclick="setTopic(this,'AAV / LNP')">
-        <span class="dot" style="background:#1D9E75"></span>
-        AAV / LNP
-        <span class="count-badge" id="cnt-aav">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="Antibody & Protein" onclick="setTopic(this,'Antibody & Protein')">
-        <span class="dot" style="background:#534AB7"></span>
-        Antibody & Protein
-        <span class="count-badge" id="cnt-ab">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="AI/ML" onclick="setTopic(this,'AI/ML')">
-        <span class="dot" style="background:#378ADD"></span>
-        AI / ML
-        <span class="count-badge" id="cnt-ai">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="Competitive" onclick="setTopic(this,'Competitive')">
-        <span class="dot" style="background:#BA7517"></span>
-        Competitive
-        <span class="count-badge" id="cnt-comp">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="Potency & Bioassays" onclick="setTopic(this,'Potency & Bioassays')">
-        <span class="dot" style="background:#D85A30"></span>
-        Potency & Bioassays
-        <span class="count-badge" id="cnt-pot">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="Biotools" onclick="setTopic(this,'Biotools')">
-        <span class="dot" style="background:#639922"></span>
-        Biotools
-        <span class="count-badge" id="cnt-bio">—</span>
-      </div>
-      <div class="sidebar-item" data-topic="Regulatory / FDA" onclick="setTopic(this,'Regulatory / FDA')">
-        <span class="dot" style="background:#993556"></span>
-        Regulatory / FDA
-        <span class="count-badge" id="cnt-reg">—</span>
-      </div>
-    </div>
-
-    <div class="sidebar-section">
-      <div class="sidebar-label">Filter by source</div>
-      <div class="sidebar-item" data-src="PubMed" onclick="setSrc(this,'PubMed')">
-        <span class="dot" style="background:#7C4DFF"></span>PubMed
-        <span class="count-badge" id="cnt-pm">—</span>
-      </div>
-      <div class="sidebar-item" data-src="bioRxiv" onclick="setSrc(this,'bioRxiv')">
-        <span class="dot" style="background:#1565C0"></span>bioRxiv
-        <span class="count-badge" id="cnt-bx">—</span>
-      </div>
-      <div class="sidebar-item" data-src="Web" onclick="setSrc(this,'Web')">
-        <span class="dot" style="background:#558B2F"></span>Web
-        <span class="count-badge" id="cnt-wb">—</span>
-      </div>
-    </div>
-
-    <div class="sidebar-footer">
-      <div id="last-refresh">Not yet loaded</div>
-      <div style="margin-top:6px"><a href="#" onclick="loadData();return false;">↺ Refresh now</a></div>
-      <div style="margin-top:4px"><a href="#" onclick="localStorage.removeItem('researchDigestSheetId');document.getElementById('config-bar').classList.remove('hidden');return false;" style="color:rgba(255,255,255,0.3)">⚙ Change sheet</a></div>
-    </div>
-  </nav>
-
-  <!-- Main -->
-  <div class="main">
-
-    <!-- Top bar -->
-    <header class="topbar">
-      <span class="topbar-title">Daily Intelligence Feed</span>
-      <span class="topbar-date" id="today-date"></span>
-      <div class="topbar-pulse" style="margin-left:auto">
-        <div class="pulse-dot"></div>
-        <span class="topbar-count-label">articles today</span>
-        <span class="topbar-count" id="hdr-count">—</span>
-      </div>
-    </header>
-
-    <!-- Config bar (shown until Sheet ID is set) -->
-    <div class="config-bar" id="config-bar">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-      <span>Paste your Google Sheet ID to connect live data:</span>
-      <input type="text" id="sheet-id-input" placeholder="e.g. 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms" />
-      <button class="btn-connect" onclick="connectSheet()">Connect sheet</button>
-      <button class="btn-demo" onclick="loadDemo()">Use sample data</button>
-    </div>
-
-    <!-- Controls -->
-    <div class="controls">
-      <div class="search-wrap">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        <input type="text" id="search-input" placeholder="Search titles, summaries…" oninput="render()" />
-      </div>
-      <select id="sort-select" onchange="render()">
-        <option value="date-desc">Newest first</option>
-        <option value="date-asc">Oldest first</option>
-        <option value="score-desc">Highest relevance</option>
-      </select>
-      <div class="controls-right">
-        <span class="result-count" id="result-count"></span>
-      </div>
-    </div>
-
-    <!-- Articles -->
-    <div class="articles-wrap" id="articles-wrap">
-      <div class="empty-state">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        <p>Connect your Google Sheet or load sample data to get started.</p>
-        <small>Use the yellow bar above to enter your Sheet ID.</small>
-      </div>
-    </div>
-
+<header>
+  <div>
+    <h1>🔬 Biotech Research Digest</h1>
+    <div class="meta" id="header-meta">Loading…</div>
   </div>
-</div>
+  <button id="reload-btn" onclick="loadData()">↻ Refresh</button>
+</header>
+
+<div class="filters" id="filters"></div>
+<div class="stats-bar" id="stats-bar"></div>
+<div class="grid" id="grid"><div class="loading">Loading articles…</div></div>
 
 <script>
-// ── State ──────────────────────────────────────────────────────────────
-let ALL_ARTICLES = [];
-let activeTopic = 'all';
-let activeSrc   = null;
-const SHEET_KEY = 'researchDigestSheetId';
+const DATA_URL = 'data.json';
 
-// ── Topic / source config ──────────────────────────────────────────────
-const TOPIC_TAG = {
-  'AAV / LNP':           { bg:'var(--tag-aav-bg)',  fg:'var(--tag-aav-fg)'  },
-  'Antibody & Protein':  { bg:'var(--tag-ab-bg)',   fg:'var(--tag-ab-fg)'   },
-  'AI/ML':               { bg:'var(--tag-ai-bg)',   fg:'var(--tag-ai-fg)'   },
-  'Competitive':         { bg:'var(--tag-comp-bg)', fg:'var(--tag-comp-fg)' },
-  'Potency & Bioassays': { bg:'var(--tag-pot-bg)',  fg:'var(--tag-pot-fg)'  },
-  'Biotools':            { bg:'var(--tag-bio-bg)',  fg:'var(--tag-bio-fg)'  },
-  'Regulatory / FDA':    { bg:'var(--tag-reg-bg)',  fg:'var(--tag-reg-fg)'  },
-};
-const SRC_TAG = {
-  'PubMed':  { bg:'var(--src-pm-bg)', fg:'var(--src-pm-fg)' },
-  'bioRxiv': { bg:'var(--src-bx-bg)', fg:'var(--src-bx-fg)' },
-  'Web':     { bg:'var(--src-wb-bg)', fg:'var(--src-wb-fg)' },
-  'LinkedIn':{ bg:'var(--src-li-bg)', fg:'var(--src-li-fg)' },
-};
-const SCORE_TAG = {
-  5:{ bg:'var(--score5-bg)', fg:'var(--score5-fg)', label:'★ 5' },
-  4:{ bg:'var(--score4-bg)', fg:'var(--score4-fg)', label:'★ 4' },
-  3:{ bg:'var(--score3-bg)', fg:'var(--score3-fg)', label:'★ 3' },
-};
-const CNT_IDS = {
-  'all':'cnt-all','AAV / LNP':'cnt-aav','Antibody & Protein':'cnt-ab',
-  'AI/ML':'cnt-ai','Competitive':'cnt-comp','Potency & Bioassays':'cnt-pot',
-  'Biotools':'cnt-bio','Regulatory / FDA':'cnt-reg',
-  'PubMed':'cnt-pm','bioRxiv':'cnt-bx','Web':'cnt-wb',
-};
+const TOPICS = [
+  'AAV / LNP',
+  'Antibody & Protein',
+  'AI/ML',
+  'Competitive',
+  'Potency & Bioassays',
+  'Biotools & Research Tools',
+  'Regulatory / FDA'
+];
+const SOURCES = ['PubMed', 'bioRxiv', 'Web'];
 
-// ── Startup ────────────────────────────────────────────────────────────
-document.getElementById('today-date').textContent =
-  new Date().toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+let allArticles = [];
+let activeTopic = 'All';
+let activeSource = 'All';
+let activeScore = 'All';
 
-const savedId = localStorage.getItem(SHEET_KEY);
-if (savedId) {
-  document.getElementById('sheet-id-input').value = savedId;
-  connectSheet(savedId);
-}
-
-// ── Sheet connection ───────────────────────────────────────────────────
-function connectSheet(id) {
-  const sheetId = id || document.getElementById('sheet-id-input').value.trim();
-  if (!sheetId) { alert('Please enter a Google Sheet ID.'); return; }
-  localStorage.setItem(SHEET_KEY, sheetId);
-  loadData(sheetId);
-}
-
-function loadData(sheetId) {
-  const id = sheetId || localStorage.getItem(SHEET_KEY);
-  if (!id) { loadDemo(); return; }
-  showLoading('Fetching from Google Sheets…');
-  // Fetch CSV export of the "All Articles" sheet (gid=0)
-  const url = `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:csv&gid=0&range=A3:I1000`;
-  fetch(url)
-    .then(r => { if (!r.ok) throw new Error('Sheet not found or not public'); return r.text(); })
-    .then(csv => {
-      const articles = parseCSV(csv);
-      if (!articles.length) throw new Error('No data rows found');
-      ALL_ARTICLES = articles;
-      hideConfigBar();
-      updateCounts();
-      render();
-      document.getElementById('last-refresh').textContent =
-        'Refreshed ' + new Date().toLocaleTimeString();
-    })
-    .catch(err => {
-      showError(err.message);
+async function loadData() {
+  document.getElementById('grid').innerHTML = '<div class="loading">Loading articles…</div>';
+  document.getElementById('header-meta').textContent = 'Loading…';
+  try {
+    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    allArticles = (data.articles || []).sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return (b.date || '').localeCompare(a.date || '');
     });
-}
-
-function parseCSV(text) {
-  const lines = text.trim().split('\n');
-  return lines
-    .filter(l => l.trim() && l.trim() !== ',,,,,,,,')
-    .map(line => {
-      const cols = parseCSVLine(line);
-      return {
-        date:    cols[0] || '',
-        topic:   cols[1] || '',
-        source:  cols[2] || '',
-        title:   cols[3] || '',
-        summary: cols[4] || '',
-        url:     cols[5] || '#',
-        score:   parseInt(cols[6]) || 3,
-        notes:   cols[7] || '',
-        flagged: cols[8] || '',
-      };
-    })
-    .filter(a => a.title);
-}
-
-function parseCSVLine(line) {
-  const result = []; let cur = ''; let inQ = false;
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (c === '"') {
-      if (inQ && line[i+1] === '"') { cur += '"'; i++; }
-      else inQ = !inQ;
-    } else if (c === ',' && !inQ) { result.push(cur.trim()); cur = ''; }
-    else cur += c;
+    const latest = allArticles.map(a => a.date).filter(Boolean).sort().reverse()[0] || '';
+    document.getElementById('header-meta').textContent =
+      `${allArticles.length} articles · last updated ${data.generated || latest}`;
+    buildFilters();
+    render();
+  } catch (e) {
+    document.getElementById('grid').innerHTML =
+      `<div class="error-msg">⚠️ Could not load data.json<br><small>${e.message}</small></div>`;
+    document.getElementById('header-meta').textContent = 'Error loading data';
   }
-  result.push(cur.trim());
-  return result;
 }
 
-// ── Demo data ──────────────────────────────────────────────────────────
-function loadDemo() {
-  ALL_ARTICLES = [
-    {date:'2026-06-09',topic:'AAV / LNP',source:'PubMed',title:'Lipid nanoparticle targeting via ionizable lipid optimization for liver-selective mRNA delivery',summary:'Novel ionizable lipid candidate with pKa 6.3 shows 3× improvement over MC3 in hepatocyte uptake screen.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Antibody & Protein',source:'PubMed',title:'VHH nanobody engineering for bispecific tumor antigen targeting using AI-guided CDR grafting',summary:'DL model trained on SAbDab predicts CDR loop conformations for camelid VHH frameworks with retained affinity.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'AI/ML',source:'bioRxiv',title:'ProteinBench: a unified evaluation framework for protein language model fine-tuning',summary:'Multi-task benchmark covering fold prediction, binding affinity, and expression with standardized splits.',url:'https://biorxiv.org/',score:4,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Competitive',source:'Web',title:'Twist Bioscience launches gene synthesis platform targeting antibody library applications',summary:'Twist Express Libraries offer same-week turnaround on NGS-verified oligo pools for VHH and scFv campaigns.',url:'https://twistbioscience.com/',score:4,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Potency & Bioassays',source:'PubMed',title:'Reporter gene assay development for Fc-effector function potency testing',summary:'ADCP reporter shows lower inter-lab variability and better correlation with primary cell data vs. ADCC.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Biotools',source:'PubMed',title:'Nano-scale flow cytometry for sub-micron particle characterization in biologics',summary:'Optimized NanoFCM protocol for AAV capsid ratio and LNP size distribution vs. TEM and DLS.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:4,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Regulatory / FDA',source:'Web',title:'FDA draft guidance on potency assay comparability for biologics manufacturing changes',summary:'Tiered comparability framework; minor process changes may qualify for statistical equivalence approach.',url:'https://fda.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'AAV / LNP',source:'PubMed',title:'AAV9 HSPG binding residues modulate CNS tropism in non-human primate models',summary:'Capsid mutagenesis of HSPG-contact residues shifts biodistribution away from liver toward spinal cord.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Antibody & Protein',source:'PubMed',title:'Computational design of pH-dependent antibody variants for lysosomal antigen release',summary:'Rosetta protocol redesigns IgG CH2-CH3 interface for improved tumor penetration in xenograft models.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:4,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'AI/ML',source:'PubMed',title:'Reinforcement learning from biophysical feedback for antibody optimization',summary:'RL agent uses SPR binding kinetics as reward to iteratively mutate CDR3, outperforming Bayesian optimization.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Competitive',source:'Web',title:'AbCellera expands AI antibody discovery partnership with major CDO',summary:'Multi-year deal covers early discovery through IND-enabling studies.',url:'https://abcellera.com/',score:4,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Potency & Bioassays',source:'PubMed',title:'ICH Q2(R2) harmonized guideline on analytical procedure validation: practical implementation',summary:'Commentary on updated ICH Q2(R2) specificity, linearity, and robustness requirements for cell-based potency.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:4,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Biotools',source:'Web',title:'Open-source LIMS framework for antibody reagent labs: implementation guide',summary:'Benchling-compatible LIMS covers sample registration, assay data, and inventory with antibody templates.',url:'https://github.com/',score:3,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Regulatory / FDA',source:'Web',title:'EMA reflection paper on AI/ML-assisted analytical method development',summary:'Outlines expectations for model documentation, validation, and lifecycle management in GMP workflows.',url:'https://ema.europa.eu/',score:5,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Antibody & Protein',source:'bioRxiv',title:'High-throughput expression screening of scFv libraries using microfluidic droplet sorting',summary:'Droplet platform processes 10⁶ variants/day coupling expression titer with antigen-binding signal.',url:'https://biorxiv.org/',score:5,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'AI/ML',source:'Web',title:'Generative protein design with RFdiffusion: recent advances and industrial applications',summary:'Review of RFdiffusion deployments at CROs and pharma covering binder design and enzyme engineering.',url:'https://biorxiv.org/',score:4,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Competitive',source:'LinkedIn',title:'Seer Bio reports proteomics platform expansion into antibody characterization workflows',summary:'Post announces integration with standard antibody purification workflows as a research reagent QC tool.',url:'https://linkedin.com/',score:3,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Potency & Bioassays',source:'PubMed',title:'SPR-based binding potency assay as surrogate for cell-based methods: regulatory precedents',summary:'FDA has accepted SPR-only potency in six recent BLA approvals for receptor-binding mechanisms of action.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-09',topic:'Biotools',source:'bioRxiv',title:'Automated liquid handling integration with ML-driven hit-picking for protein screening',summary:'Hamilton/Opentrons-compatible workflow cuts cycle time by 60% by coupling expression yield and binding data.',url:'https://biorxiv.org/',score:4,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'Regulatory / FDA',source:'Web',title:'IND-enabling package expectations for gene therapy AAV candidates: FDA CBER update',summary:'Updated FAQ clarifies biodistribution study design, potency assay requirements, and analytical bridging.',url:'https://fda.gov/',score:5,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'AAV / LNP',source:'bioRxiv',title:'CRISPR-Cas9 off-target editing in LNP-delivered therapeutic contexts: a meta-analysis',summary:'Pooled analysis of 14 trials finds off-target rates below 0.01% when paired with high-fidelity Cas9 variants.',url:'https://biorxiv.org/',score:4,notes:'',flagged:''},
-    {date:'2026-06-07',topic:'Antibody & Protein',source:'Web',title:'Protein solubility prediction at scale: benchmarking ESM-2, ProtTrans, and AlphaFold2 embeddings',summary:'ESM-2 650M embeddings outperform structure-based features for solubility classification on 5,000 antibody variants.',url:'https://biorxiv.org/',score:5,notes:'',flagged:''},
-    {date:'2026-06-07',topic:'AI/ML',source:'Web',title:'Foundation model for assay outcome prediction trained on ChEMBL and BindingDB',summary:'Large transformer pre-trained on 4M assay readouts with strong zero-shot generalization to held-out targets.',url:'https://biorxiv.org/',score:4,notes:'',flagged:''},
-    {date:'2026-06-07',topic:'Competitive',source:'Web',title:'Y Combinator W26 batch includes three AI-enabled reagent and tool startups',summary:'Notable entries target antibody validation automation and recombinant protein production optimization.',url:'https://ycombinator.com/',score:4,notes:'',flagged:''},
-    {date:'2026-06-07',topic:'Potency & Bioassays',source:'Web',title:'Cell-based potency assay qualification under USP <1033>: case study in a biosimilar program',summary:'Step-by-step qualification walkthrough using an NK-92 ADCC surrogate assay including acceptance criteria.',url:'https://usp.org/',score:4,notes:'',flagged:''},
-    {date:'2026-06-07',topic:'Biotools',source:'Web',title:'CRO selection guide for antibody expression and characterization: 2026 edition',summary:'Updated vendor landscape covers transient CHO, HEK293, and E. coli platforms with turnaround benchmarks.',url:'https://labiotech.eu/',score:3,notes:'',flagged:''},
-    {date:'2026-06-07',topic:'Regulatory / FDA',source:'PubMed',title:'USP Chapter <129> monoclonal antibody characterization: 2026 revision highlights',summary:'Revision adds glycan profiling requirements for biosimilar comparability and reference standard replacement criteria.',url:'https://pubmed.ncbi.nlm.nih.gov/',score:4,notes:'',flagged:''},
-    {date:'2026-06-08',topic:'AAV / LNP',source:'Web',title:'Emerging ionizable lipid structures for endosomal escape enhancement',summary:'Review covers branched tail architectures and ether-linked analogs that improve endosomal disruption efficiency.',url:'https://nature.com/',score:4,notes:'',flagged:''},
-  ];
-  hideConfigBar();
-  updateCounts();
-  render();
-  document.getElementById('last-refresh').textContent = 'Sample data loaded';
+function buildFilters() {
+  const f = document.getElementById('filters');
+  const makeChip = (label, group, val) => {
+    const d = document.createElement('button');
+    d.className = 'chip' + (val === (group === 'topic' ? activeTopic : group === 'source' ? activeSource : activeScore) ? ' active' : '');
+    d.textContent = label;
+    d.onclick = () => {
+      if (group === 'topic') activeTopic = val;
+      else if (group === 'source') activeSource = val;
+      else activeScore = val;
+      buildFilters();
+      render();
+    };
+    return d;
+  };
+
+  f.innerHTML = '';
+  const tl = document.createElement('span'); tl.className = 'filter-label'; tl.textContent = 'Topic';
+  f.appendChild(tl);
+  f.appendChild(makeChip('All', 'topic', 'All'));
+  TOPICS.forEach(t => f.appendChild(makeChip(t, 'topic', t)));
+
+  const sep = document.createElement('div'); sep.className = 'sep'; f.appendChild(sep);
+  const sl = document.createElement('span'); sl.className = 'filter-label'; sl.textContent = 'Source';
+  f.appendChild(sl);
+  f.appendChild(makeChip('All', 'source', 'All'));
+  SOURCES.forEach(s => f.appendChild(makeChip(s, 'source', s)));
+
+  const sep2 = document.createElement('div'); sep2.className = 'sep'; f.appendChild(sep2);
+  const scl = document.createElement('span'); scl.className = 'filter-label'; scl.textContent = 'Score';
+  f.appendChild(scl);
+  ['All', '5', '4', '3'].forEach(s => f.appendChild(makeChip(s === 'All' ? 'All' : '★' + s, 'score', s)));
 }
 
-// ── UI helpers ─────────────────────────────────────────────────────────
-function hideConfigBar() {
-  document.getElementById('config-bar').classList.add('hidden');
-}
-function showLoading(msg) {
-  document.getElementById('articles-wrap').innerHTML =
-    `<div class="loading"><div class="spinner"></div><p>${msg}</p></div>`;
-}
-function showError(msg) {
-  document.getElementById('articles-wrap').innerHTML =
-    `<div class="empty-state">
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-      <p>Could not load data: ${msg}</p>
-      <small>Check that your Sheet is shared as "Anyone with the link → Viewer" and the ID is correct.</small>
-      <small style="margin-top:10px"><a href="#" onclick="loadDemo();return false;" style="color:var(--teal)">Load sample data instead</a></small>
-    </div>`;
-  document.getElementById('config-bar').classList.remove('hidden');
-}
-
-// ── Navigation ─────────────────────────────────────────────────────────
-function setTopic(el, topic) {
-  activeTopic = topic; activeSrc = null;
-  document.querySelectorAll('.sidebar-item[data-topic]').forEach(x => x.classList.remove('active'));
-  document.querySelectorAll('.sidebar-item[data-src]').forEach(x => x.classList.remove('active'));
-  el.classList.add('active');
-  render();
-}
-function setSrc(el, src) {
-  activeSrc = activeSrc === src ? null : src;
-  activeTopic = 'all';
-  document.querySelectorAll('.sidebar-item[data-topic]').forEach(x => x.classList.remove('active'));
-  document.querySelectorAll('.sidebar-item[data-src]').forEach(x => x.classList.remove('active'));
-  if (activeSrc) { el.classList.add('active'); }
-  else { document.querySelector('.sidebar-item[data-topic="all"]').classList.add('active'); }
-  render();
-}
-
-// ── Counts ─────────────────────────────────────────────────────────────
-function updateCounts() {
-  const total = ALL_ARTICLES.length;
-  document.getElementById('cnt-all').textContent = total;
-  document.getElementById('hdr-count').textContent = total;
-  const topics = ['AAV / LNP','Antibody & Protein','AI/ML','Competitive','Potency & Bioassays','Biotools','Regulatory / FDA'];
-  const topicIds = ['cnt-aav','cnt-ab','cnt-ai','cnt-comp','cnt-pot','cnt-bio','cnt-reg'];
-  topics.forEach((t,i) => {
-    document.getElementById(topicIds[i]).textContent = ALL_ARTICLES.filter(a=>a.topic===t).length;
-  });
-  ['PubMed','bioRxiv','Web'].forEach(s => {
-    const el = document.getElementById(CNT_IDS[s]);
-    if (el) el.textContent = ALL_ARTICLES.filter(a=>a.source===s).length;
-  });
-}
-
-// ── Render ─────────────────────────────────────────────────────────────
 function render() {
-  const q = document.getElementById('search-input').value.toLowerCase();
-  const sort = document.getElementById('sort-select').value;
-  let items = ALL_ARTICLES.filter(a => {
-    if (activeTopic !== 'all' && a.topic !== activeTopic) return false;
-    if (activeSrc && a.source !== activeSrc) return false;
-    if (q && !a.title.toLowerCase().includes(q) && !a.summary.toLowerCase().includes(q) && !a.topic.toLowerCase().includes(q)) return false;
+  const filtered = allArticles.filter(a => {
+    if (activeTopic !== 'All' && a.topic !== activeTopic) return false;
+    if (activeSource !== 'All' && a.source !== activeSource) return false;
+    if (activeScore !== 'All' && String(a.score) !== activeScore) return false;
     return true;
   });
-  if (sort === 'date-asc') items.sort((a,b) => a.date.localeCompare(b.date));
-  else if (sort === 'date-desc') items.sort((a,b) => b.date.localeCompare(a.date));
-  else if (sort === 'score-desc') items.sort((a,b) => b.score - a.score);
 
-  document.getElementById('result-count').textContent =
-    items.length + ' article' + (items.length !== 1 ? 's' : '');
+  document.getElementById('stats-bar').innerHTML =
+    `Showing <strong>${filtered.length}</strong> of ${allArticles.length} articles` +
+    (activeTopic !== 'All' || activeSource !== 'All' || activeScore !== 'All'
+      ? ` &nbsp;·&nbsp; <a href="#" onclick="clearFilters(); return false;" style="color:var(--accent);font-size:0.8rem">Clear filters</a>` : '');
 
-  if (!items.length) {
-    document.getElementById('articles-wrap').innerHTML =
-      `<div class="empty-state">
-        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        <p>No articles match your filters.</p>
-        <small>Try clearing the search or selecting a different topic.</small>
-      </div>`;
+  if (!filtered.length) {
+    document.getElementById('grid').innerHTML = '<div class="empty">No articles match the current filters.</div>';
     return;
   }
 
-  const html = items.map(a => {
-    const tt = TOPIC_TAG[a.topic] || {bg:'#eee',fg:'#333'};
-    const st = SRC_TAG[a.source]  || {bg:'#eee',fg:'#333'};
-    const sc = SCORE_TAG[a.score] || SCORE_TAG[3];
+  document.getElementById('grid').innerHTML = filtered.map(a => {
+    const scoreClass = a.score === 5 ? 'score-5' : a.score === 4 ? 'score-4' : 'score-3';
+    const titleHtml = a.url
+      ? `<a href="${escHtml(a.url)}" target="_blank" rel="noopener">${escHtml(a.title)}</a>`
+      : escHtml(a.title);
     return `
     <div class="card">
-      <div class="card-header">
-        <a class="card-title" href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
-        <div class="card-tags">
-          <span class="tag" style="background:${tt.bg};color:${tt.fg}">${a.topic}</span>
-          <span class="tag" style="background:${st.bg};color:${st.fg}">${a.source}</span>
-          <span class="score-badge" style="background:${sc.bg};color:${sc.fg}">${sc.label}</span>
-        </div>
+      <div class="card-top">
+        <div class="card-title">${titleHtml}</div>
+        <div class="score-badge ${scoreClass}">${a.score}</div>
       </div>
-      <p class="card-summary">${a.summary}</p>
+      <div class="card-summary">${escHtml(a.summary)}</div>
       <div class="card-footer">
-        <span class="meta-pill">${a.date}</span>
-        ${a.notes ? `<span class="meta-pill" style="color:var(--teal-dim)">${a.notes}</span>` : ''}
-        <a class="card-link" href="${a.url}" target="_blank" rel="noopener">
-          Open
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        </a>
+        <span class="tag">${escHtml(a.topic)}</span>
+        <span class="tag source">${escHtml(a.source)}</span>
+        <span class="date-tag">${a.date || ''}</span>
       </div>
     </div>`;
   }).join('');
-  document.getElementById('articles-wrap').innerHTML = `<div class="articles-grid">${html}</div>`;
 }
+
+function clearFilters() {
+  activeTopic = 'All'; activeSource = 'All'; activeScore = 'All';
+  buildFilters(); render();
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+loadData();
 </script>
 </body>
 </html>
