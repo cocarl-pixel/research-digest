@@ -1,6 +1,6 @@
 {
   "generated": "2026-06-14",
-  "total": 55,
+  "total": 58,
   "articles": [
     {
       "date": "2026-06-09",
@@ -551,6 +551,36 @@
       "url": "https://www.fda.gov/vaccines-blood-biologics/biologics-guidances/guidance-agenda-guidance-documents-cber-planning-publish-during-calendar-year-2026",
       "score": 4,
       "notes": ""
+    },
+    {
+      "date": "2026-06-14",
+      "topic": "AAV / LNP delivery",
+      "source": "Nature Biomedical Engineering",
+      "title": "AI-guided design of LNPs for in vivo targeted mRNA delivery via analysis of the spatial conformation of ionizable lipids",
+      "summary": "AI-designed LNP library with diverse ionizable lipid 3D conformations identifies optimal candidates for organ-specific in vivo mRNA delivery.",
+      "url": "https://www.nature.com/articles/s41551-026-01640-8",
+      "score": 5,
+      "notes": "2026 publication"
+    },
+    {
+      "date": "2026-06-14",
+      "topic": "AAV / LNP delivery",
+      "source": "Cell / Molecular Therapy",
+      "title": "Advances in AAV capsid engineering: Integrating rational design, directed evolution and machine learning",
+      "summary": "Comprehensive review of AAV capsid engineering strategies combining directed evolution, rational design, and ML for precise tropism control.",
+      "url": "https://www.cell.com/molecular-therapy-family/molecular-therapy/fulltext/S1525-0016(25)00265-5",
+      "score": 4,
+      "notes": "Review"
+    },
+    {
+      "date": "2026-06-14",
+      "topic": "Antibody & protein engineering",
+      "source": "PatSnap",
+      "title": "AI antibody design technology landscape 2026",
+      "summary": "Patent and publication landscape analysis of AI-driven antibody design methods across oncology, infectious disease, and nanobody engineering domains.",
+      "url": "https://www.patsnap.com/resources/blog/articles/ai-antibody-design-technology-landscape-2026/",
+      "score": 3,
+      "notes": "2026 landscape overview"
     }
   ]
 }
