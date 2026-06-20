@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16",
-  "total": 95,
+  "generated": "2026-06-20",
+  "total": 138,
   "articles": [
     {
       "date": "2026-06-09",
@@ -951,6 +951,436 @@
       "url": "https://assyro.com/blog/biologics-regulatory-pathway-fda",
       "score": 3,
       "notes": "IND-to-BLA overview"
+    },
+    {
+      "date": "2026-06-15",
+      "topic": "AAV/LNP Delivery",
+      "source": "GlobeNewswire",
+      "title": "CancerVax Successfully Demonstrates Full Nanoparticle Delivery in Mouse Study",
+      "summary": "CancerVax reported the first successful biodistribution study of its complete dual-marker LNP platform, with Marker1-mediated targeting and Marker2-driven payload deactivation in healthy cells.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311539/0/en/CancerVax-Successfully-Demonstrates-Full-Nanoparticle-Delivery-in-Mouse-Study.html",
+      "score": 5,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-22",
+      "topic": "AAV/LNP Delivery",
+      "source": "PackGene Biotech",
+      "title": "Emerging Directions in AAV Capsid Engineering from ASGCT 2026",
+      "summary": "PackGene's recap of ASGCT 2026 highlights tissue-targeted, immune-evading AAV capsid engineering as a dominant theme across this year's gene therapy conference.",
+      "url": "https://www.packgene.com/learning-center/emerging-directions-in-aav-capsid-engineering-from-asgct-2026/",
+      "score": 3,
+      "notes": "Conference recap, >14 days old"
+    },
+    {
+      "date": "2026-04-16",
+      "topic": "AAV/LNP Delivery",
+      "source": "bioRxiv",
+      "title": "Coordinated Tuning of Ionizable Lipids and Formulation Redirects mRNA Vaccines Toward Lymphoid-Specific CD4+ T Cell Immunity",
+      "summary": "A new ionizable lipid (N4Z) plus formulation-level tuning reshapes LNP biodistribution from liver-dominant toward lymphoid tissue, independent of the lipid's core structure.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.719092v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-10",
+      "topic": "Antibody & Protein Engineering",
+      "source": "bioRxiv",
+      "title": "Targeting PTRAMP-CSS Potently Inhibits P. falciparum Transmission",
+      "summary": "A bispecific Nb-Fc nanobody fusion targeting the PTRAMP-CSS complex outperforms single-target nanobodies, demonstrating bispecific nanobody engineering principles transferable beyond infectious disease.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.10.724175v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-02-02",
+      "topic": "Antibody & Protein Engineering",
+      "source": "bioRxiv",
+      "title": "Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy",
+      "summary": "Ophiuchus-Ab, a diffusion-based generative foundation model pre-trained on paired antibody repertoires, unifies CDR infilling, humanization, light-chain pairing, and developability/affinity prediction in one framework.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.02.703197v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-15",
+      "topic": "AI/ML in Biotech",
+      "source": "Nature Computational Science",
+      "title": "DualGPT-AB: A Dual-Stage Generative Optimization Framework for Therapeutic Antibody Design",
+      "summary": "DualGPT-AB combines a conditional GPT with reinforcement learning to generate CDRH3 sequences jointly optimized for affinity, viscosity, clearance and immunogenicity, validated on HER2-binding antibodies.",
+      "url": "https://www.nature.com/articles/s43588-026-00976-0",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-10",
+      "topic": "AI/ML in Biotech",
+      "source": "bioRxiv",
+      "title": "Generative Design of Intrinsically Disordered Protein Regions with IDiom",
+      "summary": "IDiom, an autoregressive protein language model trained on 37M AlphaFold-curated disordered-region sequences, generates context-conditioned and fully disordered sequences with RL-tuned subcellular localization.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717777v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2025-12-27",
+      "topic": "AI/ML in Biotech",
+      "source": "bioRxiv",
+      "title": "Fitness Landscape for Antibodies 2: Benchmarking Reveals That Protein AI Models Cannot Yet Consistently Predict Developability Properties",
+      "summary": "FLAb2, the largest public therapeutic-antibody developability benchmark (4M+ antibodies, 32 studies), finds that 30 AI/biophysical models fail to produce significant correlations for most developability properties tested.",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.27.696706v1",
+      "score": 3,
+      "notes": "Important benchmark/cautionary finding for AI-driven antibody developability claims"
+    },
+    {
+      "date": "2026-06-04",
+      "topic": "Competitive Landscape",
+      "source": "GlobeNewswire",
+      "title": "Ona Therapeutics Raises $86.6 Million Series B to Advance First-in-Class ADCs Into Clinical Development",
+      "summary": "Ona Therapeutics closed an $86.6M Series B to advance its fatty-acid-transport-protein-targeted antibody-drug conjugate pipeline into the clinic, signaling continued investor appetite for novel ADC/antibody platforms.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/04/3306533/0/en/ona-therapeutics-raises-86-6-million-series-b-to-advance-first-in-class-adcs-into-clinical-development.html",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-03-06",
+      "topic": "Competitive Landscape",
+      "source": "BusinessWire",
+      "title": "MindWalk Announces B Cell Llama, a Nanobody Discovery Platform Designed for the Bispecific and Cell Therapy Era",
+      "summary": "MindWalk launched B Cell Llama, isolating VHH nanobodies directly from immunized llama B cells for naturally matured sequence diversity, paired with its LensAI design tools for bispecific/cell-therapy applications.",
+      "url": "https://www.businesswire.com/news/home/20260306778890/en/MindWalk-Announces-B-Cell-Llama-a-Nanobody-Discovery-Platform-Designed-for-the-Bispecific-and-Cell-Therapy-Era",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "Competitive Landscape",
+      "source": "PR Newswire",
+      "title": "Earendil Labs Announces $787 Million in Financing to Scale AI-Driven Biologics Discovery and Development",
+      "summary": "Earendil Labs raised $787M to scale its AI-native biologics discovery platform, which has produced 40+ programs including a half-life-extended anti-TL1A antibody headed to Phase 2.",
+      "url": "https://www.prnewswire.com/news-releases/earendil-labs-announces-787-million-in-financing-to-scale-ai-driven-biologics-discovery-and-development-302719748.html",
+      "score": 3,
+      "notes": "Landmark round, included despite age for competitive awareness"
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "Biotools & Research Tools",
+      "source": "The Scientist",
+      "title": "Hudson Lab Automation Launches Rapid pH Plus at ASMS 2026",
+      "summary": "Hudson Lab Automation launched Rapid pH Plus, a modernized automated plate-based pH measurement platform for SBS plates/vials/tubes, cutting hands-on biologics formulation/process-development pH testing time by 95%+.",
+      "url": "https://www.the-scientist.com/hudson-lab-automation-launches-rapid-ph-plustm-at-asms-2026-74606",
+      "score": 4,
+      "notes": "Exact date within ASMS 2026 window (May 31-Jun 4); using Jun 3 as estimate"
+    },
+    {
+      "date": "2026-03-02",
+      "topic": "Biotools & Research Tools",
+      "source": "bioRxiv",
+      "title": "A Purpose-Built Open Source Liquid Handler for Industry-Class Automated Experiments",
+      "summary": "An open-source, PyLabRobot-compatible liquid-handling robot built from off-the-shelf parts was validated on a 200-culture turbidostat workflow and reproduced by a new lab in about a week.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709168v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-17",
+      "topic": "Biotools & Research Tools",
+      "source": "bioRxiv",
+      "title": "Modular Fluidic Automation Platform With Integrated Thermal Control for Multi-Step Molecular Imaging Workflows",
+      "summary": "A two-robot modular fluidic system automates buffer exchange, temperature regulation and timed reactions for multiplexed FISH imaging, improving reproducibility/throughput for multi-step molecular workflows.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.17.713973v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "Regulatory/FDA",
+      "source": "Federal Register",
+      "title": "Leveraging Prior Knowledge in the Development of Human Gene Therapy Products Incorporating Genome Editing",
+      "summary": "FDA CBER's new draft guidance lets gene-editing therapy sponsors leverage public/platform prior knowledge (CMC, nonclinical, clinical data) to justify reduced redundant testing; comments due Sept 1, 2026.",
+      "url": "https://www.federalregister.gov/documents/2026/06/03/2026-11054/leveraging-prior-knowledge-in-the-development-of-human-gene-therapy-products-incorporating-genome",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-13",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Controlled linking of AAV capsids enables coordinated multi-vector delivery",
+      "summary": "A capsid-linking strategy using oligonucleotide linkers enables programmable, coordinated multi-vector AAV delivery while suppressing uncontrolled higher-order aggregation.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.716639v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-10",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Optimized AAV capsids robustly transduce airway epithelial cells",
+      "summary": "Researchers identified 20 novel AAV capsids that transduce airway epithelial cells at 10- to 100-fold lower doses than existing benchmark vectors.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.10.723853v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-04",
+      "topic": "Antibody & protein engineering",
+      "source": "Protein Innovation Institute",
+      "title": "IPI and Alloy Therapeutics partner on VHH nanobody library access",
+      "summary": "The Institute for Protein Innovation partnered with Alloy Therapeutics to broaden academic and biotech access to a diverse VHH/nanobody discovery library.",
+      "url": "https://proteininnovation.org/2026/05/vhh-library-alloy-ipi-partnership/",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-02-13",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "CaptureBody \u2013 an anti-CD45 x anti-IgG bispecific antibody enables accurate unmixing for spectral flow cytometry",
+      "summary": "An engineered Fc-less nanobody/scFv-based bispecific reagent (CaptureBody) improves channel-unmixing accuracy in spectral flow cytometry panels.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.704926v1.full",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-13",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts",
+      "summary": "A sparse mixture-of-experts decoder delivers fast, structure-free, interpretable de novo protein binder generation, with experts specializing by amino-acid chemistry.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732043v1",
+      "score": 5,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-12",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Reinforcement learning-driven unified generative framework for multi-objective RNA codon design",
+      "summary": "A new RL framework combining an ESM-2 encoder with multi-objective optimization generates RNA codon sequences balancing competing design objectives.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.732012v1",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-12",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Ainnocence Brings Its Protein, Antibody, and Peptide AI Models to Production as Secure, On-Demand APIs",
+      "summary": "Ainnocence launched production APIs for its AINN-P1 protein foundation model, AINN-Basemodel antibody-antigen binding predictor, and AINN-Peptide platform.",
+      "url": "https://www.biospace.com/press-releases/ainnocence-brings-its-protein-antibody-and-peptide-ai-models-to-production-as-secure-on-demand-apis",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-15",
+      "topic": "Competitive landscape",
+      "source": "GlobeNewswire",
+      "title": "AI-Driven Bispecific Antibody Development Attracts $1+ Billion in Pharma Investments Amid Clinical Risk Mitigation Focus",
+      "summary": "Pharma investment in AI-driven bispecific antibody development surpassed $1 billion as companies adopt computational platforms to mitigate immunogenicity and safety risk.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311947/0/en/AI-Driven-Bispecific-Antibody-Development-Attracts-1-Billion-in-Pharma-Investments-Amid-Clinical-Risk-Mitigation-Focus.html",
+      "score": 5,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-11",
+      "topic": "Competitive landscape",
+      "source": "GlobeNewswire",
+      "title": "Antibody Partnering Surges into 2026: Q1 Deals Top $36 Billion as Bispecifics and Discovery Platforms Drive Competition",
+      "summary": "Q1 2026 antibody partnering deal value topped $36 billion, with discovery/engineering platforms \u2014 including AI-enabled development \u2014 becoming the primary deal driver over single assets.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/11/3310621/28124/en/Antibody-Partnering-Surges-into-2026-Q1-Deals-Top-36-Billion-as-Bispecifics-and-Discovery-Platforms-Drive-Competition.html",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Alnylam and Inceptive Form Strategic AI Collaboration to Accelerate the Discovery of RNAi Therapeutics",
+      "summary": "Alnylam and AI-biotech Inceptive formed a collaboration worth up to $2B ($30M upfront) to apply generative AI to RNAi therapeutic discovery, signaling continued AI-platform deal momentum in biologics.",
+      "url": "https://www.biospace.com/press-releases/alnylam-and-inceptive-form-strategic-ai-collaboration-to-accelerate-the-discovery-of-rnai-therapeutics",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-11",
+      "topic": "Potency & bioassays",
+      "source": "bioRxiv",
+      "title": "Monoclonal nephritic factors reveal insights into C3 convertase dynamics and dysregulation",
+      "summary": "SPR-based biophysical assays of 12 monoclonal C3 nephritic factor autoantibodies show selective binding/stabilization of the C3bBb convertase versus precursor complexes, despite shared clonality.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731599v1.full",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-03-15",
+      "topic": "Potency & bioassays",
+      "source": "PubMed (J Chromatography A)",
+      "title": "Antigen affinity chromatography for functional separation and efficient characterization of critical monoclonal antibody variants",
+      "summary": "A modular antigen affinity chromatography workflow, optimized on trastuzumab/HER2, separates antigen-binding-deficient mAb variants for SPR/SEC/IEC characterization of CDR-impacting modifications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41650542/",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-10",
+      "topic": "Biotools & research tools",
+      "source": "National Law Review",
+      "title": "LabKey Biologics LIMS Supports High-Throughput Antibody Development at Federal Biodefense Lab",
+      "summary": "LabKey's Biologics LIMS was deployed at a federal biodefense laboratory (Lawrence Livermore) to support high-throughput antibody development data management.",
+      "url": "https://www.natlawreview.com/press-releases/labkey-biologics-lims-supports-high-throughput-antibody-development-federal",
+      "score": 4,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-02",
+      "topic": "Biotools & research tools",
+      "source": "GlobeNewswire",
+      "title": "Cytek Biosciences to Unveil Next-Generation Spectral Flow Cytometry Innovations at CYTO 2026",
+      "summary": "Cytek previewed next-generation spectral flow cytometry instrumentation (Borealis platform) ahead of CYTO 2026.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3305669/0/en/cytek-biosciences-to-unveil-next-generation-spectral-flow-cytometry-innovations-at-cyto-2026.html",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "Biotools & research tools",
+      "source": "GlobeNewswire",
+      "title": "Curiox Automates Flow Cytometry Sample Prep End-to-End on a Single Instrument",
+      "summary": "Curiox launched Antibody Cocktailing and Workflow Wizards for its Pluto Workstation, automating flow cytometry sample prep from antibody vial to flow-ready sample without coding, validated at Stanford HIMC and Dana-Farber.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306096/0/en/curiox-automates-flow-cytometry-sample-prep-end-to-end-on-a-single-instrument.html",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-21",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "FlowWeb: a free, web-based platform for flow cytometry data analysis",
+      "summary": "FlowWeb is a free web-based platform combining an R/Bioconductor backend with a GUI for gating, visualization, QC, and statistical analysis of flow cytometry data.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.717288v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-01",
+      "topic": "Regulatory / FDA",
+      "source": "EMA",
+      "title": "Guideline on the Development and Manufacture of Synthetic Peptides",
+      "summary": "EMA/CHMP/CVMP's new purpose-built guideline on synthetic peptide quality, manufacturing (SPPS/fragment condensation), characterization, and impurity profiling became effective June 1, 2026.",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-development-manufacture-synthetic-peptides_en.pdf",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-03-10",
+      "topic": "Regulatory / FDA",
+      "source": "Federal Register",
+      "title": "New and Revised Draft Q&As on Biosimilar Development and the Biologics Price Competition and Innovation Act (Revision 4)",
+      "summary": "FDA's revised draft Q&A guidance updates biosimilar development recommendations and proposes streamlining unnecessary clinical PK testing, potentially cutting biosimilar PK study costs by up to 50%.",
+      "url": "https://www.federalregister.gov/documents/2026/03/10/2026-04664/new-and-revised-draft-qandas-on-biosimilar-development-and-the-biologics-price-competition-and",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2025-12-03",
+      "topic": "Regulatory / FDA",
+      "source": "Federal Register",
+      "title": "Monoclonal Antibodies: Streamlined Nonclinical Safety Studies; Draft Guidance for Industry",
+      "summary": "FDA draft guidance describes streamlined nonclinical safety study approaches for monospecific monoclonal antibodies, aiming to reduce unnecessary animal (including NHP) testing per 3R principles.",
+      "url": "https://www.federalregister.gov/documents/2025/12/03/2025-21864/monoclonal-antibodies-streamlined-nonclinical-safety-studies-draft-guidance-for-industry",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-17",
+      "topic": "Competitive landscape",
+      "source": "PR Newswire",
+      "title": "Jazz Pharmaceuticals and AbCellera Announce Collaboration to Discover Next-Generation T-Cell Engaging Multispecific Antibodies",
+      "summary": "Jazz Pharmaceuticals will pay AbCellera $56M upfront for two initial antibody-discovery programs (plus $28M for a third), with up to $792M in milestones per program, to develop multispecific T-cell engagers for GI and other solid tumors.",
+      "url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-and-abcellera-announce-collaboration-to-discover-next-generation-t-cell-engaging-multispecific-antibodies-302802284.html",
+      "score": 5,
+      "notes": "Competitor partnership; benchmark for antibody discovery deal economics"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Competitive landscape",
+      "source": "GlobeNewswire",
+      "title": "Memento Medicines Launches with $93 Million Series A Financing to Advance Tie2 Agonist and VEGF Inhibitor Bispecific Antibody Therapy for Retinal Diseases",
+      "summary": "New biotech Memento Medicines launched with a $93M Series A to advance a bispecific antibody co-targeting Tie2 and VEGF for retinal disease, signaling continued investor appetite for bispecific antibody platforms.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/18/3314508/0/en/Memento-Medicines-Launches-with-93-Million-Series-A-Financing-to-advance-Tie2-Agonist-and-VEGF-Inhibitor-Bispecific-Antibody-Therapy-for-Retinal-Diseases.html",
+      "score": 5,
+      "notes": "Funding round; bispecific antibody platform"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "AI/ML in biotech",
+      "source": "BioSpace",
+      "title": "LabGenius Therapeutics and LG Chem Enter a Research Collaboration, Option and License Agreement to Develop an AI/ML-Designed Tumour-Targeting Antibody",
+      "summary": "LabGenius will use its EVA AI/ML antibody discovery platform under a new multi-year collaboration and license deal with LG Chem to design next-generation multispecific tumor-targeting antibodies.",
+      "url": "https://www.biospace.com/press-releases/labgenius-therapeutics-and-lg-chem-enter-a-research-collaboration-option-and-license-agreement-to-develop-an-ai-ml-designed-tumour-targeting-antibody",
+      "score": 5,
+      "notes": "Validates AI/ML antibody discovery platform licensing model"
+    },
+    {
+      "date": "2026-06-19",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Voro Therapeutics and Alloy Therapeutics Enter Strategic Research Collaboration to Advance Next-Generation Masked T-Cell Engager Therapeutics",
+      "summary": "Voro Therapeutics and Alloy Therapeutics announced a collaboration combining Voro's tumor-activated biologics with Alloy's antibody discovery and T-cell engager engineering capabilities.",
+      "url": "https://www.biospace.com/press-releases/voro-therapeutics-and-alloy-therapeutics-enter-strategic-research-collaboration-to-advance-next-generation-masked-t-cell-engager-therapeutics",
+      "score": 5,
+      "notes": "Announced today; antibody discovery partnership"
+    },
+    {
+      "date": "2026-06-16",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "Servo-Actuated 3D-Printed Disposable Microvalves for Automated, Scalable Organoid Culture in Standard Incubators",
+      "summary": "A bioRxiv preprint describes low-cost, 3D-printed disposable microvalves that automate organoid culture media exchange in standard incubators without specialized microfluidic equipment.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732526v1",
+      "score": 3,
+      "notes": "Tangential \u2014 lab automation hardware, not antibody-specific"
+    },
+    {
+      "date": "2026-06-15",
+      "topic": "AI/ML in biotech",
+      "source": "PR Newswire",
+      "title": "Harbour BioMed and BioMap Jointly Initiate MegaStream TechBio, A Leading Global Drug Development Platform, Joins Forces with Premier Life Science Foundation Models to Set New Benchmarks for AI-Driven Complex Biologics R&D",
+      "summary": "Harbour BioMed and BioMap launched MegaStream TechBio, a joint venture combining global biologics drug development with foundation-model AI to accelerate complex biologics R&D.",
+      "url": "https://www.prnewswire.com/news-releases/harbour-biomed-and-biomap-jointly-initiate-megastream-techbio-a-leading-global-drug-development-platform-joins-forces-with-premier-life-science-foundation-models-to-set-new-benchmarks-for-ai-driven-complex-biologics-rd-302800277.html",
+      "score": 5,
+      "notes": "Major AI-biologics platform JV; relevant benchmark for AI/ML antibody development partnership models"
+    },
+    {
+      "date": "2026-06-17",
+      "topic": "AI/ML in biotech",
+      "source": "Business Wire",
+      "title": "Axcelead DDP Joins Lilly TuneLab to Advance AI Drug Discovery",
+      "summary": "Japanese CRO Axcelead Drug Discovery Partners joined Eli Lilly's TuneLab program, gaining access to Lilly's AI models for early-stage drug discovery.",
+      "url": "https://www.businesswire.com/news/home/20260617135447/en/Axcelead-DDP-Joins-Lilly-TuneLab-to-Advance-AI-Drug-Discovery",
+      "score": 4,
+      "notes": "Expands Lilly's external AI drug discovery network; signals growing AI tool access for biotech partners"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Antibody & protein engineering",
+      "source": "BioSpace",
+      "title": "VERAXA Biotech Establishes In Vitro Proof-of-Concept for Novel BiTAC-ADC Technology Platform and Launches Partnering Discussions at BIO International Convention 2026",
+      "summary": "VERAXA Biotech demonstrated in vitro proof-of-concept for its novel bispecific tumor-activated conjugate (BiTAC)-ADC platform and is now seeking partners.",
+      "url": "https://www.biospace.com/press-releases/veraxa-biotech-establishes-in-vitro-proof-of-concept-for-novel-bitac-adc-technology-platform-and-launches-partnering-discussions-at-bio-international-convention-2026",
+      "score": 4,
+      "notes": "Novel ADC conjugation/targeting platform; relevant to antibody-drug conjugate engineering trends"
+    },
+    {
+      "date": "2026-06-17",
+      "topic": "Biotools & research tools",
+      "source": "BioSpace",
+      "title": "10x Genomics and Cleveland Clinic Collaborate to Advance Research in Diagnostic Applications of Single-Cell and Spatial Technologies in Patients with Bladder Cancer",
+      "summary": "10x Genomics and Cleveland Clinic partnered to apply single-cell and spatial technologies toward diagnostic biomarker discovery in bladder cancer.",
+      "url": "https://www.biospace.com/press-releases/10x-genomics-and-cleveland-clinic-collaborate-to-advance-research-in-diagnostic-applications-of-single-cell-and-spatial-technologies-in-patients-with-bladder-cancer",
+      "score": 3,
+      "notes": "Tangential \u2014 diagnostic biomarker discovery, not core to antibody/protein reagent dev, but tracks relevant platform-tech advances"
     }
   ]
 }
