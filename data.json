@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20",
-  "total": 138,
+  "generated": "2026-06-21",
+  "total": 155,
   "articles": [
     {
       "date": "2026-06-09",
@@ -1381,6 +1381,176 @@
       "url": "https://www.biospace.com/press-releases/10x-genomics-and-cleveland-clinic-collaborate-to-advance-research-in-diagnostic-applications-of-single-cell-and-spatial-technologies-in-patients-with-bladder-cancer",
       "score": 3,
       "notes": "Tangential \u2014 diagnostic biomarker discovery, not core to antibody/protein reagent dev, but tracks relevant platform-tech advances"
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Receptor-guided AAV Tropism Engineering via MATCH",
+      "summary": "A new computational MATCH framework uses receptor-binding data to guide AAV capsid engineering toward improved tissue-specific tropism.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715691v1.full",
+      "score": 3,
+      "notes": "Background \u2014 receptor-informed capsid engineering approach relevant to tissue-targeted AAV design"
+    },
+    {
+      "date": "2026-03-10",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Improved Protein Encapsulation and Delivery by Lipid Nanoparticles with Refined Ionizable Lipid Content",
+      "summary": "Refining ionizable lipid content in LNP formulations improves protein cargo encapsulation efficiency and delivery performance.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710763v1.full.pdf",
+      "score": 3,
+      "notes": "Background \u2014 relevant to protein/reagent payload LNP formulation work"
+    },
+    {
+      "date": "2026-04-13",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Agent-Guided De Novo Design of Nanobody Binders Against a Novel Cancer Target",
+      "summary": "An agentic four-stage workflow combining epitope identification, generative design, and yeast display screening produced sub-nanomolar nanobody binders against a novel cancer target.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717816v1",
+      "score": 3,
+      "notes": "Background \u2014 agentic AI-guided nanobody discovery pipeline"
+    },
+    {
+      "date": "2026-03-17",
+      "topic": "Antibody & protein engineering",
+      "source": "Nature Communications",
+      "title": "A highly potent nanobody-based bispecific therapeutic provides broad-spectrum protection against ebolavirus",
+      "summary": "Camelid nanobodies were fused into a bispecific construct that neutralizes EBOV, SUDV, and BDBV and protects rodents against all three viruses.",
+      "url": "https://www.nature.com/articles/s41467-026-70464-6",
+      "score": 3,
+      "notes": "Background \u2014 bispecific nanobody-Fc fusion engineering transferable beyond infectious disease"
+    },
+    {
+      "date": "2026-04-18",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Resolving antibody avidity through nanoscale antigen patterning",
+      "summary": "SPR, TEM, and cryo-EM combined with a five-state biophysical model distinguish monovalent from bivalent antibody binding states using nanoscale antigen patterning.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.18.719169v1.full.pdf",
+      "score": 3,
+      "notes": "Background \u2014 biophysical characterization method relevant to avidity/affinity profiling"
+    },
+    {
+      "date": "2026-03-10",
+      "topic": "AI/ML in biotech",
+      "source": "Nature Communications",
+      "title": "A paired sequence language model for protein-protein interaction modeling",
+      "summary": "PPLM jointly encodes paired protein sequences to enable interaction-aware representations, with its affinity variant outperforming ESM2 and structure-based methods on binding affinity prediction.",
+      "url": "https://www.nature.com/articles/s41467-026-70457-5",
+      "score": 3,
+      "notes": "Background \u2014 sequence-based affinity prediction model relevant to antibody-antigen binding"
+    },
+    {
+      "date": "2026-01-14",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Origin-1: a generative AI platform for de novo antibody design against novel epitopes",
+      "summary": "In under 100 design attempts per target, Origin-1 identified developable, specific antibodies validated by biophysical assays against four novel targets.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699389v1",
+      "score": 3,
+      "notes": "Background \u2014 generative antibody design platform with high hit rate"
+    },
+    {
+      "date": "2026-01-11",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Machine learning enables efficient and effective affinity maturation of nanobodies",
+      "summary": "ML-guided affinity maturation of RXFP1-targeting nanobodies produced multiple sub-nanomolar binders, including a ~2500-fold improvement over wild-type.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.11.698911v1.full",
+      "score": 3,
+      "notes": "Background \u2014 ML-driven affinity maturation workflow"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Competitive landscape",
+      "source": "BusinessWire",
+      "title": "Portal Biotechnologies Accelerates Growth with Latest Round Led by NFX, Expanded DARPA Contract, and Broad Adoption Across Top Pharma and Academic Centers",
+      "summary": "Portal Biotechnologies closed an oversubscribed $9M round led by NFX for its mechanoporation-based cell engineering platform, now used for high-throughput screening at 100+ sites including top-10 pharma.",
+      "url": "https://www.businesswire.com/news/home/20260618787432/en/Portal-Biotechnologies-Accelerates-Growth-with-Latest-Round-Led-by-NFX-Expanded-DARPA-Contract-and-Broad-Adoption-Across-Top-Pharma-and-Academic-Centers",
+      "score": 5,
+      "notes": "Fresh (June 18) \u2014 mechanoporation delivery platform with strong pharma adoption; relevant to high-throughput discovery workflows"
+    },
+    {
+      "date": "2026-06-19",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Telos Biotech Announces Strategic Evaluation Collaboration with Made Scientific to Assess TELOVANCE Across Multiple Cell Therapy Manufacturing Platforms",
+      "summary": "Telos Biotech and CDMO Made Scientific will evaluate TELOVANCE, an ancillary technology addressing telomere shortening, across CAR-T, NK-cell, and HSPC manufacturing workflows.",
+      "url": "https://www.biospace.com/press-releases/telos-biotech-announces-strategic-evaluation-collaboration-with-made-scientific-to-assess-telovance-across-multiple-cell-therapy-manufacturing-platforms",
+      "score": 3,
+      "notes": "Tangential \u2014 cell therapy manufacturing CMC, not core antibody/protein reagent focus"
+    },
+    {
+      "date": "2026-05-28",
+      "topic": "Competitive landscape",
+      "source": "PharmaSource",
+      "title": "Syncell Launches Global Discovery CRO Service to Unlock Drug Targets With Nanoscopic Proteomics",
+      "summary": "Syncell transitioned from platform developer to CRO, offering end-to-end subcellular spatial proteomic profiling combining its Microscoop Mint platform with a high-end mass spectrometer.",
+      "url": "https://pharmasource.global/content/news/cro-news/syncell-launches-global-discovery-cro-service-to-unlock-drug-targets-with-nanoscopic-proteomics/",
+      "score": 3,
+      "notes": "Background \u2014 new CRO service offering spatial proteomics for target discovery"
+    },
+    {
+      "date": "2026-06-19",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Fapon Biopharma and MOTE Therapeutics to Present Dual-Platform B-Cell Immunotherapy Franchise at BIO 2026",
+      "summary": "Fapon Biopharma and MOTE Therapeutics will present a combined B-cell immunotherapy platform franchise at the BIO International Convention 2026.",
+      "url": "https://www.biospace.com/press-releases/fapon-biopharma-and-mote-therapeutics-to-present-dual-platform-b-cell-immunotherapy-franchise-at-bio-2026",
+      "score": 3,
+      "notes": "Tangential \u2014 conference presentation, limited new technical detail disclosed"
+    },
+    {
+      "date": "2025-05-21",
+      "topic": "Potency & bioassays",
+      "source": "bioRxiv",
+      "title": "Beyond accuracy, precision and TAE: Direct assay validation against product specification aligned with USP <1033>",
+      "summary": "Proposes validating bioassays directly against product specification limits rather than only accuracy/precision metrics, aligning with the draft USP <1033> Total Analytical Error framework.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.21.655192.full.pdf",
+      "score": 3,
+      "notes": "Background \u2014 statistical framework relevant to potency assay validation strategy ahead of USP <1033> finalization"
+    },
+    {
+      "date": "2026-01-10",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "Towards automated gating of clinical flow cytometry data",
+      "summary": "FLAG-X, a Python package, automates flow cytometry gating with machine learning while integrating with standard manual-gating software pipelines.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698765v1.full",
+      "score": 3,
+      "notes": "Background \u2014 ML-based flow cytometry gating automation tool"
+    },
+    {
+      "date": "2025-07-13",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "An Automated End-to-End Workflow for Production of Secreted Proteins in Transfected Mammalian Cells",
+      "summary": "Describes a fully automated, end-to-end pipeline for transient transfection and secreted protein production in mammalian cells, reducing manual handling for reagent-scale expression.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.13.664612v1.full",
+      "score": 3,
+      "notes": "Background \u2014 automation workflow directly applicable to protein reagent production pipelines"
+    },
+    {
+      "date": "2026-06-01",
+      "topic": "Regulatory / FDA",
+      "source": "Federal Register",
+      "title": "Oncology Pharmaceuticals: Streamlined Nonclinical Safety Studies for Biologics and Conjugated Products; Draft Guidance for Industry",
+      "summary": "FDA draft guidance proposes streamlined nonclinical safety/toxicology study approaches for oncology biologics and conjugated products such as ADCs; comments due July 31, 2026.",
+      "url": "https://www.federalregister.gov/documents/2026/06/01/2026-10873/oncology-pharmaceuticals-streamlined-nonclinical-safety-studies-for-biologics-and-conjugated",
+      "score": 4,
+      "notes": "Directly applicable \u2014 reduced nonclinical testing burden relevant to ADC/biologics IND-enabling strategy"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "Regulatory / FDA",
+      "source": "Federal Register",
+      "title": "General Considerations for the Use of New Approach Methodologies in Drug Development; Draft Guidance for Industry",
+      "summary": "FDA draft guidance outlines principles for qualifying and using non-animal new approach methodologies, including in vitro/cell-based assays, in drug development.",
+      "url": "https://www.federalregister.gov/documents/2026/03/19/2026-05390/general-considerations-for-the-use-of-new-approach-methodologies-in-drug-development-draft-guidance",
+      "score": 3,
+      "notes": "Background \u2014 relevant to cell-based bioassay/NAM qualification strategy"
     }
   ]
 }
