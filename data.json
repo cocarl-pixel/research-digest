@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21",
-  "total": 155,
+  "generated": "2026-06-23",
+  "total": 177,
   "articles": [
     {
       "date": "2026-06-09",
@@ -1551,6 +1551,226 @@
       "url": "https://www.federalregister.gov/documents/2026/03/19/2026-05390/general-considerations-for-the-use-of-new-approach-methodologies-in-drug-development-draft-guidance",
       "score": 3,
       "notes": "Background \u2014 relevant to cell-based bioassay/NAM qualification strategy"
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "CTCF regulates wild-type and recombinant AAV gene expression by shaping viral chromatin",
+      "summary": "Chromatin-remodeling factor CTCF shapes rAAV transgene expression, boosting transduction up to 4-fold independent of capsid serotype.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729793v1",
+      "score": 3,
+      "notes": "Background \u2014 capsid-independent AAV expression enhancement mechanism relevant to vector engineering."
+    },
+    {
+      "date": "2026-04-09",
+      "topic": "Potency & bioassays",
+      "source": "bioRxiv",
+      "title": "Reversible CD28 checkpoint modulation by cyclic peptides outperforms biologic blockade under exposure-limited conditions",
+      "summary": "Cyclic peptide CD28 antagonists show superior reversible checkpoint modulation versus biologic blockade in bioassay-based potency comparisons under exposure-limited dosing.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717469v1.full",
+      "score": 3,
+      "notes": "Background \u2014 bioassay comparison methodology relevant to potency benchmarking; peptide- rather than antibody-focused."
+    },
+    {
+      "date": "2026-04-23",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "A liquid handling platform for standardised quantification of cell-free enzymatic activity encoded by antimicrobial resistance genes",
+      "summary": "Automated liquid-handling platform standardizes cell-free enzymatic activity quantification, demonstrating a reagent-screening workflow transferable to protein/antibody assay automation.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720151v1",
+      "score": 3,
+      "notes": "Background \u2014 generalizable automation/liquid-handling methodology; application domain (AMR genes) is tangential."
+    },
+    {
+      "date": "2026-03-01",
+      "topic": "Antibody & protein engineering",
+      "source": "PubMed",
+      "title": "Single-molecule validation and optimised protocols for the use of secondary nanobodies in multiplexed immunoassays",
+      "summary": "Study validates and optimizes secondary nanobody reagent protocols at single-molecule resolution for use in multiplexed immunoassay platforms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41563121/",
+      "score": 3,
+      "notes": "Background \u2014 nanobody reagent tooling for multiplexed immunoassays; journal-published version of a 2025 bioRxiv preprint, not novel/recent."
+    },
+    {
+      "date": "2026-01-12",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Designing AAV Capsid Protein with viability-guided Diffusion Model",
+      "summary": "Viability-guided diffusion model generates novel AAV capsid protein sequences optimized for functional viability, illustrating generative AI applied to capsid/protein engineering.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698995v1.full",
+      "score": 3,
+      "notes": "Background \u2014 generative diffusion modeling for capsid protein design."
+    },
+    {
+      "date": "2026-06-17",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Triveni Bio Raises $65 Million Series C Financing to Expand Scope of First-in-Class Bispecific TRIV-573 Clinical Studies and Drive Next-Stage Company Growth",
+      "summary": "Triveni Bio raised $65M in Series C funding to expand clinical studies of its first-in-class bispecific antibody TRIV-573 and support company growth.",
+      "url": "https://www.biospace.com/press-releases/triveni-bio-raises-65-million-series-c-financing-to-expand-scope-of-first-in-class-bispecific-triv-573-clinical-studies-and-drive-next-stage-company-growth",
+      "score": 3,
+      "notes": "Competitive intel \u2014 bispecific antibody-focused biotech funding round."
+    },
+    {
+      "date": "2026-06-21",
+      "topic": "Competitive landscape",
+      "source": "PR Newswire",
+      "title": "Antengene Announces Exclusive License Agreement with MPM BioImpact-Established K2 Therapeutics for ATG-106 and Option for Undisclosed Bispecific TCE",
+      "summary": "Antengene licensed ATG-106 to MPM BioImpact-backed K2 Therapeutics and granted an option on an undisclosed bispecific T-cell engager, signaling continued bispecific antibody dealmaking.",
+      "url": "https://www.prnewswire.com/news-releases/antengene-announces-exclusive-license-agreement-with-mpm-bioimpact-established-k2-therapeutics-for-atg-106-and-option-for-undisclosed-bispecific-tce-302805826.html",
+      "score": 4,
+      "notes": "Fresh (1 day old) \u2014 bispecific TCE licensing deal directly relevant to competitive bispecific antibody landscape."
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Competitive landscape",
+      "source": "News-Medical.net",
+      "title": "Insilico Medicine to showcase AI-driven drug breakthroughs at BIO 2026 International Convention",
+      "summary": "Insilico Medicine will present its AI-driven drug discovery pipeline and breakthroughs at the BIO 2026 International Convention.",
+      "url": "https://www.news-medical.net/news/20260618/Insilico-Medicine-to-showcase-AI-driven-drug-breakthroughs-at-BIO-2026-International-Convention.aspx",
+      "score": 3,
+      "notes": "Background \u2014 general AI drug-discovery conference showcase."
+    },
+    {
+      "date": "2026-03-11",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Quantifying endosomal escape in vivo to guide lipid nanoparticle design",
+      "summary": "A lysosomal barcoding strategy quantifies endosomal escape of LNP-delivered nucleic acids in vivo and identifies branched ionizable lipid designs that improve potent liver delivery.",
+      "url": "https://www.nature.com/articles/s41587-026-03047-x",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Receptor-guided AAV Tropism Engineering via MATCH",
+      "summary": "MATCH is a computational, receptor-guided framework for engineering AAV capsid tropism toward specific cell-surface receptors.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715691v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-09",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Computational Rational Design of Larger AAV Icosahedral Capsids",
+      "summary": "Molecular simulations show a rationally enlarged 45 nm T=3 AAV capsid can stably package up to ~35 kb of cargo, well beyond wild-type capacity.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.09.724008v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-15",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Combination of engineered cell type-specific promoters and a high-efficiency AAV capsid restores hearing in adult DFNB1 mice model with demonstrated safety in nonhuman primate",
+      "summary": "Pairing a high-efficiency engineered AAV capsid with cell-type-specific promoters restores hearing in a DFNB1 mouse model and shows a favorable safety profile in nonhuman primates.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718827v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-29",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Characterization of expression elements for an AAV delivered antibody in nonhuman primates when co-delivered with PD-L1",
+      "summary": "Study characterizes promoter and expression-element choices for AAV-delivered antibody constructs co-administered with PD-L1 in nonhuman primates, informing anti-drug-antibody risk and in vivo expression durability.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728808v1",
+      "score": 3,
+      "notes": "AAV + antibody crossover"
+    },
+    {
+      "date": "2026-01-12",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Designing AAV Capsid Protein with viability-guided Diffusion Model",
+      "summary": "A viability-guided diffusion model generates novel AAV capsid protein sequences optimized for predicted folding and viability, illustrating generative design applied to vector engineering.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698995v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-01-20",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "ARID-sf: A physics-informed Deep Learning scoring function to improve Antibody-Antigen docking model ranking",
+      "summary": "ARID-sf is a physics-informed deep learning scoring function trained on 1.5M+ docking models that rapidly re-ranks antibody-antigen docking poses for higher accuracy.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.20.700530v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-04-18",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Resolving antibody avidity through nanoscale antigen patterning",
+      "summary": "PANMAP uses nanoscale antigen patterning to resolve and quantify antibody avidity, offering a new characterization tool for engineering multivalent antibody reagents.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.18.719169v1",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Impact of the N-glycosylation on full-length IgG2 and IgG4 antibodies: a comparative study using molecular dynamics simulations",
+      "summary": "Molecular dynamics simulations reveal how N-glycosylation differentially affects structure and stability across full-length IgG2 and IgG4 subclasses, informing glyco-engineering strategy.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718417v3",
+      "score": 5,
+      "notes": ""
+    },
+    {
+      "date": "2026-05-07",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Better antibodies engineered with a GLIMPSE of human data",
+      "summary": "Infinimmune researchers describe GLIMPSE, a human-immune-repertoire-data-driven approach for engineering antibodies with improved developability and binding properties.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.06.08.658113v2",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-17",
+      "topic": "Competitive landscape",
+      "source": "Web",
+      "title": "Merck adds to biopharma's AI agenda with up to $510M+ Protillion pact",
+      "summary": "Merck signed an up-to-$510M deal with Protillion Biosciences to use its megascale data-generation platform (Prot-MaP) for AI-driven protein/biologics design and manufacturability screening.",
+      "url": "https://www.biospace.com/deals/merck-adds-to-biopharmas-ai-agenda-with-up-to-510m-protillion-pact",
+      "score": 5,
+      "notes": ""
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "Competitive landscape",
+      "source": "Web",
+      "title": "Lundbeck Partners with Cradle to Discover and Optimize Brain Disorder Treatments",
+      "summary": "Lundbeck partnered with AI protein-engineering platform Cradle on an end-to-end, feedback-driven workflow to advance two antibody programs targeting CNS diseases.",
+      "url": "https://www.biospace.com/press-releases/lundbeck-partners-with-cradle-to-discover-and-optimize-brain-disorder-treatments",
+      "score": 4,
+      "notes": "high direct relevance despite ~3wk age"
+    },
+    {
+      "date": "2026-02-09",
+      "topic": "Biotools & research tools",
+      "source": "Web",
+      "title": "Carterra Launches Industry's First 48-channel HT-SPR Platform for Advanced Label-free Biomolecular Screening and Characterization",
+      "summary": "Carterra launched Vega, a 48-channel high-throughput SPR platform delivering 12x the throughput of competing systems for biomolecular interaction screening and characterization.",
+      "url": "https://www.globenewswire.com/news-release/2026/02/09/3234725/0/en/Carterra-Launches-Industry-s-First-48-channel-HT-SPR-Platform-for-Advanced-Label-free-Biomolecular-Screening-and-Characterization.html",
+      "score": 3,
+      "notes": ""
+    },
+    {
+      "date": "2025-09-24",
+      "topic": "Potency & bioassays",
+      "source": "PubMed",
+      "title": "Advancements in the application of reporter gene cell lines in bioactivity evaluation of biological products",
+      "summary": "Review surveys recent advances in reporter gene cell-line bioassays for evaluating bioactivity/potency of biologic drug products in QC lot release.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12460214/",
+      "score": 3,
+      "notes": ""
     }
   ]
 }
