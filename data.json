@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23",
-  "total": 177,
+  "generated": "2026-06-29",
+  "total": 246,
   "articles": [
     {
       "date": "2026-06-09",
@@ -1771,6 +1771,696 @@
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12460214/",
       "score": 3,
       "notes": ""
+    },
+    {
+      "date": "2026-06-04",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Intravenously Delivered Lipid Nanoparticles Access Acute Spinal Cord Injury via Disrupted Vasculature",
+      "summary": "Systemically administered mRNA-LNPs cross disrupted spinal-cord vasculature after injury to transfect CNS cells, sustaining transgene expression for up to 5 days.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730155v1.full",
+      "score": 3,
+      "notes": "Novel CNS injury delivery route"
+    },
+    {
+      "date": "2026-04-07",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "A Rapidly Excretable, ROS-Scavenging Ionizable Lipid Decouples mRNA Delivery Potency from Toxicity",
+      "summary": "A sulfur-containing ionizable lipid scavenges reactive oxygen species and clears rapidly, decoupling mRNA-LNP delivery potency from oxidative toxicity liabilities.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716828v1",
+      "score": 3,
+      "notes": "Lipid safety/potency tradeoff"
+    },
+    {
+      "date": "2026-06-15",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Bioinf-Farma: supervised integration of epitope prediction and recombinant protein developability for automated vaccine candidate prioritization",
+      "summary": "Bioinf-Farma integrates epitope prediction with recombinant protein developability scoring in one platform, distinguishing soluble from insoluble E. coli-expressed candidates.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732271v1",
+      "score": 4,
+      "notes": "Developability prediction platform"
+    },
+    {
+      "date": "2026-06-19",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "BATTLE-AMP: Benchmarking Antimicrobial Peptide Predictors",
+      "summary": "BATTLE-AMP benchmarks AI antimicrobial-peptide activity predictors, offering a methodology template transferable to evaluating antibody/protein property-prediction models.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733349v1",
+      "score": 3,
+      "notes": "Benchmarking methodology; tangential target class"
+    },
+    {
+      "date": "2025-11-29",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Drug-like antibody design against challenging targets with atomic precision",
+      "summary": "Chai Discovery's Chai-2 platform generates full-length monoclonal antibody designs against challenging targets, with most showing developability profiles comparable to approved therapeutics.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.29.691346v2.full",
+      "score": 3,
+      "notes": "Notable generative antibody platform; older preprint"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Competitive landscape",
+      "source": "PR Newswire",
+      "title": "Gandeeva and Zymeworks Use Cryo-EM to Accelerate Antibody Drug Discovery",
+      "summary": "Gandeeva Therapeutics and Zymeworks partnered to apply cryo-EM structural data to accelerate antibody-antigen complex characterization and drug discovery.",
+      "url": "https://www.prnewswire.com/news-releases/gandeeva-and-zymeworks-use-cryo-em-to-accelerate-antibody-drug-discovery-302803619.html",
+      "score": 5,
+      "notes": "Structural biology partnership"
+    },
+    {
+      "date": "2026-06-23",
+      "topic": "Competitive landscape",
+      "source": "BusinessWire",
+      "title": "FairJourney Bio and AbTherx Partner to Offer Fully Integrated Antibody Discovery",
+      "summary": "FairJourney Bio partnered with AbTherx to bring transgenic mouse-based antibody discovery in-house, gaining access to AbTherx's full-human-diversity and common-light-chain mouse platforms.",
+      "url": "https://www.businesswire.com/news/home/20260623167457/en/FairJourney-Bio-and-AbTherx-Partner-to-Offer-Fully-Integrated-Antibody-Discovery",
+      "score": 5,
+      "notes": "Announced at BIO International Convention 2026; CRO capability expansion"
+    },
+    {
+      "date": "2026-06-23",
+      "topic": "Competitive landscape",
+      "source": "PR Newswire",
+      "title": "Combotope Therapeutics Enters into Collaboration with Boehringer Ingelheim to Advance First-in-Class Tumor-Selective Antibody Therapies for Cancer",
+      "summary": "Combotope and Boehringer Ingelheim will use Combotope's platform to generate tumor-selective antibodies via dual recognition of cancer-linked glycan patterns and their protein carriers.",
+      "url": "https://www.prnewswire.com/news-releases/combotope-therapeutics-enters-into-collaboration-with-boehringer-ingelheim-to-advance-first-in-class-tumor-selective-antibody-therapies-for-cancer-302807759.html",
+      "score": 5,
+      "notes": "Novel glycan-protein dual-recognition antibody discovery platform"
+    },
+    {
+      "date": "2026-06-24",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Ollin Biosciences Announces Oversubscribed $330 Million Series B Financing to Advance Global Phase 3 Development of OLN324",
+      "summary": "Ollin Biosciences raised an oversubscribed $330M Series B to fund Phase 3 trials of its VEGF/Ang2 bispecific antibody OLN324 and advance a second bispecific into the clinic.",
+      "url": "https://www.biospace.com/press-releases/ollin-biosciences-announces-oversubscribed-330-million-series-b-financing-to-advance-global-phase-3-development-of-oln324-in-dme-and-wet-amd-studies-commencing-in-second-half-of-2026",
+      "score": 5,
+      "notes": "Large bispecific antibody financing round"
+    },
+    {
+      "date": "2026-06-24",
+      "topic": "Competitive landscape",
+      "source": "GlobeNewswire",
+      "title": "RQ Bio Announces $115 Million Series A Financing to Advance Long-Acting Antibody Programme RQB01 for Full Season Influenza Prevention",
+      "summary": "RQ Bio closed a $115M Series A to advance RQB01, a long-acting dual-mechanism antibody targeting conserved influenza epitopes, into IND-enabling studies.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/24/3316603/0/en/rq-bio-announces-115-million-85-5-million-series-a-financing-to-advance-long-acting-antibody-programme-rqb01-for-full-season-influenza-prevention.html",
+      "score": 5,
+      "notes": "Fresh antibody platform funding"
+    },
+    {
+      "date": "2026-06-08",
+      "topic": "Biotools & research tools",
+      "source": "SelectScience",
+      "title": "Cytek Biosciences Unveils Next-Generation Spectral Flow Cytometry Innovations at CYTO 2026",
+      "summary": "Cytek debuted the Borealis 7-laser spectral flow cytometer with 120 detectors enabling 60-color panel design, alongside new DUV/IR cFluor reagents, at CYTO 2026.",
+      "url": "https://www.selectscience.net/article/cytek-biosciences-unveils-next-generation-spectral-flow-cytometry-innovations-at-cyto-2026",
+      "score": 3,
+      "notes": "New high-parameter flow cytometry platform"
+    },
+    {
+      "date": "2026-01-05",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Site-Specific Capsid Modification Enables FR\u03b1-Directed Retargeting of AAV for Precision Gene Delivery",
+      "summary": "Incorporating an azide-bearing unnatural amino acid at defined AAV2 capsid positions enables covalent folic-acid tethering for folate receptor \u03b1-directed vector retargeting.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41335022/",
+      "score": 3,
+      "notes": "Site-specific bioconjugation retargeting strategy"
+    },
+    {
+      "date": "2026-06-05",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Stereochemical identity of lipid nanoparticles modulates protein expression via internal lipid organization",
+      "summary": "Systematically varying the stereochemistry of the ionizable lipid, phospholipid, and cholesterol shows the cis isomer improves LNP physicochemical stability and protein expression.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730351v1",
+      "score": 3,
+      "notes": "LNP formulation optimization lever"
+    },
+    {
+      "date": "2026-06-01",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Nanobodies versus canonical antibodies: an updated comparison of their binding modes",
+      "summary": "An ~20-fold larger structural dataset shows VHHs bury greater paratope surface area than conventional antibodies, with implications for high-affinity nanobody design.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729307v1",
+      "score": 3,
+      "notes": "Structural benchmarking for VHH design"
+    },
+    {
+      "date": "2026-06-04",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "pLM-Guided Inverse Folding for Antibody Sequence Design",
+      "summary": "Combining an antibody-specific language model with structure-constrained inverse folding improves amino-acid recovery and developability of designed antibody and nanobody sequences.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730089v1",
+      "score": 3,
+      "notes": "AI design method targeting developability"
+    },
+    {
+      "date": "2026-04-21",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Protein structure-informed deep learning enables species-specific codon optimization",
+      "summary": "PISCO, a structure-informed deep learning codon optimizer, is wet-lab validated to significantly boost protein solubility and functional expression.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.21.720047v1",
+      "score": 3,
+      "notes": "Expression optimization tool for reagent production"
+    },
+    {
+      "date": "2026-04-22",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "SNAC-DB: An ML-Ready Database for Antibody and NANO-BODY\u00ae VHH\u2013Antigen Complexes with Expanded Structural Diversity and Real-World Benchmarking",
+      "summary": "Benchmarking seven leading structure-prediction models on antibody/VHH-antigen complexes finds success rates rarely exceed 25%, exposing key gaps in current AI tools.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.22.720253v1",
+      "score": 3,
+      "notes": "Critical benchmark for AI structure-prediction tools"
+    },
+    {
+      "date": "2026-06-11",
+      "topic": "Competitive landscape",
+      "source": "BioSpace",
+      "title": "Neion Bio Raises Oversubscribed $23 Million Series A to Advance Biologics Manufacturing Platform and Expand Pipeline",
+      "summary": "Neion Bio closed an oversubscribed $23M Series A to scale its Raptor platform, which uses chicken eggs as bioreactors to manufacture complex glycosylated proteins including critical reagents.",
+      "url": "https://www.biospace.com/press-releases/neion-bio-raises-oversubscribed-23-million-series-a-to-advance-biologics-manufacturing-platform-and-expand-pipeline",
+      "score": 4,
+      "notes": "Novel reagent/biologics manufacturing platform funding"
+    },
+    {
+      "date": "2026-06-01",
+      "topic": "Potency & bioassays",
+      "source": "Pharmaceutical Technology",
+      "title": "USP Publishes Biologics Standards for Public Comment",
+      "summary": "USP released its first product-specific emerging biologics standards \u2014 flexible, multi-method analytical approaches for epoetin, interferon beta-1a, rituximab, and bevacizumab \u2014 open for public comment.",
+      "url": "https://www.pharmtech.com/view/usp-publishes-biologics-standards-for-public-comment",
+      "score": 3,
+      "notes": "New USP analytical/quality standards relevant to bioassay/potency methods"
+    },
+    {
+      "date": "2026-06-01",
+      "topic": "Biotools & research tools",
+      "source": "BusinessWire",
+      "title": "Bruker Announces Major Strides in 4D Proteomics Performance, Further Advances in Intact and Top-Down Functional Proteoform Analysis",
+      "summary": "Bruker's timsOmni platform, now interfaced with Integrated Protein Technologies' SampleStream automated buffer-exchange system, delivers MS-ready intact/top-down biotherapeutic samples in under two minutes with no carryover.",
+      "url": "https://www.businesswire.com/news/home/20260601894575/en/Bruker-Announces-Major-Strides-in-4D-Proteomics-Performance-Further-Advances-In-Intact-and-Top-Down-Functional-Proteoform-Analysis-and-Innovations-in-Hybrid-QualQuant-4D-Metabolomics-all-to-Enable-Deeper-Insights-into-Disease-Biology",
+      "score": 3,
+      "notes": "High-throughput biotherapeutic characterization automation, announced at ASMS 2026"
+    },
+    {
+      "date": "2026-06-02",
+      "topic": "Regulatory / FDA",
+      "source": "FDA.gov",
+      "title": "Leveraging Prior Knowledge in the Development of Human Gene Therapy Products Incorporating Genome Editing; Draft Guidance for Industry",
+      "summary": "New FDA/CBER draft guidance describes how sponsors can leverage public, platform, and product-specific prior knowledge across CMC, nonclinical, and clinical data to streamline genome-editing gene therapy development; comments due September 1, 2026.",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/leveraging-prior-knowledge-development-human-gene-therapy-products-incorporating-genome-editing",
+      "score": 3,
+      "notes": "New CBER draft guidance; comment period open through Sept 1 2026"
+    },
+    {
+      "date": "2026-03-28",
+      "topic": "AAV / LNP delivery",
+      "source": "Molecular Therapy Advances (Cell Press)",
+      "title": "Engineering novel AAV capsids by broadly attenuated and subsequent muscle-specific tropism in mice and NHPs",
+      "summary": "New AAV.Zero3-derived capsid variants (including AAV.eM) match MyoAAV4A muscle-targeting efficiency while substantially reducing liver, brain, and kidney transduction in mice and non-human primates.",
+      "url": "https://www.cell.com/molecular-therapy-family/advances/fulltext/S3117-387X(26)00060-1",
+      "score": 3,
+      "notes": "Muscle-targeting capsid validated in mice and NHPs"
+    },
+    {
+      "date": "2026-02-13",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "CaptureBody \u2014 an anti-CD45 x anti-IgG bispecific antibody enables accurate unmixing for spectral flow cytometry",
+      "summary": "A nanobody-based bispecific antibody linking anti-CD45 and anti-IgG variable regions improves spectral unmixing accuracy by avoiding the spectral incongruencies introduced by standard compensation particles.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.704926v1",
+      "score": 3,
+      "notes": "Flow cytometry calibration reagent enabled by bispecific antibody design"
+    },
+    {
+      "date": "2026-03-30",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Structure-Guided Computational Analysis of Linker Effects in an scFv Targeting Guanylyl Cyclase C",
+      "summary": "Molecular dynamics and docking simulations of four alternative scFv linkers show linker composition critically governs folding stability and antigen-binding for an anti-GUCY2C antibody fragment.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.714862v1.full",
+      "score": 3,
+      "notes": "Computational guidance for linker selection in scFv engineering"
+    },
+    {
+      "date": "2026-06-16",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "SAbDab2: The structural antibody database in the age of machine learning",
+      "summary": "A rebuilt structural antibody database assigns unique IDs grouping 21,237 antibody structures by variable-domain sequence, with standardized ML-ready train/test splits updated every six months.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.732554v1",
+      "score": 4,
+      "notes": "Updated ML-ready antibody structure database"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "EventHorizon: A Foundation Model for Clinical Flow Cytometry",
+      "summary": "A self-supervised transformer foundation model trained on 100,000+ clinical flow cytometry specimens across 17 panels produces unified specimen embeddings matching fully supervised baselines on diagnostic tasks.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733197v1",
+      "score": 4,
+      "notes": "Foundation model for clinical flow cytometry interpretation"
+    },
+    {
+      "date": "2026-03-11",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "ProteinMCP: An Agentic AI Framework for Autonomous Protein Engineering",
+      "summary": "A Model-Context-Protocol-based agentic framework unifies 38 specialized AI servers to automate protein engineering workflows, completing a full protein fitness modeling task in 11 minutes.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711149v1",
+      "score": 3,
+      "notes": "Agentic AI framework automating protein engineering workflows"
+    },
+    {
+      "date": "2026-06-17",
+      "topic": "Competitive landscape",
+      "source": "Jazz Pharmaceuticals (press release)",
+      "title": "Jazz Pharmaceuticals and AbCellera Announce Collaboration to Discover Next-Generation T-cell Engaging Multispecific Antibodies",
+      "summary": "Jazz will pay AbCellera $56M upfront (plus up to $792M in option/milestone payments) to use its antibody discovery engine on T-cell engaging multispecific antibodies for GI and other solid tumors.",
+      "url": "https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-and-abcellera-announce-collaboration",
+      "score": 4,
+      "notes": "$56M upfront, up to $792M in biobucks for T-cell engager antibodies"
+    },
+    {
+      "date": "2026-06-24",
+      "topic": "Competitive landscape",
+      "source": "StockTitan (press release)",
+      "title": "ALZpath Signs Global Licensing Agreement with Abbott to Advance Alzheimer's Blood Test Development",
+      "summary": "ALZpath globally licensed its pTau217 antibody to Abbott for an Alzheimer's blood-test IVD on Abbott's Alinity ci-series platform, extending the antibody's reach to roughly 80% of the IVD market per ALZpath's CEO.",
+      "url": "https://www.stocktitan.net/news/ABT/al-zpath-signs-global-licensing-agreement-with-abbott-to-advance-ia05zfdlrcyt.html",
+      "score": 5,
+      "notes": "Extends ALZpath pTau217 antibody to Abbott's Alinity IVD platform"
+    },
+    {
+      "date": "2026-06-08",
+      "topic": "Competitive landscape",
+      "source": "BusinessWire (press release)",
+      "title": "City Therapeutics Announces $99.5 Million Series B Financing to Advance Next-Generation RNAi Therapeutics",
+      "summary": "City Therapeutics raised $99.5M in Series B funding (new investors Viking Global and Sofinnova) to advance its RNAi engineering platform and pipeline, including the ongoing CITY-FXI Phase 1 trial.",
+      "url": "https://www.businesswire.com/news/home/20260608486606/en/City-Therapeutics-Announces-$99.5-Million-Series-B-Financing-to-Advance-Next-Generation-RNAi-Therapeutics",
+      "score": 3,
+      "notes": "RNAi platform funding; CITY-FXI in Phase 1"
+    },
+    {
+      "date": "2026-02-02",
+      "topic": "Potency & bioassays",
+      "source": "Frontiers in Immunology",
+      "title": "Development and validation of a potency assay matrix for optimized and consistent manufacture of clinical mesenchymal stem/stromal cells",
+      "summary": "A validated matrix of potency assays for bone marrow-derived MSCs measuring T-cell suppression, Treg induction, and M2 macrophage polarization enables consistency checks across donors and manufactured lots.",
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1725191/full",
+      "score": 3,
+      "notes": "Validated potency assay panel for MSC manufacturing QC"
+    },
+    {
+      "date": "2026-06-24",
+      "topic": "Regulatory / FDA",
+      "source": "Federal Register (FDA)",
+      "title": "Expedited Investigational New Drug Pilot Program; Request for Information",
+      "summary": "FDA is requesting public input on a proposed pilot program designed to expedite IND review timelines for eligible drug development programs.",
+      "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12621/expedited-investigational-new-drug-pilot-program-request-for-information",
+      "score": 5,
+      "notes": "Comment period open on accelerated IND review pilot"
+    },
+    {
+      "date": "2026-06-23",
+      "topic": "AAV / LNP delivery",
+      "source": "PNAS",
+      "title": "Intracellular delivery of full-length antibodies via organ-targeted lipid nanoparticles",
+      "summary": "Cornell and Technion researchers show a sulfonate 'cloaking' chemistry lets standard ionizable-lipid LNPs smuggle full-length therapeutic antibodies into cells, with efficacy shown against cancer, lung inflammation, and Parkinson's targets.",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2531649123",
+      "score": 5,
+      "notes": "Novel LNP platform for intracellular antibody delivery; spinout company Cloak Bio launched"
+    },
+    {
+      "date": "2026-03-11",
+      "topic": "AAV / LNP delivery",
+      "source": "Science Translational Medicine",
+      "title": "Amino acid supplementation enhances in vivo efficacy of lipid nanoparticle-mediated mRNA delivery in preclinical models",
+      "summary": "Co-administering an optimized methionine/arginine/serine supplement with LNPs boosted mRNA expression 5- to 20-fold in vitro and improved liver and lung gene-editing outcomes in mouse models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41811986/",
+      "score": 3,
+      "notes": "Simple codelivered-agent strategy to broadly boost LNP mRNA efficacy"
+    },
+    {
+      "date": "2026-05-01",
+      "topic": "AAV / LNP delivery",
+      "source": "BioDrugs (Springer)",
+      "title": "Recent Developments in Lipid Nanoparticle-Mediated Delivery of Biotherapeutics and Gene Therapy Across the Blood-Brain Barrier",
+      "summary": "Review covers LNP strategies for crossing the blood-brain barrier, including SORT lipids and receptor-targeted corona engineering for CNS-directed nucleic acid and biotherapeutic delivery.",
+      "url": "https://link.springer.com/article/10.1007/s40259-026-00782-0",
+      "score": 3,
+      "notes": "Review article; useful background on CNS-tropic LNP design"
+    },
+    {
+      "date": "2026-03-10",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Improved Protein Encapsulation and Delivery by Lipid Nanoparticles with Refined Ionizable Lipid Content",
+      "summary": "Optimizing ionizable lipid content in virus-inspired LNP formulations improves protein cargo encapsulation efficiency and intracellular delivery.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710763v1",
+      "score": 3,
+      "notes": "Protein (not just nucleic acid) cargo LNP optimization"
+    },
+    {
+      "date": "2026-02-27",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Programmable Lipid Nanoparticle Targeting via Corona Engineering",
+      "summary": "A modular corona-engineering approach reprograms LNP tissue tropism with greater precision than conventional ionizable-lipid or helper-lipid chemistry changes.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708523v1.full",
+      "score": 3,
+      "notes": "Modular approach to LNP organ targeting"
+    },
+    {
+      "date": "2026-06-25",
+      "topic": "Antibody & protein engineering",
+      "source": "Signal Transduction and Targeted Therapy",
+      "title": "TCR-mimic bispecific nanobody-based T cell engager targeting intracellular tumor antigens for cancer immunotherapy",
+      "summary": "A TCR-mimic bispecific nanobody T-cell engager (TCRm Bi-NbTE) significantly suppressed tumor growth and improved survival in xenograft models by targeting intracellular tumor antigens normally inaccessible to antibodies.",
+      "url": "https://www.nature.com/articles/s41392-026-02745-x",
+      "score": 5,
+      "notes": "Nanobody format enables TCR-mimic targeting of intracellular antigens"
+    },
+    {
+      "date": "2026-03-22",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "Specific targeting of MR1-antigen complexes using nanobodies",
+      "summary": "Newly engineered nanobodies specifically recognize MR1-antigen complexes, enabling bispecific constructs that drive T-cell killing of both bacterially-infected and tumor cells.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.22.713551v1.full.pdf",
+      "score": 3,
+      "notes": "MR1-restricted nanobody targeting for bispecific T-cell engagers"
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "AI/ML in biotech",
+      "source": "arXiv",
+      "title": "Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids",
+      "summary": "An RL-guided generative protein language model designs diverse, novel AAV capsid variants de novo, extending generative protein design methods directly to gene-therapy vector engineering.",
+      "url": "https://arxiv.org/pdf/2603.19473",
+      "score": 3,
+      "notes": "Bridges AI/ML generative design directly with AAV capsid engineering"
+    },
+    {
+      "date": "2026-02-06",
+      "topic": "AI/ML in biotech",
+      "source": "arXiv",
+      "title": "AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design",
+      "summary": "A new instruction-tuning dataset with functional annotations is built specifically to improve LLM-based antibody understanding and design tasks.",
+      "url": "https://arxiv.org/pdf/2602.04916",
+      "score": 3,
+      "notes": "Training resource for LLM-based antibody design"
+    },
+    {
+      "date": "2026-02-06",
+      "topic": "AI/ML in biotech",
+      "source": "PubMed",
+      "title": "Protein Language Models: Applications and Perspectives",
+      "summary": "Review surveys how protein language models are applied to structure prediction, function annotation, and de novo protein design, and discusses open challenges for the field.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41452662/",
+      "score": 3,
+      "notes": "Review/background on protein language model applications"
+    },
+    {
+      "date": "2026-04-01",
+      "topic": "AI/ML in biotech",
+      "source": "Quantitative Biology (Wiley)",
+      "title": "A survey of downstream applications of evolutionary scale modeling protein language models",
+      "summary": "Survey catalogs how ESM-family protein language model embeddings are being applied across structure, function, and design tasks in current research.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/qub2.70013",
+      "score": 3,
+      "notes": "ESM-focused applications survey"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Competitive landscape",
+      "source": "Fierce Biotech",
+      "title": "Merck inks $510M biobucks data generation partnership with Protillion",
+      "summary": "Protillion Biosciences partnered with Merck in a deal worth up to $510M, using its Prot-MaP data-generation platform to produce training data for protein-design AI and quantitative protein library analysis.",
+      "url": "https://www.fiercebiotech.com/biotech/merck-inks-510m-biobucks-data-generation-partnership-protillion",
+      "score": 4,
+      "notes": "AI biologics-discovery data partnership; directly relevant platform model"
+    },
+    {
+      "date": "2026-06-04",
+      "topic": "Competitive landscape",
+      "source": "BioPharm International",
+      "title": "Protagen Protein Services, BioAnalytix, and GeneWerk Combine to Form New CRO, ProtaGene",
+      "summary": "Three protein/biologics analytical services firms merged to form ProtaGene, a new CRO combining protein characterization, bioanalytical, and genomic services capabilities.",
+      "url": "https://www.biopharminternational.com/view/protagen-protein-services-bioanalytix-and-genewerk-combine-to-form-new-cro-protagene",
+      "score": 3,
+      "notes": "New protein/biologics characterization CRO formed via merger"
+    },
+    {
+      "date": "2026-01-15",
+      "topic": "Potency & bioassays",
+      "source": "Toxins (MDPI)",
+      "title": "A Cell-Based Potency Assay for Determining the Relative Potency of Botulinum Neurotoxin A Preparations Using Manual and Semi-Automated Procedures",
+      "summary": "Characterization and qualification of the BoSapient cell-based potency assay demonstrates it is fit-for-purpose as a relative potency assay for BoNT/A drug products, in both manual and semi-automated formats.",
+      "url": "https://www.mdpi.com/2072-6651/18/1/45",
+      "score": 3,
+      "notes": "Qualified CBPA format applicable to other toxin/biologic potency assays"
+    },
+    {
+      "date": "2026-03-26",
+      "topic": "Potency & bioassays",
+      "source": "bioRxiv",
+      "title": "DynaKiller-Scan: Multimodal characterization of single-cell cytotoxic killing dynamics",
+      "summary": "A multimodal single-cell imaging and analysis platform characterizes the dynamics of cytotoxic killing, offering a higher-resolution alternative to bulk cell-based potency/reporter assays.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714656v1.full.pdf",
+      "score": 3,
+      "notes": "Single-cell resolution alternative to bulk cytotoxicity potency assays"
+    },
+    {
+      "date": "2026-01-30",
+      "topic": "Potency & bioassays",
+      "source": "bioRxiv",
+      "title": "Quantitative modeling reveals sources of variability in cell-based potency assays",
+      "summary": "A quantitative modeling framework decomposes and statistically estimates the operational and biological sources of variability that affect cell-based bioassay reproducibility.",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2026/01/30/2026.01.30.702786.full.pdf",
+      "score": 3,
+      "notes": "Statistical framework for bioassay variability/qualification"
+    },
+    {
+      "date": "2026-05-26",
+      "topic": "Biotools & research tools",
+      "source": "BusinessWire (press release)",
+      "title": "BioTools Innovator 2026 Cohort Includes Top 30 Life Science Tools and Diagnostics Companies",
+      "summary": "The BioTools Innovator program named its 2026 cohort of 30 life-science tools and diagnostics companies, who will present alongside the MedTech Innovator cohorts at the Innovator Summit.",
+      "url": "https://www.businesswire.com/news/home/20260526007616/en/BioTools-Innovator-2026-Cohort-Includes-Top-30-Life-Science-Tools-and-Diagnostics-Companies",
+      "score": 3,
+      "notes": "Cohort tracker for emerging life-science tools companies"
+    },
+    {
+      "date": "2026-01-11",
+      "topic": "Regulatory / FDA",
+      "source": "Covington & Burling (law firm alert)",
+      "title": "FDA Announces a 'Flexible Approach' on Chemistry, Manufacturing and Control for Cell and Gene Therapies",
+      "summary": "FDA/CBER announced flexibilities on CMC comparability data, process validation, and release specifications for cell and gene therapy BLAs, easing requirements for minor manufacturing changes.",
+      "url": "https://www.cov.com/en/news-and-insights/insights/2026/01/fda-announces-a-flexible-approach-on-chemistry-manufacturing-and-control-for-cell-and-gene-therapies",
+      "score": 3,
+      "notes": "Eases CMC/comparability burden for cell & gene therapy BLAs"
+    },
+    {
+      "date": "2026-01-12",
+      "topic": "Regulatory / FDA",
+      "source": "AABB",
+      "title": "REGULATORY UPDATE: FDA Releases 2026 CBER Guidance Agenda",
+      "summary": "FDA/CBER published its 2026 guidance agenda outlining planned biologics guidance documents for the year, giving sponsors visibility into upcoming regulatory expectations.",
+      "url": "https://www.aabb.org/news-resources/news/article/2026/01/12/regulatory-update--fda-releases-2026-cber-guidance-agenda",
+      "score": 3,
+      "notes": "Forward visibility into FDA's 2026 biologics guidance priorities"
+    },
+    {
+      "date": "2026-02-27",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Development of a recombinant adeno-associated virus vector for human T lymphocyte- and natural killer cell-targeted gene therapy",
+      "summary": "Researchers engineered a modular CD7-targeted rAAV vector with a nanobody-fused hybrid capsid, combining capsid retargeting with genome optimization for immune-cell gene therapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42124603/",
+      "score": 3,
+      "notes": "PMID 42124603; relevant to AAV retargeting strategies for cell therapy applications."
+    },
+    {
+      "date": "2026-02-01",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Artificial intelligence-guided design of lipid nanoparticles for mRNA delivery",
+      "summary": "A review surveys how AI/ML methods are being applied to guide LNP formulation design and optimization for mRNA delivery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41685167/",
+      "score": 3,
+      "notes": "PMID 41685167; Acta Pharm Sin B review, Epub 2025-11-27; crosses AI/ML and LNP delivery."
+    },
+    {
+      "date": "2026-03-04",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Introducing a fusogenicity metric for lipid nanoparticle formulation",
+      "summary": "A new SAXS-based fusogenicity metric enables quantitative screening and optimization of LNP formulations for membrane fusion efficiency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41846984/",
+      "score": 3,
+      "notes": "PMID 41846984; cross-listed bioRxiv preprint (2026.03.02.708638)."
+    },
+    {
+      "date": "2026-03-10",
+      "topic": "Antibody & protein engineering",
+      "source": "PubMed",
+      "title": "Construction of a novel B7H3 VHH-Fc antibody with potent antitumor activity and NK/T cell activation",
+      "summary": "A newly engineered VHH-Fc nanobody-Fc fusion targeting B7H3 demonstrates potent tumor killing by activating both NK and T cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41812713/",
+      "score": 3,
+      "notes": "PMID 41812713; Protein Expr Purif, Epub 2026-03-10."
+    },
+    {
+      "date": "2026-04-20",
+      "topic": "Antibody & protein engineering",
+      "source": "bioRxiv",
+      "title": "De novo masking domains that gate TNF-family ligand assembly and activity",
+      "summary": "Computationally designed masking domains provide a new protein-engineering strategy to conditionally control TNF-family ligand assembly, boosting potency ~30-fold in trimeric format.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.20.719557v1.full.pdf",
+      "score": 3,
+      "notes": "Conditional biologics design strategy; relevant to engineered protein reagents."
+    },
+    {
+      "date": "2026-06-22",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "A high-level programming language for generative biology with Proto",
+      "summary": "Arc Institute's Proto framework lets researchers compose AI models and bioinformatics tools into structured programs that design DNA, RNA, and protein sequences via a propose-score-refine loop.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733870v1",
+      "score": 5,
+      "notes": "From Brian Hie's lab (Arc Institute); open-source (github.com/evo-design/proto-language); posted within last 7 days."
+    },
+    {
+      "date": "2026-03-15",
+      "topic": "AI/ML in biotech",
+      "source": "arXiv",
+      "title": "Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids",
+      "summary": "A protein language model fine-tuned with reinforcement learning generates AAV capsid sequences that are both highly novel and predicted to be functionally viable.",
+      "url": "https://arxiv.org/abs/2603.19473",
+      "score": 3,
+      "notes": "Date approximate (arXiv ID indicates March 2026, exact day unverified); crosses AI/ML and AAV capsid engineering."
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "A Generative Neuro-Symbolic AI for Protein Sequence Design",
+      "summary": "EffieDes combines deep-learning generative models with symbolic reasoning to design orthogonal sequence pairs and a de novo nanobody with nanomolar affinity for an immune-evasive SARS-CoV-2 variant.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715526v1",
+      "score": 3,
+      "notes": "Novel hybrid neuro-symbolic approach to protein sequence design."
+    },
+    {
+      "date": "2026-02-09",
+      "topic": "AI/ML in biotech",
+      "source": "bioRxiv",
+      "title": "Reading TEA leaves for de novo protein design",
+      "summary": "A structure-inspired 20-letter alphabet derived from protein language model embeddings enables fast, template-guided and unconditional de novo protein design.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.09.704813v1",
+      "score": 3,
+      "notes": "New representation/algorithm for de novo design without known homologues."
+    },
+    {
+      "date": "2026-05-27",
+      "topic": "AI/ML in biotech",
+      "source": "PR Newswire",
+      "title": "Biohub releases a world model of protein biology",
+      "summary": "Biohub released a large-scale \"world model\" of protein biology aimed at improving generative and predictive modeling of protein structure and function.",
+      "url": "https://www.prnewswire.com/news-releases/biohub-releases-a-world-model-of-protein-biology-302782681.html",
+      "score": 3,
+      "notes": "33 days old at time of review; high strategic novelty but outside 7/14-day recency window."
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "Competitive landscape",
+      "source": "BusinessWire",
+      "title": "Infinimmune Enters Collaboration with Merck to Discover Novel Human Antibody Therapeutics",
+      "summary": "Merck struck a deal worth up to $838M with Infinimmune to use its Anthrobody platform and GLIMPSE antibody language model to discover human antibody therapeutics across multiple targets.",
+      "url": "https://www.businesswire.com/news/home/20260331613246/en/Infinimmune-Enters-Collaboration-with-Merck-to-Discover-Novel-Human-Antibody-Therapeutics",
+      "score": 3,
+      "notes": "Major pharma validation of AI-driven human antibody discovery platforms."
+    },
+    {
+      "date": "2026-01-13",
+      "topic": "Competitive landscape",
+      "source": "BusinessWire",
+      "title": "Nuclera Extends Series C Funding to $87M to Advance Antibody Engineering",
+      "summary": "Nuclera raised a $12M extension (total Series C $87M) to integrate antibody expression and binding validation into its eProtein Discovery benchtop protein production system.",
+      "url": "https://www.businesswire.com/news/home/20260113066639/en/Nuclera-Extends-Series-C-Funding-to-$87M-to-Advance-Antibody-Engineering",
+      "score": 3,
+      "notes": "Directly relevant to benchtop protein/antibody reagent production tools."
+    },
+    {
+      "date": "2026-04-02",
+      "topic": "Competitive landscape",
+      "source": "TechCrunch",
+      "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports",
+      "summary": "Anthropic acquired stealth AI biotech startup Coefficient Bio, whose under-10-person team of former Genentech computational biologists built tools for AI-driven drug R&D planning and discovery.",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "score": 3,
+      "notes": "Signals major AI labs moving into biotech-vertical tooling; relevant to competitive AI/biotech landscape."
+    },
+    {
+      "date": "2026-03-03",
+      "topic": "Competitive landscape",
+      "source": "BusinessWire",
+      "title": "Antiverse Raises $9.3M Series A to Develop Antibodies for Undruggable Disease Targets",
+      "summary": "UK-based Antiverse raised a $9.3M Series A to expand its generative AI antibody design platform and signed a research agreement with the Cystic Fibrosis Foundation.",
+      "url": "https://www.businesswire.com/news/home/20260303630753/en/Antiverse-Raises-$9.3M-Series-A-to-Develop-Antibodies-for-Undruggable-Disease-Targets-and-Announces-Research-Agreement-with-the-Cystic-Fibrosis-Foundation",
+      "score": 3,
+      "notes": "Direct competitor in generative antibody design for hard targets."
+    },
+    {
+      "date": "2026-04-20",
+      "topic": "Potency & bioassays",
+      "source": "bioRxiv",
+      "title": "Surveying the target tractability of cytokines with small molecules",
+      "summary": "A screening study identifies novel, first-in-class small-molecule cytokine inhibitors with single- to double-digit micromolar potency in reporter cellular bioassays.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.20.719718v1",
+      "score": 3,
+      "notes": "Reporter-based potency characterization methodology relevant to bioassay development."
+    },
+    {
+      "date": "2026-02-12",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "High-Throughput FRET Affinity Screening Technique (HTFAST) For Cell-Free Expressed Binding Protein Characterization",
+      "summary": "HTFAST uses FRET between fluorescent-protein-fused binders and dye-labeled antigens to enable rapid, quantitative affinity (KD) measurement directly in crude cell-free expression reactions.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.12.697512v1",
+      "score": 3,
+      "notes": "New high-throughput binder-characterization tool, skips purification step."
+    },
+    {
+      "date": "2026-05-21",
+      "topic": "Biotools & research tools",
+      "source": "bioRxiv",
+      "title": "High-throughput engineering of ligand-activated splicing ribozyme through domain insertion",
+      "summary": "Domain-insertion profiling combined with high-throughput screening maps the nucleotide-resolution landscape of aptamer insertion across ribozymes to identify sites supporting ligand-dependent control.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726912v1",
+      "score": 3,
+      "notes": "New high-throughput engineering/screening method for synthetic biology tools."
+    },
+    {
+      "date": "2026-03-09",
+      "topic": "Regulatory / FDA",
+      "source": "Goodwin Law (law firm alert)",
+      "title": "FDA Issues Draft Guidance Further Streamlining Biosimilar Development",
+      "summary": "FDA's Revision 4 draft Q&A guidance removes the prior recommendation for a clinical PK study directly against the U.S.-licensed reference product, potentially cutting PK study costs by up to 50% (~$20M/program).",
+      "url": "https://www.goodwinlaw.com/en/insights/blogs/2026/03/fda-issues-draft-guidance-further-streamlining-biosimilar-development",
+      "score": 3,
+      "notes": "Comment period open until 2026-05-11; eases biosimilar comparator/PK requirements."
     }
   ]
 }
