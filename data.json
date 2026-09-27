@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26",
-  "total": 501,
+  "generated": "2026-09-27",
+  "total": 516,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5011,6 +5011,156 @@
       "url": "https://www.fda.gov/media/175132/download",
       "score": 3,
       "notes": "[TRACK:AB] \u2014 potency readout (transgene expression in transduced cells) is exactly the endpoint the engager aims to improve; defines the assay context for a delivery-enhancing reagent."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "AAV / LNP delivery",
+      "source": "PMC / Mol Ther Methods",
+      "title": "AAV capsid sites breakdown: large protein insertions impact on vector dynamics",
+      "summary": "Maps which AAV capsid positions tolerate large protein (VHH-scale) insertions and how they perturb vector dynamics.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13375808/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;STRUCTURE] Insertion-tolerance data for the vector-engineering (capsid-insertion) competitor category \u2014 contrasts with our non-covalent, works-on-unmodified-vector claim."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Site-Specific Capsid Modification Enables FR\u03b1-Directed Retargeting of AAV",
+      "summary": "Azide unnatural-amino-acid incorporation lets folate ligands be covalently conjugated to defined AAV2 residues for FR\u03b1-targeted transduction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41335022/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c;VERIFY] Covalent particle-ligand coupling (CHARIOT-class) \u2014 direct competitive contrast to our non-covalent engager; reported 3-5x transduction gain needs source check."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Rapid and reliable quantification of cytosolic mRNA escape (RNASCAPE)",
+      "summary": "A reporter method quantifying the fraction of LNP-delivered mRNA reaching the cytosol (~5-9% across cell types).",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716953v1.full",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] Escape-quantification method relevant to LNP potency/characterization assays; escape-% figures need source check."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Discovery of an NRAS isoform and activation-state selective macrocyclic peptide",
+      "summary": "mRNA-display selection yields an 11-mer thioether macrocycle binding a novel NRAS allosteric site with isoform and tunable state selectivity.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741788v1",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] Demonstrates route-M (mRNA-display macrocycle) capability now in scope for the target search; selectivity/affinity claims need source check."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Repertoire-scale antibody structural prediction informs therapeutic design (AF3-TurboAb)",
+      "summary": "Scalable antibody-antigen complex modeling validated against ~1000 PDB and 12 cryo-EM nanobody-antigen structures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42030385/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] Structural-prediction tooling relevant to designing/validating protein-route binders for critical-reagent targets."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "AI/ML in protein design",
+      "source": "Cell (Structure)",
+      "title": "Code to complex: AI-driven de novo binder design",
+      "summary": "Review of the current de novo binder design stack (RFdiffusion/ProteinMPNN/AF2-class) and its practical binder-generation workflow.",
+      "url": "https://www.cell.com/structure/fulltext/S0969-2126(25)00311-9",
+      "score": 4,
+      "notes": "[TRACK:AB] Directly maps the Phase-2 de-novo-binder capability; useful for both engager-arm replacement and Track-B protein binders."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "Proteo-R1: Reasoning Foundation Models for De Novo Protein Design",
+      "summary": "Applies reasoning-style foundation models to de novo protein design tasks.",
+      "url": "https://arxiv.org/pdf/2605.02937",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] Emerging de-novo-design method; background for the Phase-2 binder-design toolchain, claims unverified."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Frontiers Bioeng Biotech",
+      "title": "Development of a gene-activated matrix for enhanced AAV gene delivery in vitro",
+      "summary": "A matrix that immobilizes/concentrates AAV to boost in vitro transduction efficiency.",
+      "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1832901/full",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;IP] RetroNectin-class matrix precedent and status-quo transduction-enhancer competitor \u2014 the reagent business model we compare against."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Competitive & adjacent landscape",
+      "source": "OZ Biosciences",
+      "title": "AAVBlast \u2014 poloxamer-based AAV transduction enhancer",
+      "summary": "A commercial chemical reagent that stabilizes AAV and raises transduction across serotypes and cell types.",
+      "url": "https://ozbiosciences.com/transduction-enhancer/361-aavblast-transduction-enhancer.html",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a] Marketed status-quo transduction-enhancer reagent; a direct commercial comparator to the drop-in engager positioning."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PMC",
+      "title": "Methodological validation of a cryo-TEM-based detection method for empty capsid ratio in rAAV",
+      "summary": "Validates cryo-TEM as an orthogonal method for AAV empty/full capsid ratio determination.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12750778/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] Bears on the conformation-selective full-vs-empty AAV capsid binder theme \u2014 a binder-based assay could replace instrument-heavy cryo-TEM."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PMC",
+      "title": "SPR-based binding characterization for screening RNA-loaded LNPs: LNP-ApoE species cross-reactivity",
+      "summary": "Uses SPR to characterize LNP-ApoE binding and cross-species reactivity as an LNP screening readout.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12326350/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] Bears on ApoE-variant-with-defined-activity and serum-replacement-in-LNP-potency themes; ApoE as a lot-variable critical reagent."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Qualification of a quantitative stability-indicating potency assay for mRNA-LNP vaccine candidates",
+      "summary": "Qualifies a cell-based mRNA-LNP potency assay, including ApoE3 addition per USP guidance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42145947/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] LNP potency assay depending on ApoE/serum inputs \u2014 surfaces the lot-controllable-serum-replacement candidate theme."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "PMC",
+      "title": "A quality evaluation strategy for residual host cell proteins based on orthogonal analysis",
+      "summary": "Argues single polyclonal anti-HCP reagents give incomplete HCP coverage and proposes orthogonal (MS) analysis to fill gaps.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13407541/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] Named failure mode: polyclonal anti-HCP antibodies miss subsets of HCPs (coverage gap) \u2014 the defined-recombinant-anti-HCP replacement theme."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Frontiers Bioeng Biotech",
+      "title": "The landscape of antibody production systems: recombinant expression for research, diagnostics and therapy",
+      "summary": "Reviews polyclonal batch-to-batch variability and undefined specificity, positioning recombinant antibodies as the reproducible replacement.",
+      "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1765764/full",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] Documents polyclonal lot-to-lot variability / undefined specificity \u2014 the recombinant-replacement-for-polyclonal candidate class."
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Regulatory / FDA",
+      "source": "RAPS",
+      "title": "FDA finalizes guidance on CMC flexibilities for cell and gene therapies",
+      "summary": "Finalized CGT guidance allows CMC knowledge reuse across similar products, including analytical methods and critical components.",
+      "url": "https://www.raps.org/resource/fda-finalizes-guidance-on-cmc-flexibilities-for-cell-and-gene-therapies.html",
+      "score": 4,
+      "notes": "[TRACK:AB] Sets CMC/critical-reagent and analytical-method expectations relevant to how our reagents would be qualified and reused across programs."
     }
   ]
 }
