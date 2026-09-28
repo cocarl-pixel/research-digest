@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27",
-  "total": 516,
+  "generated": "2026-09-28",
+  "total": 531,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5161,6 +5161,156 @@
       "url": "https://www.raps.org/resource/fda-finalizes-guidance-on-cmc-flexibilities-for-cell-and-gene-therapies.html",
       "score": 4,
       "notes": "[TRACK:AB] Sets CMC/critical-reagent and analytical-method expectations relevant to how our reagents would be qualified and reused across programs."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AAV / LNP delivery",
+      "source": "Nature Biotechnology",
+      "title": "In vivo endosomal escape assay identifies mechanisms for efficient hepatic LNP delivery",
+      "summary": "A new in vivo assay quantifies LNP endosomal escape and links late-endosomal maturation to delivery efficiency, identifying branched ionizable lipids that raise cytosolic cargo release.",
+      "url": "https://www.nature.com/articles/s41587-026-03022-6",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - in vivo endosomal-escape quantification (~6-8% escape claim) informs how a drop-in engager reagent would be characterized on the LNP arm."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AAV / LNP delivery",
+      "source": "Nature Communications",
+      "title": "Engineered internal architecture of core-shell lipid nanoparticles promotes efficient mRNA endosomal release",
+      "summary": "Core-shell LNPs with engineered internal architecture are reported to roughly double endosomal escape and greatly increase cytoplasmic mRNA diffusion versus conventional LNPs.",
+      "url": "https://www.nature.com/articles/s41467-026-69017-8",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - claims ~2x escape / ~100x cytoplasmic diffusion; an LNP-reformulation competitor to the no-reformulation engager positioning."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AAV / LNP delivery",
+      "source": "Cell Biomaterials",
+      "title": "Tuning the loading position of mRNA onto ionizable neo-liposomes to improve endosomal escape",
+      "summary": "mRNA loading position on ionizable neo-liposomes is tuned to improve endosomal escape, giving a formulation lever distinct from lipid-chemistry changes.",
+      "url": "https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00330-7",
+      "score": 3,
+      "notes": "[TRACK:A] - LNP formulation background relevant to the engager's LNP delivery arm."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AAV / LNP delivery",
+      "source": "Accounts of Chemical Research",
+      "title": "Ionizable Lipid Nanoparticles for mRNA Delivery: Internal Self-Assembled Inverse Mesophase Structure and Endosomal Escape",
+      "summary": "Reviews how internal inverse-mesophase structure of ionizable LNPs governs endosomal escape and mRNA delivery efficiency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41060394/",
+      "score": 3,
+      "notes": "[TRACK:A] - structural background on ionizable-LNP behavior for the delivery arm."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AI/ML in protein design",
+      "source": "Nature Biotechnology",
+      "title": "Efficient generation of epitope-targeted antibodies with Germinal",
+      "summary": "Germinal is a computational pipeline that generates epitope-targeted antibodies efficiently, directing binders to user-specified sites.",
+      "url": "https://www.nature.com/articles/s41587-026-03187-0",
+      "score": 4,
+      "notes": "[TRACK:AB] - directly the Phase 2 de-novo binder capability for replacing the unowned literature tool sequences (AAVX VHH, anti-PEG 3.3)."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Agent-Guided De Novo Design of Nanobody Binders Against a Novel Cancer Target",
+      "summary": "An agent-guided workflow designs nanomolar-to-subnanomolar nanobody binders against a novel target without experimental structure or prior antibody information.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717816v1",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - reported KD 0.66-305 nM; a candidate route for Phase 2 de novo VHH generation."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "AI/ML in protein design",
+      "source": "Nature Communications",
+      "title": "Improved protein binder design using beta-pairing targeted RFdiffusion",
+      "summary": "beta-pairing-targeted RFdiffusion improves binder design against edge-strand epitopes with higher affinity and success rates than unconditioned RFdiffusion.",
+      "url": "https://www.nature.com/articles/s41467-025-67866-3",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - picomolar-to-nanomolar claims; widens de novo binder-design target space for Phase 2."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Cell Chemical Biology (ScienceDirect)",
+      "title": "mRNA display-enabled discovery of proximity-triggered covalent peptide-drug conjugates",
+      "summary": "An mRNA-display platform encoding covalent warheads discovers proximity-triggered covalent macrocyclic peptide binders against a cell-surface target.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211383525005076",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - route-M capability (covalent-warhead mRNA display) for buildable, sequence-defined macrocyclic binders."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Competitive & adjacent landscape",
+      "source": "bioRxiv",
+      "title": "Genetically encoded SpyTag enables modular AAV surface conjugation",
+      "summary": "A genetically encoded SpyTag on the AAV capsid enables modular covalent conjugation of protein ligands to the vector surface.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.22.671696v1.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c] - covalent SpyTag particle-protein coupling; a covalent-conjugation competitor that, unlike the engager, requires capsid engineering (contradicts works-on-unmodified-vectors framing)."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Competitive & adjacent landscape",
+      "source": "bioRxiv",
+      "title": "EvoPRAISE: computationally guided directed evolution for rational AAV capsid engineering",
+      "summary": "EvoPRAISE couples computational guidance with directed evolution to graft receptor-binding modules into permissive AAV capsid loops for programmed tropism.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.02.686002v1.full",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] - directed-evolution/ML capsid engineering; the distinct vector-engineering competitor category."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Frontiers in Molecular Biosciences",
+      "title": "Strategies of AAV capsid engineering for targeted delivery to brain, muscle, and retina",
+      "summary": "Reviews current AAV capsid-engineering strategies (peptide display, rational and evolution-based design) for tissue-targeted delivery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41567865/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] - capsid-engineering landscape review; benchmarks the vector-engineering alternative to a drop-in engager."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed / Nat Commun",
+      "title": "Structural basis of double-stranded RNA recognition by the J2 monoclonal antibody",
+      "summary": "A 2.85 A J2 Fab-dsRNA co-crystal shows J2 tracks the dsRNA minor groove and needs ~14 bp, defining the epitope a designed J2 replacement must reproduce.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41390480/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;STRUCTURE;VERIFY] - anti-dsRNA J2 replacement theme: gold-standard J2 epitope/mechanism now solved (Nat Commun 2025-12-13; DOI 10.1038/s41467-025-67414-z); blueprint for a sequence-defined J2-replacement binder. VERIFY 2.85A / 14-bp claims."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed / Mol Ther Adv",
+      "title": "Transcript-independent quantitative analysis of RNA cap structures by LC-MS/MS",
+      "summary": "A sequence-agnostic LC-MS/MS assay quantifies capped vs uncapped mRNA 5' ends without transcript-specific probes, offering an antibody-free route to cap-incorporation QC.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42205550/",
+      "score": 3,
+      "notes": "[TRACK:B] - Cap0/Cap1 mRNA-capping analytics theme; context/contradiction: a robust MS method partly substitutes for a capping-specific binder, weighing on whether Cap0/Cap1 discrimination is a binder-shaped target (Mol Ther Adv 2026-05-01; DOI 10.1016/j.omta.2026.201748)."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed / AAPS J",
+      "title": "Quantifying the Full-to-Empty AAV Capsid Ratios and Their Impact on Transduction Efficiency in vitro",
+      "summary": "Across serotypes, empty-capsid load produced a statistically significant change in a 5-day in vitro AAV potency readout, arguing empty content is a controlled variable in cell-based potency assays.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41408431/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] - full-vs-empty AAV theme + in-vitro potency design; empty load confounds potency, supporting content/conformation-selective capsid reagents (AAPS J 2025-12-17; DOI 10.1208/s12248-025-01194-8)."
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed / Mol Pharm",
+      "title": "Decoding the Structure-Function Correlation of AAV2 Capsid Mutant Recognition by the A20 Antibody (Coarse-Grained Simulations)",
+      "summary": "Coarse-grained modeling maps how the intact-capsid-selective A20 antibody engages three symmetry-related AAV2 subunits, with a predictive model (R2=0.949) linking capsid mutations to A20 binding.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41384590/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;STRUCTURE;VERIFY] - conformation-selective (assembled-capsid) AAV binder theme: A20 conformational epitope mapped, informing a designed capsid-titer/ID binder (Mol Pharm 2025-12-12; DOI 10.1021/acs.molpharmaceut.5c01279). VERIFY R2=0.949."
     }
   ]
 }
