@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28",
-  "total": 531,
+  "generated": "2026-09-29",
+  "total": 543,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5311,6 +5311,126 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41384590/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE;STRUCTURE;VERIFY] - conformation-selective (assembled-capsid) AAV binder theme: A20 conformational epitope mapped, informing a designed capsid-titer/ID binder (Mol Pharm 2025-12-12; DOI 10.1021/acs.molpharmaceut.5c01279). VERIFY R2=0.949."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "AI-engineered AAV capsid enables intravitreal delivery for the treatment of diverse retinal degenerations",
+      "summary": "An AI-guided capsid engineering approach produced AAV2.PN168, an AAV2 variant giving extensive retinal transduction after intravitreal injection in mice and NHPs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42494979/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 AI-driven capsid re-engineering is exactly the vector-engineering path Nautilus's drop-in, works-on-unmodified-vectors reagent positions against; watch as competitor category (b)."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Engineering novel AAV capsids by broadly attenuated and subsequent muscle-specific tropism in mice and NHPs",
+      "summary": "A two-step attenuate-then-retarget strategy inserted a myogenic peptide into an AAV backbone (AAV.eM) to drive muscle-specific expression with low off-target liver/CNS transduction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42147446/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Peptide-insertion tolerance evidence and a competitor-category-(b) engineered-vector example; contrast with the non-covalent, no-vector-engineering engager thesis."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Computationally guided discovery of Ly6e/LY6E-dependent AAV capsid variants",
+      "summary": "Structure-guided computational prioritization designed short peptide inserts grafted into an AAV9 surface loop to engage the Ly6e/LY6E receptor and boost blood-brain-barrier transduction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42028008/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Structure-guided insertion into a capsid surface loop; directly informs capsid insertion-site tolerance and the receptor-targeting delivery landscape (categories b and e)."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "AAV / LNP delivery",
+      "source": "Nature Biomedical Engineering",
+      "title": "Artificial intelligence-guided design of LNPs for in vivo targeted mRNA delivery via analysis of the spatial conformation of ionizable lipids",
+      "summary": "Molecular-dynamics-informed AI design links ionizable-lipid head/tail spatial conformation to organ targeting and endosomal escape for mRNA LNPs.",
+      "url": "https://www.nature.com/articles/s41551-026-01640-8",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Background on the LNP particle the engager's Cell Arm would bridge on unmodified vectors; quantitative delivery-efficiency claims need source check."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Frontiers in Bioeng. & Biotech.",
+      "title": "Development of a gene-activated matrix for enhanced AAV gene delivery in vitro",
+      "summary": "A gene-activated matrix was developed to enhance AAV transduction efficiency in vitro.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13291573/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;COMPETITOR:f] \u2014 A matrix-based transduction-enhancer precedent (status-quo competitor category a and RetroNectin-class reagent-format category f) that the engager reagent must outperform."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PMC / Gates Open Research",
+      "title": "Qualification of a quantitative stability-indicating potency assay for mRNA-LNP vaccine candidates",
+      "summary": "A quantitative, stability-indicating in vitro potency assay for mRNA-LNP candidates was qualified for transfection/protein-expression readout.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13176446/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] \u2014 Bears on the register theme of a defined, lot-controllable replacement for serum in LNP potency assays; check the qualification metrics against source."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "SAGE / Antibody Reports",
+      "title": "Guidelines for Reporting New Monoclonal Antibodies: Improving Transparency, Reproducibility, and Research Utility",
+      "summary": "New reporting guidelines document that authors fail to identify the antibodies they use an estimated 20-50% of the time and that clone/lot underreporting drives irreproducibility.",
+      "url": "https://doi.org/10.1177/21679436261458597",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;VERIFY] \u2014 Names a specific failure mode (clone/lot identity underreporting and non-reproducible polyclonal/monoclonal reagents) that motivates sequence-defined binder replacements; verify the 20-50% figure."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Binder engineering & structural characterization",
+      "source": "mAbs (PubMed)",
+      "title": "Near pan-alphavirus neutralization by an antibody-nanobody bispecific",
+      "summary": "Structure-based design fuses a neutralizing nanobody to an antibody heavy chain via a 30-aa linker, giving near pan-alphavirus neutralization with EM-resolved mechanism.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42778504/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] \u2014 Direct precedent for the engager's Arm+Linker+Arm architecture: shows structure-guided bispecific design and linker-length tuning; EM characterization; verify the 9-of-11 neutralization and linker claims."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Binder engineering & structural characterization",
+      "source": "mAbs (PubMed)",
+      "title": "Antibody framework engineering enables augmented signaling of bispecific single-domain IL-21 mimetics",
+      "summary": "Framework mutations and IgG-like VHH scaffolding rigidify VHH:VHH geometry to tune bispecific receptor agonism without changing paratope valency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42683527/",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Bears on engager geometry/linker rigidity: shows how framework engineering controls the spatial orientation of two VHH arms, relevant to Particle-Arm/Cell-Arm presentation."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "AI/ML in protein design",
+      "source": "mAbs (PubMed)",
+      "title": "Predicting non-specific binding of VHHs using machine learning with cluster-aware validation",
+      "summary": "An ML workflow with custom cross-validation predicts VHH polyreactivity (baculovirus-particle binding) from computed-structure descriptors while mitigating pipeline-data bias.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42749679/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Developability/polyreactivity prediction is a Phase-2 de-novo-VHH-binder capability; cluster-aware validation is directly usable; verify reported accuracy figures."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Biotechnol Prog (PubMed)",
+      "title": "Deep dive into drug substance HCP patterns for comprehensive safety assessment in recombinant mAb formats",
+      "summary": "Comparison of native-digest, immunoaffinity and hexapeptide enrichment for LC-MS/MS shows orthogonal methods each capture distinct low-abundance host-cell proteins missed by ELISA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42415423/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Reinforces the anti-HCP polyclonal-replacement theme by showing antibody-based HCP detection misses product-specific and low-abundance HCPs a defined reagent set could target."
+    },
+    {
+      "date": "2026-09-29",
+      "topic": "Regulatory / FDA",
+      "source": "FDA",
+      "title": "FDA draft guidance leveraging prior knowledge in development of human gene therapy products",
+      "summary": "FDA draft guidance endorses reuse of prior manufacturing and analytical knowledge to streamline CGT CMC submissions and analytical expectations.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-help-accelerate-cell-and-gene-therapies-patients",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Shapes how critical-reagent and analytical-method evidence is framed in CGT CMC filings; verify the guidance's exact scope and issue date against the FDA source."
     }
   ]
 }
