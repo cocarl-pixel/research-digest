@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29",
-  "total": 543,
+  "generated": "2026-09-30",
+  "total": 552,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5431,6 +5431,96 @@
       "url": "https://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-help-accelerate-cell-and-gene-therapies-patients",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Shapes how critical-reagent and analytical-method evidence is framed in CGT CMC filings; verify the guidance's exact scope and issue date against the FDA source."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "AAV / LNP delivery",
+      "source": "Nature Biotechnology (PubMed)",
+      "title": "In vivo endosomal escape assay identifies mechanisms for efficient mRNA-LNP delivery",
+      "summary": "A lysosomal-barcoding assay quantifies that only ~6-8% of LNP cargo reaches the cytosol and implicates Rab7 in late-endosome escape.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41814093/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] LNP delivery-efficiency mechanism relevant to the engager LNP arm; 6-8% escape figure to verify against source."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Receptor-guided AAV tropism engineering via MATCH (SpyTag capsid insertion)",
+      "summary": "Inserts a SpyTag motif into an exposed AAV capsid loop so targeting motifs can be covalently attached post-production.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715691v1.full",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;IP] SpyTag-into-capsid requires vector engineering (covalent) - the distinct competitor category to our drop-in unmodified-vector reagent."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Nature",
+      "title": "Atomically accurate de novo design of single-domain antibodies with RFdiffusion (cryo-EM validated)",
+      "summary": "Cryo-EM confirms atomic-accuracy of de-novo-designed VHH CDRs against influenza haemagglutinin and C. difficile TcdB.",
+      "url": "https://www.nature.com/articles/s41586-025-09721-5",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE;VERIFY] Core Phase-2 de-novo VHH capability; structurally validated designed CDRs are the template for a de novo particle-arm binder."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Viability of engineered AAVs via protein language models",
+      "summary": "A protein language model predicts whether AAV capsid insertions preserve assembly/production viability.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731521v1",
+      "score": 3,
+      "notes": "[TRACK:A] Background on capsid insertion-tolerance limits - the constraint our unmodified-vector bridging sidesteps."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Frontiers Bioeng. & Biotech.",
+      "title": "AAVBlast: a transduction enhancer that stabilizes AAV particles and increases bioavailability",
+      "summary": "Reports a new transduction-enhancer reagent that boosts AAV delivery by stabilizing particles without vector engineering.",
+      "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1832901/abstract",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a] Closest competitor class - a status-quo transduction-enhancer reagent on unmodified vectors; watch its mechanism and claims vs our bridge."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Specificity-driven protein binder design with Odin-Multi",
+      "summary": "A de novo protein-binder design method that optimizes for binding specificity, not affinity alone.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.749745v1",
+      "score": 4,
+      "notes": "[TRACK:AB] \u2014 Directly relevant to the Phase-2 de novo binder capability; specificity-driven design matters for particle-arm binders that must not cross-react across vector types. Posted 2026-09-08."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Experimental & Molecular Medicine",
+      "title": "De novo and scaffold-based design of GDF15 binders for cancer cachexia diagnostics and therapeutics",
+      "summary": "Diffusion-based de novo and scaffold-grafted binders to GDF15 yielded high-affinity minibinders, an Fc-fusion blocker, and a split-luciferase biosensor.",
+      "url": "https://www.nature.com/articles/s12276-026-01727-x",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] \u2014 CANDIDATE: the designed split-luciferase biosensor is a defined, sequence-controlled binder used as a critical reagent (Track-B thesis). VERIFY: reported affinities (minibinders 300 pM / 7.6 nM; Fc-fusion IC50 7.2 nM). Published 2026-05-08 (>14d, so scored 3)."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PMC (peer-reviewed)",
+      "title": "Transcript-independent quantitative analysis of RNA cap structures by LC-MS/MS",
+      "summary": "A transcript-independent LC-MS/MS assay quantifies mRNA capping efficiency (capped vs uncapped 5' species) via nuclease P1 digestion and external calibration.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13202267/",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 mRNA capping analytics (Track-B modality). CONTRADICTION vs register theme: measures overall cap incorporation, NOT Cap0-vs-Cap1 discrimination, so it does NOT fill the Cap0/Cap1 candidate slot. Published 2026-05-01."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Alternatives to Laboratory Animals (ATLA)",
+      "title": "Replacing immunisation-dependent antibody reagent production: Challenges under the UK Replacing Animals in Science 2025 strategy",
+      "summary": "UK strategy commits to ending polyclonal antibody production by 2030; authors argue true replacement needs animal-free in vitro display since even monoclonals often still require immunisation.",
+      "url": "https://journals.sagepub.com/doi/10.1177/02611929261455318",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 DEFICIENCY: polyclonal batch-to-batch variability and reproducibility; hybridomas expressing extra variable regions (not truly monospecific). CANDIDATE: recombinant/defined replacement for polyclonal reagents. Market/regulatory driver: national policy phasing out polyclonal production by 2030. Published online 2026-05-30."
     }
   ]
 }
