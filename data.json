@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-30",
-  "total": 552,
+  "generated": "2026-10-01",
+  "total": 569,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5521,6 +5521,176 @@
       "url": "https://journals.sagepub.com/doi/10.1177/02611929261455318",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 DEFICIENCY: polyclonal batch-to-batch variability and reproducibility; hybridomas expressing extra variable regions (not truly monospecific). CANDIDATE: recombinant/defined replacement for polyclonal reagents. Market/regulatory driver: national policy phasing out polyclonal production by 2030. Published online 2026-05-30."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "AAV / LNP delivery",
+      "source": "J. Nanobiotechnology",
+      "title": "Mechanistic insights into mRNA\u2013LNP interactions: role of ionizable lipid content in regulating mRNA intracellular release and translation",
+      "summary": "Fine-tuning ionizable lipid content substantially changed mRNA translation despite similar cellular uptake and endosomal escape, identifying intracellular mRNA dissociation as a key bottleneck.",
+      "url": "https://link.springer.com/article/10.1186/s12951-026-04383-5",
+      "score": 3,
+      "notes": "[PUBDATE:2026-09-15] [TRACK:A] \u2014 LNP-arm background: distinguishes dissociation from escape, relevant to how an engager-bridged LNP would be characterized for potency. Date approximate (2026)."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Nature Chemical Biology",
+      "title": "Accurate de novo design of high-affinity protein-binding macrocycles using deep learning",
+      "summary": "Deep-learning pipeline designs macrocyclic peptide binders to protein targets with high affinity, validated experimentally.",
+      "url": "https://www.nature.com/articles/s41589-025-01929-w",
+      "score": 4,
+      "notes": "[PUBDATE:2025-07-01] [TRACK:B] [FLAG:MACROCYCLE] \u2014 directly on the newly-admitted route-M (macrocycle) buildable gate; a computational path to sequence-defined macrocyclic critical-reagent binders. Date approximate."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "MIMOSA: Guiding De Novo Antibody Design with Natural Interaction Fingerprints",
+      "summary": "Inference-time framework that constrains diffusion-based antibody design to reproduce the interaction geometry and chemistry of a target's known cognate binder interface.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753155v1",
+      "score": 4,
+      "notes": "[PUBDATE:2026-09-24] [TRACK:B] \u2014 Phase-2 de-novo-binder capability; epitope-steering could matter where a critical-reagent target has a known cognate interface. Preprint, not peer-reviewed."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Atomically accurate de novo design of antibodies with RFdiffusion",
+      "summary": "RFdiffusion plus yeast display generated VHHs, scFvs and full antibodies to specified epitopes; affinity maturation reached single-digit nM, cryo-EM confirmed designed-CDR binding poses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41193805/",
+      "score": 4,
+      "notes": "[PUBDATE:2025-10-01] [TRACK:B] [FLAG:STRUCTURE;VERIFY] \u2014 core Phase-2 capability (de novo VHH to chosen epitope). Quantitative affinity/accuracy claims must be checked against the paper. Date approximate (2025)."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Boltz-Perturb: Improving Diversity and Accuracy in Protein-Ligand Co-Folding through Training-Free Conditioning Perturbation",
+      "summary": "Training-free conditioning-perturbation strategies improve top-20 oracle success in protein-ligand co-folding across diverse systems.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.05.742877v1.full",
+      "score": 3,
+      "notes": "[PUBDATE:2026-08-05] [TRACK:B] [FLAG:VERIFY] \u2014 co-folding/affinity tooling relevant to binder triage; fold-change claims (2.6-7.8x) need source check. Preprint."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Affinity Fine-Tuning of Boltz-2: An Open Framework for Protein-Ligand Potency Prediction in Drug Discovery",
+      "summary": "Open framework adapts only Boltz-2's affinity components with project-specific experimental data to improve potency prediction for lead optimization.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727958v1",
+      "score": 3,
+      "notes": "[PUBDATE:2026-05-26] [TRACK:B] \u2014 shows affinity-prediction models can be fine-tuned on in-house data; applicable if Nautilus builds a binder-ranking loop. Preprint."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PackGene / Dyno Therapeutics",
+      "title": "Dyno Therapeutics Licenses AI-Designed AAV Capsid to Astellas for Muscle Gene Therapy",
+      "summary": "Dyno licensed an AI-designed skeletal-muscle AAV capsid to Astellas and has launched an agentic AI suite (Psi-Phi) for protein binder design.",
+      "url": "https://www.packgene.com/frontier/040826-dyno-therapeutics/",
+      "score": 4,
+      "notes": "[PUBDATE:2026-04-08] [TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 capsid-engineering competitor (requires vector engineering, distinct from the engager) now also moving into de novo binder design; watch the Psi-Phi binder suite. Deal figures need source check."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Mol. Ther. Methods & Clin. Dev.",
+      "title": "Quantification of full and empty particles of adeno-associated virus vectors via a novel dual fluorescence-linked immunosorbent assay",
+      "summary": "A dual fluorescence-linked immunosorbent assay (dFLISA) simultaneously quantifies AAV capsid and genome titers in one run, avoiding the compounding error of separate ELISA+ddPCR.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2329050124001074",
+      "score": 3,
+      "notes": "[PUBDATE:2024-05-01] [TRACK:B] [FLAG:CANDIDATE] \u2014 bears on the full-vs-empty AAV capsid register theme; current method relies on dyes/anti-capsid, not a conformation-selective designed binder (the gap). Date approximate."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Pharmaceutics (MDPI)",
+      "title": "Anti-PEG Immunogenicity of mRNA-LNP Vaccines in Humans: Evidence for Population-Level Changes in the Anti-PEG Antibody Repertoire",
+      "summary": "Reports population-level shifts in the human anti-PEG antibody repertoire following mRNA-LNP vaccination.",
+      "url": "https://doi.org/10.3390/pharmaceutics18070815",
+      "score": 3,
+      "notes": "[PUBDATE:2026-07-01] [TRACK:AB] [FLAG:CANDIDATE] \u2014 supports the anti-PEG binder theme (declared backbone vs end-group specificity); heterogeneous polyclonal anti-PEG repertoire is why a defined-specificity binder is wanted. Date approximate."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "Regulatory / FDA",
+      "source": "IntuitionLabs",
+      "title": "FDA CGT Guidance 2026: Knowledge Reuse & CMC Submissions",
+      "summary": "Summarizes FDA's June 2026 draft guidance introducing pathways to reuse prior nonclinical/clinical/CMC knowledge to streamline cell and gene therapy CMC submissions.",
+      "url": "https://intuitionlabs.ai/articles/fda-cgt-guidance-knowledge-reuse-cmc-submissions",
+      "score": 3,
+      "notes": "[PUBDATE:2026-06-01] [TRACK:AB] \u2014 CMC/knowledge-reuse context for IND-enabling work; secondary source, verify against the primary FDA draft before citing. Date approximate."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Cryo-EM structures and structure-guided design of Atlas virus capsids",
+      "summary": "Cryo-EM of Atlas virus capsids (20-60 nm icosahedral) that package RNA, are endocytosed, disassemble at endosomal pH, and can be produced at scale and functionalized by structure-guided engineering.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.22.711591v1",
+      "score": 3,
+      "notes": "[PUBDATE:2026-03-22] [TRACK:A] [FLAG:STRUCTURE] \u2014 adjacent engineerable-capsid platform; relevant as delivery-particle background and to insertion/functionalization precedent. Preprint."
+    },
+    {
+      "date": "2026-10-01",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Structural analysis reveals high-order Nipah Virus Fusion Protein assemblies and interactions with neutralising nanobodies",
+      "summary": "Cryo-EM resolved nanobody-fusion-protein complexes to 2.59 and 2.95 Angstrom and binned nanobodies into two epitopes on the target.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727168v1.full",
+      "score": 3,
+      "notes": "[PUBDATE:2026-05-22] [TRACK:B] [FLAG:STRUCTURE] \u2014 worked example of nanobody epitope mapping / co-structure determination, the characterization step for any designed VHH reagent. Preprint."
+    },
+    {
+      "date": "2025-08-04",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Nature Nanotechnology",
+      "title": "A versatile antibody capture system drives specific in vivo delivery of mRNA-loaded lipid nanoparticles",
+      "summary": "A lipidated anti-Fc nanobody post-inserted into pre-formed LNPs captures targeting antibodies 'mix-and-go' to redirect mRNA delivery.",
+      "url": "https://www.nature.com/articles/s41565-025-01954-9",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e;VERIFY] \u2014 Modular nanobody (anti-Fc, TP1107) captures targeting antibodies on LNPs; claims >1,000-fold expression gain [VERIFY]. Competitive to the engager concept BUT requires LNP modification (lipidated-nanobody post-insertion), unlike Nautilus's unmodified-vector claim \u2014 a differentiation data point, not a drop-in reagent."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "PubMed",
+      "title": "Development and clinical application of recombinant polyclonal antibodies",
+      "summary": "Review of recombinant polyclonal antibodies (defined mAb mixtures from one master cell bank) identifying why none have reached approval.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42643976/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY] \u2014 Bears on the defined-recombinant-replacement-for-polyclonal theme; names specific failure modes: mixed-master-cell-bank instability and lack of standardized QC methods. Therapeutic (not reagent) context \u2014 flag for human triage. DOI 10.3389/fimmu.2026.1849298. PubMed."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Host Cell Protein Challenges in Antibody Processing: Insights Into Persistence and Mitigation Strategies",
+      "summary": "J&J review of mechanisms driving host-cell-protein persistence through antibody purification and design-based mitigation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42581586/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Background for the anti-HCP recombinant-reagent theme: why specific HCPs evade removal and why reliable, defined HCP-detection reagents matter. DOI 10.1002/bit.70321. PubMed."
+    },
+    {
+      "date": "2026-06-23",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability",
+      "summary": "De novo binder-design pipeline pairing a generative model with PPI scoring and built-in developability filtering.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733997v1",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Reports 58% of designs pass all developability criteria [VERIFY], exceeding clinical-stage controls. Directly relevant to the Phase-2 de-novo-binder capability (binders that are both high-affinity and developable)."
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "Biotools & research tools",
+      "source": "BioSpace",
+      "title": "Waters launches BD FACSDiscover A7 Cell Analyzer for standardized spectral flow cytometry",
+      "summary": "Global commercial launch of a spectral flow cytometer emphasizing cross-instrument standardization and sensitivity.",
+      "url": "https://www.biospace.com/press-releases/waters-sets-benchmark-for-standardized-spectral-flow-cytometry-with-commercial-launch-of-bd-facsdiscover-a7-cell-analyzer",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 Relevant to cell-based potency/characterization assay platforms; standardization across instruments bears on lot-to-lot and site-to-site reproducibility in Track-B method work."
     }
   ]
 }
