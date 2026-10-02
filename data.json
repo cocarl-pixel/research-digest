@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01",
-  "total": 569,
+  "generated": "2026-10-02",
+  "total": 579,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5691,6 +5691,106 @@
       "url": "https://www.biospace.com/press-releases/waters-sets-benchmark-for-standardized-spectral-flow-cytometry-with-commercial-launch-of-bd-facsdiscover-a7-cell-analyzer",
       "score": 3,
       "notes": "[TRACK:B] \u2014 Relevant to cell-based potency/characterization assay platforms; standardization across instruments bears on lot-to-lot and site-to-site reproducibility in Track-B method work."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Development of a recombinant AAV vector for human T lymphocyte- and NK cell-targeted gene therapy",
+      "summary": "A CD7-targeting nanobody inserted into the GH2/GH3 loop (position T456) of AAV6/AAV6-9 VP1 retargeted the vector to T/NK cells and, per the preprint, gave ~17-20 fold higher production titers than wild-type AAV6.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.26.707014v1.full",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] [PUBDATE:2026-02-26] \u2014 Capsid-insertion retargeting: the direct contrast to Nautilus Logic's bridge-unmodified-particle claim (this edits the vector); VERIFY the 17-20x titer figure."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "De novo design of flexible protein interactions with GuideFlip",
+      "summary": "A generative method designs binders (including nanobodies) that fold into their bound conformation only upon engaging flexible receptor states, rather than assuming a single rigid target structure.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754145v1",
+      "score": 5,
+      "notes": "[TRACK:AB] [FLAG:] [PUBDATE:2026-09-27] \u2014 Directly bears on the Phase-2 de novo particle-arm binder capability; flexible/conformational targeting is relevant to conformational capsid epitopes (AAVX-class) and to Track-B conformation-selective binders."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "Discontinuous Epitope Fragments as Sufficient Target Templates for Efficient Binder Design",
+      "summary": "The paper reports that supplying only discontinuous epitope fragments as the design target is sufficient for efficient de novo binder design, rather than the full target structure.",
+      "url": "https://arxiv.org/pdf/2509.25479",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:] [PUBDATE:2025-09] \u2014 Background method for Phase-2 particle-arm binder design against conformational/discontinuous capsid determinants (AAVX VHH recognizes conformational epitopes)."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Physics-Informed AI Design of Picomolar Nanobodies Enables Deep Tumor Penetration and High-Contrast Imaging",
+      "summary": "Structure-guided epitope mapping combined with physics-informed rational design was used to affinity-mature an anti-CEA nanobody to reported picomolar affinity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42359048/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] [PUBDATE:2026-06] \u2014 Affinity-maturation workflow relevant to Phase-2 binder optimization (particle-arm) and to Track-B binder engineering; VERIFY the picomolar claim against the source."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Engineered nanobodies facilitate cryo-EM studies of small proteins",
+      "summary": "A review describes engineered nanobodies used as fiducial/rigidifying binders to enable cryo-EM structure determination of otherwise too-small proteins.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41501545/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] [PUBDATE:2026-03] \u2014 Binder-assisted structural characterization is itself a Track-B critical-reagent use case (a designed binder as a structural tool)."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Chromatography Online",
+      "title": "LC-MS as a Platform Method for mRNA CQA Analysis: Evaluating 5' Capping Efficiency",
+      "summary": "The article presents RP-LC-MS (the USP-recommended approach) as a platform method for measuring mRNA 5' capping efficiency by digesting near the 5' end and resolving cap states.",
+      "url": "https://www.chromatographyonline.com/view/lc-ms-as-a-platform-method-for-mrna-cqa-analysis-evaluating-5-capping-efficiency",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:[UNRETRIEVED]] \u2014 Bears on the register theme 'Cap0/Cap1 discrimination for mRNA capping'; current method is LC-MS, not a binder \u2014 a possible gap for a designed cap-state-selective reagent."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Critical reagents & analytical methods",
+      "source": "ScienceDirect (Mol Ther Methods Clin Dev)",
+      "title": "Lateral flow immunoassay for rapid and sensitive detection of dsRNA contaminants in IVT mRNA products",
+      "summary": "The paper reports a lateral-flow strip immunoassay for rapid, sensitive, quantitative monitoring of dsRNA contaminants in in vitro-transcribed mRNA to limit potential immunogenicity.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2162253123000914",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY] [PUBDATE:2023] \u2014 Register theme 'anti-dsRNA/J2 replacement'; failure mode: dsRNA IVT-mRNA contaminants drive immunogenicity and current detection leans on the J2 antibody."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Critical-reagent DEFICIENCY signals",
+      "source": "PMC (Pharmaceutics)",
+      "title": "Anti-PEG Immunogenicity of mRNA-LNP Vaccines in Humans: Population-Level Changes in the Anti-PEG Antibody Repertoire",
+      "summary": "The study reports that mRNA-LNP vaccination reshapes the human anti-PEG antibody repertoire toward higher avidity and enhanced recognition of methoxy/end-group and backbone PEG epitopes.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13414645/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;DEFICIENCY;VERIFY] [PUBDATE:2026-07] \u2014 Register theme 'anti-PEG binders with declared backbone vs end-group specificity'; also bears on Track A (Phase-1 LNP arm uses anti-PEG clone 3.3); failure mode: undeclared backbone-vs-methoxy specificity under shifting repertoires. VERIFY avidity claims."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Critical-reagent DEFICIENCY signals",
+      "source": "PMC",
+      "title": "Specificity and mechanism of the double-stranded RNA-specific J2 monoclonal antibody",
+      "summary": "The paper characterizes the molecular specificity and recognition mechanism of the gold-standard J2 anti-dsRNA antibody, including the length/structure dependence of its binding.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12190177/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;STRUCTURE] [PUBDATE:2025-05] \u2014 Register theme 'anti-dsRNA binder as a J2 replacement'; documents J2's specificity determinants/limits (the named failure mode) and provides a mechanistic basis for designing a defined, sequence-controlled replacement binder."
+    },
+    {
+      "date": "2026-10-02",
+      "topic": "Regulatory / FDA",
+      "source": "Covington (client alert)",
+      "title": "FDA Announces a 'Flexible Approach' on CMC for Cell and Gene Therapies",
+      "summary": "The alert summarizes FDA's finalized CMC-flexibility guidance for CGT BLAs, including concurrent process validation, flexible release criteria, and use of fewer/single representative lots when analytical method validation is scientifically supported.",
+      "url": "https://www.cov.com/en/news-and-insights/insights/2026/01/fda-announces-a-flexible-approach-on-chemistry-manufacturing-and-control-for-cell-and-gene-therapies",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:] [PUBDATE:2026-01] \u2014 Shifts the CMC bar toward scientifically-justified analytical validation and single-lot strategies, raising the premium on well-characterized, defined critical reagents (Track-B thesis)."
     }
   ]
 }
