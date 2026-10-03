@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02",
-  "total": 579,
+  "generated": "2026-10-03",
+  "total": 586,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5791,6 +5791,76 @@
       "url": "https://www.cov.com/en/news-and-insights/insights/2026/01/fda-announces-a-flexible-approach-on-chemistry-manufacturing-and-control-for-cell-and-gene-therapies",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:] [PUBDATE:2026-01] \u2014 Shifts the CMC bar toward scientifically-justified analytical validation and single-lot strategies, raising the premium on well-characterized, defined critical reagents (Track-B thesis)."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Convergent strategies for nanobody-mediated inhibition of Cif",
+      "summary": "Reports crystal structures of two Cif-specific nanobodies and five Cif:nanobody complexes, finding structurally distinct paratopes that converge on the same inhibitory outcome.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.09.704437v1.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE;VERIFY] [PUBDATE:2026-02-09] \u2014 Paratope-diversity co-structures are reference material for de novo binder/epitope design (the Phase-2 capability); target Cif is not a Nautilus target, so value is methodological. VERIFY exact title/PDB IDs against the preprint."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Screening and structural characterization of a nanobody-fluorescent protein complex (Sb32-TGP)",
+      "summary": "Solves the Sb32-TGP nanobody:fluorescent-protein complex at 1.82 A and reports an atypical binding mode in which CDR2, not the usually dominant CDR3, makes the major contribution.",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696179v1.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] [PUBDATE:2025-12-23] \u2014 Atypical CDR2-dominant paratope is a useful datapoint for binder-engineering expectations and paratope modeling. VERIFY the 1.82 A resolution and CDR2-dominance claims against the source."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Frontiers in Medicine",
+      "title": "LentiBlast as a transduction enhancer for CAR-T cell generation (comparison with RetroNectin, polybrene, dasatinib)",
+      "summary": "First report of LentiBlast used in CAR-T generation, presented as a non-toxic enhancer with operational advantages over RetroNectin, which requires pre-coating and centrifugation.",
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1727427/full",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a] [PUBDATE:2026] \u2014 Status-quo transduction-enhancer competitor (category a); explicitly frames RetroNectin's pre-coat/centrifugation workflow friction, which is the pain the engager's drop-in RUO positioning targets."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PMC",
+      "title": "Rapidly dissolving biomaterials for high-efficiency viral transduction",
+      "summary": "A rapidly dissolving biomaterial (DUCTS) enhances T-cell transduction across gammaretrovirus, lentivirus, and AAV serotype 6, reportedly rivaling RetroNectin-coated-plate centrifugation.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356821/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;VERIFY] [PUBDATE:2026] \u2014 A multi-vector (retro/lenti/AAV6) transduction-enhancing reagent is directly adjacent to the engager's vector-agnostic claim; track as competitive precedent. VERIFY the 'rivals RetroNectin' efficiency claim against the paper."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "PMC (Antibodies)",
+      "title": "The Multi-Attribute Method (MAM): an LC-MS approach for Protein A resin performance and lifecycle evaluation",
+      "summary": "Describes an LC-MS multi-attribute method for evaluating Protein A affinity-resin performance and detecting residual or fouling-related proteins remaining on the resin after use.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13113048/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] [PUBDATE:2026] \u2014 Bears on register theme 'residual Protein A detection', though scoped to resin lifecycle rather than drug-substance residual Protein A; an orthogonal LC-MS method against which a defined anti-Protein-A binder/ELISA could be positioned. VERIFY scope."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Regulatory / FDA",
+      "source": "Federal Register / FDA (govinfo)",
+      "title": "FDA draft guidance: Potency Assessment of Active Immunotherapy Products (notice of availability)",
+      "summary": "FDA notice of availability for a draft guidance giving recommendations for developing assays to assess potency as part of a potency-assurance strategy for active immunotherapy products.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-20/pdf/2026-16960.pdf",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] [PUBDATE:2026-08-20] \u2014 Potency-assurance expectations raise the premium on well-characterized, defined critical reagents (Track-B thesis) and inform Track-A potency assay design. VERIFY the exact guidance title/scope against the FR notice."
+    },
+    {
+      "date": "2026-10-03",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Nanobodies as Versatile Next-Generation Biologics",
+      "summary": "Review of camelid single-domain antibody (VHH) generation, physicochemical properties, and modular use as building blocks for next-generation biologics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42827046/",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 Annu Rev Pharmacol Toxicol review (DOI 10.1146/annurev-pharmtox-060425-094846); background reference on VHH generation/biophysics relevant to the Particle-Engager binder arm (Track A) and the designed-binder critical-reagent route (Track B). [PUBDATE:2026-10-02]"
     }
   ]
 }
