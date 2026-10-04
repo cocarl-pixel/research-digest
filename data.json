@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-04",
-  "total": 591,
+  "total": 592,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5911,6 +5911,16 @@
       "url": "https://www.fda.gov/media/192321/download",
       "score": 3,
       "notes": "[TRACK:AB] [PUBDATE:2026-05] \u2014 CMC/comparability expectations for CGT keep raising the premium on well-characterized, lot-controllable critical reagents (Track-B thesis) and on defined analytics for engager/LNP constructs (Track A)."
+    },
+    {
+      "date": "2026-10-04",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "PubMed / J Biol Eng",
+      "title": "From polyclonal to monoclonal: de novo sequencing of goat antibodies for a standardized ApoA-I immunoturbidimetric assay",
+      "summary": "De novo sequencing converted a lot-variable polyclonal goat anti-ApoA-I reagent into a defined 4-mAb recombinant cocktail that matched the polyclonal immunoturbidimetric assay (Passing-Bablok r=0.994), giving a reproducible pathway to replace polyclonals.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42121252/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY;VERIFY] [PUBDATE:2026-05-12] \u2014 CANDIDATE: a defined recombinant replacement for a polyclonal reagent, the sibling pattern of the register anti-HCP polyclonal-replacement theme. DEFICIENCY: names polyclonal batch-to-batch inconsistency as the failure mode a sequence-defined binder fixes. VERIFY: r=0.994 / y=1.0536x-0.0748 correlation claim. DOI 10.1186/s13036-026-00697-y. Surfaced in 2nd same-day run; 5 months old (missed by prior runs) so useful background, not fresh news."
     }
   ]
 }
