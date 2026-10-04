@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03",
-  "total": 586,
+  "generated": "2026-10-04",
+  "total": 591,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5861,6 +5861,56 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42827046/",
       "score": 3,
       "notes": "[TRACK:AB] \u2014 Annu Rev Pharmacol Toxicol review (DOI 10.1146/annurev-pharmtox-060425-094846); background reference on VHH generation/biophysics relevant to the Particle-Engager binder arm (Track A) and the designed-binder critical-reagent route (Track B). [PUBDATE:2026-10-02]"
+    },
+    {
+      "date": "2026-10-04",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Anti-PEG Single-Chain Variable-Fragment Antibody-Assisted In Vivo Process Decoding of PEGylated Nanomedicines",
+      "summary": "A defined anti-PEG scFv is used as an analytical reagent to decode the in vivo fate and processing of PEGylated nanomedicines.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42503863/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE] [PUBDATE:2026] \u2014 A sequence-defined anti-PEG scFv deployed as a characterization reagent: bears on the anti-PEG binder theme (Track B) and on LNP/PEG analytical characterization (Track A LNP arm)."
+    },
+    {
+      "date": "2026-10-04",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "SeedProteo: Accurate De Novo All-Atom Design of Protein Binders",
+      "summary": "A diffusion-based all-atom model for de novo protein-binder design reporting state-of-the-art in-silico success rate, diversity, and novelty.",
+      "url": "https://arxiv.org/pdf/2512.24192",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] [PUBDATE:2025-12] \u2014 Directly on the Phase-2 de-novo-binder capability (replacing literature tool sequences with owned de novo binders); all-atom design relevant to designing particle-arm/cell-arm binders. SOTA success-rate claims [VERIFY]."
+    },
+    {
+      "date": "2026-10-04",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PMC",
+      "title": "Discovery of Macrocyclic Peptide Binders, Covalent Modifiers, and Degraders of a Structured RNA by mRNA Display",
+      "summary": "mRNA display yields macrocyclic peptides that bind, covalently modify, and degrade a structured RNA target.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12464979/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;CANDIDATE] [PUBDATE:2026] \u2014 Route-M (macrocycle) binders raised against a STRUCTURED RNA: direct precedent for the anti-dsRNA / J2-replacement candidate theme and for the buildable-gate widening (macrocycles admitted 2026-09-16). Shows RNA structure is a tractable macrocycle target."
+    },
+    {
+      "date": "2026-10-04",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Trimbody with rigid AI-designed scaffolds enables atomic-resolution cryo-EM structure determination of small proteins",
+      "summary": "A trimeric AI-designed rigid scaffold fused to a reformatted nanobody acts as a cryo-EM fiducial enabling atomic-resolution structures of small proteins.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735342/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] [PUBDATE:2026] \u2014 Rigid AI-designed scaffold + nanobody fusion: relevant both as a route-P scaffold-engineering precedent and as a structural-characterization reagent that could enable binder-target co-structures."
+    },
+    {
+      "date": "2026-10-04",
+      "topic": "Regulatory / FDA",
+      "source": "FDA",
+      "title": "FDA Final Guidance: Chemistry, Manufacturing, and Controls (CMC) Flexibilities for Developing Cell and Gene Therapy Products",
+      "summary": "FDA finalized a risk-based CMC-flexibility framework for cell and gene therapy BLAs covering comparability and process qualification.",
+      "url": "https://www.fda.gov/media/192321/download",
+      "score": 3,
+      "notes": "[TRACK:AB] [PUBDATE:2026-05] \u2014 CMC/comparability expectations for CGT keep raising the premium on well-characterized, lot-controllable critical reagents (Track-B thesis) and on defined analytics for engager/LNP constructs (Track A)."
     }
   ]
 }
