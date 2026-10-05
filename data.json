@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-04",
-  "total": 592,
+  "generated": "2026-10-05",
+  "total": 597,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5921,6 +5921,56 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42121252/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY;VERIFY] [PUBDATE:2026-05-12] \u2014 CANDIDATE: a defined recombinant replacement for a polyclonal reagent, the sibling pattern of the register anti-HCP polyclonal-replacement theme. DEFICIENCY: names polyclonal batch-to-batch inconsistency as the failure mode a sequence-defined binder fixes. VERIFY: r=0.994 / y=1.0536x-0.0748 correlation claim. DOI 10.1186/s13036-026-00697-y. Surfaced in 2nd same-day run; 5 months old (missed by prior runs) so useful background, not fresh news."
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "AI/ML in protein design",
+      "source": "Comput Struct Biotechnol J (PubMed)",
+      "title": "AI-Driven De Novo Binder Design: From Structure Prediction to Closed-Loop Optimization",
+      "summary": "Review mapping the standardized AI stack for de novo binder design: complex structure prediction, generative backbone design, structure-conditioned sequence optimization, and closed-loop DBTL with developability and induced-fit challenges.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42052042/",
+      "score": 3,
+      "notes": "[TRACK:A] - reference map of the Phase-2 de-novo-binder capability stack (structure prediction -> RFdiffusion/PLM backbone+sequence -> closed-loop optimization); names induced-fit and negative-design as open problems directly relevant to designing binders against unmodified-particle epitopes (capsid, PEG). [PUBDATE:2026-04-27] DOI 10.34133/csbj.0070 (According to PubMed)."
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "AI/ML in protein design",
+      "source": "Biologics Basel (PubMed)",
+      "title": "De Novo Protein Design Enables Targeting of Intractable Oncogenic Protein-Protein Interfaces (DesignForge)",
+      "summary": "DesignForge, a hotspot-conditioned de novo miniprotein design pipeline (energetic hotspot mapping + BindCraft + ProteinMPNN + AlphaFold2), produced in-silico binders to PD-1/PD-L1, MYC/MAX and KRAS/RAF with favorable predicted interface energetics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42222300/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - hotspot-conditioned BindCraft+ProteinMPNN+AF2 workflow transferable to Phase-2 binder design. CAVEAT: computational predictions only, NO experimental validation; demo targets are oncogenic PPIs, off the Nautilus reagent thesis. VERIFY: all affinity/energetics are in-silico, none experimentally confirmed. [PUBDATE:2026-03-18] DOI 10.3390/biologics6010009 (According to PubMed)."
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed Central",
+      "title": "Discovery of Macrocyclic Peptide Inhibitors Targeting MYC Oncoprotein via mRNA Display",
+      "summary": "mRNA display combined with tyrosinase-mediated cyclization generated macrocyclic peptide inhibitors of the MYC oncoprotein, demonstrating a genetically-encoded route to sequence-definable constrained-peptide binders of a difficult target.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13304548/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - route-M buildability evidence (mRNA display + enzymatic macrocyclization) for the now-in-scope synthetic-macrocycle binder class; demo target (MYC) is off-thesis, value is the sequence-definable constrained-peptide discovery route. [PUBDATE:2026-06 per source summary; precise date UNRETRIEVED - PMID conversion tool was declined in this unattended run]."
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Acta Biomaterialia (ScienceDirect)",
+      "title": "Enhancing in vivo B cell gene delivery using targeted lentiviral vectors and transduction enhancers",
+      "summary": "CD20-targeted Nipah-pseudotyped lentiviral vectors combined with transduction enhancers markedly improved in vivo gene delivery to human B cells.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1742706126002424",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a] \u2014 Transduction-enhancer + engineered-targeted-vector route (poloxamer 407/valproic acid/vectofusin-1/rapamycin on CD20-Nipah-pseudotyped LV); requires envelope engineering, a direct contrast to the unmodified-vector drop-in reagent claim. [PUBDATE:2026-04-17 online / 2026-07-01]"
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Vita",
+      "title": "An AAV variant enables human T cell engineering in vivo",
+      "summary": "AAV6-M2, an engineered AAV6 capsid variant, enables in vivo CAR delivery to human T cells after systemic administration without prior T-cell activation.",
+      "url": "https://www.vita-journal.com/vita/EN/10.15302/vita.2026.01.0008",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Engineered AAV6 capsid (peptide insertion in VR VIII between A581-T593) for in-vivo T-cell CAR delivery; capsid-engineering competitor requiring vector modification, and an insertion-site/tolerance data point contrasting Track-A unmodified-capsid bridging. [PUBDATE:2026-02-03 online / 2026-09-15]"
     }
   ]
 }
