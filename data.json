@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-06",
-  "total": 599,
+  "total": 600,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5991,6 +5991,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41876899/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-06] - Occupies the full-vs-empty AAV discrimination gap with a spectroscopic (non-binder) method; relevant to the conformation-selective full-vs-empty capsid binder theme as the method a designed binder would compete with / complement. Anal Bioanal Chem 418(11):3271-3280."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Selectivity for full AAV capsids in affinity capture with camelid ligands.",
+      "summary": "A novel affinity-capture approach using commercial camelid ligands (CaptureSelect AAVX, CaptoAVB, AVIPure) enriches full AAV capsids ~2.5-fold with AAVX giving the highest resolution, linking full-vs-empty selectivity to the ligand's capsid-binding mechanism.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41455403/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;IP;VERIFY] [PUBDATE:2025-12-20] - Commercial camelid ligand AAVX (= NL's Phase-1 particle-arm tool sequence) shown to discriminate full vs empty AAV capsids via its specific capsid-binding mechanism; bears on conformation-selective full/empty + pan-serotype capsid-binder register themes and on AAVX FTO/commercial-ligand posture. VERIFY the 2.5-fold enrichment / ~100%-full-fraction claims. J Chromatogr A 1767:466644, DOI 10.1016/j.chroma.2025.466644."
     }
   ]
 }
