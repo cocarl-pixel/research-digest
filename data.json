@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05",
-  "total": 597,
+  "generated": "2026-10-06",
+  "total": 599,
   "articles": [
     {
       "date": "2024-07-01",
@@ -5971,6 +5971,26 @@
       "url": "https://www.vita-journal.com/vita/EN/10.15302/vita.2026.01.0008",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Engineered AAV6 capsid (peptide insertion in VR VIII between A581-T593) for in-vivo T-cell CAR delivery; capsid-engineering competitor requiring vector modification, and an insertion-site/tolerance data point contrasting Track-A unmodified-capsid bridging. [PUBDATE:2026-02-03 online / 2026-09-15]"
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Harvest Process and Affinity Resin Selection Impacts on Adeno-Associated Virus Residual Host Cell Protein Retention",
+      "summary": "Harvest method and affinity resin choice determine which residual host-cell proteins remain in AAV preps, leaving a defined subset of difficult-to-remove HCPs after affinity capture.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41992847/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] [PUBDATE:2026-04-17] - Named failure mode: process- and resin-dependent carryover of specific difficult-to-remove HCPs through AAV affinity chromatography. Supports the defined anti-HCP reagent / AAV HCP-analytics theme (a sequence-defined binder to the persistent HCP species would be lot-controllable). Human Gene Therapy, epub 2026-04-17 (Leibiger, Min, Lee, U. Delaware)."
+    },
+    {
+      "date": "2026-10-06",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Classification and quantification of full vs. empty adeno-associated virus reference capsids via infrared attenuated total reflection spectroscopy",
+      "summary": "IR-ATR spectroscopy with PLS regression classifies and quantifies full versus empty AAV2 reference capsids as a rapid, label-free alternative to binder- or MS-based methods.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41876899/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-06] - Occupies the full-vs-empty AAV discrimination gap with a spectroscopic (non-binder) method; relevant to the conformation-selective full-vs-empty capsid binder theme as the method a designed binder would compete with / complement. Anal Bioanal Chem 418(11):3271-3280."
     }
   ]
 }
