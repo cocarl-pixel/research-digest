@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06",
-  "total": 600,
+  "generated": "2026-10-07",
+  "total": 601,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6001,6 +6001,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41455403/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:CANDIDATE;IP;VERIFY] [PUBDATE:2025-12-20] - Commercial camelid ligand AAVX (= NL's Phase-1 particle-arm tool sequence) shown to discriminate full vs empty AAV capsids via its specific capsid-binding mechanism; bears on conformation-selective full/empty + pan-serotype capsid-binder register themes and on AAVX FTO/commercial-ligand posture. VERIFY the 2.5-fold enrichment / ~100%-full-fraction claims. J Chromatogr A 1767:466644, DOI 10.1016/j.chroma.2025.466644."
+    },
+    {
+      "date": "2026-10-07",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Structure (Cell Press) / PubMed",
+      "title": "In silico design of stable single-domain antibodies with high affinity (EvolveX)",
+      "summary": "A structure-based VHH design pipeline (ModelX + FoldX + TANGO) redesigned an anti-Vsig4 nanobody for stability and cross-species affinity, improving human-Vsig4 binding >1,000-fold with experimental validation by phage display, NMR and X-ray crystallography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41519125/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] [PUBDATE:2025-12] \u2014 Epitope-conditioned VHH stability+affinity-maturation pipeline is directly relevant to Phase-2 replacement of the literature tool VHHs (AAVX) with owned, developable de novo/matured binders; crystal structures deposited (PDB 9EZH/9EZI/9EZU/9EZV); peer-reviewed Structure version (DOI 10.1016/j.str.2025.12.010) of the 2024 bioRxiv preprint, so useful capability background rather than fresh decision-changing news. VERIFY the >1,000-fold affinity claim against the paper."
     }
   ]
 }
