@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07",
-  "total": 601,
+  "generated": "2026-10-08",
+  "total": 603,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6011,6 +6011,26 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41519125/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] [PUBDATE:2025-12] \u2014 Epitope-conditioned VHH stability+affinity-maturation pipeline is directly relevant to Phase-2 replacement of the literature tool VHHs (AAVX) with owned, developable de novo/matured binders; crystal structures deposited (PDB 9EZH/9EZI/9EZU/9EZV); peer-reviewed Structure version (DOI 10.1016/j.str.2025.12.010) of the 2024 bioRxiv preprint, so useful capability background rather than fresh decision-changing news. VERIFY the >1,000-fold affinity claim against the paper."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "BoltzGen: Toward Universal Binder Design",
+      "summary": "An all-atom generative model that designs binders (nanobodies, peptides, miniproteins) against diverse biomolecular targets including small molecules, validated across 8 wet-lab campaigns and 26 targets.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689494",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] [PUBDATE:2025-11-20] \u2014 Phase-2 de novo binder capability: one universal model could generate owned particle-arm binders (anti-AAV-capsid, anti-PEG) to replace the literature tool sequences (AAVX VHH, anti-PEG clone 3.3). VERIFY secondary-reported 66% nanomolar-affinity figure; abstract states only 8 campaigns / 26 targets."
+    },
+    {
+      "date": "2026-10-08",
+      "topic": "AI/ML in protein design",
+      "source": "PNAS",
+      "title": "Mapping targetable sites on the human surfaceome for the design of novel binders",
+      "summary": "A computational pipeline maps targetable binding sites across the human cell-surface proteome and uses them to guide de novo design of novel protein binders.",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2506269123",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 [PUBDATE:2026-01-28] PNAS (preprint 2024-12-16, bioRxiv 2024.12.16.628626; EPFL LPDI/Correia lab). Surfaceome-wide targetable-site map + de novo binder design; background for Track-A cell-arm receptor/epitope selection and the Phase-2 owned-binder capability. Peer-reviewed capability resource, ~8.5 mo old \u2192 score 3 (useful background, not fresh decision-changing news)."
     }
   ]
 }
