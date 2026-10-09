@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08",
-  "total": 603,
+  "generated": "2026-10-09",
+  "total": 604,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6031,6 +6031,16 @@
       "url": "https://www.pnas.org/doi/10.1073/pnas.2506269123",
       "score": 3,
       "notes": "[TRACK:A] \u2014 [PUBDATE:2026-01-28] PNAS (preprint 2024-12-16, bioRxiv 2024.12.16.628626; EPFL LPDI/Correia lab). Surfaceome-wide targetable-site map + de novo binder design; background for Track-A cell-arm receptor/epitope selection and the Phase-2 owned-binder capability. Peer-reviewed capability resource, ~8.5 mo old \u2192 score 3 (useful background, not fresh decision-changing news)."
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Int J Mol Sci (MDPI) / PMC",
+      "title": "Llama VHH as a Substitute for Rabbit Polyclonal Antibodies in ELISpot Application",
+      "summary": "A llama was immunized and a VHH phage-display library screened (27/190 clones binding, four sequence families) to select a defined single-domain antibody (clone G4) that replaced the rabbit polyclonal detection antibody in a mouse IFN-gamma ELISpot, reported to match or improve assay performance.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12732664/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;VERIFY] [PUBDATE:2025-12-09] \u2014 Named deficiency: rabbit polyclonal detection antibodies carry lot-to-lot/animal-to-animal reproducibility variability in a release-relevant bioassay (ELISpot); the fix is a sequence-defined VHH (route-P) monoclonal replacement. Directly on the register theme 'defined recombinant replacements for polyclonal reagents' and a sibling of the goat-ApoA-I de-novo-sequencing paper (PMID 42121252). IJMS 26(24):11881, DOI 10.3390/ijms262411881; Diaclone SAS / Medix Biochemica. ~10 months old so useful capability background (score 3), not fresh decision-changing news. VERIFY the 'improves overall performance' claim and clone counts against the paper."
     }
   ]
 }
