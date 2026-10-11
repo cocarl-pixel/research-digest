@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09",
-  "total": 604,
+  "generated": "2026-10-11",
+  "total": 608,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6041,6 +6041,46 @@
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12732664/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;VERIFY] [PUBDATE:2025-12-09] \u2014 Named deficiency: rabbit polyclonal detection antibodies carry lot-to-lot/animal-to-animal reproducibility variability in a release-relevant bioassay (ELISpot); the fix is a sequence-defined VHH (route-P) monoclonal replacement. Directly on the register theme 'defined recombinant replacements for polyclonal reagents' and a sibling of the goat-ApoA-I de-novo-sequencing paper (PMID 42121252). IJMS 26(24):11881, DOI 10.3390/ijms262411881; Diaclone SAS / Medix Biochemica. ~10 months old so useful capability background (score 3), not fresh decision-changing news. VERIFY the 'improves overall performance' claim and clone counts against the paper."
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Competitive & adjacent landscape",
+      "source": "bioRxiv",
+      "title": "BI-TfR1 CapX rapidly transits the blood-brain barrier for efficient, low-dose gene delivery throughout the CNS",
+      "summary": "An engineered human TfR1-binding AAV capsid (CapX) that crosses the blood-brain barrier after a low intravenous dose and broadly transduces CNS neurons and astrocytes in humanized mice.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753669",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] [PUBDATE:2026-09-29] - Engineered capsid achieves CNS targeting by modifying the vector itself (TfR1-binding capsid), the opposite of NL's drop-in engager on an unmodified vector; a capsid-engineering competitor/contrast (Boehringer Ingelheim CapX platform). VERIFY the transduction % and vector-genome dose-reduction figures against the preprint."
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "PubMed",
+      "title": "Platform-Specific Immunoassay Development and Orthogonal Characterization for Improved Host Cell Protein Control in Vero Cell-Derived Vaccines",
+      "summary": "Development of a replacement Vero host-cell-protein immunoassay after the original commercial ELISA was discontinued, finding HCP quantitation strongly dependent on the HCP standard, anti-HCP antibody reagent, and assay format.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834805/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] [PUBDATE:2026-10-06] - Named deficiency: a sole-source commercial Vero HCP ELISA was discontinued, and measured HCP depended on the HCP standard + anti-HCP polyclonal reagent + assay format, with antibody-coverage gaps shown by 2D differential-in-blot electrophoresis - squarely the 'defined recombinant replacement for polyclonal anti-HCP reagents' candidate theme. Scout flag only."
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "PubMed",
+      "title": "Actionable solutions to address antibody validation failures",
+      "summary": "A modified-Delphi expert consensus on actions to fix the widespread use of inadequately validated antibodies, which the authors estimate wastes over $1 billion per year in the US.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42837354/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] [PUBDATE:2026-10-06] - Systemic (not single-reagent) evidence base for the whole Track-B thesis: inadequately validated / variable antibody reagents misdirect research at scale, supporting the case for sequence-defined recombinant replacements. VERIFY the '>$1 billion/yr' figure. Not a specific-reagent deficiency, so no DEFICIENCY flag."
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Going with the flow: peptide affinity membranes for high-throughput, high-yield purification of adenovirus and lentiviral vectors",
+      "summary": "Cellulose membranes functionalized with peptide affinity ligands purify adenovirus, VSV-G/Cocal lentivirus, and AAV9, demonstrating designed sequence-defined peptide ligands as vector-capture reagents.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790383/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-09-20] - Designed, sequence-defined peptide affinity ligands that bind AAV9 (and Ad5 / lentivirus): a buildable route-P/M binder-reagent precedent adjacent to the pan-serotype AAV capsid-binder theme, though here used for process capture rather than CQA characterization. Scout flag only."
     }
   ]
 }
