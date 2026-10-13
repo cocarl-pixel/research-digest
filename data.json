@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11",
-  "total": 608,
+  "generated": "2026-10-13",
+  "total": 609,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6081,6 +6081,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42790383/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-09-20] - Designed, sequence-defined peptide affinity ligands that bind AAV9 (and Ad5 / lentivirus): a buildable route-P/M binder-reagent precedent adjacent to the pan-serotype AAV capsid-binder theme, though here used for process capture rather than CQA characterization. Scout flag only."
+    },
+    {
+      "date": "2026-10-13",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Viruses (MDPI)",
+      "title": "Screening of Single-Domain Antibodies to Adeno-Associated Viruses with Cross-Serotype Specificity and a Wide pH Tolerance",
+      "summary": "A competitively biopanned VHH binds AAV2, AAV8 and AAV9 via the VP3 DE loop, retains binding after 0.1 M NaOH exposure, and recovers infectious particles by affinity chromatography.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12568183/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] [PUBDATE:2025-09-23] \u2014 Pan-serotype (AAV2/8/9) alkaline-stable VHH recognizing the VP3 DE loop; bears directly on the pan-serotype AAV capsid-binder / capsid-titer-ELISA register theme and is a buildable, sequence-defined (route-P) alternative to the non-owned AAVX particle-arm tool sequence used in Phase-1 POC. VERIFY cross-serotype affinity and 0.1 M NaOH-stability claims against the source. Viruses 2025, 17(10), 1289; DOI 10.3390/v17101289."
     }
   ]
 }
