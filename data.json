@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13",
-  "total": 609,
+  "generated": "2026-10-14",
+  "total": 617,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6091,6 +6091,86 @@
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12568183/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] [PUBDATE:2025-09-23] \u2014 Pan-serotype (AAV2/8/9) alkaline-stable VHH recognizing the VP3 DE loop; bears directly on the pan-serotype AAV capsid-binder / capsid-titer-ELISA register theme and is a buildable, sequence-defined (route-P) alternative to the non-owned AAVX particle-arm tool sequence used in Phase-1 POC. VERIFY cross-serotype affinity and 0.1 M NaOH-stability claims against the source. Viruses 2025, 17(10), 1289; DOI 10.3390/v17101289."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Angew Chem Int Ed",
+      "title": "Supramolecular Pretargeting Lipid Nanoparticles Based on Host-Guest Recognition Potentiate Cancer Immunotherapy by Reprogramming Tumor Microenvironment",
+      "summary": "A supramolecular pretargeting strategy non-covalently bridges lipid nanoparticles to pre-seeded tumor cells via adamantane/cucurbit[7]uril host-guest recognition to boost intratumoral LNP accumulation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42839730/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e] [PUBDATE:2026-10-06] - Published analogue closest to NL's non-covalent engager concept: bridges an unmodified-style particle to target cells without vector engineering, here via host-guest chemistry for LNP tumor pretargeting; a receptor-targeting/pre-targeting delivery competitor (cat e)."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "AI/ML in protein design",
+      "source": "Sci Adv",
+      "title": "Multiobjective VH discovery through integrated high-throughput screening and AlphaFold3-guided structural prioritization",
+      "summary": "A binder-discovery pipeline combines high-throughput yeast screening, deep sequencing, and AlphaFold3 structural prioritization to find polyspecific heavy-chain variable domains (VHs) that neutralize toxins across multiple species.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814808/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] [PUBDATE:2026-09-30] - AF3-guided screening-to-structure prioritization of VHs is directly relevant to the Phase-2 de novo binder-design / developability-prioritization capability; multi-objective selection pattern transferable to particle-arm/reagent binder campaigns."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "AAV / LNP delivery",
+      "source": "Neuron",
+      "title": "A cross-species AAV platform for precise microglial interrogation",
+      "summary": "A Cre-independent cross-species AAV platform pairs a compact microglia-specific regulatory element with an engineered AAV2/9.m capsid and neuronal de-targeting to transduce microglia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42869027/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] [PUBDATE:2026-10-13] - Capsid-engineering route (modifies the vector itself) and thus a contrast to NL's unmodified-vector engager; competitor category b, fresh this week."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "iScience",
+      "title": "Development of proteome-derived cyclic peptide libraries via ortho-phthalaldehyde-assisted cyclization",
+      "summary": "A proteome-informed method builds cyclic peptide libraries directly from natural proteomes using cysteine enrichment and ortho-phthalaldehyde-assisted cyclization.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42827899/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:MACROCYCLE] [PUBDATE:2026-09-22] - Route-M macrocycle library-generation capability; bears on the widened buildable gate (synthetic macrocycles/constrained peptides now in scope on equal footing with proteins)."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Nucl Med",
+      "title": "Ga-Labeled Dimeric Cyclic Peptide for Nectin-4-Targeted PET Imaging: From Preclinical Evaluation to First-in-Human Imaging in Breast Cancer",
+      "summary": "A dimeric (bicyclic) peptide PET tracer targeting nectin-4, built by click-conjugating two nectin-4-binding bicyclic peptides, advanced from preclinical evaluation to first-in-human breast-cancer imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42850038/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:MACROCYCLE;VERIFY] [PUBDATE:2026-10-08] - Route-M bicyclic-peptide binder plus avidity-by-dimerization precedent; carries first-in-human / affinity claims a human must check before use in any strategy doc."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Angew Chem Int Ed",
+      "title": "De Novo Discovery of Nonstandard Thioisoindole-Bridged Bicyclic Peptides Targeting Traf2- and NCK-Interacting Kinase",
+      "summary": "Reengineered ribosomal (RaPID-type) display enables faster de novo discovery of nonstandard thioisoindole-bridged bicyclic peptides against a kinase target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42593841/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:MACROCYCLE] [PUBDATE:2026-08-13] - Macrocycle display-selection methodology (route-M discovery capability); constrained non-natural bicyclic scaffolds generated by in vitro display, directly in the now-admitted molecule class."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Biol Chem",
+      "title": "Generation, mechanistic and structural characterization of bispecific antibodies triggering LIF receptor activation independent of the cytokine LIF",
+      "summary": "Single-domain (VHH) antibodies against the LIF receptor were raised by camelid immunization and yeast-surface-display selection and assembled into agonistic bispecifics with structural and mechanistic characterization.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42854908/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] [PUBDATE:2026-10-09] - VHH discovery (camelid + YSD) through paratope panel to structurally characterized bispecific; on-thesis binder-engineering/characterization workflow relevant to engager Cell-Arm and reagent binders."
+    },
+    {
+      "date": "2026-10-14",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Analyst",
+      "title": "Nanobody-fluorescent protein fusions for erasable immunostaining",
+      "summary": "Nanobody-fluorescent-protein fusions provide genetically defined immunostaining reagents that avoid chemical fluorophore conjugation and enable erasable, iterative staining.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834728/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-10-06] - Sequence-defined recombinant reagent replacing chemically-conjugated antibodies; a defined-reagent precedent adjacent to the Track-B thesis of replacing variable/conjugation-dependent reagents with designed binders."
     }
   ]
 }
