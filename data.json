@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14",
-  "total": 617,
+  "generated": "2026-10-15",
+  "total": 618,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6171,6 +6171,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42834728/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-10-06] - Sequence-defined recombinant reagent replacing chemically-conjugated antibodies; a defined-reagent precedent adjacent to the Track-B thesis of replacing variable/conjugation-dependent reagents with designed binders."
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "Critical reagents & analytical methods",
+      "source": "J Chromatogr A",
+      "title": "Integrating the affinity and anion-exchange purification of AAV8: how the selective enrichment of full capsids at the affinity capture step enhances the downstream processing of gene therapies",
+      "summary": "An AAV8 downstream-process study showing that choosing an affinity-capture condition that already enriches full capsids improves the subsequent anion-exchange full/empty separation, with reported titers of 5.0-7.7x10^11 vg/mL and full-capsid ratios up to ~85% after polishing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41297510/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] [PUBDATE:UNRETRIEVED] - On the conformation-selective full-vs-empty AAV capsid-binder register theme and the AAVX commercial-ligand posture (NL Phase-1 particle-arm tool sequence); shows full-capsid enrichment is achievable at the affinity-capture step. Adjacent to the already-logged camelid-ligand full/empty paper (PMID 41455403, J Chromatogr A 466644, logged 2026-10-06). Process/manufacturing paper, not fresh decision-changing news. VERIFY pub date and quantitative claims (titers 5.0-7.7e11 vg/mL, ~85% full)."
     }
   ]
 }
