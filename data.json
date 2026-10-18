@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "total": 618,
+  "generated": "2026-10-18",
+  "total": 622,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6181,6 +6181,46 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41297510/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] [PUBDATE:UNRETRIEVED] - On the conformation-selective full-vs-empty AAV capsid-binder register theme and the AAVX commercial-ligand posture (NL Phase-1 particle-arm tool sequence); shows full-capsid enrichment is achievable at the affinity-capture step. Adjacent to the already-logged camelid-ligand full/empty paper (PMID 41455403, J Chromatogr A 466644, logged 2026-10-06). Process/manufacturing paper, not fresh decision-changing news. VERIFY pub date and quantitative claims (titers 5.0-7.7e11 vg/mL, ~85% full)."
+    },
+    {
+      "date": "2026-10-18",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Structure",
+      "title": "Structural analysis of de novo-designed binders targeting the closed state of HSP90",
+      "summary": "De novo-designed protein binders H2 and H4 selectively recognize the closed state of HSP90, with cryo-EM structures confirming the high accuracy of the BindCraft design predictions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42887492/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;STRUCTURE] \u2014 conformation-selective de novo binder validated by cryo-EM is a direct feasibility precedent for the conformation-selective full-vs-empty AAV capsid binder theme, and shows BindCraft-driven state-selective design (the Phase 2 de novo capability). No PDB ID stated in abstract. [PUBDATE:2026-10-16]"
+    },
+    {
+      "date": "2026-10-18",
+      "topic": "AI/ML in protein design",
+      "source": "Comput Struct Biotechnol J",
+      "title": "Computational Design of a TCR-like Human V Domain Antibody That Specifically Recognizes a WT1-Derived Peptide Presented by Class I MHC",
+      "summary": "Computational repurposing of a soluble trastuzumab-derived VH scaffold yielded a single-domain antibody that specifically binds the WT1 RMFPNAPYL peptide presented by HLA-A*02:01, confirmed experimentally.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42889508/",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 concrete computational single-domain (route-P) binder design-plus-validation datapoint for the Phase 2 de novo binder capability; the WT1 pMHC target is off-thesis but the scaffold-repurposing method is the relevant signal. [PUBDATE:2026-10-15]"
+    },
+    {
+      "date": "2026-10-18",
+      "topic": "AI/ML in protein design",
+      "source": "Mol Cell",
+      "title": "Programming biological behavior with AI-guided de novo protein design",
+      "summary": "A perspective arguing that AI-guided de novo protein design, already successful at engineering binders against many targets, can progress toward building modular, multi-step protein reaction networks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42880220/",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 Molecular Cell perspective on the de novo binder-design field that is NL's Phase 2 capability; useful background, not primary data (Review). [PUBDATE:2026-10-15]"
+    },
+    {
+      "date": "2026-10-18",
+      "topic": "AI/ML in protein design",
+      "source": "Digit Discov",
+      "title": "Molecular docking + co-folding for protein-peptide pose prediction: effects of protein flexibility and training set overlap",
+      "summary": "A benchmark of AlphaFold-Multimer, AlphaFold3 and Boltz-2 for protein-peptide pose prediction finds co-folding accuracy is degraded by protein flexibility and inflated by training-set overlap.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42769622/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 bears directly on how far NL can trust Boltz-2/AF3 co-folding for designed-peptide and flexible-target binding prediction; the training-set-overlap caveat is a rigor signal. Benchmark magnitudes [UNRETRIEVED] -> VERIFY. [PUBDATE:2026-09-11]"
     }
   ]
 }
