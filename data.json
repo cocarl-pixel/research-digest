@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18",
-  "total": 622,
+  "generated": "2026-10-19",
+  "total": 623,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6221,6 +6221,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42769622/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 bears directly on how far NL can trust Boltz-2/AF3 co-folding for designed-peptide and flexible-target binding prediction; the training-set-overlap caveat is a rigor signal. Benchmark magnitudes [UNRETRIEVED] -> VERIFY. [PUBDATE:2026-09-11]"
+    },
+    {
+      "date": "2026-10-19",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Analytical methods for estimation of the mRNA capping efficiency - A comprehensive review",
+      "summary": "Comprehensive review of analytical methods for measuring mRNA 5' capping efficiency, a critical quality attribute whose accurate assessment the authors describe as a persistent analytical challenge.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42887946/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Bears on the Cap0/Cap1 mRNA-capping discrimination theme: maps the current capping-efficiency method landscape and states accurate assessment 'remains a nontrivial analytical challenge', i.e. where a defined sequence-defined binder-based readout could add value. Review, not primary data. DOI 10.1016/j.aca.2026.346074. PubMed."
     }
   ]
 }
