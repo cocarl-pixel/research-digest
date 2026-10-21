@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20",
-  "total": 634,
+  "generated": "2026-10-21",
+  "total": 641,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6341,6 +6341,76 @@
       "url": "https://www.aabb.org/news-resources/news/article/2026/08/19/fda-publishes-two-cgt-product-development-guidances",
       "score": 3,
       "notes": "[TRACK:AB] [PUBDATE:2026-08-19] \u2014 Draft 'Potency Assessment of Active Immunotherapy Products' covers selecting bioassays/physicochemical potency methods; relevant to potency-assay and critical-reagent expectations in CMC. Source: AABB summary of the two FDA guidances."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "AI/ML in protein design",
+      "source": "Amazon Science / ICML 2026",
+      "title": "Agent-guided de novo design of nanobody binders against a novel cancer target",
+      "summary": "An agentic generative pipeline (AWS/MSK) produced ~288,000 de novo nanobody designs against a DSRCT target, of which 46/116 SPR-tested candidates gave reliable kinetic fits with KD values spanning 0.66-305 nM (median 31.7 nM).",
+      "url": "https://www.amazon.science/publications/agent-guided-de-novo-design-of-nanobody-binders-against-a-novel-cancer-target",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - Evidence base for the Phase-2 de-novo binder capability (owned binders replacing the AAVX-VHH / anti-PEG 3.3 literature tool sequences): end-to-end agentic design->SPR workflow yielding nanomolar VHHs against an arbitrary target. ICML 2026 GenBio Workshop, dated ~Apr 2026 (NOT fresh - background, not a decision-changer). KD/design-count figures are abstract claims to verify at source."
+    },
+    {
+      "date": "2026-10-20",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Machine learning enables efficient and effective affinity maturation of nanobodies",
+      "summary": "ML trained on a single yeast-display sorting round predicted affinity-enhancing substitutions for RXFP1-binding nanobodies, yielding several sub-nanomolar binders (best ~2500-fold over wild type), with simple linear models outranking deep neural networks.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.11.698911",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - Methodological input for Phase-2 binder optimization: cheap single-round sequencing + linear ranking of mutations could cut affinity-maturation cost for the particle-arm/cell-arm binders. Preprint posted Jan 2026 (NOT fresh - background). Fold-change/affinity figures to verify at source."
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "AI/ML in protein design",
+      "source": "Science",
+      "title": "Atomic functional site scaffolding in biopolymers with RFdiffusion3",
+      "summary": "A generative AI method, RFdiffusion3, uses free-atom diffusion to scaffold complex atomic functional sites in proteins and RNA, demonstrated experimentally on de novo enzyme designs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42879533/",
+      "score": 5,
+      "notes": "[TRACK:A] \u2014 RFdiffusion3 (RFD3) is the next-gen Baker-lab generative design engine directly relevant to NL Phase 2 de novo binder work that would replace the literature tool sequences (AAVX VHH, anti-PEG clone 3.3) with owned de novo binders. DOI 10.1126/science.aeh2982."
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Eur J Med Chem",
+      "title": "HighPlay3: Structure-Integrated de novo cyclic peptide design balancing binding affinity and membrane permeability",
+      "summary": "HighPlay3 is a structure-integrated de novo cyclic-peptide design platform that jointly optimizes target-binding affinity and membrane permeability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42901043/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 de novo cyclic-peptide design method; a route-M (macrocycle) binder-engineering capability for the target search, though its permeability objective is aimed at oral therapeutics rather than NL critical-reagent use. DOI 10.1016/j.ejmech.2026.119443."
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "AAV / LNP delivery",
+      "source": "IEEE Trans Comput Biol Bioinform",
+      "title": "A Biological Property-Aware Quantum-Classical Fusion Model for Predicting AAV Capsid Production Fitness",
+      "summary": "A quantum-classical fusion model predicts AAV capsid production fitness directly from capsid amino acid sequence using physicochemical-property encodings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900611/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 ML prediction of capsid production fitness is a vector-engineering (capsid-design) approach, the status-quo route NL's vector-agnostic engager positions against; competitive-landscape background. DOI 10.1109/TCBBIO.2026.3745380."
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Front Immunol",
+      "title": "Dendritic-cell-targeting adeno-associated virus as potent cancer vaccine carriers",
+      "summary": "A dendritic-cell-targeting AAV was built by site-specifically inserting a Clec9a-binding peptide into the capsid plus gain-of-function mutations, improving cDC1 transduction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42876800/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;e] \u2014 receptor-targeted AAV delivery achieved by capsid engineering (peptide insertion + T491V/S662V GOF), i.e. the vector-engineering retargeting route NL's drop-in engager is positioned against. Pub date 2026-09-30. DOI 10.3389/fimmu.2026.1932907."
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "Binder engineering & structural characterization",
+      "source": "ACS Nano",
+      "title": "Systematic Engineering of Human CD9 for Extracellular Vesicle Surface Display of Nanobodies Using Single-Vesicle Imaging",
+      "summary": "Human CD9 was engineered as a modular scaffold to display nanobodies on recombinant extracellular vesicles, screened with a high-throughput single-EV imaging platform.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42899756/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 single-EV imaging quantifies VHH display per vesicle; bears on the register theme of reagents/methods that count ligands displayed on a targeted particle (demonstrated on EVs here, not the NL AAV/LNP classes). DOI 10.1021/acsnano.6c12478."
     }
   ]
 }
