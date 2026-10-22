@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21",
-  "total": 641,
+  "generated": "2026-10-22",
+  "total": 650,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6411,6 +6411,96 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42899756/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 single-EV imaging quantifies VHH display per vesicle; bears on the register theme of reagents/methods that count ligands displayed on a targeted particle (demonstrated on EVs here, not the NL AAV/LNP classes). DOI 10.1021/acsnano.6c12478."
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "ALTEX",
+      "title": "Increasing the Use of Sequence-Defined Antibodies: Practical Solutions for Common Targets",
+      "summary": "An ALTEX letter catalogs catalog recombinant antibodies that can replace widely-cited polyclonal, hybridoma and ascites reagents, arguing their animal-dependent composition is an inherent source of lot-to-lot irreproducibility.",
+      "url": "https://altex.org/index.php/altex/article/view/3125/2993",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;VERIFY] \u2014 DEFICIENCY: polyclonal antibody composition varies with each production animal's immune response, a named driver of lot-to-lot variability; also flags ascites-method reproducibility problems. CANDIDATE: directly supports the register's 'defined recombinant replacement for polyclonal reagents' theme (incl. anti-HCP polyclonal replacement) \u2014 names concrete sequence-defined catalog alternatives (Table 1). VERIFY the quantitative claims (10 of CiteAb top-25 are polyclonal secondaries; '>1000-fold' type figures elsewhere). Epub 2026-01-19, ALTEX 43(2):347-352, doi:10.14573/altex.2512091; author affiliated with PETA Science Consortium (animal-welfare framing, not a reagent-engineering study)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence",
+      "summary": "AI structure-prediction-guided rational point mutagenesis of an anti-IL-12 single-domain antibody identified three affinity-enhancing mutations that combined for a reported ~8-fold affinity gain over the lead clone.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758789v1",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] [PUBDATE:2026-10-13] \u2014 AI-informed VHH affinity-maturation workflow is directly on the Phase-2 capability to mature owned de novo binders replacing the non-owned literature tool VHHs (AAVX); sibling of EvolveX (PMID 41519125, logged). Target (IL-12) is off-thesis/therapeutic and the gain modest, so scored 3 (capability background). VERIFY the 'eleven mutations / three hits / ~8-fold' quantitative claims against the source abstract (preprint, not peer-reviewed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed \u00b7 Bioorg Chem",
+      "title": "In silico miniaturization of the necitumumab EGFR-binding interface into a peptide scaffold for targeted therapy of EGFR-overexpressing NSCLC",
+      "summary": "A structure-guided method extracts the EGFR-binding epitope of an approved antibody and grafts it onto a constrained peptide scaffold, converting an antibody interface into a peptide-drug-conjugate binder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42843136/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] [PUBDATE:2026-10-02] \u2014 Antibody-interface-to-constrained-peptide grafting is a route-M capability for sequence-defined peptide binders, relevant to the 2026-09-16 macrocycle-gate widening; target (EGFR) off-thesis. DOI 10.1016/j.bioorg.2026.110607 (via PubMed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 ACS Omega",
+      "title": "Characterizing Variations in Binding Kinetics of Affinity Biosensors: A Boundary-Layer and Site-Quality Approach",
+      "summary": "A computational framework models how apparent binding kinetics on affinity biosensors drift with surface coverage and site heterogeneity, beyond the homogeneous-site Langmuir assumption.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42824773/",
+      "score": 3,
+      "notes": "[TRACK:AB] [PUBDATE:2026-09-14] \u2014 Directly relevant to reading BLI/SPR data: Track A go/no-go is BLI particle-arm binding and Track B leans on SPR/BLI rigor; surface-heterogeneity artifacts can bias Kd calls. DOI 10.1021/acsomega.6c07361 (via PubMed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed \u00b7 Research (Wash DC)",
+      "title": "Mirror-Peptidizer: In Silico Mirror-Image Screening Enables De Novo Design of D-Peptide Binders without D-Protein Synthesis",
+      "summary": "An end-to-end in silico mirror-image screening pipeline designs proteolysis-resistant D-peptide binders to a target without synthesizing the mirror-image D-protein.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42676829/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] [PUBDATE:2026-08-31] \u2014 De novo sequence-defined peptide (D-peptide) binder design; relevant to route-M buildable candidates and to in-silico binder-design capability. DOI 10.34133/research.1420 (via PubMed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 Mol Ther Adv",
+      "title": "Automated zonal-rotor CsCl ultracentrifugation with AKTA-based fractionation removes empty and intermediate AAV capsids",
+      "summary": "An automated zonal-rotor CsCl density-gradient ultracentrifugation workflow with inline fractionation separates full from empty and intermediate AAV capsids where anion-exchange chromatography fails to resolve intermediates.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42764984/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-09-01] \u2014 The physical separation method a conformation-selective full-vs-empty AAV capsid binder would complement or compete with; frames the full/empty-capsid reagent opportunity. DOI 10.1016/j.omta.2026.201838 (via PubMed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 Molecules",
+      "title": "Development and Validation of a Method to Determine CYP4V2 Enzyme Activity in rAAV-hCYP4V2 Gene Therapy Products Using a Bioluminescent Substrate Assay",
+      "summary": "A bioluminescent-substrate cell-based assay for CYP4V2 enzymatic activity was validated as a potency/QC readout for an rAAV gene therapy and applied across three AAV serotypes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42653893/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] [PUBDATE:2026-08-12] \u2014 Example of a modality-specific AAV potency assay (the CQA readouts Track B studies); VERIFY the reported recovery/precision/linearity figures against the source. DOI 10.3390/molecules31162811 (via PubMed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed \u00b7 PNAS",
+      "title": "Cold-adapted RNA polymerase from phage Njord improves synthesis of therapeutic mRNA",
+      "summary": "A phage-derived cold-adapted RNA polymerase (New England Biolabs) synthesizes mRNA at ambient temperature with minimal promoter-independent transcription, yielding transcripts essentially free of double-stranded RNA and eliciting minimal immune response.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42685080/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] [PUBDATE:2026-09-02] \u2014 Source-side approach to the dsRNA problem that the anti-dsRNA-binder (J2-replacement) theme detects; a competing solution path to weigh against a detection reagent. DOI 10.1073/pnas.2606667123 (via PubMed)."
+    },
+    {
+      "date": "2026-10-22",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed \u00b7 Bioeng Transl Med",
+      "title": "Mechanisms and determinants of mRNA Lipid Nanoparticle biodistribution: From pharmacokinetics to clinical translation",
+      "summary": "A review synthesizes how LNP physicochemical properties, administration route, and protein-corona formation govern where mRNA-LNP components distribute and where cargo is released.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42851665/",
+      "score": 3,
+      "notes": "[TRACK:A] [PUBDATE:2026-10-07] \u2014 Background on LNP surface/corona behavior relevant to non-covalently bridging unmodified LNPs to target receptors (the LNP arm of the engager); broad review. DOI 10.1002/btm2.70183 (via PubMed)."
     }
   ]
 }
