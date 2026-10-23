@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22",
-  "total": 650,
+  "generated": "2026-10-23",
+  "total": 665,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6501,6 +6501,156 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42851665/",
       "score": 3,
       "notes": "[TRACK:A] [PUBDATE:2026-10-07] \u2014 Background on LNP surface/corona behavior relevant to non-covalently bridging unmodified LNPs to target receptors (the LNP arm of the engager); broad review. DOI 10.1002/btm2.70183 (via PubMed)."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv/PMC",
+      "title": "Nanobody insertion hotspots in the AAV capsid near the 2-fold valley and 5-fold pore",
+      "summary": "Preprint maps AAV capsid regions tolerant of nanobody insertion and reports VP2 engineering best preserves both production yield and infectivity.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10996663",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 capsid-insertion route requires vector engineering, the category the non-covalent engager avoids; useful for the insertion-tolerance competitive story. 2024 preprint, background."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "AI/ML in protein design",
+      "source": "NeurIPS 2026",
+      "title": "Epitope-conditioned nanobody CDR design via retrieval-augmented protein language models (EpiRAG-PBind42)",
+      "summary": "Sequence-only framework generates nanobody CDRs for user-specified epitopes without requiring antigen structures.",
+      "url": "https://neurips.cc/virtual/2026/poster/156094",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 structure-free epitope-conditioned VHH design bears directly on the Phase 2 de novo binder capability (route-P) and on designed binders for Track B reagents."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Seedtable",
+      "title": "Latus Bio raises $43M Series A for CNS-directed AAV capsid variants",
+      "summary": "Series A (May 2026, led by 8VC) funds novel AAV capsid variants engineered for CNS delivery.",
+      "url": "https://seedtable.com/companies/latus-bio/funding-rounds/series-a-2026-05",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 capsid-engineering competitor (distinct category: requires vector engineering); $43M figure to verify against source."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Competitive & adjacent landscape",
+      "source": "BioIndustry Association",
+      "title": "Cell and Gene Therapy Catapult invests in Lir Therapeutics' AI-driven AAV design platform",
+      "summary": "CGT Catapult (May 2026) backs Lir Therapeutics to accelerate an AI-driven AAV capsid design platform.",
+      "url": "https://www.bioindustry.org/resource/cell-and-gene-therapy-catapult-invests-in-lir-therapeutics-to-accelerate-development-of-its-ai-driven-aav-design-platform-.html",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 AI-driven capsid-engineering entrant; vector-engineering category, contrast to the vector-agnostic engager thesis."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Packgene",
+      "title": "AAV empty/full capsid ratio: analytical methods and development considerations",
+      "summary": "2026 overview compares AUC, SEC-MALS, native MS, anion-exchange, and BLI for quantifying empty vs full AAV capsids, noting no single method captures every attribute.",
+      "url": "https://www.packgene.com/blogs/understanding-aav-empty-full-capsid-ratio-analytical-methods-quality-implications-and-development-considerations/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 bears on the conformation-selective full-vs-empty AAV capsid binder theme; current methods are physicochemical, leaving room for a designed discriminating binder."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Mol Ther Methods Clin Dev (DOAJ)",
+      "title": "Anti-FAP nanobody-displaying AAV capsids for selective tumor transduction",
+      "summary": "Capsid-surface anti-FAP nanobody reported a 23-80 fold increase in selective transduction of FAP+ tumor cells in vitro.",
+      "url": "https://doaj.org/article/953471efcaa54a97877e67b01b80d553",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e;VERIFY] \u2014 receptor-targeting delivery via covalently capsid-fused VHH (requires vector engineering); 23-80x claim to verify. Dec 2024, background."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Diagnostics (PMC)",
+      "title": "Lot-to-lot variance in immunoassays - causes, consequences, and solutions",
+      "summary": "Review attributes immunoassay lot-to-lot variance to quality shifts in critical raw materials and manufacturing deviations producing inconsistent, inaccurate results.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10252387/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY] \u2014 named failure mode: lot-to-lot variability of antibody critical reagents driven by raw-material quality shifts; core to the recombinant-replacement thesis."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "The Scientist",
+      "title": "The reproducibility crisis is a reagent crisis",
+      "summary": "Feature argues irreproducibility in life-science research traces substantially to variable and poorly characterized antibody reagents.",
+      "url": "https://www.the-scientist.com/the-reproducibility-crisis-is-a-reagent-crisis-74590",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY] \u2014 documents the antibody-reagent reproducibility failure mode motivating defined, sequence-controlled replacements (polyclonal -> recombinant/designed)."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Biotools & research tools",
+      "source": "Benchling",
+      "title": "Benchling for Lab Automation - hardware-agnostic instrument integration",
+      "summary": "Benchling's lab-automation offering centralizes design, execution, and analysis across lab hardware and integrates with the ELN/LIMS.",
+      "url": "https://www.benchling.com/blog/announcing-benchling-for-lab-automation-harness-the-full-potential-of-your-lab-hardware",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 relevant to the planned Benchling migration; hardware-agnostic automation/instrument integration for assay workflows."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Regulatory / FDA",
+      "source": "Clinical Leader",
+      "title": "Recapping the FDA's recent guidances for cell and gene therapies (2026)",
+      "summary": "Guest column summarizes 2026 FDA CGT guidances including potency and CMC expectations.",
+      "url": "https://www.clinicalleader.com/doc/in-case-you-missed-them-recapping-the-fda-s-recent-guidances-for-cell-and-gene-therapies-0001",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 regulatory context on 2026 CGT potency/CMC expectations relevant to analytical-method and critical-reagent framing."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed \u00b7 Nature",
+      "title": "Programmable design of functional proteins from natural language",
+      "summary": "A generative model designs functional proteins directly from natural-language task descriptions, without requiring a natural protein as a starting point or hand-written rules.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42907516/",
+      "score": 5,
+      "notes": "[TRACK:A] \u2014 Next-gen de novo functional-protein design engine (natural-language-driven); directly relevant to the Phase-2 de-novo-binder capability as a design tool to evaluate. According to PubMed; DOI 10.1038/s41586-026-11205-z. Pub 2026-10-21 (Nature)."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 J Pharm Sci",
+      "title": "Particle occupancy in mRNA lipid nanoparticles: Measurement, manufacturing determinants, and relevance to product quality",
+      "summary": "Argues that bulk encapsulation efficiency can mask RNA-negative particles and broad per-particle copy-number distributions in mRNA-LNPs, and reviews particle-occupancy measurement and its manufacturing determinants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42906753/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 DEFICIENCY: bulk encapsulation-efficiency metric masks RNA-negative particles / broad copy-number distributions. Bears on register themes 'count ligands/payload displayed on a targeted particle' and LNP potency/ligand-density characterization. According to PubMed; DOI 10.1016/j.xphs.2026.104556. Pub 2026-10-21 (J Pharm Sci)."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed \u00b7 Protein Eng Des Sel",
+      "title": "Improved Calreticulin Nanobody by Framework Engineering",
+      "summary": "Grafts a calreticulin-specific CDR2 onto a clinically validated HER2 nanobody framework to yield an improved anti-calreticulin nanobody, motivated by poor production and tissue penetration of monoclonal-antibody detection reagents.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42904824/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE] \u2014 CDR-graft/framework-engineering route to a defined recombinant detection reagent (calreticulin cancer biomarker) vs expensive mAbs; method relevant to Phase-2 binder developability/production. According to PubMed; DOI 10.1093/protein/gzag030. Pub 2026-10-21 (PEDS)."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed \u00b7 Cell Rep Med",
+      "title": "CNS targeted AAV gene therapies: Recent advances and clinical insights",
+      "summary": "Reviews recent advances and persistent delivery barriers for CNS-targeted AAV gene therapies in light of the eight FDA-approved AAV therapies (four for CNS disorders).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42906551/",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Background on persistent AAV CNS delivery barriers (tropism, dosing, immunity); frames the delivery problem the engager platform addresses. According to PubMed; DOI 10.1016/j.xcrm.2026.103118. Pub 2026-10-21 (Cell Rep Med, review)."
+    },
+    {
+      "date": "2026-10-23",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 ACS Sens",
+      "title": "Nanobody-Based Lateral Flow Assays: Applications, Innovations, Challenges, and Future Directions",
+      "summary": "Reviews nanobody-based lateral-flow assays as recombinant, thermostable, low-cost replacements for conventional antibodies and flags that standardized validation frameworks and optimal nanobody-pair selection remain unresolved.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896506/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY] \u2014 Defined recombinant nanobody detection reagents on the thesis; DEFICIENCY: standardized validation/benchmarking frameworks scarce and nanobody-pair selection difficult. According to PubMed; DOI 10.1021/acssensors.6c02118. Pub 2026-10-19 (ACS Sens, review)."
     }
   ]
 }
