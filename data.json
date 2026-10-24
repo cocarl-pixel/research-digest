@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-23",
-  "total": 665,
+  "generated": "2026-10-24",
+  "total": 668,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6651,6 +6651,36 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42896506/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY] \u2014 Defined recombinant nanobody detection reagents on the thesis; DEFICIENCY: standardized validation/benchmarking frameworks scarce and nanobody-pair selection difficult. According to PubMed; DOI 10.1021/acssensors.6c02118. Pub 2026-10-19 (ACS Sens, review)."
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PubMed \u00b7 ACS Synth Biol",
+      "title": "Encapsulation of AAVs into Protein Vault Nanoparticles as a Novel Solution to Gene Therapy's Neutralizing Antibody Problem",
+      "summary": "Uses SpyTag-SpyCatcher molecular glue to package whole AAV particles inside recombinant protein-vault nanoparticles that shield the virus and still transduce cells in the presence of anti-AAV neutralizing serum.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42916571/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c] \u2014 Covalent particle-protein coupling (SpyTag-SpyCatcher) pitched as a new AAV delivery platform; a direct competitive/adjacent datapoint in the particle-protein-coupling category and a sharp contrast to Nautilus Logic's non-covalent, no-vector-engineering engager claim (vaultAAV requires recombinant vaults + genetic SpyTag display, i.e. engineered particles). According to PubMed; DOI 10.1021/acssynbio.6c00512. Pub 2026-10-16 (ACS Synth Biol)."
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "PubMed \u00b7 J Proteome Res",
+      "title": "Development of a Translational Assay for Identification and Quantitation of Orthologous Proteins to Aid Drug Development in Preclinical Models",
+      "summary": "Reports that antibody-based assays are not specific enough to discriminate highly conserved protein orthologues across species, forcing drug developers onto multiple analytical platforms, and presents a mass-spec rational-peptide assay as the workaround.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918133/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY] \u2014 DEFICIENCY (named): antibody detection reagents cannot discriminate cross-species orthologues of a conserved target, forcing multi-platform analytics across preclinical models; implies a buildable opportunity for a sequence-defined binder with declared orthologue specificity (the paper's own fix is MS, not a binder). On the defined-recombinant-replacement-for-a-deficient-antibody-reagent thesis. According to PubMed; DOI 10.1021/acs.jproteome.5c01164. Pub 2026-10-02 (J Proteome Res)."
+    },
+    {
+      "date": "2026-10-24",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 Mol Ther Adv",
+      "title": "Integrating multiplex digital PCR and long-read sequencing toward standardized genome integrity and purity characterization of rAAV9",
+      "summary": "Combines a 4-plex dPCR assay and long-read NGS to characterize rAAV9 genome integrity and DNA impurities, finding that dPCR reports significantly higher genome integrity than long-read NGS and revealing ITR-to-plasmid chimeric mispackaging reads.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42909404/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 AAV genome-integrity/purity CQA method comparison on the capsid-titer / full-vs-empty analytical theme; a label-free/sequence-based method (not a binder reagent), useful as assay-choice background. VERIFY the quantitative dPCR-overestimates-integrity-vs-NGS discordance claim before it enters any strategy doc. According to PubMed; DOI 10.1016/j.omta.2026.201851. Pub 2026-09-28 (Mol Ther Adv)."
     }
   ]
 }
