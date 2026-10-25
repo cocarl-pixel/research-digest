@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-24",
-  "total": 668,
+  "generated": "2026-10-25",
+  "total": 672,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6681,6 +6681,46 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42909404/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 AAV genome-integrity/purity CQA method comparison on the capsid-titer / full-vs-empty analytical theme; a label-free/sequence-based method (not a binder reagent), useful as assay-choice background. VERIFY the quantitative dPCR-overestimates-integrity-vs-NGS discordance claim before it enters any strategy doc. According to PubMed; DOI 10.1016/j.omta.2026.201851. Pub 2026-09-28 (Mol Ther Adv)."
+    },
+    {
+      "date": "2026-10-25",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 Mol Ther Adv",
+      "title": "pSIM: A next generation mRNA potency assay",
+      "summary": "Introduces pSIM, a pulsed-SILAC internal-dosing-control mass-spectrometry mRNA-LNP potency assay positioned explicitly as antibody-free to remove cell-based potency testing's dependence on strain-specific antibodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42908836/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY] \u2014 DEFICIENCY (named): conventional mRNA-LNP cell-based potency assays depend on strain-specific antibodies, which the authors treat as the problem to engineer around; their fix is MS, not a defined binder, leaving open a buildable lot-controllable potency-reagent opportunity on the serum/antibody-dependent-potency thesis. According to PubMed; DOI 10.1016/j.omta.2026.201850. Pub 2026-09-21 (Mol Ther Adv)."
+    },
+    {
+      "date": "2026-10-25",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed \u00b7 J Proteome Res",
+      "title": "Integrated Effects of Digestion Strategy and LC Gradient Architecture Define Host Cell Protein Detectability in CHO Null Harvests",
+      "summary": "Systematic CHO-null-harvest study showing which host cell proteins are detected by LC-MS depends heavily on digestion mode/enzyme ratio and gradient design, with low-enzyme native digestion biased toward secreted/extracellular HCPs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918119/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 On the anti-HCP reagent/analytics theme: HCP coverage is shown to be workflow-dependent (digestion + LC gradient), underscoring why HCP detection is reagent/method-sensitive and hard to standardize \u2014 context for a defined recombinant anti-HCP reagent vs a polyclonal. MS method, not a binder. According to PubMed; DOI 10.1021/acs.jproteome.6c00097. Pub 2026-10-02 (J Proteome Res)."
+    },
+    {
+      "date": "2026-10-25",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed \u00b7 Nat Struct Mol Biol",
+      "title": "Architecture of the Norrin signaling complex and structure-guided surrogate design",
+      "summary": "Resolves the architecture of the Norrin-Frizzled4-TSPAN12-LRP5 signaling complex and uses it to guide design of surrogate binders/agonists for the pathway.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42907587/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 Structure-guided surrogate/binder design from a solved receptor-complex architecture \u2014 the Phase-2-relevant capability of designing a sequence-defined binder against a defined structural epitope. STRUCTURE: complex solved; PDB ID not stated in abstract [UNRETRIEVED] (human to pull from paper). According to PubMed; DOI 10.1038/s41594-026-01909-1. Pub 2026-10-21 (Nat Struct Mol Biol)."
+    },
+    {
+      "date": "2026-10-25",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed \u00b7 3 Biotech",
+      "title": "Structure-based development of Glypican-3-targeting peptide candidates for hepatocellular carcinoma",
+      "summary": "Reports an entirely in silico workflow for de novo discovery and prioritization of Glypican-3-targeting peptide candidates against an extracellular tumor surface target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42890302/",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 De novo, in-silico peptide-binder design/prioritization workflow against a defined surface antigen; a route-relevant datapoint for Phase-2 designed-binder capability (overlaps route-M if the peptides are constrained; not described as macrocyclic). According to PubMed; DOI 10.1007/s13205-026-05092-4. Pub 2026-10-15 (3 Biotech)."
     }
   ]
 }
