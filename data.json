@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26",
-  "total": 680,
+  "generated": "2026-10-27",
+  "total": 684,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6801,6 +6801,46 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42920299/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:e;VERIFY] - Ligand-free tropism competes with the receptor-targeted / pre-targeted delivery premise, a non-engager route to cell-selective delivery. VERIFY the 'greater than SM-102' comparative claim against the paper."
+    },
+    {
+      "date": "2026-10-26",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Fierce Biotech",
+      "title": "Lilly partners with Hong Kong's Metis in $1.1B deal to bolster AI nanoparticle discovery",
+      "summary": "Eli Lilly and METiS TechBio announced a collaboration in which METiS applies its AI-driven AiLNP platform to discover and optimize new ionizable lipids and LNP delivery systems for tissue-specific (beyond-liver) delivery, for an upfront payment in the low double-digit millions plus up to ~$1.1B in milestones and single-digit tiered royalties.",
+      "url": "https://www.fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Adjacent-landscape/partnership signal (topic 4D): big pharma is betting ~$1.1B on AI-designed ionizable lipids to get tissue specificity by REFORMULATING the LNP \u2014 the delivery-vehicle-engineering approach Nautilus Logic's engager explicitly positions against (no LNP reformulation; drop-in reagent on unmodified vectors). The LNP analog of capsid engineering (category b). VERIFY the $1.1B milestone / royalty figures against the primary release before use in any strategy doc. Announced 2026-10-19 (per Fierce Biotech / Pharm Exec)."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Shared \u03b1-helix chimeraffibodies enable linker-free bispecific protein design",
+      "summary": "A structure-design framework (AlphaSync + ProteinMPNN) builds chimeraffibodies, a linker-free bispecific affibody scaffold that encodes interdomain geometry via shared \u03b1-helices, shown on a HER2/albumin bispecific that keeps both parental paratope affinities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42933412/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Directly relevant to the engager's Particle-Arm+Linker+Cell-Arm bispecific architecture (Track A): a geometry-encoded LINKER-FREE way to fuse two binding domains, avoiding the conformational heterogeneity/immunogenic liabilities of flexible linkers, built with an AI pipeline (AlphaSync structure design + ProteinMPNN) that mirrors the Phase-2 de novo workflow; affibody is also a route-P scaffold class for the Track-B target search. VERIFY stated affinities (HSA ~14.3 pM, HER2 610 pM) against the paper. Cell Chem Biol, pub 2026-10-26, DOI 10.1016/j.chembiol.2026.09.022."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Design of ligand binding proteins using large language models alone",
+      "summary": "General-purpose LLMs (Claude, ChatGPT, Gemini) designed, with written rationale, de novo proteins binding metals and a lipophilic small molecule (PFOA); after structure-prediction filtering a small set was experimentally validated, giving confirmed binders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42922519/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Phase-2 de novo binder capability: shows general LLMs alone (no bespoke diffusion/structure model) can produce experimentally validated ligand-binding proteins with human-readable design rationale, a low-infrastructure route to designed binders. Targets are metals/PFOA, not the engager's particle epitopes, so method-relevant not drop-in. VERIFY the reported ~25% hit rates. bioRxiv preprint dated 2026-09-03, newly indexed in PubMed; DOI 10.64898/2026.09.02.748987."
+    },
+    {
+      "date": "2026-10-27",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Artificial Intelligence-Aided De Novo Design of High-Affinity Protein Binders Against Shiga Toxin 2",
+      "summary": "AI-assisted de novo protein design plus bacterial surface-display screening and biolayer interferometry produced Binder506, a thermostable three-\u03b1-helix binder to the Shiga toxin 2a B-subunit that blocked toxin uptake and neutralized it in Vero cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42915857/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 End-to-end demonstration of the exact Phase-2 pipeline Nautilus Logic needs: AI de novo design -> surface-display screen -> BLI affinity confirmation of a defined, sequence-encoded binder, with DSF thermostability. Target (Shiga toxin) is unrelated to the engager, so the value is the design+screen+BLI method, not the binder. VERIFY affinity/thermostability figures against the paper. J Agric Food Chem, pub 2026-09-30, DOI 10.1021/acs.jafc.6c04991."
     }
   ]
 }
