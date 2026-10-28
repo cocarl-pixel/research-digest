@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27",
-  "total": 684,
+  "generated": "2026-10-28",
+  "total": 693,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6841,6 +6841,96 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42915857/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 End-to-end demonstration of the exact Phase-2 pipeline Nautilus Logic needs: AI de novo design -> surface-display screen -> BLI affinity confirmation of a defined, sequence-encoded binder, with DSF thermostability. Target (Shiga toxin) is unrelated to the engager, so the value is the design+screen+BLI method, not the binder. VERIFY affinity/thermostability figures against the paper. J Agric Food Chem, pub 2026-09-30, DOI 10.1021/acs.jafc.6c04991."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "In Vivo Blood Kinetics and Transcript Integrity of Three mRNA-Lipid Nanoparticle Vaccines in Humans",
+      "summary": "A human study tracked blood kinetics and transcript integrity of three mRNA-lipid-nanoparticle vaccines after vaccination, finding platform-specific differences in systemic persistence and mRNA integrity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42937588/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 Bears on Track-B LNP characterization: transcript-integrity and systemic-persistence readouts differ by LNP platform, a CQA-type analytical signal for comparing LNP products; VERIFY the stated cohort size/platform details against the paper. ACS Nano, pub 2026-10-27, DOI 10.1021/acsnano.6c09226."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Comparative Analysis of PEG and PEtOx for Organic Solvent-Free Lipid Nanoparticle Formulations",
+      "summary": "A study formulated organic-solvent-free lipid nanoparticles for CRISPR-Cas9 delivery and directly compared PEG- versus PEtOx-based stealth coatings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42935313/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:CANDIDATE] \u2014 Relevant to the engager anti-PEG Particle-Arm (POC uses anti-PEG clone 3.3): documents PEtOx as a drop-in alternative to PEG in LNP formulation, a trend under which an anti-PEG arm would not bind \u2014 bears on the register theme 'anti-PEG binders with declared backbone vs end-group specificity' and on positioning/FTO. Angew Chem Int Ed, pub 2026-10-27, DOI 10.1002/anie.5724119."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Controllable gene delivery via masked adeno-associated viral vectors",
+      "summary": "Masked AAVs were created by genetically encoding tetrazine-bearing non-canonical amino acids into capsid proteins, then click-conjugating a truncated AAV receptor or PEG to block infectivity until cleavable linkers are triggered by protease, near-infrared light, or reactive oxygen species.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42811129/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;IP] \u2014 Competitive-landscape contrast: achieves controllable/targeted AAV delivery but REQUIRES vector engineering (ncAA incorporation into capsid) plus covalent click conjugation \u2014 the opposite of Nautilus Logic's drop-in, works-on-unmodified-vector claim; notably bridges capsid to a truncated AAV receptor, a covalent analogue of the non-covalent engager concept, with IP posture worth watching. Nat Mater, pub 2026-09-29, DOI 10.1038/s41563-026-02724-1."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "High-Throughput FRET Affinity Screening Technique (HTFAST) for Cell-Free Expressed Binding Protein Characterization",
+      "summary": "HTFAST, a high-throughput FRET-based assay, quantifies binding affinity of cell-free-expressed binding proteins, addressing the characterization bottleneck in machine-learning-guided binder engineering.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42945275/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Directly relevant to Phase-2 binder screening and a Track-B analytical method: a high-throughput affinity-characterization route for cell-free/ML-designed binding proteins, complementary to the BLI particle-arm go/no-go; VERIFY throughput/affinity-range claims against the paper. Small, pub 2026-10-27, DOI 10.1002/smll.76301."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "A novel anti-PD-1/VEGF bispecific fusion protein with enhanced VEGF binding capacity and developability for synergistic immunotherapy",
+      "summary": "An anti-PD-1/VEGF bispecific fusion protein was engineered for enhanced VEGF-binding capacity and improved developability in a single molecule.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42914698/",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Informs the engager two-arm bispecific-fusion architecture: a worked example of tuning one arm's binding capacity while engineering developability into a single bispecific construct. Biochem Biophys Res Commun, pub 2026-10-22, DOI 10.1016/j.bbrc.2026.154769."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Multiproperty optimization of therapeutic antibodies through sequence editing via large language model and reinforcement learning",
+      "summary": "A method edits therapeutic-antibody sequences for multiple properties at once using a large language model guided by reinforcement learning, jointly optimizing affinity and developability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934313/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Phase-2 capability: LLM+RL joint optimization of affinity and developability is the de-novo/optimization workflow Nautilus Logic needs when replacing literature tool sequences with owned de novo binders; VERIFY reported optimization gains against the paper. Nat Commun, pub 2026-10-26, DOI 10.1038/s41467-026-78533-6."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "JustEvo: A Prior-Guided Adaptive Mixture-of-Experts Framework for Multifunctional Protein Directed Evolution",
+      "summary": "JustEvo is a closed-loop, low-data framework for machine-learning-guided directed evolution that balances functional improvement against developability using a mixture-of-experts over multiple protein representations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42937651/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Phase-2 binder-optimization method for the common low/zero-data start: nominates a first experimental batch and co-optimizes function + developability, mirroring an affinity-maturation campaign with few measurements; VERIFY the benchmark scores against the paper. J Chem Theory Comput, pub 2026-10-27, DOI 10.1021/acs.jctc.6c01288."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning",
+      "summary": "An equivariant graph neural network with contrastive learning predicts the thermostability change of single-point protein mutations by integrating evolutionary and structural context.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42929549/",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 Developability-prediction tool relevant to designed binders: computational thermostability prediction supports triaging de novo binder variants before expression and BLI. J Chem Inf Model, pub 2026-10-26, DOI 10.1021/acs.jcim.6c01926."
+    },
+    {
+      "date": "2026-10-28",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Business Wire",
+      "title": "Dyno Therapeutics to Present New AAV Capsid Data Across Three Posters at the 33rd Annual Congress of ESGCT",
+      "summary": "Dyno Therapeutics announced it will present new AAV capsid data across three posters at the 33rd European Society of Gene and Cell Therapy Annual Congress.",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-10-27-dyno-therapeutics-to-present-new-aav-capsid-data-across-three-posters-at-the-33rd-annual-congress-of-the-european-society-of-gene-and-cell-therapy",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Direct competitor in the capsid-engineering/directed-evolution category (requires vector engineering, the category Nautilus Logic positions against): continued cadence of AI-designed capsid data releases; monitor for any vector-agnostic or reagent-style positioning. Business Wire via FinancialContent, 2026-10-27."
     }
   ]
 }
