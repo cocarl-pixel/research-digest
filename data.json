@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-28",
-  "total": 693,
+  "generated": "2026-10-29",
+  "total": 698,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6931,6 +6931,56 @@
       "url": "https://www.financialcontent.com/article/bizwire-2026-10-27-dyno-therapeutics-to-present-new-aav-capsid-data-across-three-posters-at-the-33rd-annual-congress-of-the-european-society-of-gene-and-cell-therapy",
       "score": 4,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Direct competitor in the capsid-engineering/directed-evolution category (requires vector engineering, the category Nautilus Logic positions against): continued cadence of AI-designed capsid data releases; monitor for any vector-agnostic or reagent-style positioning. Business Wire via FinancialContent, 2026-10-27."
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "REAPS: An All-Atom Receptor-Aware Geometric Deep Learning Framework for De Novo Design of Linear and Macrocyclic Peptide Binders",
+      "summary": "A receptor-aware geometric graph neural network (REAPS) designs linear and macrocyclic peptide-binder sequences using the full all-atom receptor pocket as context, reported to outperform ProteinMPNN on sequence recovery and interface metrics, and in a closed-loop pipeline with structural hallucination it yielded experimentally active binders at the neurokinin-3 receptor.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912911/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:MACROCYCLE;VERIFY] \u2014 Hits both tracks: a de novo binder-design engine (Phase-2 capability, Track A) that explicitly handles MACROCYCLIC peptides (Track B route-M, admitted 2026-09-16), treating the receptor as all-atom context rather than backbone-only inverse folding; code+checkpoints open-sourced. Target is NK3R (a GPCR), so method-relevant not drop-in. VERIFY the outperforms-ProteinMPNN claims and NK3R activity against the paper. J Chem Inf Model, pub 2026-10-12, DOI 10.1021/acs.jcim.6c02057."
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "AbLWR: A Context-Aware Listwise Ranking Framework for Antibody-Antigen Binding Affinity Prediction via Positive-Unlabeled Learning",
+      "summary": "AbLWR reframes antibody-antigen binding-affinity prediction as a listwise ranking problem with positive-unlabeled learning to exploit unlabeled structural interactions, reporting roughly 8% higher Full Rank Accuracy than the strongest baseline and better out-of-distribution robustness for prioritizing top binders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42925410/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Affinity-prediction/ranking ML relevant to Phase-2 binder-candidate prioritization under scarce experimental affinity labels; optimizes ranking of top candidates rather than point-wise regression. Antibody-antigen (not the engager particle epitopes), so method-relevant. VERIFY the ~8% Full Rank Accuracy improvement. Bioinformatics, pub 2026-10-23, DOI 10.1093/bioinformatics/btag793."
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "Competitive & adjacent landscape",
+      "source": "bioRxiv",
+      "title": "A minimally modified AAV9 variant (AAV9fyhr) for enhanced CNS gene delivery by intra-CSF administration",
+      "summary": "A minimally modified AAV9 capsid variant (AAV9fyhr, two targeted amino-acid changes) identified by directed evolution plus computational structure modeling gives 2-to-6-fold higher CNS gene delivery after intrathecal dosing in mice and nonhuman primates while largely preserving peripheral tropism.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42926643/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Competitor category (b): whole-capsid directed-evolution/engineering, the vector-engineering route Nautilus Logic's drop-in works-on-unmodified-vectors engager is positioned against; two aa changes yield pleiotropic stability/attachment/delivery gains. VERIFY the 2-6x delivery figures. bioRxiv preprint, pub 2026-10-09, DOI 10.64898/2026.10.07.756773."
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "UV-derived scattering as a high-throughput readout for adeno-associated virus-like particle separation screenings",
+      "summary": "UV-derived light scattering (blank-corrected A320) is evaluated as a rapid high-throughput readout to screen AAV virus-like-particle separation conditions, but it shows only condition-dependent agreement with anti-AAV5 capsid ELISA and little contribution from dispersed intact capsids, so it flags rather than quantifies capsid-bearing fractions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42948107/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Bears on the capsid-titer/capsid-quantitation theme (register: pan-serotype AAV capsid binders for capsid-titer ELISA): a label-free scatter proxy cannot replace a capsid-specific ELISA because intact dispersed capsids contribute only marginally to A320 and agreement with anti-AAV5 ELISA is PEG-condition-dependent, so the workflow still leans on a serotype-specific capsid antibody. Front Bioeng Biotechnol, pub 2026-10-13, DOI 10.3389/fbioe.2026.1913731."
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PubMed",
+      "title": "AAV-CapNet: Multi-Omics Deep Learning with Fourier Enhancement and Cross-Attention for Predicting Infectivity of Known AAV Capsid Variants",
+      "summary": "AAV-CapNet, a multi-omics deep-learning model (Fourier enhancement plus cross-attention) trained on 392 validated measurements, predicts infectivity of 20 known AAV capsid variants across 52 cancer cell lines but generalizes poorly to unseen serotypes, limiting it to intraserotype capsid screening.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42944013/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Competitor category (b) AI-for-capsid-engineering: sequence/omics ML ranking capsid-variant infectivity; its stated failure to generalize across serotypes underscores why capsid-engineering routes stay serotype-bound, unlike a particle-agnostic drop-in reagent. VERIFY dataset size/claims. Viruses, pub 2026-10-03, DOI 10.3390/v18101093."
     }
   ]
 }
