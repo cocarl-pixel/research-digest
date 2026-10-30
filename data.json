@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29",
-  "total": 698,
+  "generated": "2026-10-30",
+  "total": 702,
   "articles": [
     {
       "date": "2024-07-01",
@@ -6981,6 +6981,46 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42944013/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Competitor category (b) AI-for-capsid-engineering: sequence/omics ML ranking capsid-variant infectivity; its stated failure to generalize across serotypes underscores why capsid-engineering routes stay serotype-bound, unlike a particle-agnostic drop-in reagent. VERIFY dataset size/claims. Viruses, pub 2026-10-03, DOI 10.3390/v18101093."
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "OpenAntigens: a structure-aware database for antigen construct design across the human cell-surface and secreted proteome",
+      "summary": "A free, no-login database that generates structure-aware construct-design reports for thousands of human cell-surface and secreted proteins, integrating UniProt topology, AlphaFold pLDDT/PAE, PDB precedent, orthologs and cross-reactivity hits to guide which region to express for antibody discovery, recombinant reagent generation and computational binder design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42952403/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] -- Directly usable resource for the Phase-2 de novo binder workflow (Track A) and the Track-B reagent search: it standardizes the antigen/construct-boundary decision (topology, AlphaFold pLDDT/PAE, PDB precedent, ortholog/cross-reactivity context) that precedes expressing any designed binder or defined recombinant reagent. VERIFY the stated catalog scale (reported ~5,328 proteins / ~55,305 construct suggestions) against the source before citing. Nucleic Acids Res, pub 2026-10-29, DOI 10.1093/nar/gkag1051; tool at openantigens.org."
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Apolipoproteins in nanoparticle-mediated brain drug delivery: promise, mechanisms, and misconceptions",
+      "summary": "A critical review re-evaluating apolipoprotein E (apoE) in nanoparticle-mediated CNS delivery, arguing its role is context-dependent and challenging its interpretation as a brain-specific targeting ligand given that it also drives hepatic uptake.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42956275/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] -- Bears on two register themes: 'ApoE variants with defined stable activity' and a defined, lot-controllable replacement for serum/apoE in LNP potency assays. The review's core point -- that apoE behavior is context-dependent and often misattributed as brain-specific targeting -- is exactly the ill-defined critical-reagent behavior a sequence-defined ApoE replacement would address; background, not a method. Expert Opin Drug Deliv, pub 2026-10-29, DOI 10.1080/17425247.2026.2755180."
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Nanobodies targeting the conserved post-fusion six-helix bundle core provide protective effects against SARS-CoV-2 infection and immunopathology",
+      "summary": "VHH nanobodies raised against the conserved post-fusion six-helix bundle core of the SARS-CoV-2 spike are reported to penetrate a sterically restricted, evolutionarily constrained epitope and confer protection, illustrating epitope-directed nanobody engineering against a defined structural motif.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42951031/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] -- Method relevance to the engager Particle Arm (a VHH-class binder): engineering nanobodies to a defined, sterically occluded structural epitope rather than an exposed surface, the kind of epitope-directed selection Phase-2 de novo binders will need against capsid/particle features. Target (SARS-CoV-2) is unrelated to the engager, so method not reagent. VERIFY any reported affinity/neutralization figures against the paper. Antiviral Res, pub 2026-10-28, DOI 10.1016/j.antiviral.2026.106562."
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PubMed",
+      "title": "A Modular Multilocus Engineering Platform for Iterative Prototyping of Oncolytic Adenoviruses",
+      "summary": "A modular, reusable multilocus genome-engineering workflow for iterative prototyping of tumor-selective oncolytic adenovirus type 5 vectors, combining homologous recombination with homology-based DNA assembly.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42929307/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] -- Competitive-landscape marker for the vector-engineering category: a reusable platform for iterating on an engineered viral-vector backbone. Contrast with Nautilus Logic's thesis of a drop-in reagent that bridges UNMODIFIED vectors with no genome engineering; items like this define the status-quo approach the engager competes against. Adenovirus, not AAV/LNP. Hum Gene Ther, pub 2026-10-26, DOI 10.1177/10430342261496782."
     }
   ]
 }
