@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30",
-  "total": 702,
+  "generated": "2026-10-31",
+  "total": 705,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7021,6 +7021,36 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42929307/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b] -- Competitive-landscape marker for the vector-engineering category: a reusable platform for iterating on an engineered viral-vector backbone. Contrast with Nautilus Logic's thesis of a drop-in reagent that bridges UNMODIFIED vectors with no genome engineering; items like this define the status-quo approach the engager competes against. Adenovirus, not AAV/LNP. Hum Gene Ther, pub 2026-10-26, DOI 10.1177/10430342261496782."
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "PubMed",
+      "title": "Homologous Double-Antibody Sandwich ELISA Targeting a Linear Epitope of FPV VP2 and Demonstration of Microtubule-Dependent Intracellular Trafficking",
+      "summary": "A feline panleukopenia parvovirus VP2 capsid-antigen sandwich ELISA built from a single recombinant-antigen-screened monoclonal (clone 4D10) that binds a linear denaturation-resistant VP2 epitope and serves as both capture and detection, with the authors making the linear-vs-conformational epitope choice explicit as the key assay-design decision.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42943650/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] -- Methodological analog for two register themes: pan-serotype AAV capsid-titer ELISA and conformation-selective full-vs-empty capsid binders. FPV is a parvovirus like AAV and VP2 is its capsid protein; the paper's explicit point that selecting a linear, denaturation-resistant monoclonal epitope (vs a conformational one) determines assay behavior is exactly the design axis a defined, sequence-controllable AAV-capsid ELISA binder -- and a conformation-selective full/empty binder -- would exploit. Target virus (FPV) unrelated to AAV, so method not reagent. According to PubMed: Microorganisms, pub 2026-10-21, DOI 10.3390/microorganisms14102412."
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Macrocycle Screening against the C-Terminal Region of CHD4 Uncovers Its Role as an Interaction Hub in the Formation of the Nucleosome Remodeling and Deacetylase Complex",
+      "summary": "Uses mRNA display to identify small macrocyclic peptides that inhibit a defined protein-protein interaction (CHD4 SANT-SLIDE / GATAD2A CR2) and determines the ternary co-structure, demonstrating display-based macrocycle discovery plus structural characterization against a defined protein-domain target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42954528/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;STRUCTURE] -- Route-M capability exemplar on the buildable gate widened 2026-09-16: mRNA-display (RaPID-class) discovery of constrained macrocyclic peptide binders against a defined protein-domain target, paired with a solved ternary complex structure -- the discovery-plus-structure workflow a designed macrocycle critical-reagent binder would follow. Target (CHD4/NuRD, a fetal-hemoglobin therapeutic strategy) is unrelated to NL reagents, so method not reagent. According to PubMed: J Am Chem Soc, pub 2026-10-28, DOI 10.1021/jacs.6c11754."
+    },
+    {
+      "date": "2026-10-31",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "The Scientist",
+      "title": "ONI's LNP Profiler Kit with AutoLNP sets new standard for lipid nanoparticle characterization with super-resolution microscopy",
+      "summary": "Vendor announcement of a super-resolution-microscopy sample-to-answer kit that the vendor says measures LNP size, composition, cargo and ligand loading down to individual-particle levels, i.e., quantifying targeting-ligand abundance on single lipid nanoparticles.",
+      "url": "https://www.the-scientist.com/oni-s-lnp-profiler-kit-with-autolnp-sets-new-standard-for-lipid-nanoparticle-characterization-with-super-resolution-microscopy-72881",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] -- Direct landscape hit on the register theme 'reagents that count ligands displayed on a targeted particle': an existing super-resolution imaging platform claiming per-particle ligand-loading quantitation, i.e., an instrument-based incumbent for the ligand-counting need NL frames as a defined-binder opportunity. CAVEAT: vendor press release; no publication date on the page and this appears to be an existing product (ONI custom-LNP-ligand app note dated June 2026), so NOT a fresh launch. Capability/throughput claims ('tens of thousands of particles per experiment in one day', 'nanometer-scale precision') are vendor-stated and UNVERIFIED -- VERIFY before use."
     }
   ]
 }
