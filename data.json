@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-31",
-  "total": 705,
+  "generated": "2026-11-01",
+  "total": 710,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7051,6 +7051,56 @@
       "url": "https://www.the-scientist.com/oni-s-lnp-profiler-kit-with-autolnp-sets-new-standard-for-lipid-nanoparticle-characterization-with-super-resolution-microscopy-72881",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] -- Direct landscape hit on the register theme 'reagents that count ligands displayed on a targeted particle': an existing super-resolution imaging platform claiming per-particle ligand-loading quantitation, i.e., an instrument-based incumbent for the ligand-counting need NL frames as a defined-binder opportunity. CAVEAT: vendor press release; no publication date on the page and this appears to be an existing product (ONI custom-LNP-ligand app note dated June 2026), so NOT a fresh launch. Capability/throughput claims ('tens of thousands of particles per experiment in one day', 'nanometer-scale precision') are vendor-stated and UNVERIFIED -- VERIFY before use."
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "SprintX: mitigating data scarcity in antibody design via synthetic structural prior knowledge dataset",
+      "summary": "An AlphaFold3-derived synthetic antibody-antigen complex dataset (SprintX) built to supply structural prior knowledge for training AI antibody-design models, which the authors report improves structural plausibility and binding-affinity/interface prediction when used for pretraining.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42957427/",
+      "score": 3,
+      "notes": "[TRACK:AB] -- Bears on the Phase-2 de-novo-binder capability: tackles the structural-data-scarcity bottleneck limiting AI antibody/binder design by generating an AlphaFold3-derived synthetic complex dataset for pretraining, a resource usable toward designing sequence-defined critical-reagent binders. Authors state it complements, not replaces, experimental structures. According to PubMed: MAbs, pub 2026-10-29, DOI 10.1080/19420862.2026.2753234."
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt: Thermodynamic dissection of highly thermostable de novo designed proteins",
+      "summary": "A new free online tool (CheMelt) for global analysis of combined thermal/chemical denaturation applied to 35 de novo designed protein binders, finding these designs systematically show lower equilibrium (fold) stability than comparable natural proteins despite high apparent thermostability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42813586/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] -- Developability-QC method relevant to both tracks' binder work: demonstrates that a high melting temperature of a de novo designed binder does not imply high equilibrium stability, cautioning against selecting designed critical-reagent binders by Tm alone; CheMelt is a free nanoDSF global-fit tool. Quantitative claims (lower delta-Cp and m-values vs natural proteins) are author-stated -- VERIFY against the paper. According to PubMed: Protein Sci, pub 2026-11, DOI 10.1002/pro.70800."
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Anti-PEG antibodies in drug delivery: From origins to mitigation strategies",
+      "summary": "A review summarizing the origins and prevalence of anti-PEG antibodies and critically evaluating current anti-PEG detection methodologies and antibody-PEG binding patterns (including complement activation and accelerated blood clearance) in PEGylated nanomedicines.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42966426/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;DEFICIENCY] -- Hits the register theme 'anti-PEG binders with declared backbone vs end-group specificity' and Track A's LNP particle arm (POC uses literature anti-PEG clone 3.3): the review critically evaluates current anti-PEG DETECTION methodologies (a documented reagent-reliability gap) and dissects antibody-PEG binding patterns, the backbone-vs-end-group specificity axis a defined anti-PEG reagent must declare. Review/synthesis, not primary data. According to PubMed: Adv Drug Deliv Rev, pub 2026-10-31, DOI 10.1016/j.addr.2026.115984."
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Artificial Intelligence-Driven Nanobody Engineering for Pathogen Recognition: From Functional Epitope Prioritization to Multimodal Foundation Models",
+      "summary": "A review organizing AI-driven VHH/nanobody discovery along a structure-function-translation continuum, covering antigen-guided de novo design, sequence-structure learning, developability, recombinant production and humanization toward functional, manufacturable binders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42939733/",
+      "score": 3,
+      "notes": "[TRACK:AB] -- Background for the Phase-2 de-novo-binder capability: maps the AI VHH-design landscape (antigen-guided de novo design, developability, recombinant production, humanization) a designed sequence-defined binder program would draw on; methods are modality-agnostic despite the pathogen-recognition framing. Review, not primary data. According to PubMed: Biomolecules, pub 2026-10-11, DOI 10.3390/biom16101479."
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Elucidating molecular regulatory rules of nanoparticle biological identity via standardized deep proteomics",
+      "summary": "Using a standardized deep-proteomic database of 42 nanomaterials the authors derive property-dependent rules for protein-corona formation and report that PEGylation drives immune evasion by selectively depleting specific complement and coagulation factors rather than broadly preventing protein adsorption.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42956033/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] -- Bears on the register theme 'defined lot-controllable replacement for serum in LNP potency assays': maps which serum proteins are selectively recruited to or depleted from nanoparticles (incl. PEGylated), i.e., the specific corona factors a defined serum-substitute reagent for LNP potency would need to reproduce. Mechanistic proteomics, not a reagent. According to PubMed: Proc Natl Acad Sci U S A, pub 2026-10-29, DOI 10.1073/pnas.2618716123."
     }
   ]
 }
