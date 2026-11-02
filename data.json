@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-01",
-  "total": 710,
+  "generated": "2026-11-02",
+  "total": 713,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7101,6 +7101,36 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42956033/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] -- Bears on the register theme 'defined lot-controllable replacement for serum in LNP potency assays': maps which serum proteins are selectively recruited to or depleted from nanoparticles (incl. PEGylated), i.e., the specific corona factors a defined serum-substitute reagent for LNP potency would need to reproduce. Mechanistic proteomics, not a reagent. According to PubMed: Proc Natl Acad Sci U S A, pub 2026-10-29, DOI 10.1073/pnas.2618716123."
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Comparison of Wildtype and Recombinant Adeno-Associated Virus (AAV) Production Reveals Distinct Productivity and Content Ratio Profiles",
+      "summary": "A production study reports that wildtype AAV achieves over ten-fold higher titer and a content ratio over 95% full, whereas recombinant AAV systems show low titer and a much lower full-to-total capsid ratio, and probes the mechanism behind the gap.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961188/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] -- Bears on the register theme 'conformation-selective full-vs-empty AAV capsid binders' as context: quantifies why recombinant-AAV content ratio (full:empty) runs low vs wildtype, the CQA such a binder would read out; also background for Track A, which bridges UNMODIFIED AAV particles whose quality hinges on content ratio. Production/mechanism study, not a reagent. Quantitative claims (>10x titer; >95% full for WT) are author-stated -- VERIFY. According to PubMed: Biotechnol J, Nov 2026, DOI 10.1002/biot.70331."
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Host cell protein impurities modify the immunomodulatory profile of pregnancy-specific glycoprotein 9, a cautionary tale",
+      "summary": "An FDA/CDER study shows CHO host-cell-protein impurities co-purifying with a recombinant protein caused batch-dependent, spurious TLR2-mediated immunostimulation that confounded the protein's apparent bioactivity until the HCPs were removed by cation-exchange chromatography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42952918/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY] -- Named failure mode for the anti-HCP / impurity-control theme: residual CHO HCPs in recombinant-protein preps produced lot-to-lot bioactivity swings (some lots TLR2-immunostimulatory, others anti-inflammatory) only orthogonal proteomics revealed, underscoring the gap current HCP detection leaves in functional QC -- supports the register theme 'defined recombinant replacements for polyclonal anti-HCP reagents.' FDA-authored. According to PubMed: Front Immunol, pub 2026-10-14, DOI 10.3389/fimmu.2026.1882381."
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Business Wire",
+      "title": "Dyno Therapeutics Presents New Multi-Mechanism Muscle Capsid Data at the 31st International Congress of the World Muscle Society",
+      "summary": "Dyno reported that its two lead AI-designed multi-receptor muscle AAV capsids outperformed MyoAAV-4E preclinically, with one reaching roughly 20-fold higher muscle biodistribution and 40-fold higher transduction in non-human primates at a dose about 20-fold below typical clinical doses.",
+      "url": "https://finance.yahoo.com/healthcare/articles/dyno-therapeutics-presents-multi-mechanism-150000000.html",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] -- Competitor category (b), capsid engineering / directed evolution: Dyno's gains require engineering the VECTOR, the explicit foil to Nautilus Logic's drop-in engager that works on unmodified vectors -- a competitive-story data point, not a delivery-reagent competitor. Quantitative claims (~2x mouse; ~20x/40x NHP biodistribution/transduction; ~10x lower liver vs MyoAAV-4E) are company-stated at WMS 2026 (Sep 29-Oct 3) -- VERIFY. Press release dated 2026-10-02 (~1 month old)."
     }
   ]
 }
