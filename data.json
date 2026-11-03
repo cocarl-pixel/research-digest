@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02",
-  "total": 713,
+  "generated": "2026-11-03",
+  "total": 720,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7131,6 +7131,76 @@
       "url": "https://finance.yahoo.com/healthcare/articles/dyno-therapeutics-presents-multi-mechanism-150000000.html",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] -- Competitor category (b), capsid engineering / directed evolution: Dyno's gains require engineering the VECTOR, the explicit foil to Nautilus Logic's drop-in engager that works on unmodified vectors -- a competitive-story data point, not a delivery-reagent competitor. Quantitative claims (~2x mouse; ~20x/40x NHP biodistribution/transduction; ~10x lower liver vs MyoAAV-4E) are company-stated at WMS 2026 (Sep 29-Oct 3) -- VERIFY. Press release dated 2026-10-02 (~1 month old)."
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Drug Target Review",
+      "title": "WhiteLab Genomics raises $26 million to advance AI-designed genomic medicines",
+      "summary": "WhiteLab Genomics closed a $26M Series B (led by AVP) to advance its AI-driven ALFRED platform, which designs viral (AAV) and non-viral (LNP) delivery vehicles and genetic payloads toward preclinical/in vivo testing.",
+      "url": "https://www.drugtargetreview.com/news/whitelab-genomics-raises-26m-to-advance-ai-designed-genomic-medicines/2136665.article",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] -- Competitor category (b) capsid/delivery engineering via AI: ALFRED designs the DELIVERY VEHICLE itself (AAV capsids, LNPs, synthetic promoters), i.e. requires vector engineering -- the explicit foil to Nautilus Logic's drop-in, no-engineering engager on UNMODIFIED particles. A vector-agnostic reagent claim was NOT made by WhiteLab. Funding figures (~$26M Series B, ~$37M to date, AVP lead) are press-reported -- VERIFY. Coverage dated 2026-10-05..07."
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "De novo protein design in an expanded chemical space (CheMoDesign)",
+      "summary": "A de novo design framework (CheMoDesign) that builds proteins incorporating non-canonical amino acids, reported to yield a light-activated covalent PD-L1 binder and an isoform-selective carbonic-anhydrase-IX inhibitor engaging the catalytic zinc.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757794v1",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:MACROCYCLE;VERIFY] -- Phase-2 de-novo-binder capability extended to the widened buildable gate (non-natural residues, route-M): designs sequence-defined binders carrying ncAAs, the chemistry a defined macrocycle/constrained-binder critical reagent would exploit. Preprint, not peer-reviewed; KD=45 nM CA-IX claim author-stated -- VERIFY. bioRxiv, posted ~2026-10-08."
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "Critical reagents & analytical methods",
+      "source": "synapsesocial (aggregator; primary source UNRETRIEVED)",
+      "title": "VHH-decorated LNPs: ligand density counted by single-particle nanoflow cytometry shows a bell-shaped delivery-efficiency optimum (~0.1 VHH/100 nm2)",
+      "summary": "Anti-CD8 VHH-decorated LNPs with controlled orientation and tunable ligand density, where single-particle nanoflow cytometry counts only functional ligands, are reported to show a bell-shaped density-vs-delivery relationship optimal near 0.1 VHH per 100 nm2.",
+      "url": "https://synapsesocial.com/papers/69ba43f74e9516ffd37a5bb4",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] -- Direct hit on the register theme 'reagents that count ligands displayed on a targeted particle' + LNP ligand-density characterization: the method quantifies only FUNCTIONAL VHH ligands per particle by single-particle nanoflow cytometry, exactly the per-particle ligand-counting a defined reagent would enable. PRIMARY SOURCE (journal/date/DOI) UNRETRIEVED -- abstract seen only via a secondary aggregator; all quantitative claims (0.1 VHH/100 nm2 optimum, 10-30 ug/kg in-vivo) must be VERIFIED against the original before use."
+    },
+    {
+      "date": "2026-11-03",
+      "topic": "Binder engineering & structural characterization",
+      "source": "RSC Med Chem (Merck)",
+      "title": "Discovery of an NRAS isoform and activation-state selective macrocyclic peptide",
+      "summary": "mRNA-display subtractive affinity selection yielded an 11-mer macrocyclic peptide that binds NRAS at a novel allosteric site with total isoform selectivity (sparing HRAS/KRAS) and activation-state selectivity tunable by a single residue change.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42965021/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] \u2014 route-M exemplar: mRNA display discriminating near-identical isoforms and activation states maps onto NL's hardest analyte-discrimination problems (full-vs-empty capsid, Cap0/Cap1); target unrelated, method is the point; selectivity claims unquantified in abstract, VERIFY vs source."
+    },
+    {
+      "date": "2026-11-03",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Methods Mol Biol (Osaka)",
+      "title": "Engineered Antibody-Like Bivalent Binders (Mirabodies) for Manipulating Receptor Functions",
+      "summary": "Protocol for converting macrocyclic-peptide-derived receptor-binding sequences into Fc-grafted bivalent 'Mirabody' binders, combining macrocyclic-peptide selection with the producibility and rigidity of an IgG1 Fc scaffold.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42955643/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 route-M-to-route-P bridge: lasso-grafting a macrocyclic-peptide binding sequence into an Fc scaffold is a buildable, sequence-defined binder format NL could use; protocol/methods chapter, not a reagent."
+    },
+    {
+      "date": "2026-11-03",
+      "topic": "AI/ML in protein design",
+      "source": "Methods Mol Biol (Inst. Science Tokyo / Colorado State)",
+      "title": "An Effective Pipeline to Develop Modification-Specific Intracellular Antibodies Using AI Tools",
+      "summary": "An end-to-end AI-assisted pipeline (AlphaFold structure prediction, ProteinMPNN/deep-learning framework optimization, live-cell screening) converts unstable scFvs into stable, functional intracellular antibodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42955642/",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 on NL's Phase-2 binder-engineering capability (AI framework/solubility optimization of scFv/VHH for developability); protocol chapter, intrabody/PTM-sensor application unrelated."
+    },
+    {
+      "date": "2026-11-03",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Adv Healthc Mater (MIT)",
+      "title": "Engineering Antigen Density on M13 Bacteriophage for Personalized Nanovaccine",
+      "summary": "Systematic tuning of antigen display density (~6% to ~70%) on the M13 phage capsid showed antigen density governs both antigen presentation and dendritic-cell uptake, establishing surface-ligand density as a controllable, quantified design variable on a particle.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42958452/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 bears on the register theme 'count/control ligands displayed on a targeted particle': quantified, tunable surface-ligand density with a measured functional readout; phage/vaccine context (not AAV/LNP), and it controls density rather than providing a QC reagent to measure it."
     }
   ]
 }
