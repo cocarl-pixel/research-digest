@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03",
-  "total": 720,
+  "generated": "2026-11-04",
+  "total": 722,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7201,6 +7201,26 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42958452/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 bears on the register theme 'count/control ligands displayed on a targeted particle': quantified, tunable surface-ligand density with a measured functional readout; phage/vaccine context (not AAV/LNP), and it controls density rather than providing a QC reagent to measure it."
+    },
+    {
+      "date": "2026-11-04",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Methods Mol Biol (FDA/CDER)",
+      "title": "Analytical Assessment of Fc-Receptor Binding of Therapeutic IgG1 Antibodies: A Surface Plasmon Resonance Approach",
+      "summary": "FDA/CDER authors describe an ICH Q2(R2)-validated Biacore SPR method measuring Fc-FcgammaRIIIa binding kinetics (ka/kd/KD) of therapeutic IgG1, using rituximab as a reference-standard model with intra- and inter-assay variability not exceeding 25%.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42926294/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 FDA/CDER-authored, ICH Q2(R2)-validated SPR workflow for Fc-FcgammaR binding sits on NL's SPR/BLI analytical-methods line and the 'reversible Fc binder for in-line titer' register theme as a regulatory-grade method reference; a characterization method, not a designed binder. VERIFY the KD range (1.40-4.04 uM) and <=25% variability vs source."
+    },
+    {
+      "date": "2026-11-04",
+      "topic": "AI/ML in protein design",
+      "source": "Protein Eng Des Sel",
+      "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
+      "summary": "Ancestral-sequence-reconstruction-informed data augmentation trained VAE generators and fine-tuned ESM2 representations that produced protein variants with improved predicted and experimentally measured thermostability, framing training-data curation (not only model architecture) as the lever for ML protein engineering.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42974732/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 data-centric ML (ASR augmentation + ESM2 fine-tuning) for stability-oriented sequence generation and developability classification bears on NL's Phase-2 binder-engineering/developability capability; demonstrated on enzymes (EFE/endolysin/lysozyme), not binders. VERIFY the thermostability-improvement claims vs source."
     }
   ]
 }
