@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04",
-  "total": 722,
+  "generated": "2026-11-05",
+  "total": 728,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7221,6 +7221,66 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42974732/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 data-centric ML (ASR augmentation + ESM2 fine-tuning) for stability-oriented sequence generation and developability classification bears on NL's Phase-2 binder-engineering/developability capability; demonstrated on enzymes (EFE/endolysin/lysozyme), not binders. VERIFY the thermostability-improvement claims vs source."
+    },
+    {
+      "date": "2026-11-04",
+      "topic": "Regulatory / FDA",
+      "source": "FDA / CBER",
+      "title": "Potency Assurance for Cellular and Gene Therapy Products \u2014 Final Guidance for Industry",
+      "summary": "FDA finalized its potency-assurance guidance for cellular and gene therapy products (November 2026), replacing the 2011 Potency Tests guidance and centering lot release on a risk-based strategy built on quantitative, CQA-linked potency assays.",
+      "url": "https://www.fda.gov/media/196183/download",
+      "score": 5,
+      "notes": "[TRACK:AB] \u2014 Final CGT potency guidance (Nov 2026, CBER, nonbinding/final) verified from the FDA PDF; sets the CMC bar for potency-assay and critical-reagent/reference-standard expectations (Track B's critical-reagent-in-CMC thesis) and constrains Track A potency-assay choices."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "AI/ML in protein design",
+      "source": "Nucleic Acids Res",
+      "title": "SAbDab2: the structural antibody database in the age of machine learning",
+      "summary": "An ML-era rebuild of the structural antibody database adds support for new antibody formats and single-domain antibodies and ships standardized, versioned train/test splits of ML-grade antibody and antibody-antigen complex structures on a fixed update cadence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42963946/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] - Standardized, versioned ML train/test splits of antibody and antibody-antigen co-structures (incl. single-domain/VHH) are a ready evidence base and benchmark for NL's Phase-2 de novo binder/VHH design and developability modeling; a data resource, not a binder. Free web + Zenodo release."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Biosci Bioeng",
+      "title": "Enzyme-linked immunosorbent assay-based screening approach for phage-independent affinity maturation of single-domain antibodies",
+      "summary": "A phage-independent VHH affinity-maturation workflow combines single-residue CDR3 hotspot scanning, a multi-residue mutation library screened by ELISA, and a Bayesian-optimization ML model, reporting a markedly improved dissociation constant for one anti-procalcitonin VHH variant.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42982710/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] - Phage-independent CDR3 hotspot + Bayesian-ML affinity maturation is directly on NL's Phase-2 binder-optimization capability (de novo binders replacing the literature tool sequences); demonstrated on an anti-procalcitonin VHH, not a particle-arm binder. VERIFY the ~70-fold Kd improvement vs source."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Nat Commun",
+      "title": "A proximity-driven and regioselective peptide bicyclization (PReP-Bicyc) approach for phage display libraries",
+      "summary": "A phage-compatible, additive-free linker chemistry site-selectively bicyclizes displayed peptide libraries while preserving phage viability, and a screen against PD-1 yielded sub-micromolar bicyclic ligands that block the PD-1/PD-L1 interaction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967907/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] - A buildable route-M platform: evolving conformationally constrained bicyclic-peptide binders in phage display sits squarely on the 2026-09-16-widened macrocycle buildable gate for the target search; a discovery/chemistry method, not a specific reagent. VERIFY the ~400 nM lead affinity vs source."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Analyst",
+      "title": "Characterization of membrane protein-nanobody complexation by flow-induced dispersion analysis (FIDA)",
+      "summary": "A FITC-labeled-nanobody FIDA protocol quantifies nanobody-membrane protein binding affinity and complex size in solution, reporting binding consistent with prior surface plasmon resonance measurements for a model membrane transporter.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42968699/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - A reagent-light, solution-phase affinity/size method orthogonal to NL's BLI particle-arm go/no-go readout, potentially useful for binder QC and hard-to-immobilize (membrane/particle) targets; a characterization method, not a binder. VERIFY the single-digit-nM Kd and SPR-concordance claims vs source."
+    },
+    {
+      "date": "2026-11-05",
+      "topic": "AAV / LNP delivery",
+      "source": "ACS Nano",
+      "title": "Poly(acrylamido) PEG-Alternative Lipids Rescue mRNA Efficacy during Repeated Dosing and Enhance Immune Cell Delivery",
+      "summary": "A family of poly(acrylamido) (PAM) polymer-lipids replaces PEG-lipids in mRNA-LNPs, with several PAM-lipids showing no detectable anti-PEG antibody binding and rescuing repeat-dose transfection that PEG-LNPs lose to circulating anti-PEG antibodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975285/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] - Bears on the anti-PEG-binder register theme and NL's anti-PEG clone-3.3 LNP tool sequence. CONTRADICTION/competitive signal: a credible move to PEG-free LNP coatings would erode demand for anti-PEG detection binders and for a cell-arm engaging PEG on LNPs. VERIFY the repeat-dose expression (~300% vs PEG-LNP) and DC/macrophage fold-changes vs source."
     }
   ]
 }
