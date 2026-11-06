@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05",
-  "total": 728,
+  "generated": "2026-11-06",
+  "total": 734,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7281,6 +7281,66 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42975285/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] - Bears on the anti-PEG-binder register theme and NL's anti-PEG clone-3.3 LNP tool sequence. CONTRADICTION/competitive signal: a credible move to PEG-free LNP coatings would erode demand for anti-PEG detection binders and for a cell-arm engaging PEG on LNPs. VERIFY the repeat-dose expression (~300% vs PEG-LNP) and DC/macrophage fold-changes vs source."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Int J Biol Macromol",
+      "title": "Trophoblast cell-surface antigen 2-directed enhancement of gene delivery using a nanobody-engineered recombinant adeno-associated virus for bispecific T-cell engager-mediated T-cell cytotoxicity in triple-negative breast cancer cells",
+      "summary": "A TROP2-targeting nanobody engineered into a recombinant AAV capsid redirects gene delivery to TROP2-positive triple-negative breast cancer cells, where the vector expresses a bispecific T-cell engager that drives T-cell cytotoxicity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42988090/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;COMPETITOR:e] - Direct competitive/landscape signal for the engager program: receptor-targeted AAV delivery achieved by ENGINEERING the capsid (nanobody fused to the vector), i.e. exactly the vector-engineering route NL's drop-in, works-on-unmodified-vectors reagent is positioned to avoid; reinforces the 'no vector engineering' differentiation. Academic demonstration, not a company move."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Gene Ther",
+      "title": "High-resolution separation and quantification of dual-AAV drug products by density gradient equilibrium analytical ultracentrifugation",
+      "summary": "A density-gradient equilibrium analytical ultracentrifugation method separates and quantifies the two individual vectors within dual-AAV (split-transgene) drug products, addressing the challenge of measuring each vector's proportion in the mixture.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42982884/",
+      "score": 3,
+      "notes": "[TRACK:B] - AAV critical-quality-attribute characterization method (per-vector identity/ratio in a multi-vector product), adjacent to the capsid-analytics corner of the target search (capsid-titer / full-vs-empty methods); a method, not a reagent or binder."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Critical reagents & analytical methods",
+      "source": "J Am Soc Mass Spectrom",
+      "title": "Complementary Ligand Binding Assay and Intact Mass Spectrometry Strategies for Preclinical Pharmacokinetics of Trispecific Antibody Candidates",
+      "summary": "Pairing a ligand-binding assay with intact mass spectrometry resolves the molecular integrity, stoichiometry and product-related heterogeneity of trispecific antibodies in preclinical PK, which total-concentration measurements alone cannot distinguish.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42980276/",
+      "score": 3,
+      "notes": "[TRACK:AB] - Bioanalytical strategy for integrity/stoichiometry of multispecific, multivalent proteins - directly transferable to characterizing NL's own bispecific particle-engager (arm occupancy, intact species) and on-thesis for multi-modality critical-reagent analytics; a method, not a binder."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Binder engineering & structural characterization",
+      "source": "iScience",
+      "title": "A fibril-selective single-domain antibody targets pathogenic amyloid-beta assemblies and protects human neurons",
+      "summary": "A phage-display-derived single-domain antibody selectively recognizes fibrillar/aggregated amyloid-beta over monomer and protects human neurons, demonstrating conformation-selective VHH discrimination between assembly states of the same protein.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960253/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - Method parallel to the register theme 'conformation-selective full-vs-empty AAV capsid binders': shows a single-domain antibody can be evolved to discriminate conformational/assembly states of one protein. A therapeutic anti-amyloid VHH, not a capsid reagent - relevant as feasibility/method evidence, not as a candidate reagent itself."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Trends Biotechnol",
+      "title": "Recent developments in downstream processing of novel biotherapeutic modalities",
+      "summary": "A review of downstream-processing advances across next-generation modalities including antibody-drug conjugates and nucleic-acid therapeutics (plasmid DNA and mRNA), surveying modality-specific purification and characterization challenges.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42982626/",
+      "score": 3,
+      "notes": "[TRACK:B] - Cross-modality CMC/analytical background (ADC, mRNA, pDNA) feeding the Track-B thesis that analytical/CMC breadth reveals critical-reagent deficiencies across modalities; a review, useful as landscape, not a specific reagent deficiency."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "AI/ML in protein design",
+      "source": "Mol Ther Nucleic Acids",
+      "title": "Aptamers without SELEX: design from protein structure in hours",
+      "summary": "Xelari is a computational pipeline that designs DNA and RNA aptamers directly from a target protein's structure without experimental SELEX selection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960155/",
+      "score": 3,
+      "notes": "[TRACK:B] - A structure-based, selection-free binder-design paradigm relevant to NL's de-novo-binder thesis and the highest-weighted AI/ML design capability. CAVEAT/out-of-class: aptamers are nucleic-acid binders, OUTSIDE NL's two admitted buildable classes (engineered proteins / synthetic macrocycles), so this is a method signal, not a buildable candidate."
     }
   ]
 }
