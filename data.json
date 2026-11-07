@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06",
-  "total": 734,
+  "generated": "2026-11-07",
+  "total": 747,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7341,6 +7341,136 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42960155/",
       "score": 3,
       "notes": "[TRACK:B] - A structure-based, selection-free binder-design paradigm relevant to NL's de-novo-binder thesis and the highest-weighted AI/ML design capability. CAVEAT/out-of-class: aptamers are nucleic-acid binders, OUTSIDE NL's two admitted buildable classes (engineered proteins / synthetic macrocycles), so this is a method signal, not a buildable candidate."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Zenodo",
+      "title": "AVIDbase: a highly curated structural dataset of nanobody-antigen (VHH) complexes",
+      "summary": "A curated Antigen-VHH Interface Database compiling all nanobody-antigen interfaces found in publicly deposited PDB crystal structures (through 9 Feb 2026), released with a nonredundant subset and resolution/integrity-filtered subsets (AVIDbase-prot keeps high/medium-integrity interfaces at resolution <=3.5 A).",
+      "url": "https://zenodo.org/records/20488704",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE;VERIFY] - An interface-clustered evidence base/benchmark of VHH-antigen co-structures directly usable for NL's Phase-2 de novo VHH/binder design, epitope modeling and developability work; a dataset, not a binder. Release v1 dated 2026-06-01 (Univ. Ljubljana/Novartis), so useful background rather than new-this-week. VERIFY the resolution/integrity thresholds and PDB-coverage cutoff against the Zenodo record."
+    },
+    {
+      "date": "2026-11-06",
+      "topic": "Binder engineering & structural characterization",
+      "source": "RSC Chem Biol",
+      "title": "Peptides as programmable molecular scaffolds: from chemical synthesis and engineering to translational medicine",
+      "summary": "An open-access review spanning the peptide pipeline from synthesis and chemical engineering through discovery and optimization to translation, noting that RNA/mRNA display and phage display have broadened the ligand space accessible for macrocyclic peptides.",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/cb/d6cb00117c",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - Background on the route-M (synthetic macrocycle / constrained peptide) buildable class admitted to the target search on 2026-09-16; a broad discovery/engineering review covering mRNA- and phage-display macrocycle selection, not a specific reagent or candidate. Published 2026-05-25, so landscape/background rather than new-this-week."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Regulatory / FDA",
+      "source": "RAPS / BioPharm International",
+      "title": "FDA finalizes 'Potency Assurance for Cellular and Gene Therapy Products' guidance",
+      "summary": "FDA's Nov 2, 2026 final guidance replaces the 2011 potency guidance and calls for a lifecycle Potency Assurance Strategy with at least one qualified physicochemical or bioassay for lot release in higher-risk settings.",
+      "url": "https://www.biopharminternational.com/view/fda-final-guidance-potency-assurance-cell-gene-therapy-products",
+      "score": 5,
+      "notes": "[TRACK:B] \u2014 Sets the CMC expectation that Track B is built to serve: potency/CQA assays anchored on qualified, lot-controllable reagents; directly shapes which critical-reagent deficiencies regulators will now scrutinize. Final guidance issued 2026-11-02; FDA implementation webinar 2026-12-10."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv (ByteDance Seed)",
+      "title": "SeedProteo: all-atom diffusion model for de novo protein binder design",
+      "summary": "A diffusion-based all-atom generative model for binder design reporting state-of-the-art in-silico performance among open-source methods.",
+      "url": "https://arxiv.org/abs/2512.24192",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Phase 2 de-novo binder capability (replacing AAVX VHH / anti-PEG 3.3 tool sequences); open-source all-atom route worth benchmarking against RFdiffusion/BindCraft. SOTA claim is in-silico only and unverified against the source \u2014 human must confirm before it informs a design decision. Preprint v2 ~Feb 2026."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "AI/ML in protein design",
+      "source": "ICLR 2026 Proceedings",
+      "title": "Proteina-Complexa: fully atomistic generative design of protein complexes/binders",
+      "summary": "An atomistic binder-generation method reporting markedly higher in-silico success rates than prior generative approaches, with code and models slated for release.",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/639d992f819c2b40387d4d5170b8ffd7-Abstract-Conference.html",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Candidate tool for Phase 2 de-novo particle-arm / cell-arm binder design; promised open release makes it directly trialable. Success-rate claim is in-silico and must be checked against the paper."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "AutoBinder: an LLM-agent pipeline for de novo binder design",
+      "summary": "An agentic pipeline that orchestrates existing design/scoring tools end-to-end for de novo binder campaigns.",
+      "url": "https://arxiv.org/abs/2602.00019",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Workflow-automation angle for a two-person team running Phase 2 binder design; relevant to how, not just whether, Nautilus Logic could execute de-novo campaigns. Preprint Jan 2026."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J. Virology (RCSB PDB)",
+      "title": "Cryo-EM structures of single-domain antibodies bound to alphavirus (VEEV) envelope proteins",
+      "summary": "Cryo-EM of bivalent sdAbs bound to VEEV envelope glycoproteins maps three distinct epitopes mixing conserved and non-conserved regions (PDB 9NRX/9NRY/9NRZ).",
+      "url": "https://www.rcsb.org/structure/9NRX",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE] \u2014 Worked example of VHH/sdAb epitope mapping on a viral capsid-adjacent surface by cryo-EM; methodologically relevant to characterizing a de-novo particle-arm binder's pose on AAV capsid. PDB IDs 9NRX/9NRY/9NRZ, DOI 10.1128/jvi.01875-25."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Critical reagents & analytical methods",
+      "source": "MDPI Pharmaceutics",
+      "title": "Anti-PEG antibody repertoires after mRNA-LNP vaccination show shifted backbone- vs end-group specificity",
+      "summary": "Study of donor sera reports vaccinated individuals develop increased backbone- and end-group-specific anti-PEG avidity and paratopes that engage shorter PEG chains.",
+      "url": "https://www.mdpi.com/1999-4923/18/7/815",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE] [FLAG:VERIFY] \u2014 Bears on the register theme 'anti-PEG binders with declared backbone vs. end-group specificity' and on the Track A LNP POC (anti-PEG clone 3.3): documents that specificity class (backbone vs end-group) materially changes binding, arguing a defined binder must declare it. Avidity/specificity claims are quantitative \u2014 verify against source."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "AAV / LNP delivery",
+      "source": "Chemical Science (RSC)",
+      "title": "Randomized PEG (rPEG) lipids as a lower-immunogenicity alternative for mRNA-LNP delivery",
+      "summary": "Proposes randomized-PEG lipids for LNPs as a non-antigenic PEGylation strategy to reduce anti-PEG antibody recognition.",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc00169f",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Relevant to the LNP arm: if formulators move toward rPEG, an anti-PEG-based engager/assay reagent must account for altered PEG epitopes. Background for the LNP particle-arm binder strategy."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Biotools & research tools",
+      "source": "Benchling (vendor blog)",
+      "title": "Benchling Automation: hardware-agnostic layer linking instruments, automation and records",
+      "summary": "Benchling's 2026 lab-automation product connects instruments and automation systems (HighRes, Automata, Opentrons, Hamilton, Ginkgo, Celltrio) into a single loop, usable alongside any ELN/LIMS.",
+      "url": "https://www.benchling.com/blog/benchling-automation-closing-the-lab-in-a-loop",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 Directly relevant to the planned Benchling migration; hardware-agnostic/'any ELN-LIMS' positioning affects how BLI and assay data would flow. Vendor-authored source; launch ~mid-2026, not a new announcement."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Critical reagents & analytical methods",
+      "source": "J Proteome Res",
+      "title": "Advancing Host Cell Protein Characterization in mAb Therapeutics: A Nanoparticle-Enriched, High-Sensitivity MS Approach",
+      "summary": "A Seer Proteograph XT nanoparticle-enrichment + Evosep/timsUltra MS workflow detects host-cell proteins down to 0.2 ppm and finds 80-200 HCPs in commercial mAbs that native digestion misses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992892/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] - on the anti-HCP polyclonal-replacement register theme; documents that standard methods miss sub-ppm/80-200 HCPs (the coverage gap a defined anti-HCP binder would address), but the fix here is MS, not a binder. VERIFY 0.2 ppm vs ~1 ppm, >350 HCPs on NISTmAb. PMID 42992892; DOI 10.1021/acs.jproteome.6c00666."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Critical reagents & analytical methods",
+      "source": "mAbs",
+      "title": "Direct infusion intact mass spectrometry for rapid, sensitive characterization of antibody therapeutics in complex matrices",
+      "summary": "A column-free direct-infusion native intact-MS workflow (~1 min/sample, <1 uL) tracks ADC drug-to-antibody ratio in serum and ranks bispecific-antibody clone quality during early development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993286/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - transferable to characterizing NL's own bispecific engager (early clone quality ranking) and to ADC/multi-modality CQA work; method, not a binder. VERIFY R>=0.99, 1.953-500 ug/mL linear range, ~1 min/sample. PMID 42993286; DOI 10.1080/19420862.2026.2761105."
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "Binder engineering & structural characterization",
+      "source": "ChemBioChem",
+      "title": "Beyond Thiol-Dependent Cyclization of Peptide Libraries: Assessing a Photochemical Alternative",
+      "summary": "A perspective on photoinduced fluorotryptophan aromatic crosslinking as a cysteine-independent macrocyclization chemistry for genetically encoded (phage/ribosome/mRNA/yeast) peptide-display libraries, with a built-in fluorescent readout of cyclization yield.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42985972/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - route-M capability background: cyclization chemistry is a primary design variable for macrocycle binder discovery (the widened buildable gate); perspective w/ antimicrobial-peptide test case, not a reagent binder. PMID 42985972; DOI 10.1002/cbic.70578."
     }
   ]
 }
