@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07",
-  "total": 747,
+  "generated": "2026-11-08",
+  "total": 769,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7471,6 +7471,226 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42985972/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:MACROCYCLE] - route-M capability background: cyclization chemistry is a primary design variable for macrocycle binder discovery (the widened buildable gate); perspective w/ antimicrobial-peptide test case, not a reagent binder. PMID 42985972; DOI 10.1002/cbic.70578."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Regulatory / FDA",
+      "source": "RAPS",
+      "title": "FDA finalizes cell and gene therapy potency assurance guidance",
+      "summary": "FDA issued final guidance on potency assurance for CGT products, setting lifecycle expectations for potency of licensed and investigational products.",
+      "url": "https://www.raps.org/resource/fda-finalizes-cell-and-gene-therapy-potency-guidance.html",
+      "score": 5,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Reported final ~2026-11-02; sets potency-assurance expectations that bear directly on assay choice/qualification for both the engager program and Track B critical-reagent potency work. VERIFY exact title/date on CBER guidance page before citing in strategy."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Regulatory / FDA",
+      "source": "RAPS",
+      "title": "FDA proposed guidance on prior scientific knowledge reuse in gene therapy CMC",
+      "summary": "Proposed guidance gives examples of CMC data \u2014 including analytical methods and validation data \u2014 that sponsors may reuse to speed development.",
+      "url": "https://www.raps.org/resource/fda-aims-to-speed-gene-therapy-development-with-prior-scientific-knowledge-guidance.html",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Reported June 2026 (background). Platform/prior-knowledge reuse of analytical methods matters for how a reusable critical reagent would be positioned in CMC submissions. VERIFY status (draft vs final)."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AI/ML protein design",
+      "source": "arXiv",
+      "title": "Latent-Y: lab-confirmed de novo nanobody binders across multiple targets",
+      "summary": "Across nine targets, the Latent-Y generative approach produced lab-confirmed nanobody binders against six.",
+      "url": "https://arxiv.org/abs/2603.29727",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 arXiv (Mar 2026). A nanobody-specific de novo design method with a wet-lab hit rate \u2014 directly bears on Phase 2 VHH binder generation. VERIFY the 6/9 hit-rate and any KD numbers against the preprint."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Binder engineering & structural characterization",
+      "source": "RCSB PDB",
+      "title": "Cryo-EM structure of human IL-10RA in complex with VHH E07 (PDB 10ND)",
+      "summary": "A 2.40 A cryo-EM structure of human IL-10RA bound to the VHH E07, released 2026-10-21 and citing a Nature 2026 paper.",
+      "url": "https://www.rcsb.org/structure/10ND",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE] \u2014 PDB 10ND, VHH\u2013receptor co-structure (released ~2026-10-21). A recent worked example of a VHH-against-cell-surface-receptor epitope \u2014 reference geometry for Cell-Arm / receptor-binder design. Epitope/paratope detail unconfirmed (paper not opened)."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Chem. Commun. (RSC)",
+      "title": "RaPID macrocycle library diversity governs potent-binder discovery",
+      "summary": "Analysis of published RaPID datasets finds potent macrocyclic binders are more reliably recovered from mRNA-display libraries with at least nine randomized residues.",
+      "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2026/CC/D5CC06167A",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 2026. Design-of-selection guidance for the route-M (macrocycle) option admitted to the buildable gate on 2026-09-16; informs how a macrocyclic critical-reagent binder campaign would be set up."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Binder engineering & structural characterization",
+      "source": "RSC Chemical Biology",
+      "title": "Review: macrocyclic peptide discovery platforms including RaPID",
+      "summary": "A review surveys RaPID and related discovery approaches for macrocyclic/constrained-peptide scaffolds as binders.",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2026/cb/d6cb00117c",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 2026 review (background). Useful map of the route-M landscape for Track B candidates that are macrocycle-shaped rather than protein-shaped."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Research Square",
+      "title": "Cargo-less PLGA particles sharply enhance AAV and nanoparticle heart delivery",
+      "summary": "A preprint reports cargo-less PLGA particles that drastically improve cardiac delivery of AAVs and nanoparticles, with a lead formulation described as compatible with any therapeutic modality.",
+      "url": "https://www.researchsquare.com/article/rs-7925411/v1",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a] \u2014 Preprint. A modality-agnostic transduction-enhancer reagent \u2014 the status-quo competitor category and close to Nautilus's particle-agnostic positioning; worth watching for the vector-agnostic claim. Mechanism differs (enhancer, not a bridging engager)."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Bioprocess Online",
+      "title": "Scalable AEX-HPLC method for quality-driven AAV characterization",
+      "summary": "A July 2026 article describes a GMP-compatible AEX-HPLC method measuring empty/full ratio, genome-containing fraction, and total capsid titer in a single run.",
+      "url": "https://www.bioprocessonline.com/doc/a-scalable-analytical-method-for-quality-driven-aav-characterization-0001",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 2026. Bears on register themes 'full-vs-empty AAV capsid discrimination' and 'pan-serotype capsid-titer' \u2014 shows the incumbent analytical approach a defined capsid binder would compete with / feed into."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Critical reagents & analytical methods",
+      "source": "NIST",
+      "title": "Interlaboratory study of AAV empty/full capsid measurement",
+      "summary": "An interlaboratory study found optical methods (UV, SEC-MALS) gave <10% interlab SD while AUC showed ~25% SD for 50/50 full/empty mixtures.",
+      "url": "https://www.nist.gov/node/1871456",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;VERIFY] \u2014 Named failure mode: AUC ~25% interlaboratory SD for 50%-full/50%-empty AAV mixtures (vs <10% for optical), i.e. poor cross-lab reproducibility of the reference method. VERIFY the SD figures against the NIST report."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Lenovere Lab (blog)",
+      "title": "Batch variability is intrinsic to polyclonal antibodies",
+      "summary": "A method-focused post argues each polyclonal lot (bleed/animal) is effectively a new reagent requiring revalidation, and proposes pooled recombinants as a renewable alternative.",
+      "url": "https://lenoverelab.org/2025/08/26/batch-variability-and-reproducibility-challenges-in-polyclonal-antibody-use/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 Named failure mode: polyclonal anti-sera shift in titre/epitope distribution bleed-to-bleed, so every lot is a new reagent. Candidate theme: defined recombinant replacement for polyclonal anti-HCP reagents. Secondary/blog source."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Protein & Cell",
+      "title": "Toward quantitative dsRNA detection beyond the J2 antibody",
+      "summary": "Work screening anti-dsRNA antibodies beyond J2 and a viral B2-protein BLI assay aims to replace the semi-quantitative J2 dot-blot for mRNA dsRNA control.",
+      "url": "https://journal.hep.com.cn/pac/EN/PDF/10.1093/procel/pwae043",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 Named failure mode: J2 only detects long dsRNA (>40 bp), is sensitive to base modifications, and dot-blot is semi-quantitative. Candidate theme: anti-dsRNA binder as a defined J2 replacement."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Nanobody swapping at AAV capsid hotspots near the 2-fold valley and 5-fold pore",
+      "summary": "A preprint identifies two under-explored VP1/VP2 capsid regions (near the 2-fold valley and 5-fold pore) where nanobody replacement retargets AAV tropism.",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.03.27.587049.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 2024 preprint (background). Insertion-tolerance map for large-domain/VHH insertion into AAV capsid \u2014 context for how competitors engineer vectors (the thing Nautilus's drop-in engager avoids)."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Biotools & research tools",
+      "source": "Sacra",
+      "title": "Benchling expands from ELN/LIMS toward lab AI orchestration",
+      "summary": "Analyst coverage describes Benchling's 2026 moves \u2014 Benchling Automation, a Biologics antibody-R&D platform, and One-Click Ordering \u2014 pushing it beyond record-keeping toward full lab orchestration.",
+      "url": "https://sacra.com/chat/h/8251dbc8-e61a-4771-a70e-e6d5cc7762fc/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Benchling migration is planned; the new Biologics antibody-R&D platform and Automation are relevant to binder-engineering data capture. Analyst/aggregator source \u2014 VERIFY launch names/dates against Benchling's newsroom."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AAV / LNP delivery",
+      "source": "Mol Ther",
+      "title": "CD3scFv-Engineered AAV Capsid Drives Superior In Vitro and In Vivo CAR-T Cell Generation and Leads to Complete Eradication of CD19+ Tumors",
+      "summary": "An anti-CD3 scFv inserted into an AAV capsid protein (VP1/VP2/VP3 tested) retargets AAV to resting human T cells and drives in vivo CAR-T generation that fully eradicated CD19+ tumors in mice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42995488/",
+      "score": 5,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;COMPETITOR:e] - capsid-engineering route to receptor-targeted delivery (binder inserted INTO the capsid = vector engineering); contrasts with NL's unmodified-vector bridging thesis, and the VP1/2/3 insertion-site comparison is primary data on large-binder insertion tolerance. Pub 2026-11-06; DOI 10.1016/j.ymthe.2026.10.035."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AAV / LNP delivery",
+      "source": "Curr Opin Virol",
+      "title": "First contact: biophysical insights into non-enveloped viruses from VLPs to packed virions",
+      "summary": "A review of biophysical methods (analytical ultracentrifugation, light scattering, mass photometry) for characterizing non-enveloped virus and VLP assembly, integrity, and empty/full ratios.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42998315/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - maps the current full-vs-empty / particle-integrity method landscape that a conformation-selective full-vs-empty AAV capsid binder would complement; review, not a binder. Pub 2026-11-06; DOI 10.1016/j.coviro.2026.101589."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AAV / LNP delivery",
+      "source": "Mol Ther",
+      "title": "Focused ultrasound-mediated AAV gene therapy: Unlocking a new space in the CNS delivery landscape",
+      "summary": "A review of focused-ultrasound-mediated AAV delivery to the CNS, framing the dose/efficacy/volume trade-offs in brain gene therapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42995500/",
+      "score": 3,
+      "notes": "[TRACK:A] - background on an orthogonal physical CNS-delivery approach relevant to where a delivery-enhancing reagent could add value. Pub 2026-11-06; DOI 10.1016/j.ymthe.2026.10.033."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Mol Pharm",
+      "title": "Characterization of a 64Cu-Labeled Heterobivalent Bicyclic Peptide (Nectin-4/Albumin) for Targeting of Tumor-Associated Nectin-4",
+      "summary": "A 64Cu-labeled heterobivalent bicyclic peptide with distinct Nectin-4- and albumin-binding modules was characterized for tumor targeting of Nectin-4.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42969709/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - buildable, sequence-defined bicyclic-peptide binder with engineered dual specificity; example of route-M target-binder format. Pub 2026-11-02; DOI 10.1021/acs.molpharmaceut.6c00928."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Chem Sci",
+      "title": "Long-lived azobispyrazole stapled peptides for light-activated inhibition of protein-protein interactions",
+      "summary": "Azobispyrazole-crosslinked stapled peptides give long-lived, light-switchable control of helical conformation to inhibit protein-protein interactions (Bak/p53).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42985604/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - constrained/stapled-peptide design chemistry; route-M background on conformationally defined peptide binders. Pub 2026-11-02; DOI 10.1039/d6sc06137k."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability",
+      "summary": "A preprint presenting BoltzProt-1, a de novo binder design approach built on the Boltz co-folding model and aimed at generating binders with good developability.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.733997v1.full",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] - directly on the Phase-2 de-novo-binder capability and built on Boltz (a tool NL has API access to); bioRxiv preprint 2026-06-23, summarized from title only - read abstract before citing specifics."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "AI/ML in protein design",
+      "source": "3 Biotech",
+      "title": "Multiscale and physically consistent multitask learning for protein melting temperature prediction (ESMTmP)",
+      "summary": "ESMTmP, an ESM-Cambrian-based multitask model, predicts protein melting temperature from sequence for thermostability/developability screening.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42991945/",
+      "score": 3,
+      "notes": "[TRACK:B] - ESM-class developability (thermostability) predictor relevant to ranking engineered binders in silico. Pub 2026-11-04; DOI 10.1007/s13205-026-05122-1."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Biotechnol Bioeng",
+      "title": "Continuous Capture of Recombinant Adeno-Associated Virus Particles Using Twin-Column CaptureSMB",
+      "summary": "A continuous twin-column CaptureSMB chromatography process was demonstrated for direct capture/purification of recombinant AAV particles to reduce cost of goods at high doses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42983944/",
+      "score": 3,
+      "notes": "[TRACK:B] - AAV downstream/CMC method background; adjacent to the manufacturing context where defined capsid-titer and purity reagents are used. Pub 2026-11-04; DOI 10.1002/bit.70422."
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "Critical reagents & analytical methods",
+      "source": "J Pharm Biomed Anal",
+      "title": "Targeted mass spectrometry for absolute quantification of total human beta-NGF in the development of a bispecific therapeutic antibody",
+      "summary": "A targeted LC-MS method was developed for absolute quantification of total beta-NGF to support target-engagement characterization of a bispecific (NGF/TNF) therapeutic antibody.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896357/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - bioanalytical approach transferable to characterizing NL's own bispecific engager target engagement; verify linear range/LLOQ against source. Pub 2026-10-10; DOI 10.1016/j.jpba.2026.117760."
     }
   ]
 }
