@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-08",
-  "total": 769,
+  "generated": "2026-11-09",
+  "total": 772,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7691,6 +7691,36 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42896357/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:VERIFY] - bioanalytical approach transferable to characterizing NL's own bispecific engager target engagement; verify linear range/LLOQ against source. Pub 2026-10-10; DOI 10.1016/j.jpba.2026.117760."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "AI/ML in protein design",
+      "source": "Nucleic Acids Res",
+      "title": "BioLiP3: a protein-ligand affinity database integrating curated data with LLM-enabled literature mining",
+      "summary": "BioLiP3 reports 593,423 protein-ligand affinity records (591,820 linked to 3D structures) assembled via LLM-enabled literature mining, a ~13-fold expansion of quantitative affinity coverage over BioLiP.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42988745/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] - affinity-data resource relevant to training/benchmarking binding-affinity prediction that sits behind de novo binder design; verify the record counts vs source. Pub 2026-11-06; DOI 10.1093/nar/gkag1141."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Bioanalysis",
+      "title": "Beyond measurement: a strategic perspective on antibody-drug conjugates bioanalysis from the European Bioanalysis Forum",
+      "summary": "The European Bioanalysis Forum proposes a Context-of-Use-driven bioanalytical framework for ADCs, treating them as dynamic entities whose DAR distribution, deconjugation, payload release and linker cleavage require integrated rather than single-analyte measurement.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992632/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - bears on the ADC payload-class binder / free-drug bioanalysis register theme; frames the critical-reagent and method needs for characterizing ADCs across DAR and biotransformation. Pub 2026-11-06; DOI 10.1080/17576180.2026.2753698."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "AAV / LNP delivery",
+      "source": "Biomater Sci",
+      "title": "Rational optimization of lipid nanoparticles enables efficient and low-activation mRNA delivery to platelets",
+      "summary": "Systematic tuning of the DOPC/cholesterol molar ratio in an ALC-0315 LNP series improved mRNA transfection of anucleate platelets while limiting platelet activation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992626/",
+      "score": 3,
+      "notes": "[TRACK:A] - background on LNP composition levers (helper-lipid/cholesterol ratio) that trade transfection efficiency against cell activation; context for where a delivery-enhancing reagent adds value on unmodified LNPs. Pub 2026-11-06; DOI 10.1039/d6bm00534a."
     }
   ]
 }
