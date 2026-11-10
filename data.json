@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09",
-  "total": 772,
+  "generated": "2026-11-10",
+  "total": 785,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7721,6 +7721,136 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42992626/",
       "score": 3,
       "notes": "[TRACK:A] - background on LNP composition levers (helper-lipid/cholesterol ratio) that trade transfection efficiency against cell activation; context for where a delivery-enhancing reagent adds value on unmodified LNPs. Pub 2026-11-06; DOI 10.1039/d6bm00534a."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Regulatory / FDA",
+      "source": "FDA",
+      "title": "Potency Assurance for Cellular and Gene Therapy Products \u2014 Final Guidance for Industry",
+      "summary": "FDA finalized its science- and risk-based potency-assurance guidance (Federal Register notice dated 2026-11-03), superseding the 2011 potency tests guidance and setting expectations for potency release assays and their qualification.",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 Final potency-assurance guidance (Fed Reg 2026-11-03, within ~7 days) reframes CQA/potency-assay and critical-reagent expectations the Track-B deficiency thesis is built on; VERIFY exact pub date and whether it names critical-reagent qualification explicitly."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion",
+      "summary": "A 2026 discrete-diffusion framework designs cyclic (macrocyclic) peptide binders guided by structure prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441251/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 Buildable route-M: a de novo design method for the macrocycle class admitted to the target-search gate on 2026-09-16."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "RaPID Selection of alpha-Hydrazino Acid-Containing Macrocyclic Peptides",
+      "summary": "mRNA-encoded libraries containing alpha-hydrazino acids were screened by RaPID against JAK2 and factor XIIa, reportedly yielding low-to-sub-nM inhibitory macrocycles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41944810/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] \u2014 Demonstrates sequence-defined non-natural-residue macrocycle discovery (route-M); VERIFY the low-to-sub-nM affinity claim against the source."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "bioRxiv",
+      "title": "BIRD-Seq: B2 Protein Integrated End-to-End Pipeline for dsRNA Detection and Nanopore Sequencing",
+      "summary": "An engineered Flock House virus B2 protein in a sandwich assay reportedly quantifies dsRNA at sub-ng/mL, comparable to J2 (preprint, not peer-reviewed).",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734422v1",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] \u2014 A protein-based J2 alternative bearing on the J2-replacement theme (not a designed antibody/macrocycle); VERIFY the sub-ng/mL claim and preprint status."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Critical reagents & analytical methods",
+      "source": "JACS",
+      "title": "Isomerization of Poly(ethylene glycol): A Strategy for the Evasion of Anti-PEG Antibody Recognition",
+      "summary": "Backbone-selective and end-group-selective anti-PEG antibodies in ELISA showed backbone binding needs longer ethylene-oxide runs while end-group binding needs the methoxy terminus.",
+      "url": "https://pubs.acs.org/doi/10.1021/jacs.5c02716",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Operationalizes declared backbone-vs-end-group anti-PEG specificity, the exact distinction the register theme calls for."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Specific targeting of MR1-antigen complexes using nanobodies",
+      "summary": "Nanobody C11 was co-crystallized with human MR1 presenting two ligands (2.9 and 3.1 A), binding in a TCR-mimic mode with ligand-dependent CDR1H rearrangement.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.22.713551v1.full",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 Nanobody co-structure illustrating conformation-dependent epitope recognition relevant to designing conformation-selective binders."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "Novel COX-2-Targeted Nanobodies for Molecular Endoscopic Imaging of Colorectal Adenomas",
+      "summary": "Nanobody F9 was co-crystallized with mouse COX-2 at 2.15 A (PDB 8ET0), binding at the peroxidase active site and partly blocking the heme pocket.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.16.724741v1.full",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 Nanobody-antigen co-structure with a deposited PDB (8ET0) usable as a design/benchmark reference."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Structural Plausibility Without Binding Specificity: Limits of AI-Based Antibody-Antigen Structure Prediction Confidence Scores",
+      "summary": "Across 106 nanobody-antigen complexes, AI structure-prediction confidence scores failed to distinguish true binding pairs from shuffled ones.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709004v1.full",
+      "score": 3,
+      "notes": "[TRACK:AB] \u2014 Caution for relying on co-folding/confidence scores (e.g. Boltz) to triage binders before the BLI go/no-go; argues wet-lab binding remains the arbiter."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Benchmarking antibody-antigen co-folding on human monomeric antigens",
+      "summary": "A benchmark of 412 antibody/nanobody complexes (86 VHH) evaluates co-folding model accuracy on human monomeric antigens.",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/24/2026.08.20.745880.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Co-folding benchmark relevant to evaluating Boltz-class tools for the binder-design workflow."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Competitive & adjacent landscape",
+      "source": "FierceBiotech",
+      "title": "Astellas unearths Dyno muscle-disorder AAV capsid with $15M option agreement",
+      "summary": "Astellas exercised a $15M option to license Dyno Therapeutics' AI-designed skeletal-muscle AAV capsid, the second capsid licensed from their 2021 collaboration.",
+      "url": "https://www.fiercebiotech.com/biotech/astellas-pharma-and-dyno-therapeutics-unearth-15m-muscle-disorder-capsid-ongoing",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;IP] \u2014 Capsid-engineering competitor (category b; requires vector engineering, distinct from the engager's unmodified-vector claim); IP posture via exclusive license."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PR Newswire",
+      "title": "PackGene Demonstrates Reliable, Scalable AAV Manufacturing Across Multiple Dyno Capsids",
+      "summary": "PackGene reported joining Dyno's Frontiers Network and achieving >80% full/empty capsid ratios manufacturing multiple Dyno engineered capsids (Oct 2026).",
+      "url": "https://www.prnewswire.com/news-releases/packgene-demonstrates-reliable-scalable-aav-manufacturing-across-multiple-dyno-capsids-302897796.html",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Capsid-engineering ecosystem maturing (CDMO support for engineered capsids); VERIFY the >80% full/empty figure (vendor claim)."
+    },
+    {
+      "date": "2026-11-09",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Poly(acrylamido) PEG-alternatives Enhance mRNA-LNP Efficacy in Immune Cells and Evade Anti-PEG Antibodies after Repeated Dosing",
+      "summary": "A preprint reports poly(acrylamido) lipid PEG-alternatives that improve mRNA-LNP delivery to immune cells and reduce anti-polymer antibody binding on repeat dosing.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.26.708093v1",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Contradiction/risk signal: if LNPs move off PEG, the Phase-1 anti-PEG clone 3.3 LNP engager arm loses generality on unmodified clinical LNPs; preprint, not peer-reviewed."
+    },
+    {
+      "date": "2026-11-10",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Anal Chim Acta",
+      "title": "A multi-platform evaluation of digital PCR systems for DNA quantification: Implications for method standardization and metrological comparability",
+      "summary": "A systematic comparison of 14 commercial dPCR systems found substantial inter-platform variability in absolute DNA copy-number concentration (platform-mean RSD 6.05-12.71%), traced primarily to inaccurate partition-volume calibration, while ratio-based duplex measurements stayed highly consistent (RSD as low as 0.47%).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003564/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;VERIFY] - documents a specific named failure mode (inaccurate partition-volume calibration, e.g. the QIAcuity VPF positive bias) that makes absolute dPCR copy-number quantification non-comparable across platforms; relevant to AAV vg-titer and mRNA absolute-quantification method harmonization. Caveat: the deficiency is metrological/method-level, NOT a binder-fixable reagent, so it informs the analytical-methods feed rather than a protein-shaped candidate. Pub 2026-10-19 (edat this week); DOI 10.1016/j.aca.2026.346407. VERIFY the RSD figures and 14-platform count against the source."
     }
   ]
 }
