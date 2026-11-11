@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10",
-  "total": 785,
+  "generated": "2026-11-11",
+  "total": 795,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7851,6 +7851,106 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43003564/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:DEFICIENCY;VERIFY] - documents a specific named failure mode (inaccurate partition-volume calibration, e.g. the QIAcuity VPF positive bias) that makes absolute dPCR copy-number quantification non-comparable across platforms; relevant to AAV vg-titer and mRNA absolute-quantification method harmonization. Caveat: the deficiency is metrological/method-level, NOT a binder-fixable reagent, so it informs the analytical-methods feed rather than a protein-shaped candidate. Pub 2026-10-19 (edat this week); DOI 10.1016/j.aca.2026.346407. VERIFY the RSD figures and 14-platform count against the source."
+    },
+    {
+      "date": "2026-11-10",
+      "topic": "AI/ML in protein design",
+      "source": "Nat Commun",
+      "title": "AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery",
+      "summary": "A platform (DeepDelivery) used AI to identify human proteins with scaffold potential for mRNA delivery, found several TRIM-family proteins with strong assembly/delivery activity, and engineered TRIM25 to improve delivery in cultured cells.",
+      "url": "https://www.nature.com/articles/s41467-026-79039-x",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - demonstrates AI-driven discovery/engineering of sequence-defined human protein scaffolds (route-P capability relevant to Track B) and an adjacent protein-based mRNA-delivery modality for Track A competitive context; cell-culture data only, verify delivery claims vs source. Pub 2026-10-31; DOI 10.1038/s41467-026-79039-x."
+    },
+    {
+      "date": "2026-11-10",
+      "topic": "Competitive & adjacent landscape",
+      "source": "BioSpace",
+      "title": "Latus Bio Announces New Preclinical Data Featuring High-Performing Engineered AAV Capsid Variants for Kidney and CNS Diseases at ESGCT 33rd Annual Congress",
+      "summary": "Latus Bio presented ESGCT preclinical data on engineered AAV capsids, including a pan-neuronal variant tested in non-human primates and a kidney-targeting variant (AAV-Kd-1), reporting biodistribution/transduction the company describes as substantially superior to IV-administered AAV9.",
+      "url": "https://www.biospace.com/press-releases/latus-bio-announces-new-preclinical-data-featuring-high-performing-engineered-aav-capsid-variants-for-kidney-and-cns-diseases-at-esgct-33rd-annual-congress",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] - capsid-engineering competitor (category b; requires vector engineering, distinct from the engager's unmodified-vector claim); 'substantially superior to AAV9' biodistribution/transduction are company claims, verify against primary data. ESGCT 33rd Congress, Hamburg, 27-30 Oct 2026; release 2026-10-30."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Endpoints News",
+      "title": "VectorY bags $83.5M for antibody gene therapies in neurodegenerative diseases",
+      "summary": "VectorY Therapeutics added EUR74.5M (~$83.5M) to its Series A to fund the PIONEER-ALS trial of VTx-002, an AAV-delivered (vectorized antibody) gene therapy targeting TDP-43 for ALS.",
+      "url": "https://endpoints.news/vectory-bags-83-5m-for-antibody-gene-therapies-in-neurodegenerative-diseases/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] - funding/competitive-landscape datapoint in CNS AAV delivery (vectorized-antibody program on an engineered capsid, category b; requires vector engineering, distinct from the engager's unmodified-vector claim). Round size and 'top-up to existing Series A' framing are press claims - verify amount/date vs primary source. Reported 2026-11-11."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "Competitive & adjacent landscape",
+      "source": "BioSpace",
+      "title": "Specific Biologics Announces Oversubscribed US$35 Million Series A Financing to Advance Gene-Editing Therapy for ALS",
+      "summary": "Specific Biologics closed an oversubscribed $35M Series A (led by Hatteras) for its Dualase gene-editing platform, which it says supports targeted DNA removal/repair delivered by single AAV or LNP-delivered mRNA, with a lead C9ORF72 ALS program.",
+      "url": "https://www.biospace.com/press-releases/specific-biologics-announces-oversubscribed-us-35-million-series-a-financing-to-advance-gene-editing-therapy-for-als",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - adjacent delivery-landscape/funding; Dualase relies on conventional single-AAV or LNP-mRNA delivery (not a vector-agnostic reagent competitor), useful as context on where editing-delivery capital is going. Amounts/dates are company claims - verify. Release 2026-11-02."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Seedtable",
+      "title": "Estuary Biotherapeutics Raises $93.0M Series A (kidney-targeting AAV delivery)",
+      "summary": "Estuary Biotherapeutics emerged from stealth (reported 2026-10-16) with a ~$93M Series A led by RA Capital to develop kidney-targeting AAV delivery.",
+      "url": "https://seedtable.com/companies/estuary-biotherapeutics/funding-rounds/series-a-2026-10",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] - capsid-engineering/tissue-targeting delivery competitor (category b; requires vector engineering). New entrant worth tracking vs the unmodified-vector engager thesis. Round size/date are secondary-source figures - verify against a primary announcement. Reported 2026-10-16."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Nanobody-Functionalized AAV achieves Promoter-independent Neuronal Targeting in the CNS",
+      "summary": "Preprint describes AAV-DJ with heparin-binding ablated and an mGluR5-specific nanobody displayed in VP1 at the T456 loop (AAV-m5), reporting promoter-independent neuronal targeting in the CNS.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752817v1.full",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;COMPETITOR:b] - documents a specific VP1 insertion site (T456) tolerating a full VHH for retargeting; relevant Track-A insertion-tolerance background, but is capsid-engineering (category b, requires vector modification), the approach the engager positions against. Preprint dated 2026-09-18; not peer reviewed."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "ZetaDial: dialing net charge of protein binders at inference time for therapeutic developability",
+      "summary": "Preprint proposes tuning the net charge of de novo protein binders at inference time to improve therapeutic developability without retraining the generator.",
+      "url": "https://arxiv.org/abs/2609.05451",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] - developability-control method for sequence-defined (route-P) binders, relevant to the Phase-2 de novo binder capability (steering designs toward manufacturable, low-liability candidates). Claims unverified against the source; preprint, not peer reviewed."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Am Chem Soc (PubMed)",
+      "title": "SuFEx Cyclization Enables DNA-Encoded Macrocyclic Peptide Libraries for Drug Discovery",
+      "summary": "On-DNA SuFEx macrocyclization builds DEL-compatible ultralarge macrocyclic-peptide libraries (15-52-membered rings) whose biaryl linkers tune backbone conformation from strands to rigid turns, yielding a de novo macrocyclic RIPK1 inhibitor from DEL screening.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42984023/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 route-M (synthetic macrocycle) capability on the widened buildable gate: a programmable, display/DEL-compatible macrocyclization chemistry for discovering sequence-defined cyclic-peptide binders. RIPK1 target unrelated to NL; the library-synthesis method is the point. Merck Discovery Chemistry. PubMed DOI 10.1021/jacs.6c07049; pub 2026-11-04."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "AI/ML in protein design",
+      "source": "J Chem Inf Model (PubMed)",
+      "title": "Design Trade-Offs between Target Binding and Self-Association Revealed by De Novo SARS-CoV-2 Binders",
+      "summary": "Using de novo protein binders against the SARS-CoV-2 RBD, the study separates two failure modes - insufficient target binding vs. surface-hydrophobicity-driven self-association - and defines AlphaFold/MD/SAP computational signatures plus a redesign (reduced non-interface hydrophobicity) that recovered stable monomeric low-micromolar binders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43001931/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 Phase-2 de novo binder capability: a diagnostic framework distinguishing affinity failure from developability (aggregation) failure, with a prospective redesign recipe. VERIFY the 'none of 22 designs bound' and 'low micromolar' affinity figures against the source. SARS-CoV-2 RBD is a model target; the framework not the target is the value. PubMed DOI 10.1021/acs.jcim.6c02394; pub 2026-11-09."
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv (PubMed)",
+      "title": "Cryo-EM Reveals VP1/VP2 N-Terminal Conformations in Adeno-Associated Virus 2 Capsids",
+      "summary": "Cryo-EM resolves the N-terminal conformations of the minor capsid proteins VP1/VP2 (the endosomal-escape/PLA2 domains that extend beyond VP3) within assembled AAV2 T=1 capsids at the canonical 1:1:10 VP1:VP2:VP3 stoichiometry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42999225/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE] \u2014 on the explicitly-tracked VP1/VP2-engineering structural axis: VP1/VP2 N-terminal ordering informs capsid insertion-tolerance / competitive capsid-engineering (Track A background) and conformation-state capsid characterization (Track B). bioRxiv preprint, not peer reviewed. PubMed DOI 10.64898/2026.10.16.759763; pub 2026-10-17."
     }
   ]
 }
