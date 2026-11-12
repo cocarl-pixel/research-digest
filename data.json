@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11",
-  "total": 795,
+  "generated": "2026-11-12",
+  "total": 822,
   "articles": [
     {
       "date": "2024-07-01",
@@ -7951,6 +7951,276 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42999225/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:STRUCTURE] \u2014 on the explicitly-tracked VP1/VP2-engineering structural axis: VP1/VP2 N-terminal ordering informs capsid insertion-tolerance / competitive capsid-engineering (Track A background) and conformation-state capsid characterization (Track B). bioRxiv preprint, not peer reviewed. PubMed DOI 10.64898/2026.10.16.759763; pub 2026-10-17."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Regulatory / FDA",
+      "source": "FDA",
+      "title": "Potency Assurance for Cellular and Gene Therapy Products (Final Guidance)",
+      "summary": "FDA's 2 Nov 2026 final guidance replaces the 2011 potency test guidance with a risk-based Potency Assurance Strategy spanning raw-material, in-process and assay controls.",
+      "url": "https://www.fda.gov/media/194324/download",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 Reframes potency from a single release assay to a lifecycle strategy; the raw-material/reagent-control emphasis is exactly where a defined, lot-controllable critical reagent (Track B thesis) would slot in. VERIFY the lot-release assay wording against the guidance text."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Atomically accurate de novo design of antibodies with RFdiffusion",
+      "summary": "A fine-tuned RFdiffusion generates VHHs, scFvs and other antibody formats de novo paired with yeast display, with first-round binders reported in the low-micromolar range before maturation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41193805/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 This is the Phase 2 de-novo-binder capability; abstract reports ~5.5 uM initial RBD binder and 262 nM anti-TcdB VHH maturing to single-digit nM. VERIFY affinities against the paper before citing in strategy. Published Nature Jan 2026, so background not breaking."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "Nature Communications",
+      "title": "Improved protein binder design using beta-pairing targeted RFdiffusion",
+      "summary": "Conditioning RFdiffusion on beta-strand interfaces targets polar/hydrophilic epitopes, with a binder-KIT co-crystal reported as near-identical to the design model.",
+      "url": "https://www.ipd.uw.edu/publication-pdfs/365/4c42c439d6300d56d83cbc25f1b2b04d/s41467-025-67866-3_reference.pdf",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE] \u2014 Polar-epitope binder design is directly relevant to engaging particle surfaces (PEG, capsid loops) that lack hydrophobic pockets; co-crystal validation. Confirm PDB ID from the paper."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "mAbs",
+      "title": "Systematic evaluation of protein language models for antibody developability prediction",
+      "summary": "A brief report benchmarks IgBert, IgT5 and ESM2 embeddings with classical ML on internal data across 33 therapeutic programs for developability prediction.",
+      "url": "https://www.tandfonline.com/doi/10.1080/19420862.2026.2647489",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Developability prediction is the screen that would de-risk Phase 2 de novo binders before BLI; VERIFY the reported metrics. Mar 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "alphaXiv",
+      "title": "CrossAbSense: multi-encoder developability oracles for antibody design",
+      "summary": "Framework pairs frozen ESM-Cambrian encoders with configurable attention decoders as property-specific developability oracles, tested at 300M/600M/6B scales.",
+      "url": "https://www.alphaxiv.org/abs/2604.09369",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Companion approach to developability-gating de novo binders; ICLR 2026 workshop, treat as method background not validated tool."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "RosettaCommons",
+      "title": "Biohub releases open-source evolution-based models for disease-target binder design",
+      "summary": "Biohub released ESMC 6B, ESMFold2 and an ESM Atlas, reporting use of ESMFold2 to design binders against five disease targets.",
+      "url": "https://rosettacommons.org/2026/06/09/biohub-releases-open-source-models-that-utilize-evolution-to-design-disease-target-binders/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Open-source binder-design stack usable for the Phase 2 de novo arm/cell-arm work; VERIFY the five-target binder results from the underlying preprint. Announcement, May-Jun 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Chemical Science",
+      "title": "mRNA display with a reprogrammed genetic code yields macrocyclic inhibitors and probes for CARM1/PRMT4",
+      "summary": "A discovery campaign under a reprogrammed genetic code produced new macrocyclic peptide inhibitors and substrate probes against CARM1/PRMT4.",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2026/sc/d5sc09232a",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 Worked example of defined, sequence-encoded macrocycle binders against a protein target \u2014 the route-M analytical-reagent path. Feb 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Engineered core-shell lipid nanoparticle architecture promotes efficient mRNA endosomal release",
+      "summary": "Gold-nanoparticle cores coated with ionizable lipid are reported to roughly double endosomal escape and increase cytoplasmic mRNA diffusion versus conventional LNPs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41617719/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 LNP internal-architecture work bearing on the LNP particle arm; VERIFY the ~2x escape / ~100-fold diffusion claims. Nat Commun Jan 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Lipid nanoparticles containing zwitterionic lipids enhance mRNA delivery efficiency",
+      "summary": "A zwitterionic-lipid LNP system (TOT-15) is reported to induce non-lamellar structure and raise endosomal escape efficiency in a pharmacokinetic calculation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41666942/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Alternate LNP helper-lipid chemistry; relevant to what an unmodified LNP the engager must bind actually looks like. VERIFY the >9.6% escape figure. 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed Central",
+      "title": "An expanded toolbox for versatile chemical editing of adeno-associated virus",
+      "summary": "Noncanonical amino acids incorporated into the AAV capsid are conjugated to an anti-HER2 nanobody; the study reports optimal function at low-stoichiometry (5-10/capsid) modification.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12887607/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c;VERIFY] \u2014 Covalent/chemical capsid-conjugation route (category c) \u2014 the engager's non-covalent, unmodified-vector claim is the differentiator; this paper requires capsid modification. VERIFY the 5-10/capsid stoichiometry claim."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "bioRxiv",
+      "title": "Protein-carrier AAV: interior nanobody insertion directs packaging of cognate protein",
+      "summary": "A GFP nanobody inserted into the AAV-DJ capsid interior packaged GFP protein, with packaging efficiency depending strongly on insertion position (H631 vs H643).",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.08.14.607995.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 Maps capsid insertion-tolerance hotspots (H631/H643) from saturated domain-insertion profiling; directly informs where a particle arm could be displayed if ever engineered. Preprint 2024, background."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "Chemical Science",
+      "title": "Backbone- vs end-group-specific anti-PEG antibodies and randomized-PEG (rPEG) alternatives",
+      "summary": "Classifies anti-PEG antibodies into backbone- and end-group-specific types, reporting end-group binders still bind backbone at lower affinity, and proposes rPEG lipids that avoid recognition.",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2026/sc/d6sc00169f",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE] \u2014 Register theme 'anti-PEG binder with declared backbone vs end-group specificity'; also bears on the Phase-1 anti-PEG clone 3.3 LNP tool arm. May 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "PubMed Central",
+      "title": "Quantification of empty, partial and full AAV vectors using mass photometry",
+      "summary": "Mass photometry is presented as a label-free single-molecule method giving full/empty ratio and encapsulated-genome mass from ~10 uL, benchmarked against CDMS and SLS-UV.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10341871/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Register theme 'conformation-selective full-vs-empty capsid binder': MP is the incumbent orthogonal method a defined binder-based assay would be compared against. Method background (2023)."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "USP",
+      "title": "USP <1132> Residual Host Cell Protein Measurement in Biopharmaceuticals",
+      "summary": "The USP general chapter names polyclonal anti-HCP reagents as a design challenge and states users of commercial platform HCP assays lack control over reagent availability and lot-to-lot consistency.",
+      "url": "https://www.drugfuture.com/Pharmacopoeia/usp38/data/v38332/usp38nf33s2_c1132.html",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 Named failure mode: no user control over availability/lot-to-lot consistency of polyclonal anti-HCP reagents in commercial HCP assays. Directly supports the 'defined recombinant anti-HCP replacement' candidate theme."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Competitive & adjacent landscape",
+      "source": "News-Medical",
+      "title": "Virica Biotech and FUJIFILM Biosciences collaborate to advance AAV production enhancers",
+      "summary": "Virica and FUJIFILM, with NRC Canada support, are co-developing viral sensitizer (VSE) enhancer formulations tailored to the BalanCD HEK293 system, following Virica's CellVantage-AAV launch.",
+      "url": "https://www.news-medical.net/news/20260409/Virica-Biotech-and-FUJIFILM-Biosciences-collaborate-under-the-Canada-Japan-Co-Innovation-Program-to-advance-AAV-production-enhancers.aspx",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a] \u2014 Reagent-platform play in the delivery-enhancer category (a), but production-yield not transduction; notable as a RetroNectin-style RUO-reagent business model. Apr 2026."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Pharma Manufacturing",
+      "title": "Ascend touts AAV enhancers that triple vector yields without affecting quality",
+      "summary": "Ascend reports process enhancers raising AAV yield, citing up to a threefold increase, positioned as drop-in manufacturing reagents.",
+      "url": "https://pharmamanufacturing.com/industry-news/news/55329351/ascend-touts-aav-enhancers-that-triple-vector-yields-without-affecting-quality",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;VERIFY] \u2014 Another delivery/production-enhancer reagent competitor (category a); VERIFY the 3x yield claim (vendor source)."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PackGene",
+      "title": "Trogenix raises GBP 70M Series A to advance AAV gene therapy for solid tumors",
+      "summary": "Trogenix announced a GBP 70M Series A to advance its AAV gene-therapy pipeline for solid tumors.",
+      "url": "https://www.packgene.com/frontier/100625-trogenix/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR;VERIFY] \u2014 Funding-climate signal for AAV delivery; pipeline (not reagent) company, so adjacent. VERIFY the GBP 70M figure."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PubMed Central",
+      "title": "Bispecific antibody-based platform for retargeting capsid-modified AAV vectors",
+      "summary": "A retargeting platform inserts a short epitope into the capsid and uses a bispecific antibody to bridge it to receptors such as FAP or PD-L1 on target cells.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8347852/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e] \u2014 Receptor-targeting / bispecific pre-targeting delivery (category e) \u2014 closest literature analog to the engager concept, but requires capsid modification (vs the engager's unmodified-vector claim). Background."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed (Anal Chem)",
+      "title": "Visualizing the Effect of Escape-Promoting Agents on Endosomal Escape of RNA Nanoparticles by High Time-Spatial Resolution Imaging",
+      "summary": "Confocal high-resolution imaging characterizes how chemical agents (nigericin, chloroquine, sucrose) and cell-penetrating peptides (TAT, F-TAT) reshape endosomal morphology and cargo release to promote endosomal escape of RNA nanoparticles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43010472/",
+      "score": 3,
+      "notes": "[TRACK:A] - mechanistic imaging of the endosomal-escape bottleneck for RNA nanoparticles; Track-A delivery background (escape is the step the engager's cell-arm targeting feeds into, not one it solves). Peer-reviewed, pub 2026-11-10."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed (J Control Release)",
+      "title": "Selective ORgan-targeting lipid nanoparticles deliver SMAD7 mRNA to fibrotic lungs and attenuate pulmonary fibrosis",
+      "summary": "Engineered SORT lipid nanoparticles delivered SMAD7 mRNA intravenously to fibrotic-lung mesenchymal cells (reported ~20% of a defined cell population) and attenuated fibrosis in a preclinical model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009023/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - SORT-LNP organ targeting via lipid-composition reengineering (not a bridging reagent); background on the formulation-reengineering route the drop-in engager positions against. ~20% delivery figure is a paper claim - verify. Pub 2026-11-10."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed (Adv Sci)",
+      "title": "Spray-Dried mRNA-LNP Powder Enabling Multi-Route Delivery With 3-Year Refrigerated Stability",
+      "summary": "A trehalose-matrix spray-dried dry-powder platform for mRNA-LNPs preserves particle size and physicochemical properties on reconstitution and is reported to enable multi-route delivery with refrigerated stability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43006795/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - LNP formulation/stability advance (dry powder); CMC/stability background for the LNP modality. '3-year refrigerated stability' is a title claim - verify against data. Pub 2026-11-10."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed (PLoS Comput Biol)",
+      "title": "An antigen-specific protein language model guides CDR optimization for antibody design",
+      "summary": "Ab-Affinity, a fine-tuned protein language model, predicts antibody-antigen binding affinity (benchmarked on a SARS-CoV-2 spike peptide) and, coupled with a genetic algorithm and simulated annealing, generates optimized CDR candidates.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013634/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - affinity-prediction + sequence-optimization method directly on the Phase-2 de-novo binder capability (replacing literature tool sequences such as AAVX VHH / anti-PEG 3.3 with engineered binders). 'Outperforms other PLM predictors' is an author claim on held-out/test sets - verify. Pub 2026-11-11."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed (Viral Immunol)",
+      "title": "peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation",
+      "summary": "peleke-1 is a suite of protein language models fine-tuned on curated antibody-antigen complex data to generate target-specific antibody sequences, aimed at shortcutting immunization and hybridoma steps.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009741/",
+      "score": 3,
+      "notes": "[TRACK:A] - generative PLM for target-specific antibody sequences; relevant to the Phase-2 de-novo binder-generation capability. Pub 2026-11-10."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed (Anal Chem)",
+      "title": "Integrating Ion Mobility Mass Spectrometry Data with AlphaFold and Rosetta Improves Protein Complex Structure Prediction",
+      "summary": "A method docks AlphaFold-predicted subunits with Rosetta and rescored them using experimental or simulated collision-cross-section data from IM-MS, improving protein-complex structure-prediction accuracy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43010416/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:STRUCTURE] - IM-MS-guided complex-structure method; supports binder-target co-structure determination (Track A binder design) and is itself an analytical-characterization capability (Track B). Pub 2026-11-10."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed (J Am Chem Soc)",
+      "title": "Noncarbohydrate Inhibitors of Siglec-7 Discovered from Genetically Encoded Bicyclic Peptide Libraries",
+      "summary": "Bicyclic genetically encoded peptide libraries (BiGELs) panned against Siglec-7 yielded binders (reported KD ~1-100 uM by SPR) that disrupted the Siglec-7:GD3 interaction (reported IC50 ~3-300 uM), with ML models trained on the NGS panning data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012985/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] - demonstrates the route-M (bicyclic / constrained-peptide) build-a-binder capability now in scope: genetically encoded bicyclic library -> sequence-defined macrocyclic binders to a protein target. KD 1-100 uM / IC50 3-300 uM / 815 candidates are paper figures - verify. Pub 2026-11-11."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed (New Biotechnol)",
+      "title": "A domain library approach for generating antibodies that recruit T-cells with enhanced cytotoxicity using new bispecific bivalent antibodies",
+      "summary": "Combining VHH phage display with a domain-library graft onto the bispecific-bivalent 'BiBian' framework lets T-cell-recruiting antibodies be screened directly for cytotoxicity, bypassing a separate affinity pre-selection step.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014511/",
+      "score": 3,
+      "notes": "[TRACK:A] - modular VHH / bispecific-bivalent engineering workflow (single-domain arm grafting); method relevant to assembling the engager's modular Particle-Arm + Cell-Arm bispecific format from VHH components. Pub 2026-11-11."
+    },
+    {
+      "date": "2026-11-12",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed (ACS Nano)",
+      "title": "X-ray Crystallography of a Nanobody/JAM-1 Complex Informs Barrier Weakening and Enhanced Drug Permeability in a Cellular Blood-Brain Barrier Model",
+      "summary": "Alpaca immunization yielded 16 CDR-unique anti-JAM-1 nanobodies, and an X-ray crystal structure of a nanobody/JAM-1 complex maps the paratope-epitope interface to inform tight-junction (BBB) weakening for drug permeability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43007804/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] - nanobody-antigen co-crystal structure plus a full VHH-generation campaign (immunization -> 16 CDR-unique Nbs -> structure); structural-characterization/methodology exemplar for Phase-2 de-novo binder work. PDB ID not captured from abstract - verify. Pub 2026-11-10."
     }
   ]
 }
