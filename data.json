@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12",
-  "total": 822,
+  "generated": "2026-11-14",
+  "total": 842,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8221,6 +8221,206 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43007804/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] - nanobody-antigen co-crystal structure plus a full VHH-generation campaign (immunization -> 16 CDR-unique Nbs -> structure); structural-characterization/methodology exemplar for Phase-2 de-novo binder work. PDB ID not captured from abstract - verify. Pub 2026-11-10."
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv / ICML 2026",
+      "title": "Agent-Guided De Novo Design of Nanobody Binders Against a Novel Cancer Target",
+      "summary": "An LLM-orchestrated pipeline generated 288K nanobody designs and reported 46 of 116 SPR-confirmed binders (best 0.66 nM, median 31.7 nM), noting in-silico folding metrics correlate weakly with measured binding.",
+      "url": "https://cdn.amazon.science/4e/0f/d870e12c4b77b2e0c21b2325ad6a/agent-guided-de-novo-design-of-nanobody-binders-against-a-novel-cancer-target-1.pdf",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - Phase 2 de novo binder capability; the weak folding-metric-to-affinity correlation supports keeping BLI particle-arm binding as the primary go/no-go over in-silico scores. Design counts and affinities not independently verified by us."
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Nat Commun 2026 (DESY repo)",
+      "title": "Improved protein binder design using beta-pairing targeted RFdiffusion",
+      "summary": "Conditioning RFdiffusion on exposed beta-strand edges raised binder success rates and affinities (pM to mid-nM) and produced a binder-KIT co-crystal nearly identical to the design model.",
+      "url": "https://bib-pubdb1.desy.de/record/646221/files/Improved%20protein%20binder%20design%20using%20beta%20pairing%20targeted%20RFdiffusion.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] - de novo binder method for Phase 2; the binder-KIT co-crystal is the structural confirmation a particle-arm design campaign would want. Affinities not independently verified by us."
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Competitive & adjacent landscape",
+      "source": "BioPharm International (ASGCT 2024)",
+      "title": "Advancing Delivery of AAV Vector-Based Gene Therapies Using Bispecific Antibodies",
+      "summary": "Regeneron described bispecific antibodies that bridge an AAV capsid to a target-cell receptor to retarget vectors, noting mouse success often fails to translate to NHP and human.",
+      "url": "https://biopharminternational.com/view/advancing-delivery-of-aav-vector-based-gene-therapies-using-bispecific-antibodies-asgct-2024-",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e] - closest literature analog to the Particle Engager bridging concept (receptor-targeting / pre-targeting); distinct in that it pairs with capsid de-targeting, unlike the unmodified-vector claim. 2024 background."
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Cell & Gene Therapy Insights",
+      "title": "New analytical method for rAAV titer and empty/full ratio determination in cell lysate and conditioned medium",
+      "summary": "A DirectMP method reports AAV titer and full-particle percentage directly in crude lysate and conditioned medium without special pretreatment.",
+      "url": "https://www.insights.bio/cell-and-gene-therapy-insights/journal/article/3781/new-analytical-method-for-raav-titer-and-emptyfull-ratio-determination-in-cell-lysate-and-conditioned-medium",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - bears on the conformation-selective full-vs-empty AAV capsid binder theme; a defined capsid binder could feed such direct-readout methods. Pub ~Mar 2026."
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "Critical-reagent DEFICIENCY signals",
+      "source": "BioProcess Online (Cygnus Technologies)",
+      "title": "Choosing The Right Sample For HCP Antibody Coverage Analysis",
+      "summary": "Qualifying an HCP ELISA requires showing the polyclonal antibody covers process HCPs, but coverage validity depends heavily on sample choice (null vs product-containing) and on the orthogonal method (AAE-MS) used.",
+      "url": "https://www.bioprocessonline.com/doc/choosing-the-right-sample-for-hcp-antibody-coverage-analysis-0001",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] - named failure mode: HCP-coverage estimates vary by sample and assessment method, leaving persistent high-risk HCPs undetected; on the defined recombinant anti-HCP replacement theme. Vendor-authored, Jan 27 2026."
+    },
+    {
+      "date": "2026-11-13",
+      "topic": "AAV / LNP delivery",
+      "source": "Mol Ther Methods Clin Dev 2024 (PMC)",
+      "title": "Anti-FAP nanobody insertion into the AAV2 GH2/GH3 loop for capsid retargeting",
+      "summary": "A 126-aa anti-FAP nanobody inserted at AAV2 VP1 G453-R459 reached transduction at or above unmodified AAV2 after cassette optimization, mapping an insertion-tolerant capsid site.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11655695",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;STRUCTURE] - the capsid-insertion/engineering route that the drop-in reagent avoids; documents a large-protein insertion hotspot. Title paraphrased; 2024 background."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv (2026-02-13)",
+      "title": "NbForge: nanobody structure prediction benchmarked on SAbDab VHH structures",
+      "summary": "A nanobody structure-prediction benchmark argues CDR3 blueprint and disulphide-connectivity recovery should be scored alongside coordinate accuracy, with a web server for VHH modelling.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705647v1",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] - computational VHH structure prediction/validation tooling directly supports the Phase 2 de novo binder-engineering capability."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv (2026-02-09)",
+      "title": "Crystal structures of Cif bound to inhibitory nanobodies, including a 1.9 A free VHH",
+      "summary": "Reports crystal structures of the Cif effector bound to nanobodies plus a free-form VHH solved at 1.9 A, a worked example of nanobody-antigen co-structure determination.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.09.704437v1",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE;VERIFY] - co-structure/paratope exemplar for binder design; 1.9 A resolution claim unverified against full text."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv (2025-12-23)",
+      "title": "Screening and structural characterization of a target-specific nanobody",
+      "summary": "A camelid nanobody was isolated and structurally characterized, illustrating the screen-to-structure workflow for a defined single-domain binder.",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696179v1",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] - reference workflow for discovering and characterizing a sequence-defined VHH reagent."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv (2025-12-02)",
+      "title": "De novo computational design of VHH nanobodies against LGR5, validated by cryo-EM",
+      "summary": "Computationally designed anti-LGR5 nanobodies were experimentally validated, with an apo structure reported to closely match the design model against a 3.19 A cryo-EM map.",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691880v1",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE;VERIFY] - direct evidence for the Phase 2 de novo binder capability (designed-then-validated VHH); 3.19 A map / model-match claims need source check."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv preprint (2026-09-03)",
+      "title": "De novo design of ligand-binding proteins using large language models alone",
+      "summary": "A preprint reports designing ligand-binding proteins using protein language models without a structure-based diffusion step.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13684519",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] - a novel de novo binder-design route (LLM-only) relevant to the Phase 2 binder-engineering build; not yet peer reviewed."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "AI/ML in protein design",
+      "source": "Nature Communications (2026)",
+      "title": "Improved protein binder design using beta-pairing targeted RFdiffusion",
+      "summary": "Conditioning RFdiffusion on a target's exposed edge beta-strands lets binders be designed against hydrophilic strand surfaces that standard pipelines handle poorly.",
+      "url": "https://www.nature.com/articles/s41467-025-67866-3",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] - extends de novo binder design to hard beta-strand epitopes, relevant to Phase 2 particle-arm/target-search binders; publication month unverified."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv (2026-03-22)",
+      "title": "Computational design of a high-affinity anti-Cas9 VHH at the PI/RuvC interface",
+      "summary": "A VHH nanobody against the PI/RuvC interface of S. pyogenes Cas9 was computationally designed and assessed by molecular dynamics, without an experimental structure.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.22.713495v1",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:STRUCTURE] - another de novo VHH design campaign; computational-only, so binding claims are predicted not measured."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Pharmafile / CGT Catapult (2026-05)",
+      "title": "CGT Catapult backs Lir Therapeutics' AI-driven nAAVigator gene-therapy delivery platform",
+      "summary": "Lir Therapeutics received Innovate UK Cross-Catapult pilot backing to biologically validate its nAAVigator AI-driven AAV delivery platform.",
+      "url": "https://pharmafile.com/?p=42901",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e] - an AI/vector-engineering delivery approach (not a drop-in reagent); supports the competitive story that rivals solve delivery by engineering, not unmodified-vector reagents."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Business Wire (2026-05-11)",
+      "title": "Trisk Bio and NanoMosaic partner on advanced AAV analytics",
+      "summary": "Trisk Bio and NanoMosaic announced a partnership to develop advanced AAV analytics.",
+      "url": "https://www.businesswire.com/news/home/20260511046352/en/Trisk-Bio-and-NanoMosaic-Announce-Partnership-for-Advanced-AAV-Analytics",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:none] - AAV analytics vendor activity relevant to the critical-reagent/analytical landscape the target search tracks."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Critical reagents & analytical methods",
+      "source": "Gene Therapy / Nature (2024)",
+      "title": "Intermediate AAV capsids are infectious and contribute to potency",
+      "summary": "Separating AAV preparations into full, intermediate and empty fractions showed intermediate (partially filled) capsids are infectious and contribute to potency while empty capsids do not.",
+      "url": "https://www.nature.com/articles/s41434-024-00444-2",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] - bears on the conformation-selective full-vs-empty capsid binder theme: a binary full/empty readout misses potency-bearing intermediate capsids; quantitative claims need source check."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Regulatory / FDA",
+      "source": "RAPS (2026-05)",
+      "title": "FDA finalizes CMC flexibility guidance for cell and gene therapies",
+      "summary": "FDA's final CMC-flexibility guidance for CGT products states that flexibility does not lower the licensure standard and advises sponsors to meet with the agency before applying it.",
+      "url": "https://www.raps.org/resource/fda-finalizes-guidance-on-cmc-flexibilities-for-cell-and-gene-therapies.html",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:none] - sets the CMC evidentiary bar relevant to how RUO/analytical reagents and methods must be justified in gene-therapy submissions."
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "AI/ML in protein design",
+      "source": "MAbs (PubMed)",
+      "title": "Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody-antigen complexes, from docking accuracy to interaction specificity",
+      "summary": "A standardized head-to-head benchmark of open-source co-folding models against AlphaFold 3 for predicting antibody-antigen complexes, scoring both docking accuracy and interaction specificity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018143/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] - picks a trustworthy co-folding tool for Phase-2 de novo binder epitope mapping and design triage; interaction-specificity metrics bear on engager-arm design. Verify accuracy figures against the paper. PubMed; DOI 10.1080/19420862.2026.2760737"
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "AAV / LNP delivery",
+      "source": "Adv Drug Deliv Rev (PubMed)",
+      "title": "Toward precision nanomedicine via artificial intelligence guided design and prediction",
+      "summary": "A review of AI-assisted nanoparticle formulation design, centralized formulation databases, and prediction of nanoparticle delivery, efficacy and safety.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025814/",
+      "score": 3,
+      "notes": "[TRACK:AB] - background for Track-A LNP formulation/property prediction and Track-B characterization; maps current AI tooling across delivery and analytics. Review. PubMed; DOI 10.1016/j.addr.2026.115999"
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Pharmacol Res (PubMed)",
+      "title": "An mRNA-encoded bispecific T-cell engager targeting muscle-specific tyrosine kinase for myasthenia gravis",
+      "summary": "METiS TechBio reports an mRNA-LNP encoding a MuSK-by-CD3 bispecific T-cell engager that redirects T cells against anti-MuSK B cells and retains activity amid circulating autoantibodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003162/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e] - literature example of bispecific-engager delivery via LNP (architecture adjacent to the particle-engager concept); a therapeutic, not a reagent. PubMed; DOI 10.1016/j.phrs.2026.109733"
     }
   ]
 }
