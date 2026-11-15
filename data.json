@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14",
-  "total": 842,
+  "generated": "2026-11-15",
+  "total": 854,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8421,6 +8421,126 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43003162/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:e] - literature example of bispecific-engager delivery via LNP (architecture adjacent to the particle-engager concept); a therapeutic, not a reagent. PubMed; DOI 10.1016/j.phrs.2026.109733"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "AAV / LNP delivery",
+      "source": "Nature Communications",
+      "title": "Branched ionizable lipids enhance endosomal escape for LNP delivery",
+      "summary": "Terminal-branched ionizable lipids induce greater endosomal penetration/disruption, improving liver and T-cell mRNA delivery.",
+      "url": "https://mitchell-lab.seas.upenn.edu/wp-content/uploads/2025/02/NatureComm_Padilla.pdf",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 LNP arm background; endosomal-escape lipid chemistry is orthogonal to the engager's particle-agnostic bridging but informs which unmodified LNPs the Cell Arm will meet. Older (2025). (src: Nat Commun 2025)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "Atomically accurate de novo design of antibodies/VHHs with RFdiffusion",
+      "summary": "RFdiffusion fine-tuned on antibody complexes designed CDR-mediated interfaces; of 95 VHH designs against C. difficile TcdB the best bound at reported nanomolar affinity.",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585103.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 this is the Phase 2 de-novo VHH capability itself (replacing AAVX VHH / anti-PEG 3.3 tool sequences). Affinity figure (262 nM) must be checked against source. Foundational, 2024/25. (src: preprint 2024, publ Feb 2025)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "RFdiffusion shows low success rate in de novo design of functional detection binders",
+      "summary": "An independent group using the online RFdiffusion service reports it can design new binders but at a low hit rate, attributed partly to small candidate sets and low expression.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.02.07.636769.full.pdf",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY] \u2014 documents a specific failure mode (low de-novo binder success rate / low expression) that directly bounds Phase 2 binder-engineering expectations; counterweight to the headline RFdiffusion success claims. (src: preprint Feb 2025)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Longevity.Technology",
+      "title": "Dyno Therapeutics launches next-gen AI-designed CNS capsids (Dyno-9zh, Dyno-yp2)",
+      "summary": "Dyno released two AI-engineered AAV capsids for IV CNS delivery (BBB-crossing) available for licensing via its Frontiers Program.",
+      "url": "https://longevity.technology/news/dyno-therapeutics-launches-dyno-yp2-for-improved-cns-gene-delivery/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 the capsid-engineering category Nautilus Logic positions AGAINST (these require vector engineering; the engager works on unmodified vectors). Licensing/Frontiers model is the competing go-to-market. (src: news 2026)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Pharmasource",
+      "title": "Ascend Advanced Therapies introduces AAV production enhancers (up to 3x yield)",
+      "summary": "Ascend unveiled proprietary enhancers reported to raise AAV manufacturing yields up to ~3x without compromising quality, with licensing planned.",
+      "url": "https://pharmasource.global/content/news/cdmo-news/ascend-advanced-therapies-introduces-enhancers-delivering-up-to-3x-increase-in-aav-production-yields/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;VERIFY] \u2014 a delivery/yield-boosting reagent business (RUO-style licensing) adjacent to the RetroNectin-analogy model; note these act on PRODUCTION yield, not transduction, so not a direct engager competitor. 3x claim unverified. (src: announced Nov 2025)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "News-Medical",
+      "title": "Bio-Rad VeriCheck ddPCR measures AAV genome titer, capsid titer and percent-full in one test",
+      "summary": "An antibody-oligo ddPCR kit reports capsid and genome titer plus percent-full together; the guide notes ELISA/antibody methods suffer lot-to-lot variation and can bind capsid fragments.",
+      "url": "https://www.news-medical.net/health/Measuring-AAV-capsids-using-VeriCheck-ddPCR-technoloy-A-guide.aspx",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 explicit named failure mode of capsid ELISA antibodies (lot-to-lot variability; fragment cross-reactivity) = the capsid-titer defined-binder theme; also a competing non-antibody method. (src: article Feb 2026)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "Eurofins",
+      "title": "GMP mass photometry for empty/partial/full AAV capsid quantification",
+      "summary": "Whitepaper describes GMP implementation of mass photometry for rapid (~2 min) empty/partial/full capsid quantification.",
+      "url": "https://www.eurofins.com/en/biopharma-services/biopharma-product-testing/thought-leadership/whitepaper-use-of-mass-photometry-for-accurate-and-fast-quantification-of-empty-partially-filled-and-full-adeno-associated-virus-capsids-for-aav-based-gene-therapies/",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 orthogonal full/empty method; reference point for where a conformation-selective full-vs-empty capsid binder (register theme) would complement reagent-free biophysics. (src: whitepaper Jan 2026)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Biocompare",
+      "title": "Expert review: recombinant monoclonals are batch-consistent; polyclonals differ lot to lot",
+      "summary": "Validation-focused review contrasts batch-consistent recombinant monoclonals with polyclonal antibodies that vary between bleeds/animals, requiring re-titration each lot.",
+      "url": "https://www.biocompare.com/Bench-Tips/625509-Making-Sense-of-Antibody-Validation-Data-An-Expert-Explains/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 named failure mode (polyclonal lot-to-lot variability / per-bleed inconsistency) underpinning the defined recombinant anti-HCP and anti-dsRNA (J2) replacement themes. Vendor-adjacent sources; effect size not independently quantified. (src: review May 2026)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Biotools & research tools",
+      "source": "Benchling",
+      "title": "Benchling Volume 4 2026 release: unified AI chat and structured data-import skill",
+      "summary": "Benchling integrated its agents into one AI chat and added a skill that ingests CRO reports, CoAs and instrument/legacy exports as structured notebook entries.",
+      "url": "https://help.benchling.com/hc/en-us/articles/46912538283789-Release-Notes-Volume-4-2026",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 relevant to the planned Benchling migration; the structured-import skill bears on how CQA/assay reagent data would be captured and lot-tracked. (src: release Jun 2026)"
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "Binder engineering & structural characterization",
+      "source": "MAbs (PMID 43023544)",
+      "title": "High-throughput developability assessment of 181 untagged VH single-domain antibodies",
+      "summary": "A high-throughput pipeline profiles developability (expression, thermostability, aggregation, polyreactivity) across 181 untagged camelid-derived VH single-domain antibodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43023544/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - HT developability screen for VH single-domain binders maps directly onto the Phase-2 de-novo-binder triage gates (expression, aggregation, polyreactivity) NL's own designed Particle-Arm/Cell-Arm binders must clear; VERIFY the 181-VH count and any reported pass-rate/affinity figures. DOI 10.1080/19420862.2026.2755649."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "AI/ML in protein design",
+      "source": "Protein Sci (PMID 43032903)",
+      "title": "Designed multiple sequence alignments guide AlphaFold for improved modeling of loop-mediated protein-protein interactions",
+      "summary": "ProteinMPNN-designed synthetic MSAs condition AlphaFold2-Multimer/AlphaFold3 to more accurately model and rerank nanobody-, antibody-, and monobody-antigen complexes at flexible-loop interfaces.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032903/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] - method to improve/evaluate AlphaFold predictions of nanobody/antibody-antigen interfaces where coevolution signal is weak addresses the Phase-2 need to model designed binder-antigen complexes; VERIFY the reported benchmark accuracy. DOI 10.1002/pro.70882."
+    },
+    {
+      "date": "2026-11-15",
+      "topic": "AI/ML in protein design",
+      "source": "Pharm Res (PMID 43026430)",
+      "title": "Generative AI-Designed Immunoglobulin Domain Antibodies (IgDAbs) Against the Fusion Protein as a Neutralizing Agent for Respiratory Syncytial Virus",
+      "summary": "A generative-AI pipeline designed 250 single-domain (IgDAb) sequences against RSV-F site II, triaged them by docking/MD, and experimentally validated binding and viral neutralization from E. coli-expressed candidates.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43026430/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - concrete generative-design -> wet-lab-validated single-domain-antibody campaign (RSV target unrelated; the design+validation loop is the Phase-2 de-novo-binder capability); VERIFY neutralization/affinity figures. DOI 10.1007/s11095-026-04226-w."
     }
   ]
 }
