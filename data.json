@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-15",
-  "total": 854,
+  "generated": "2026-11-16",
+  "total": 864,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8541,6 +8541,106 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43026430/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:VERIFY] - concrete generative-design -> wet-lab-validated single-domain-antibody campaign (RSV target unrelated; the design+validation loop is the Phase-2 de-novo-binder capability); VERIFY neutralization/affinity figures. DOI 10.1007/s11095-026-04226-w."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "AAV / LNP delivery",
+      "source": "Human Gene Therapy (PubMed)",
+      "title": "Adeno-Associated Virus Gene Delivery to Hard-to-Transduce Tissues: Biological Barriers, Engineering Strategies, and Clinical Challenges",
+      "summary": "2026 review of AAV delivery to hard-to-transduce tissues covering rational design, directed evolution, and computational capsid-engineering strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40469752/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Review-level background on the vector-engineering competitor class (capsid redesign/directed evolution); frames the barriers Nautilus's unmodified-vector engager aims to sidestep. Epub Apr 2026 / Jun 2026 issue, so background not breaking."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Competitive & adjacent landscape",
+      "source": "ACS Synthetic Biology / Univ. Saarland repository",
+      "title": "Genetically encoded SpyTag enables modular AAV retargeting via SpyCatcher-fused ligands for targeted gene delivery",
+      "summary": "2026 study inserts a genetically encoded SpyTag into the AAV2 capsid so swappable SpyCatcher-fused DARPins/nanobodies can retarget one vector without redesign.",
+      "url": "https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/41863/3/genetically-encoded-spytag-enables-modular-aav-retargeting-via-spycatcher-fused-ligands-for-targeted-gene-delivery.pdf",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c;IP] \u2014 Closest covalent-conjugation competitor to the engager thesis, BUT requires a genetically encoded SpyTag in the capsid (i.e. vector engineering) \u2014 the exact contrast to Nautilus's works-on-unmodified-vectors claim. SpyTag/SpyCatcher is a licensed/patent-encumbered coupling; note FTO relevance."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv / PubMed",
+      "title": "De novo Design of All-atom Biomolecular Interactions with RFdiffusion3",
+      "summary": "RFdiffusion3 generates protein structures in the context of ligands, nucleic acids, and other non-protein atoms, extending diffusion design to all-atom biomolecular interactions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41000976/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:] \u2014 Directly the Phase 2 de-novo-binder capability; all-atom conditioning on non-protein atoms is relevant to designing a particle-arm binder against a capsid/lipid surface, not just a protein epitope. Preprint (posted Nov 2025)."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "AI/ML in protein design",
+      "source": "ICML 2026 (workshop listing)",
+      "title": "Agent-Guided De Novo Design of Nanobody Binders Against a Novel Cancer Target",
+      "summary": "An autonomous agent workflow designed de novo nanobody binders, reporting 46/116 SPR-confirmed binders (39.7%) with a best KD of 0.66 nM against a novel target.",
+      "url": "https://icml.cc/virtual/2026/70825",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Evidence that agentic de-novo nanobody pipelines now reach ~40% SPR hit rates and sub-nM affinity from scratch \u2014 the Phase 2 capability Nautilus needs to replace literature tool sequences. VERIFY the 46/116 / 39.7% / 0.66 nM figures against the underlying preprint before use in any deck."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Molecular Therapy family / PMC",
+      "title": "Switchable Retargeting of Lentiviral Vectors Through a VSV-G-Binding Adapter Molecule",
+      "summary": "A bispecific nanobody-DARPin adapter binds the VSV-G envelope and redirects standard, unmodified lentiviral vectors to ERBB2 without re-engineering the envelope.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12737384/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e] \u2014 The closest published precedent to the engager's pre-targeting/adapter concept on an UNMODIFIED vector: adapter binds the native envelope (VSV-G) rather than requiring vector engineering. Strong comparator for the competitive story; lentivirus, not AAV/LNP, so differentiation on particle-agnostic breadth still holds. Published Nov 2025."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "AI/ML in protein design",
+      "source": "Curr Gene Ther (PMID 43012288)",
+      "title": "STRIVE: An Integrated Framework for Structure-Guided Design and Off-Target Risk Prioritization of CLDN4-Targeting scFv Candidates",
+      "summary": "An in silico workflow uses RFdiffusion/ProteinMPNN (RFantibody) to generate 1,000 de novo scFvs against CLDN4, filters with RoseTTAFold2 and screens cross-reactivity against 24 claudin homologues with AlphaFold3, reporting the off-target predictor separated cognate from non-cognate pairs only marginally better than chance (AUROC 0.606).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012288/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - end-to-end de-novo scFv design + developability/off-target triage is the Phase-2 de-novo-binder capability, and the paper candidly documents a failure mode NL will hit: AF3-based cross-reactivity scoring's run-to-run variability swamped a 1.061-fold selectivity margin (AUROC 0.606, 95% CI 0.348-0.846). VERIFY those figures. DOI 10.2174/0115665232533040261029094805."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "AAV / LNP delivery",
+      "source": "Front Bioeng Biotechnol (PMID 43032656)",
+      "title": "Assessing AAV stability on affinity resins and the effects of long contact times through extensive washing",
+      "summary": "Extended rAAV capture on single-domain VH-fragment affinity resins (POROS CaptureSelect AAVX/AAV9, Capto AVB) produced serotype-specific elution-yield losses (28% for AAV9, 35% for rAAV2 at >=8 h) and VP-ratio shifts while substantially improving host-cell protein clearance (log removal rising to ~4.9).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032656/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - directly characterizes the AAVX VH-domain ligand NL's Phase-1 particle arm relies on: prolonged AAVX-capsid contact shifts VP ratios and drops yield serotype-specifically, a CQA signal for any AAVX-based particle-arm binding or capture step. Pub 2026-10-30 (17 d, just outside the 14-day window). VERIFY the 28%/35% yield-loss and VP3 +1.5% figures. DOI 10.3389/fbioe.2026.1954356."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Angew Chem Int Ed (PMID 43034928)",
+      "title": "A Phosphonium Relay for Integrated Cleavage-to-Cyclization of Cyclic Peptides",
+      "summary": "A phosphonium-mediated relay couples resin cleavage directly to head-to-tail macrocyclization on standard 2-CTC resin, removing linear-intermediate isolation and high-dilution cyclization and enabling an automation-compatible, gram-scale cyclic-peptide synthesis route.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43034928/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] - route-M manufacturing capability on the widened buildable gate: a linker-free, automation-ready, scalable macrocyclization method lowers the cost of building the constrained-peptide binder libraries NL would make as sequence-defined reagents. Method paper, not a binder. DOI 10.1002/anie.6515850."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "Biotechnol Prog (PMID 43031466)",
+      "title": "Host cell protein control in immobilized metal affinity purification of histidine tagged proteins from Chinese hamster ovary cells",
+      "summary": "A review maps four HCP retention routes (metal coordination, support/ligand adsorption, target association, carriage within multicomponent assemblies) in CHO IMAC purification and argues most mechanistic HCP knowledge derives from mAb processes and must be re-evaluated for other product classes and matrices.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43031466/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - bears on the anti-HCP polyclonal-replacement register theme: frames HCP-detection/control priorities and flags that HCP behavior is poorly characterized outside mAb processes, the gap a defined recombinant anti-HCP reagent would address. Review, no single named failure-mode figure. DOI 10.1002/btpr.88568."
+    },
+    {
+      "date": "2026-11-16",
+      "topic": "AAV / LNP delivery",
+      "source": "Int J Mol Sci (PMID 43028065)",
+      "title": "Engineering Lipid Nanoparticles Beyond ApoE-Mediated Liver Tropism: Design Strategies for Extrahepatic and Organ-Selective Delivery",
+      "summary": "A review mechanistically ties LNP liver tropism to ApoE adsorption on the particle surface and protein-corona formation, then surveys how ionizable/helper lipids, sterols, PEG-lipids and corona control redirect LNPs to extrahepatic organs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43028065/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - maps onto two register themes: ApoE variants with defined stable activity, and a defined lot-controllable replacement for serum/ApoE in LNP potency assays; the ApoE-corona-tropism mechanism is the characterization gap those reagents would serve. Review. DOI 10.3390/ijms27219818."
     }
   ]
 }
