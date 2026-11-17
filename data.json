@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16",
-  "total": 864,
+  "generated": "2026-11-17",
+  "total": 867,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8641,6 +8641,36 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43028065/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:CANDIDATE] - maps onto two register themes: ApoE variants with defined stable activity, and a defined lot-controllable replacement for serum/ApoE in LNP potency assays; the ApoE-corona-tropism mechanism is the characterization gap those reagents would serve. Review. DOI 10.3390/ijms27219818."
+    },
+    {
+      "date": "2026-11-17",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Nat Commun (PMID 41390480)",
+      "title": "Structural basis of double-stranded RNA recognition by the J2 monoclonal antibody",
+      "summary": "Crystal structure (2.85 A; PDB 9OJV) of the J2 Fab bound to a 23-bp dsRNA shows J2 requires ~14 bp for robust binding and exhibits greatly diminished binding to GC-rich dsRNA, defining the sequence/length limits of the field-standard dsRNA detection reagent.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41390480/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;STRUCTURE;VERIFY] - names a specific failure mode of the J2 reagent (needs >=14 bp; weak binding to GC-rich dsRNA) that directly motivates the register theme 'anti-dsRNA binder as a J2 replacement'; PDB 9OJV gives a defined epitope/paratope usable as a design target. Pub 2025-12-13 but only now PubMed-indexed. VERIFY the 14-bp requirement and 2.85 A figures. DOI 10.1038/s41467-025-67414-z."
+    },
+    {
+      "date": "2026-11-17",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Biochem Biophys Res Commun (PMID 43008701)",
+      "title": "Identification of a novel panel of human DLL3-targeting nanobodies with therapeutic potential for small-cell lung cancer",
+      "summary": "A panel of 18 anti-DLL3 nanobodies expressed as Fc-fusions was profiled by ELISA and biolayer interferometry (lead clone Nb6 showed sub-picomolar affinity and strict DLL3 selectivity with no DLL1/DLL4 cross-reactivity), and epitope mapping binned the clones into N-terminal and C-terminal groups with Nb6-Fc binding native cell-surface DLL3 and internalizing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43008701/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - a textbook Cell-Arm binder-engineering cascade for the engager platform: VHH panel generation -> ELISA/BLI affinity ranking -> epitope binning -> receptor selectivity -> cell-surface binding and internalization, against an overexpressed cell-surface receptor. Demonstrates sub-pM VHH affinity is attainable and that BLI plus epitope binning resolve paratope groups. Therapeutic target (DLL3/SCLC), not a reagent. VERIFY the sub-picomolar Nb6 affinity. DOI 10.1016/j.bbrc.2026.154859."
+    },
+    {
+      "date": "2026-11-17",
+      "topic": "AI/ML in protein design",
+      "source": "World J Microbiol Biotechnol (PMID 43033290)",
+      "title": "An AI-designed, recombinantly produced FtsZ-directed peptide with in vitro activity against pan-drug-resistant clinical isolates",
+      "summary": "An integrated pipeline used a sequence-space diffusion model (conditioned on validated AMP composition) plus ML triage, co-folding and replicated MD to select one de novo peptide lead, produced recombinantly (8xHis, B. subtilis WB800N, one-step Ni-NTA) rather than chemically synthesized, giving larger inhibition zones than last-resort antibiotics for 5 of 7 pan-drug-resistant isolates (mean +4.81 mm, not statistically significant, p=0.074).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033290/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - end-to-end de-novo design -> ML triage -> low-cost recombinant expression -> in vitro validation in one lab, the Phase-2 pipeline shape. But a direct cautionary signal for NL's BLI-first go/no-go: target engagement was only inferred (alignment/co-folding/MD) with NO direct binding measurement, single-measurement zones (no replication), and the potency advantage was not significant (p=0.074, 95% CI -0.64 to 10.27). VERIFY those stats. DOI 10.1007/s11274-026-05392-0."
     }
   ]
 }
