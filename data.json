@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18",
-  "total": 871,
+  "generated": "2026-11-19",
+  "total": 883,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8711,6 +8711,126 @@
       "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765209v2",
       "score": 3,
       "notes": "[TRACK:A] - a Phase-2-relevant de-novo all-atom protein design generative model (bioRxiv preprint, v2 posted 2026-11-10, not peer-reviewed). Summary limited to the title; abstract not retrieved this run, so a human should confirm scope and any performance claims before use."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "Competitive & adjacent landscape",
+      "source": "STAT News",
+      "title": "Seawolf Therapeutics launches with $100M to deliver gene therapy without viruses",
+      "summary": "Seawolf debuted (2026-11-16) with a reported $100M from Versant, Eli Lilly, MPM BioImpact and Novartis' venture arm plus an up-to-$1.2B Sanofi partnership, built around a TRIDENT platform that pairs DNA-LNP delivery with a nuclear-entry factor to enable redosing.",
+      "url": "https://www.statnews.com/2026/11/16/versant-lilly-put-100-million-behind-new-startup-aimed-at-solving-one-of-gene-therapys-thorniest-issues/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e;VERIFY] - new non-viral gene-delivery entrant (DNA-LNP + nuclear-entry factor, redosable), an alternative delivery modality to NL's receptor-bridging engager; the large Sanofi deal signals strong investor appetite for redosable delivery. Not capsid engineering and not a vector-agnostic RUO reagent, so adjacent rather than head-to-head. VERIFY the $100M / $1.2B figures against the source."
+    },
+    {
+      "date": "2026-11-18",
+      "topic": "Competitive & adjacent landscape",
+      "source": "C&EN (Chemical & Engineering News)",
+      "title": "Marrow Therapeutics launches to get genetic medicines to the bone marrow",
+      "summary": "Marrow emerged from stealth (2026-11-17) with a reported $173M to deliver genetic medicines to the bone marrow, with lead candidate MAR-101 designed for repeat subcutaneous dosing rather than one-time gene editing.",
+      "url": "https://cen.acs.org/business/start-ups/Marrow-Therapeutics-launches-genetic-medicines/104/web/2026/11",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:e;VERIFY] - adjacent new delivery entrant (tissue-targeted, redosable genetic medicine via subcutaneous dosing); a landscape signal on the targeted-delivery/redosing theme NL tracks, not directly actionable for the engager reagent. VERIFY the $173M figure."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "AAV / LNP delivery",
+      "source": "RSC Advances",
+      "title": "Environmental stress drives ionizable-lipid oxidation that impairs endosomal escape while conventional biophysical readouts stay normal",
+      "summary": "Ionizable lipids oxidize at escape-relevant sites under storage stress with no change in particle size, encapsulation, or standard biophysical readouts, so routine QC can pass LNPs that have lost potency (published Apr 2026).",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2026/ra/d5ra08835f",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;VERIFY] \u2014 named failure mode: standard LNP release specs miss escape-chemistry loss; bears on the lot-controllable LNP potency-assay theme. Verify the escape figures."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "AI/ML in protein design",
+      "source": "Institute for Protein Design (UW)",
+      "title": "RFantibody: atomically accurate de novo design of antibodies and nanobodies, published in Nature",
+      "summary": "The RFdiffusion-based RFantibody pipeline designs VHHs and scFvs to chosen epitopes (one reported VHH at 262 nM) and has now appeared in Nature (Nov 2025).",
+      "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 the core Phase 2 nanobody-design capability; typically still needs affinity maturation/screening. Verify the 262 nM figure against the paper."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "AI/ML in protein design",
+      "source": "Neurosnap (vendor blog)",
+      "title": "RFdiffusion3 online: all-atom de novo protein binder design",
+      "summary": "A vendor post describes RFdiffusion3 as roughly 10x faster with broader all-atom conditioning options, with the original RFdiffusion still offered for protein-only binder design (Jun 2026).",
+      "url": "https://neurosnap.ai/blog/post/rfdiffusion3-online-all-atom-de-novo-protein-binder-design/6a21b189fb58bafccd97b68b",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Phase 2 tooling signal; vendor source, performance claims unverified against a primary paper."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Drug Discovery Trends",
+      "title": "Capsida's AAV platform nets $40M AbbVie milestone payment",
+      "summary": "Capsida reported a $40M AbbVie milestone tied to its engineered-capsid CNS platform, a reminder that the capsid-engineering category (which requires vector engineering) keeps attracting large pharma milestone capital.",
+      "url": "https://www.drugdiscoverytrends.com/how-capsidas-unconventional-funding-strategy-and-capsid-technology-promise-to-reshape-cns-treatments/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 tracked capsid-engineering peer; contrasts with NL's no-vector-engineering claim. Verify the $40M figure and the article date."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Pharmaceutical Technology",
+      "title": "Typewriter Therapeutics emerges from stealth with $56M for non-viral in vivo gene therapy",
+      "summary": "Typewriter launched (Sept 2026) with $56M to advance a non-viral in vivo gene-therapy delivery platform toward the clinic.",
+      "url": "https://www.pharmaceutical-technology.com/newsletters/typewriter-emerges-from-stealth-in-vivo-gene-therapy-platform-56m",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;VERIFY] \u2014 new non-viral delivery entrant to watch in the delivery-platform category; not a vector-agnostic reagent. Verify round size/date."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Critical-reagent DEFICIENCY signals",
+      "source": "BioProcess Online",
+      "title": "Ask the Pros: the latest in HCP monitoring",
+      "summary": "An industry column states that HCP ELISA's reliance on polyclonal antibodies causes incomplete HCP coverage and lot-to-lot variability (antibodies often raised against non-transfected HCCF), driving uptake of orthogonal mass spec (Dec 2025).",
+      "url": "https://www.bioprocessonline.com/doc/ask-the-pros-the-latest-in-hcp-monitoring-0001",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 named failure mode (polyclonal anti-HCP: incomplete coverage + lot variability) directly on the 'defined recombinant replacement for polyclonal anti-HCP' register theme."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Critical-reagent DEFICIENCY signals",
+      "source": "PMC / journal",
+      "title": "An improved method for detection of double-stranded RNA suitable for QC of mRNA vaccines",
+      "summary": "The paper notes that an approved mRNA vaccine relies on a dot-blot method for dsRNA detection that it characterizes as crude and only semi-quantitative, motivating a better ELISA-based assay (2024).",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11528662/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 named failure mode (crude, semi-quant dsRNA dot-blot) on the anti-dsRNA/J2-replacement register theme; the J2 antibody is the incumbent reagent to displace."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Regulatory / FDA",
+      "source": "Clinical Leader",
+      "title": "Recap: FDA's recent cell and gene therapy guidances, including May 2026 CMC flexibilities",
+      "summary": "The May 5, 2026 CMC-flexibility guidance offers latitude on analytical method validation, comparability, specifications and stability where sponsors can show the evidence supports the product.",
+      "url": "https://www.clinicalleader.com/doc/in-case-you-missed-them-recapping-the-fda-s-recent-guidances-for-cell-and-gene-therapies-0001",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 analytical-method-validation/comparability flexibility is directly relevant to how NL would position a novel critical reagent in CMC; recap source, verify specifics against the guidance."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "Analytical Chemistry (PubMed)",
+      "title": "Quantum Cascade Laser-Based Mid Infrared Spectroscopy (QCL-MIDIR) for Real-Time Monitoring of Capsid Concentration and Empty/Non-Empty Percentage of Adeno-Associated Viral Particles",
+      "summary": "A label-free quantum-cascade-laser mid-IR spectroscopy method monitors AAV capsid concentration and empty/non-empty percentage in real time during production.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046467/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 label-free full/empty AAV readout is a competing analytical route to the conformation-selective full-vs-empty capsid-binder register theme; informs whether a designed binder adds value over spectroscopy for that CQA. DOI 10.1021/acs.analchem.6c02425; Anal Chem pub 2026-11-17."
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Molecular Therapy Advances (PubMed)",
+      "title": "VP2-TALE fusions increase AAV2 capsid filling with payload bearing cognate TALE target sequences as determined by qPCR/ELISA",
+      "summary": "Fusing a sequence-specific TALE DNA-binding domain to AAV2 VP2 raised the full/empty capsid ratio by favoring packaging of payload genomes carrying the cognate TALE target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43036785/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 a vector-engineering route to full-capsid enrichment (requires capsid modification), contrasting NL's non-engineering drop-in reagent thesis; VERIFY the qPCR/ELISA fill-ratio gains. DOI 10.1016/j.omta.2026.201877."
     }
   ]
 }
