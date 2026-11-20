@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19",
-  "total": 883,
+  "generated": "2026-11-20",
+  "total": 892,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8831,6 +8831,96 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43036785/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 a vector-engineering route to full-capsid enrichment (requires capsid modification), contrasting NL's non-engineering drop-in reagent thesis; VERIFY the qPCR/ELISA fill-ratio gains. DOI 10.1016/j.omta.2026.201877."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Am Chem Soc (PubMed)",
+      "title": "Split Intein Enables Ultralarge Dual-Phage Display for Drug Discovery",
+      "summary": "A split-intein 'X-phage' dual-display system reaches a theoretical scFv library diversity of up to 1.5x10^13 in standard culture volumes, yielding low-nanomolar binders (CD33, TGFbetaR1) that were engineered into bispecific engagers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053366/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 a discovery route for Phase-2 particle-arm binders that breaks the ~10^9 phage-library ceiling without special infrastructure; the paper itself builds 'bispecific engagers', overlapping NL's own modality. VERIFY the 1.5x10^13 theoretical diversity and the low-nM affinities. DOI 10.1021/jacs.6c11464; pub 2026-11-18."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "AI/ML in protein design",
+      "source": "Science (PubMed)",
+      "title": "Zero-shot de novo design of a metalloenzyme",
+      "summary": "dEVA, a multi-objective evolutionary-algorithm design method, produced a functional metalloenzyme active-site coordination sphere with no templates or evolutionary information, confirmed by X-ray crystallography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43056425/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] \u2014 benchmarks the zero-shot de-novo design frontier the Phase-2 binder-design capability sits on; caveat: an enzyme active site, not a binding interface, so a capability signal rather than a binder. VERIFY the catalytic and structural claims. DOI 10.1126/science.aej3009; Science 2026-11-19."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Proc Natl Acad Sci USA (PubMed)",
+      "title": "Intrinsically disordered ligands for the control of receptor uptake by endocytosis",
+      "summary": "Designed intrinsically-disordered protein ligands can drive or block clathrin-mediated receptor endocytosis, addressing the problem that the steric bulk of antibodies generally inhibits receptor uptake.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43043710/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 bears directly on whether a receptor-bridged particle internalizes: a sequence-tunable lever for receptor uptake, and the stated finding that antibody steric bulk inhibits endocytosis is a design caveat for the engager's cell arm. VERIFY the uptake/clustering results. DOI 10.1073/pnas.2611604123; PNAS pub 2026-11-24 (edat Nov)."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Drug Discov Today (PubMed)",
+      "title": "Discovery, design, and applications of environment-responsive antibodies",
+      "summary": "A review of the discovery and computational/structure-guided design of antibodies that modulate antigen binding in response to pH, metal-ion concentration, or metabolites.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057566/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE] \u2014 informs conditional/reversible binder engineering on two register themes: reversible fast-off-rate Fc binders for in-line titer, and condition-triggered engager release. Review, no new data. DOI 10.1016/j.drudis.2026.104856; pub 2026-11-19."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "Molecular Therapy Advances (PubMed)",
+      "title": "Development of protein expression and enzymatic activity potency assays for mRNA therapeutic development: A case study using GSDIII mRNA-LNP",
+      "summary": "Two complementary cell-based potency assays (protein expression and enzymatic activity) for an mRNA-LNP candidate use human-serum pretreatment to drive cellular uptake and are shown to be stability-indicating.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43034782/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] \u2014 the human-serum pretreatment step is exactly the lot-controllable 'serum replacement in LNP potency assays' register theme and documents how serum dependence enters an LNP potency readout. VERIFY the stability-indicating comparison. DOI 10.1016/j.omta.2026.201872; pub 2026-12-10 (edat Nov)."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "J Genetics and Genomics (PubMed)",
+      "title": "Z-RNome profiling uncovers dysregulated Z-RNA with implications in systemic lupus erythematosus pathogenesis",
+      "summary": "AMAZE-seq uses the Z-nucleic-acid-binding Zalpha domain to achieve fine-scale, conformation-selective transcriptome-wide profiling of left-handed Z-form RNA.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057513/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] \u2014 a defined protein domain used as a conformation-selective nucleic-acid detection reagent is a direct parallel to the anti-dsRNA/J2-replacement and conformation-selective register themes; the SLE biology is incidental, the reagent pattern is the point. VERIFY the Zalpha-fusion construct. DOI 10.1016/j.jgg.2026.11.006; pub 2026-11-19."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Peptide Science (PubMed)",
+      "title": "A C2 Symmetry Linker With Built-In Hydroxamic Handle for the Macrocyclization of Thiol-Containing Peptide Sequences",
+      "summary": "Two C2-symmetric stapling linkers carrying dual thiol-reactive groups and an integrated metal-chelating hydroxamic-acid handle macrocyclize genetically-encoded bis-cysteine display peptides in a single step.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43036304/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 route-M enabling chemistry on the widened buildable gate: a cleaner synthesis route to constrained-peptide binders with a built-in chelation handle. DOI 10.1002/psc.70151; J Pept Sci Dec 2026 (edat Nov)."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "AI/ML in protein design",
+      "source": "J Phys Chem A (PubMed)",
+      "title": "Extending AIMNet2 to Macrocyclic Peptides through Data-Efficient Continual Training",
+      "summary": "An AIMNet2 machine-learned interatomic potential, extended by continual training, accurately ranks macrocyclic-peptide conformers on the MPCONF196 benchmark and outperforms MACE-OFF23(S) despite no macrocycles in its base training set.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43055478/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] \u2014 a fast, accurate design/validation tool for conformational analysis of route-M constrained-peptide binder candidates. VERIFY the benchmark RMSE/ranking vs MACE-OFF23. DOI 10.1021/acs.jpca.6c06253; pub 2026-11-19."
+    },
+    {
+      "date": "2026-11-20",
+      "topic": "Binder engineering & structural characterization",
+      "source": "J Biol Chem (PubMed)",
+      "title": "Site-Specific Nanobody Inhibitors of the Proteasomal Deubiquitinase UCH37",
+      "summary": "Epitope-specific nanobody inhibitors of the deubiquitinase UCH37 were isolated and their distinct binding surfaces mapped by structural and biophysical characterization.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43044823/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 a worked VHH discovery-plus-structural-epitope-mapping template on the topic-2 structural-characterization axis; the UCH37 target is incidental. DOI 10.1016/j.jbc.2026.113775; pub 2026-11-17."
     }
   ]
 }
