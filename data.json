@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-20",
-  "total": 892,
+  "generated": "2026-11-22",
+  "total": 896,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8921,6 +8921,46 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43044823/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:STRUCTURE] \u2014 a worked VHH discovery-plus-structural-epitope-mapping template on the topic-2 structural-characterization axis; the UCH37 target is incidental. DOI 10.1016/j.jbc.2026.113775; pub 2026-11-17."
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "Talanta (PubMed)",
+      "title": "Gold nanocluster-enabled nanobody-based fluorescence immunoassay for sensitive detection of \u03b2-lactoglobulin in dairy products",
+      "summary": "A dual-nanobody sandwich fluorescence immunoassay uses two nanobodies recognizing distinct epitopes (Nb32 capture, PNb14 detection) with BSA-stabilized gold-nanocluster signal probes to quantify the milk allergen \u03b2-lactoglobulin.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014049/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] \u2014 a sequence-defined nanobody PAIR deployed as a defined, lot-controllable sandwich analytical reagent is a clean route-P exemplar of the Track-B 'designed binder as a critical analytical reagent' thesis; the milk-allergen target is incidental, the reagent pattern is the point. VERIFY the LOD 12 ng/mL and the 7-fold sensitivity gain. DOI 10.1016/j.talanta.2026.130919; epub 2026-11-11 (within window); recent PubMed indexing."
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Biomaterials (PubMed)",
+      "title": "Engineered \u03b19-nAChR-targeting antibodies attenuate nicotine-enhanced triple-negative breast cancer progression and exhibit favorable short-term tolerability in cynomolgus macaques",
+      "summary": "An scFv (mCLPS1) raised by mouse immunization plus phage display against an engineered \u03b19-nAChR extracellular-loop antigen was reformatted into an Fc-fusion and into an anti-mPEG bispecific antibody (mCLPS1/anti-mPEG BsAb).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42763996/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;VERIFY] \u2014 the paper builds an anti-mPEG bispecific antibody, directly paralleling NL's anti-PEG cell-arm engager architecture, and the phage-display scFv against a receptor extracellular loop is a Cell-Arm discovery template; the TNBC/nicotine oncology biology is incidental. VERIFY the affinity/efficacy claims. DOI 10.1016/j.biomaterials.2026.124638; epub 2026-09-17, recent PubMed indexing (edat Nov)."
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "AI/ML in protein design",
+      "source": "mAbs (PubMed)",
+      "title": "DyAb: sequence-based antibody design and property prediction in a low-data regime",
+      "summary": "DyAb is a protein-language-model approach that uses a pairwise representation to predict binding-affinity DIFFERENCES between antibody variants rather than absolute affinities, reported to work from as few as roughly 100 training datapoints.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42665538/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 directly on the Phase-2 engineered-binder maturation lever: low-data affinity-RANKING is exactly NL's constraint when maturing particle-arm/cell-arm binders from literature tool sequences toward de novo replacements. VERIFY the ~100-datapoint claim and the Spearman up to 0.85. DOI 10.1080/19420862.2026.2717460; epub 2026-08-28, recent PubMed indexing (edat Nov)."
+    },
+    {
+      "date": "2026-11-22",
+      "topic": "Binder engineering & structural characterization",
+      "source": "mAbs (PubMed)",
+      "title": "Predicting antibody self-association with sequence-structure fusion models: the central role of CSI-BLI in early developability screening",
+      "summary": "The study benchmarks clone self-interaction biolayer interferometry (CSI-BLI) as a low-material early proxy for viscosity/clearance across a 246-mAb panel and builds sequence-structure fusion ML models to predict self-association.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42420197/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 a BLI-based developability assay plus predictor sitting squarely on NL's primary BLI go/no-go axis and the Phase-2 binder developability-triage lever. VERIFY the n=246 panel size and the reported correlations. DOI 10.1080/19420862.2026.2694124; epub 2026-07-08, recent PubMed indexing (edat Nov)."
     }
   ]
 }
