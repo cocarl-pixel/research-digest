@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22",
-  "total": 896,
+  "generated": "2026-11-23",
+  "total": 906,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8961,6 +8961,106 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42420197/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 a BLI-based developability assay plus predictor sitting squarely on NL's primary BLI go/no-go axis and the Phase-2 binder developability-triage lever. VERIFY the n=246 panel size and the reported correlations. DOI 10.1080/19420862.2026.2694124; epub 2026-07-08, recent PubMed indexing (edat Nov)."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "J Pharm Sci (PubMed)",
+      "title": "Retrospective assessment of AAV empty/full capsid methods using real-world analytical data",
+      "summary": "A seven-year retrospective compares how the standalone methods AUC, negative-stain TEM, anion-exchange UV-ratio (ACUVRA) and mass photometry (plus genome-to-capsid ratio) characterize rAAV empty/full capsid populations using real-world analytical development data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064305/",
+      "score": 5,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;DEFICIENCY;VERIFY] \u2014 benchmarks the incumbent full/empty AAV capsid methods and their disagreements, the exact gap behind the register's conformation-selective full-vs-empty capsid-binder theme; a defined binder that discriminates full vs empty would be the route-P fix. DEFICIENCY = cross-method inconsistency in empty/full quantitation. VERIFY any inter-method bias figures against the paper. DOI 10.1016/j.xphs.2026.104614; epub 2026-11-20 (within 7-day window)."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "AAV / LNP delivery",
+      "source": "Sci Adv (PubMed)",
+      "title": "PEG-free tunable poly(2-oxazoline) lipids modulate mRNA-LNP biodistribution and expression in vivo",
+      "summary": "PEG-free, tunable poly(2-oxazoline) lipids are reported to stabilize mRNA-LNPs and tune in-vivo biodistribution and expression while avoiding the anti-PEG-antibody liability of PEGylated LNPs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43063278/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 a field move toward PEG-free LNP stabilizers directly threatens NL's anti-PEG (clone 3.3) LNP cell-arm handle, since a non-PEG LNP presents nothing for an anti-PEG engager to bind; also bears on the anti-PEG-binder specificity theme. VERIFY the in-vivo expression/clearance claims. DOI 10.1126/sciadv.aeg5378; epub 2026-11-20 (within window)."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Nat Chem Biol (PubMed)",
+      "title": "An engineered nanobody inhibitor for molecular-to-circuit control of opioid receptors",
+      "summary": "Structure-guided directed evolution yields high-affinity intracellular nanobodies, including an active-state-selective opioid-receptor inhibitor (Nb64), enabling control of native receptor signaling.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43058258/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE;VERIFY] \u2014 a clean template for structure-guided affinity maturation of a VHH toward a conformational state, directly on NL's Phase-2 particle-arm/cell-arm maturation lever; the conformational (active-state) selectivity also echoes the full-vs-empty capsid discrimination idea. VERIFY reported affinities. DOI 10.1038/s41589-026-02390-z; epub 2026-11-19 (within window)."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Comput Biol Chem (PubMed)",
+      "title": "Epitope-guided CDR engineering of VHH nanobodies targeting LasR quorum sensing in Pseudomonas aeruginosa validated by atomistic simulation and end-point binding free energy calculations",
+      "summary": "An epitope-guided computational CDR-engineering workflow redesigns VHH nanobody paratopes and validates the variants with atomistic MD and MM/PBSA end-point binding free-energy calculations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068668/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 an in-silico CDR-maturation pipeline for VHHs maps onto NL's Phase-2 binder engineering; the Pseudomonas quorum-sensing target is incidental, the method is the point. VERIFY computed binding free energies. DOI 10.1016/j.compbiolchem.2026.109604; epub 2026-11-20 (within window)."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Binder engineering & structural characterization",
+      "source": "Chemistry (PubMed)",
+      "title": "Hybrid Macrocyclic Peptides - Synthetic Strategies to Diversify and Cyclize Peptide Libraries in Phage Display Selections",
+      "summary": "A methods review covers synthetic strategies for diversifying and cyclizing phage-display peptide libraries with non-peptidic scaffolds and synthetic cyclization units to yield hybrid macrocyclic-peptide binders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42446232/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 route-M capability reference for building constrained/cyclic-peptide binder libraries, the macrocycle lane admitted to the target search on 2026-09-16. Not within the 7-day window (epub 2026-07-14); logged as route-M background. DOI 10.1002/chem.71408."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "AI/ML in protein design",
+      "source": "Cell (PubMed)",
+      "title": "De novo pan-rhodamine binders for fluorescence microscopy from mammalian cells to extremophiles",
+      "summary": "De novo-designed pan-rhodamine binders (Rhobin) act as bright, reversible, compact and condition-stable fluorogenic tags compatible with diverse rhodamine dyes across organisms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679818/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 a de novo protein binder deployed as a defined, reversible analytical reagent is a clean route-P exemplar of the Track-B 'designed binder as critical reagent' thesis; note the target is a dye (outside the admitted target classes), so the value is the capability/pattern, not the target. Not within window (epub 2026-09-01); logged as background. DOI 10.1016/j.cell.2026.08.007."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv (PubMed)",
+      "title": "MYC targeted de novo binders impair tumor growth",
+      "summary": "De novo-designed proteins bind conserved epitopes within intrinsically disordered regions of MYC at reportedly nanomolar affinity, disrupt the MYC-MAX interaction, and reduce proliferation across MYC-dependent tumor models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42995841/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 demonstrates de novo binder design against a hard, intrinsically disordered target, extending NL's Phase-2 capability frontier beyond folded epitopes. Preprint; not within window (epub 2026-10-22). VERIFY the nanomolar-affinity claim before use. DOI 10.64898/2026.10.15.758618."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "AI/ML in protein design",
+      "source": "Cell Syst (PubMed)",
+      "title": "Sampling protein language models for functional protein design",
+      "summary": "A protein-language-model design study finds that sampling multiple simultaneous mutations outperforms single-mutant sampling by capturing epistasis, and validates the approach on a de novo binder-design task against a major therapeutic target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42743923/",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 a PLM sampling method directly usable for NL's Phase-2 binder optimization / affinity maturation. Not within window (epub 2026-09-15); logged as methodological background. DOI 10.1016/j.cels.2026.101714."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Competitive & adjacent landscape",
+      "source": "bioRxiv (PubMed)",
+      "title": "CHARIOT-AAV: Conjugation of diverse vectors to adeno-associated viruses for delivery of large genes",
+      "summary": "CHARIOT-AAV covalently conjugates AAVs to other AAVs, lentiviral vectors or LNPs to confer AAV-guided tissue-specific tropism and expanded cargo, including systemic AAV-LNP delivery of mRNA to brain endothelium.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42039460/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c;IP] \u2014 the canonical CHARIOT covalent particle-conjugation competitor (category c) and, via AAV-LNP conjugates, a direct architectural rival to NL's NON-covalent bridging engager; contrast point for NL's drop-in, no-engineering claim. Not previously captured in the feed and not recent (epub 2026-04-15) \u2014 logged as a foundational competitor reference. DOI 10.64898/2026.04.13.718054."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Hum Gene Ther (PubMed)",
+      "title": "A Modular Polymer Enhancer Promotes AAV Transduction and Circumvents Preexisting Immunity in Nonhuman Primates",
+      "summary": "A cargo-less PLGA 'enhancer polymer' (ePL) is reported to boost AAV transduction via a protransduction macrophage secretome and to attenuate neutralizing antibodies in nonhuman primates without depleting total IgG.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42528007/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:a;VERIFY] \u2014 a status-quo transduction-enhancer competitor (category a) that additionally tackles pre-existing anti-AAV immunity, competing with NL's drop-in-reagent positioning. Not recent (epub 2026-07-29). VERIFY the fold-enhancement and nAb-attenuation claims. DOI 10.1177/10430342261471124."
     }
   ]
 }
