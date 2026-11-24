@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23",
-  "total": 906,
+  "generated": "2026-11-24",
+  "total": 875,
   "articles": [
     {
       "date": "2024-07-01",
@@ -2105,16 +2105,6 @@
     {
       "date": "2026-06-15",
       "topic": "AAV / LNP delivery",
-      "source": "Advanced Materials",
-      "title": "Fusion Peptide-Incorporated Lipid Nanoparticles Boost Endosomal Escape and Enhance Cytosolic mRNA Delivery",
-      "summary": "HA2 fusion peptide from influenza virus collaborates with ionizable lipids to rupture endosomal membranes at acidic pH, markedly enhancing cytosolic mRNA release.",
-      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202515130",
-      "score": 5,
-      "notes": "Endosomal escape mechanism"
-    },
-    {
-      "date": "2026-06-15",
-      "topic": "AAV / LNP delivery",
       "source": "Advanced Healthcare Materials",
       "title": "Novel Lipid Nanoparticle (LNP) Delivery Systems Enabling the Advancement of RNA Therapeutics",
       "summary": "Review of 2025-2026 advances in LNP-mRNA technology covering novel lipid screening, administration routes, surface functionalization, and lyophilized formulations.",
@@ -2285,16 +2275,6 @@
     {
       "date": "2026-06-15",
       "topic": "Competitive landscape",
-      "source": "BioSpace",
-      "title": "Antiverse Raises $9.3M Series A to Develop Antibodies for Undruggable Disease Targets",
-      "summary": "Antiverse closes $9.3M Series A led by Soulmates Ventures for its AI-based de novo antibody design platform, with new CF Foundation collaboration targeting extracellular CFTR.",
-      "url": "https://www.biospace.com/press-releases/antiverse-raises-9-3m-series-a-to-develop-antibodies-for-undruggable-disease-targets-and-announces-research-agreement-with-the-cystic-fibrosis-foundation",
-      "score": 5,
-      "notes": "March 2026 funding"
-    },
-    {
-      "date": "2026-06-15",
-      "topic": "Competitive landscape",
       "source": "PR Newswire",
       "title": "Sino Biological Launches XPressMAX Cell-Free Protein Synthesis Kit for AI-Powered Antibody Discovery",
       "summary": "XPressMAX kit enables expression of VHH, scFv, Fab, and minibody in 3 hours from plasmid/PCR template; integrated with AI screening platforms to validate 2000+ molecules in 3-4 weeks.",
@@ -2335,32 +2315,12 @@
     {
       "date": "2026-06-15",
       "topic": "Potency & bioassays",
-      "source": "PMC",
-      "title": "A Cell-Based Potency Assay for Determining the Relative Potency of Botulinum Neurotoxin A Preparations Using Manual and Semi-Automated Procedures",
-      "summary": "BoSapient CBPA measures direct YFP excitation rather than FRET/downstream reporter, providing a qualified relative potency assay for BoNT/A preparations.",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12845863/",
-      "score": 4,
-      "notes": "Potency method"
-    },
-    {
-      "date": "2026-06-15",
-      "topic": "Potency & bioassays",
       "source": "bioRxiv",
       "title": "Cell-Based Potency Assay for Anti-CD3-Anti-CD19 Diabody",
       "summary": "GMP-compatible cell-based potency assay using cytotoxic T cell and B cell lymphoma cell lines to measure diabody-mediated redirected killing for potency release testing.",
       "url": "https://www.biorxiv.org/content/10.1101/2025.04.15.648836v1",
       "score": 4,
       "notes": "GMP bioassay"
-    },
-    {
-      "date": "2026-06-15",
-      "topic": "Potency & bioassays",
-      "source": "PMC",
-      "title": "A bioluminescent reporter bioassay for in-process assessment of chimeric antigen receptor lentiviral vector potency",
-      "summary": "Jurkat/NFAT-Luc2 reporter cell bioassay for rapid in-process CAR-LV potency measurement, enabling earlier release testing in cell therapy manufacturing.",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11744306/",
-      "score": 4,
-      "notes": "CAR-LV potency assay"
     },
     {
       "date": "2026-06-15",
@@ -2405,16 +2365,6 @@
     {
       "date": "2026-06-15",
       "topic": "Regulatory / FDA",
-      "source": "FDA.gov",
-      "title": "Bioanalytical Method Validation for Biomarkers \u2014 FDA Guidance April 2026",
-      "summary": "FDA April 2026 guidance for validating bioanalytical methods in IND/BLA submissions covers accuracy, precision, selectivity, sensitivity, and stability requirements for biomarker assays.",
-      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/bioanalytical-method-validation-biomarkers",
-      "score": 5,
-      "notes": "New FDA guidance April 2026"
-    },
-    {
-      "date": "2026-06-15",
-      "topic": "Regulatory / FDA",
       "source": "RAPS",
       "title": "CBER outlines its guidance priorities for 2026",
       "summary": "CBER 2026 agenda includes 35 guidances with 19 for therapeutic products; new items include draft guidance on Potency Assessment of Active Immunotherapy Products.",
@@ -2431,16 +2381,6 @@
       "url": "https://www.raps.org/resource/fda-finalizes-guidance-on-cmc-flexibilities-for-cell-and-gene-therapies.html",
       "score": 4,
       "notes": "CMC flexibility final guidance"
-    },
-    {
-      "date": "2026-06-15",
-      "topic": "Regulatory / FDA",
-      "source": "Assyro AI",
-      "title": "Biologics Regulatory Pathway: IND to BLA Guide May 2026",
-      "summary": "Updated May 2026 guide covering FDA biologics IND-enabling requirements, CMC expectations, IND submission strategy, and BLA pathway milestones.",
-      "url": "https://assyro.com/blog/biologics-regulatory-pathway-fda",
-      "score": 3,
-      "notes": "IND-to-BLA overview"
     },
     {
       "date": "2026-06-15",
@@ -2915,26 +2855,6 @@
     {
       "date": "2026-07-27",
       "topic": "AAV / LNP delivery",
-      "source": "BioDrugs (Springer)",
-      "title": "Recent Developments in Lipid Nanoparticle-Mediated Delivery of Biotherapeutics and Gene Therapy Across the Blood-Brain Barrier",
-      "summary": "Review of 2026 LNP strategies for crossing the BBB to deliver biotherapeutics and gene therapy cargo.",
-      "url": "https://link.springer.com/article/10.1007/s40259-026-00782-0",
-      "score": 4,
-      "notes": "Current BBB-LNP landscape review."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "AAV / LNP delivery",
-      "source": "Accounts of Chemical Research",
-      "title": "Ionizable Lipid Nanoparticles for mRNA Delivery: Internal Self-Assembled Inverse Mesophase Structure and Endosomal Escape",
-      "summary": "Links internal LNP inverse mesophase structures to endosomal escape efficiency for mRNA delivery.",
-      "url": "https://pubs.acs.org/doi/10.1021/acs.accounts.5c00522",
-      "score": 4,
-      "notes": "Mechanistic endosomal-escape insight for formulation design."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "AAV / LNP delivery",
       "source": "bioRxiv",
       "title": "Engineering novel AAV capsids by global de-targeting and subsequent muscle-specific tropism in mice and NHPs",
       "summary": "Global de-targeting followed by re-targeting yields engineered AAV capsids with muscle-specific tropism validated in mice and NHPs.",
@@ -2971,16 +2891,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40670719/",
       "score": 4,
       "notes": "VHH bispecific engager format relevant to reagent/therapeutic engineering."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Antibody & protein engineering",
-      "source": "PubMed",
-      "title": "Bispecific single-domain antibody (VHH) fused with human IgG1 Fc effectively neutralizes Naja kaouthia venom",
-      "summary": "A bispecific VHH-Fc showed strong venom binding and higher murine survival than equine antivenom, demonstrating dual-specificity VHH-Fc engineering.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41843617/",
-      "score": 3,
-      "notes": "VHH-Fc dual-specificity design and expression example (Mar 2026)."
     },
     {
       "date": "2026-07-27",
@@ -3055,16 +2965,6 @@
     {
       "date": "2026-07-27",
       "topic": "Competitive landscape",
-      "source": "Tech.eu",
-      "title": "Antiverse secures $9.3M Series A for AI antibody platform",
-      "summary": "UK biotech Antiverse closed a $9.3M Series A (led by Soulmates Ventures) to advance its AI-designed therapeutic antibody platform.",
-      "url": "https://tech.eu/2026/03/03/antiverse-secures-93m-series-a-for-ai-antibody-platform/",
-      "score": 4,
-      "notes": "Direct competitor/peer in AI antibody design; funding signal."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Competitive landscape",
       "source": "IntuitionLabs",
       "title": "AI Biologics Discovery: 2026 Pharma Investment Trends",
       "summary": "Analysis of 2026 AI-biologics investment, including Earendil Labs' $787M round and pharma appetite for generative binder/antibody platforms.",
@@ -3081,26 +2981,6 @@
       "url": "https://genemod.net/blog/biotech-companies-raised-funding-march-2026",
       "score": 3,
       "notes": "Broad funding tracker for competitive monitoring."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Potency & bioassays",
-      "source": "PubMed (PMC)",
-      "title": "A Cell-Based Potency Assay for Determining the Relative Potency of Botulinum Neurotoxin A Preparations Using Manual and Semi-Automated Procedures",
-      "summary": "Develops a cell-based potency assay for BoNT-A using manual and semi-automated procedures meeting regulatory precision/accuracy requirements.",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12845863/",
-      "score": 4,
-      "notes": "Cell-based potency assay with automation; bioassay qualification relevance (Jan 2026)."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Potency & bioassays",
-      "source": "PubMed",
-      "title": "A bioluminescent reporter bioassay for in-process assessment of chimeric antigen receptor lentiviral vector potency",
-      "summary": "A luciferase reporter bioassay enables in-process potency assessment of CAR lentiviral vectors with stability-indicating performance.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39839908/",
-      "score": 4,
-      "notes": "Reporter-gene potency assay design template."
     },
     {
       "date": "2026-07-27",
@@ -3141,16 +3021,6 @@
       "url": "https://www.scispot.com/blog/best-proteomics-lims-in-2025-the-ultimate-guide",
       "score": 3,
       "notes": "LIMS selection reference for a small lab."
-    },
-    {
-      "date": "2026-07-27",
-      "topic": "Regulatory / FDA",
-      "source": "FDA",
-      "title": "Bioanalytical Method Validation for Biomarkers (Guidance for Industry, April 2026)",
-      "summary": "New FDA guidance advising IND/NDA/BLA sponsors on validating bioanalytical methods used to measure biomarker concentrations.",
-      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/bioanalytical-method-validation-biomarkers",
-      "score": 4,
-      "notes": "Fresh FDA guidance relevant to assay/method validation strategy."
     },
     {
       "date": "2026-07-27",
@@ -3863,16 +3733,6 @@
       "notes": "A directly competitive closed-loop AI-plus-automation antibody discovery/manufacturing infrastructure to benchmark against."
     },
     {
-      "date": "2026-06-03",
-      "topic": "Biotools & research tools",
-      "source": "GlobeNewswire",
-      "title": "Curiox Automates Flow Cytometry Sample Prep End-to-End on a Single Instrument",
-      "summary": "Curiox added an Antibody Cocktailing Wizard and Workflow Wizard to its Pluto Workstation, automating no-code antibody panel cocktail prep and centrifuge-free staining/washing for flow cytometry.",
-      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306096/0/en/Curiox-Automates-Flow-Cytometry-Sample-Prep-End-to-End-on-a-Single-Instrument.html",
-      "score": 3,
-      "notes": "Automated antibody cocktailing and centrifuge-free staining directly streamlines flow-based antibody validation workflows."
-    },
-    {
       "date": "2026-05-15",
       "topic": "Biotools & research tools",
       "source": "PubMed",
@@ -4253,16 +4113,6 @@
       "notes": "New FDA draft guidance relevant to long-term clinical/regulatory strategy for biologics."
     },
     {
-      "date": "2026-01-14",
-      "topic": "Regulatory / FDA",
-      "source": "arXiv",
-      "title": "Regulatory Expectations for Bayesian Methods in Drug and Biologic Clinical Trials: A Practical Perspective on FDA's 2026 Draft Guidance",
-      "summary": "Practical analysis of FDA's January 2026 draft guidance on Bayesian methodology in drug and biologic clinical trials, and its implications for pivotal trial design.",
-      "url": "https://arxiv.org/pdf/2601.14701",
-      "score": 3,
-      "notes": "Background analysis of a 2026 FDA statistical-methods guidance relevant to long-term clinical development planning."
-    },
-    {
       "date": "2026-02-01",
       "topic": "AAV / LNP delivery",
       "source": "PubMed",
@@ -4451,16 +4301,6 @@
       "url": "https://phys.org/news/2026-04-high-throughput-platform-fast-covalent.html",
       "score": 4,
       "notes": "New HTS platform directly relevant to accelerating protein engineering screening throughput."
-    },
-    {
-      "date": "2026-04-01",
-      "topic": "Regulatory / FDA",
-      "source": "FDA",
-      "title": "Bioanalytical Method Validation for Biomarkers",
-      "summary": "New FDA guidance for IND sponsors and BLA applicants on validating bioanalytical methods used to quantify biomarker concentrations in nonclinical and clinical samples.",
-      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/bioanalytical-method-validation-biomarkers",
-      "score": 5,
-      "notes": "New FDA guidance document directly relevant to analytical method validation for IND-enabling work."
     },
     {
       "date": "2026-01-01",
@@ -5024,26 +4864,6 @@
     },
     {
       "date": "2026-09-27",
-      "topic": "AAV / LNP delivery",
-      "source": "PubMed",
-      "title": "Site-Specific Capsid Modification Enables FR\u03b1-Directed Retargeting of AAV",
-      "summary": "Azide unnatural-amino-acid incorporation lets folate ligands be covalently conjugated to defined AAV2 residues for FR\u03b1-targeted transduction.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41335022/",
-      "score": 4,
-      "notes": "[TRACK:A] [FLAG:COMPETITOR:c;VERIFY] Covalent particle-ligand coupling (CHARIOT-class) \u2014 direct competitive contrast to our non-covalent engager; reported 3-5x transduction gain needs source check."
-    },
-    {
-      "date": "2026-09-27",
-      "topic": "AAV / LNP delivery",
-      "source": "bioRxiv",
-      "title": "Rapid and reliable quantification of cytosolic mRNA escape (RNASCAPE)",
-      "summary": "A reporter method quantifying the fraction of LNP-delivered mRNA reaching the cytosol (~5-9% across cell types).",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716953v1.full",
-      "score": 3,
-      "notes": "[TRACK:B] [FLAG:VERIFY] Escape-quantification method relevant to LNP potency/characterization assays; escape-% figures need source check."
-    },
-    {
-      "date": "2026-09-27",
       "topic": "Binder engineering & structural characterization",
       "source": "bioRxiv",
       "title": "Discovery of an NRAS isoform and activation-state selective macrocyclic peptide",
@@ -5153,36 +4973,6 @@
       "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] Documents polyclonal lot-to-lot variability / undefined specificity \u2014 the recombinant-replacement-for-polyclonal candidate class."
     },
     {
-      "date": "2026-09-27",
-      "topic": "Regulatory / FDA",
-      "source": "RAPS",
-      "title": "FDA finalizes guidance on CMC flexibilities for cell and gene therapies",
-      "summary": "Finalized CGT guidance allows CMC knowledge reuse across similar products, including analytical methods and critical components.",
-      "url": "https://www.raps.org/resource/fda-finalizes-guidance-on-cmc-flexibilities-for-cell-and-gene-therapies.html",
-      "score": 4,
-      "notes": "[TRACK:AB] Sets CMC/critical-reagent and analytical-method expectations relevant to how our reagents would be qualified and reused across programs."
-    },
-    {
-      "date": "2026-09-28",
-      "topic": "AAV / LNP delivery",
-      "source": "Nature Biotechnology",
-      "title": "In vivo endosomal escape assay identifies mechanisms for efficient hepatic LNP delivery",
-      "summary": "A new in vivo assay quantifies LNP endosomal escape and links late-endosomal maturation to delivery efficiency, identifying branched ionizable lipids that raise cytosolic cargo release.",
-      "url": "https://www.nature.com/articles/s41587-026-03022-6",
-      "score": 4,
-      "notes": "[TRACK:A] [FLAG:VERIFY] - in vivo endosomal-escape quantification (~6-8% escape claim) informs how a drop-in engager reagent would be characterized on the LNP arm."
-    },
-    {
-      "date": "2026-09-28",
-      "topic": "AAV / LNP delivery",
-      "source": "Nature Communications",
-      "title": "Engineered internal architecture of core-shell lipid nanoparticles promotes efficient mRNA endosomal release",
-      "summary": "Core-shell LNPs with engineered internal architecture are reported to roughly double endosomal escape and greatly increase cytoplasmic mRNA diffusion versus conventional LNPs.",
-      "url": "https://www.nature.com/articles/s41467-026-69017-8",
-      "score": 4,
-      "notes": "[TRACK:A] [FLAG:VERIFY] - claims ~2x escape / ~100x cytoplasmic diffusion; an LNP-reformulation competitor to the no-reformulation engager positioning."
-    },
-    {
       "date": "2026-09-28",
       "topic": "AAV / LNP delivery",
       "source": "Cell Biomaterials",
@@ -5191,36 +4981,6 @@
       "url": "https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00330-7",
       "score": 3,
       "notes": "[TRACK:A] - LNP formulation background relevant to the engager's LNP delivery arm."
-    },
-    {
-      "date": "2026-09-28",
-      "topic": "AAV / LNP delivery",
-      "source": "Accounts of Chemical Research",
-      "title": "Ionizable Lipid Nanoparticles for mRNA Delivery: Internal Self-Assembled Inverse Mesophase Structure and Endosomal Escape",
-      "summary": "Reviews how internal inverse-mesophase structure of ionizable LNPs governs endosomal escape and mRNA delivery efficiency.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41060394/",
-      "score": 3,
-      "notes": "[TRACK:A] - structural background on ionizable-LNP behavior for the delivery arm."
-    },
-    {
-      "date": "2026-09-28",
-      "topic": "AI/ML in protein design",
-      "source": "Nature Biotechnology",
-      "title": "Efficient generation of epitope-targeted antibodies with Germinal",
-      "summary": "Germinal is a computational pipeline that generates epitope-targeted antibodies efficiently, directing binders to user-specified sites.",
-      "url": "https://www.nature.com/articles/s41587-026-03187-0",
-      "score": 4,
-      "notes": "[TRACK:AB] - directly the Phase 2 de-novo binder capability for replacing the unowned literature tool sequences (AAVX VHH, anti-PEG 3.3)."
-    },
-    {
-      "date": "2026-09-28",
-      "topic": "AI/ML in protein design",
-      "source": "bioRxiv",
-      "title": "Agent-Guided De Novo Design of Nanobody Binders Against a Novel Cancer Target",
-      "summary": "An agent-guided workflow designs nanomolar-to-subnanomolar nanobody binders against a novel target without experimental structure or prior antibody information.",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717816v1",
-      "score": 3,
-      "notes": "[TRACK:AB] [FLAG:VERIFY] - reported KD 0.66-305 nM; a candidate route for Phase 2 de novo VHH generation."
     },
     {
       "date": "2026-09-28",
@@ -5261,16 +5021,6 @@
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.02.686002v1.full",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b] - directed-evolution/ML capsid engineering; the distinct vector-engineering competitor category."
-    },
-    {
-      "date": "2026-09-28",
-      "topic": "Competitive & adjacent landscape",
-      "source": "Frontiers in Molecular Biosciences",
-      "title": "Strategies of AAV capsid engineering for targeted delivery to brain, muscle, and retina",
-      "summary": "Reviews current AAV capsid-engineering strategies (peptide display, rational and evolution-based design) for tissue-targeted delivery.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41567865/",
-      "score": 3,
-      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] - capsid-engineering landscape review; benchmarks the vector-engineering alternative to a drop-in engager."
     },
     {
       "date": "2026-09-28",
@@ -5341,16 +5091,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42028008/",
       "score": 4,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b] \u2014 Structure-guided insertion into a capsid surface loop; directly informs capsid insertion-site tolerance and the receptor-targeting delivery landscape (categories b and e)."
-    },
-    {
-      "date": "2026-09-29",
-      "topic": "AAV / LNP delivery",
-      "source": "Nature Biomedical Engineering",
-      "title": "Artificial intelligence-guided design of LNPs for in vivo targeted mRNA delivery via analysis of the spatial conformation of ionizable lipids",
-      "summary": "Molecular-dynamics-informed AI design links ionizable-lipid head/tail spatial conformation to organ targeting and endosomal escape for mRNA LNPs.",
-      "url": "https://www.nature.com/articles/s41551-026-01640-8",
-      "score": 3,
-      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 Background on the LNP particle the engager's Cell Arm would bridge on unmodified vectors; quantitative delivery-efficiency claims need source check."
     },
     {
       "date": "2026-09-29",
@@ -5431,26 +5171,6 @@
       "url": "https://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-help-accelerate-cell-and-gene-therapies-patients",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 Shapes how critical-reagent and analytical-method evidence is framed in CGT CMC filings; verify the guidance's exact scope and issue date against the FDA source."
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "AAV / LNP delivery",
-      "source": "Nature Biotechnology (PubMed)",
-      "title": "In vivo endosomal escape assay identifies mechanisms for efficient mRNA-LNP delivery",
-      "summary": "A lysosomal-barcoding assay quantifies that only ~6-8% of LNP cargo reaches the cytosol and implicates Rab7 in late-endosome escape.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41814093/",
-      "score": 4,
-      "notes": "[TRACK:A] [FLAG:VERIFY] LNP delivery-efficiency mechanism relevant to the engager LNP arm; 6-8% escape figure to verify against source."
-    },
-    {
-      "date": "2026-09-30",
-      "topic": "AAV / LNP delivery",
-      "source": "bioRxiv",
-      "title": "Receptor-guided AAV tropism engineering via MATCH (SpyTag capsid insertion)",
-      "summary": "Inserts a SpyTag motif into an exposed AAV capsid loop so targeting motifs can be covalently attached post-production.",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715691v1.full",
-      "score": 3,
-      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;IP] SpyTag-into-capsid requires vector engineering (covalent) - the distinct competitor category to our drop-in unmodified-vector reagent."
     },
     {
       "date": "2026-09-30",
@@ -5781,16 +5501,6 @@
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12190177/",
       "score": 4,
       "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;STRUCTURE] [PUBDATE:2025-05] \u2014 Register theme 'anti-dsRNA binder as a J2 replacement'; documents J2's specificity determinants/limits (the named failure mode) and provides a mechanistic basis for designing a defined, sequence-controlled replacement binder."
-    },
-    {
-      "date": "2026-10-02",
-      "topic": "Regulatory / FDA",
-      "source": "Covington (client alert)",
-      "title": "FDA Announces a 'Flexible Approach' on CMC for Cell and Gene Therapies",
-      "summary": "The alert summarizes FDA's finalized CMC-flexibility guidance for CGT BLAs, including concurrent process validation, flexible release criteria, and use of fewer/single representative lots when analytical method validation is scientifically supported.",
-      "url": "https://www.cov.com/en/news-and-insights/insights/2026/01/fda-announces-a-flexible-approach-on-chemistry-manufacturing-and-control-for-cell-and-gene-therapies",
-      "score": 3,
-      "notes": "[TRACK:AB] [FLAG:] [PUBDATE:2026-01] \u2014 Shifts the CMC bar toward scientifically-justified analytical validation and single-lot strategies, raising the premium on well-characterized, defined critical reagents (Track-B thesis)."
     },
     {
       "date": "2026-10-03",
@@ -7515,16 +7225,6 @@
     {
       "date": "2026-11-08",
       "topic": "Binder engineering & structural characterization",
-      "source": "Chem. Commun. (RSC)",
-      "title": "RaPID macrocycle library diversity governs potent-binder discovery",
-      "summary": "Analysis of published RaPID datasets finds potent macrocyclic binders are more reliably recovered from mRNA-display libraries with at least nine randomized residues.",
-      "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2026/CC/D5CC06167A",
-      "score": 3,
-      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 2026. Design-of-selection guidance for the route-M (macrocycle) option admitted to the buildable gate on 2026-09-16; informs how a macrocyclic critical-reagent binder campaign would be set up."
-    },
-    {
-      "date": "2026-11-08",
-      "topic": "Binder engineering & structural characterization",
       "source": "RSC Chemical Biology",
       "title": "Review: macrocyclic peptide discovery platforms including RaPID",
       "summary": "A review surveys RaPID and related discovery approaches for macrocyclic/constrained-peptide scaffolds as binders.",
@@ -7965,16 +7665,6 @@
     {
       "date": "2026-11-12",
       "topic": "AI/ML in protein design",
-      "source": "PubMed",
-      "title": "Atomically accurate de novo design of antibodies with RFdiffusion",
-      "summary": "A fine-tuned RFdiffusion generates VHHs, scFvs and other antibody formats de novo paired with yeast display, with first-round binders reported in the low-micromolar range before maturation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41193805/",
-      "score": 3,
-      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 This is the Phase 2 de-novo-binder capability; abstract reports ~5.5 uM initial RBD binder and 262 nM anti-TcdB VHH maturing to single-digit nM. VERIFY affinities against the paper before citing in strategy. Published Nature Jan 2026, so background not breaking."
-    },
-    {
-      "date": "2026-11-12",
-      "topic": "AI/ML in protein design",
       "source": "Nature Communications",
       "title": "Improved protein binder design using beta-pairing targeted RFdiffusion",
       "summary": "Conditioning RFdiffusion on beta-strand interfaces targets polar/hydrophilic epitopes, with a binder-KIT co-crystal reported as near-identical to the design model.",
@@ -8315,32 +8005,12 @@
     {
       "date": "2026-11-14",
       "topic": "AI/ML in protein design",
-      "source": "bioRxiv (2025-12-02)",
-      "title": "De novo computational design of VHH nanobodies against LGR5, validated by cryo-EM",
-      "summary": "Computationally designed anti-LGR5 nanobodies were experimentally validated, with an apo structure reported to closely match the design model against a 3.19 A cryo-EM map.",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691880v1",
-      "score": 4,
-      "notes": "[TRACK:B] [FLAG:STRUCTURE;VERIFY] - direct evidence for the Phase 2 de novo binder capability (designed-then-validated VHH); 3.19 A map / model-match claims need source check."
-    },
-    {
-      "date": "2026-11-14",
-      "topic": "AI/ML in protein design",
       "source": "bioRxiv preprint (2026-09-03)",
       "title": "De novo design of ligand-binding proteins using large language models alone",
       "summary": "A preprint reports designing ligand-binding proteins using protein language models without a structure-based diffusion step.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13684519",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:VERIFY] - a novel de novo binder-design route (LLM-only) relevant to the Phase 2 binder-engineering build; not yet peer reviewed."
-    },
-    {
-      "date": "2026-11-14",
-      "topic": "AI/ML in protein design",
-      "source": "Nature Communications (2026)",
-      "title": "Improved protein binder design using beta-pairing targeted RFdiffusion",
-      "summary": "Conditioning RFdiffusion on a target's exposed edge beta-strands lets binders be designed against hydrophilic strand surfaces that standard pipelines handle poorly.",
-      "url": "https://www.nature.com/articles/s41467-025-67866-3",
-      "score": 3,
-      "notes": "[TRACK:B] [FLAG:VERIFY] - extends de novo binder design to hard beta-strand epitopes, relevant to Phase 2 particle-arm/target-search binders; publication month unverified."
     },
     {
       "date": "2026-11-14",
@@ -8371,26 +8041,6 @@
       "url": "https://www.businesswire.com/news/home/20260511046352/en/Trisk-Bio-and-NanoMosaic-Announce-Partnership-for-Advanced-AAV-Analytics",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:none] - AAV analytics vendor activity relevant to the critical-reagent/analytical landscape the target search tracks."
-    },
-    {
-      "date": "2026-11-14",
-      "topic": "Critical reagents & analytical methods",
-      "source": "Gene Therapy / Nature (2024)",
-      "title": "Intermediate AAV capsids are infectious and contribute to potency",
-      "summary": "Separating AAV preparations into full, intermediate and empty fractions showed intermediate (partially filled) capsids are infectious and contribute to potency while empty capsids do not.",
-      "url": "https://www.nature.com/articles/s41434-024-00444-2",
-      "score": 3,
-      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] - bears on the conformation-selective full-vs-empty capsid binder theme: a binary full/empty readout misses potency-bearing intermediate capsids; quantitative claims need source check."
-    },
-    {
-      "date": "2026-11-14",
-      "topic": "Regulatory / FDA",
-      "source": "RAPS (2026-05)",
-      "title": "FDA finalizes CMC flexibility guidance for cell and gene therapies",
-      "summary": "FDA's final CMC-flexibility guidance for CGT products states that flexibility does not lower the licensure standard and advises sponsors to meet with the agency before applying it.",
-      "url": "https://www.raps.org/resource/fda-finalizes-guidance-on-cmc-flexibilities-for-cell-and-gene-therapies.html",
-      "score": 3,
-      "notes": "[TRACK:AB] [FLAG:none] - sets the CMC evidentiary bar relevant to how RUO/analytical reagents and methods must be justified in gene-therapy submissions."
     },
     {
       "date": "2026-11-14",
@@ -8645,16 +8295,6 @@
     {
       "date": "2026-11-17",
       "topic": "Binder engineering & structural characterization",
-      "source": "Nat Commun (PMID 41390480)",
-      "title": "Structural basis of double-stranded RNA recognition by the J2 monoclonal antibody",
-      "summary": "Crystal structure (2.85 A; PDB 9OJV) of the J2 Fab bound to a 23-bp dsRNA shows J2 requires ~14 bp for robust binding and exhibits greatly diminished binding to GC-rich dsRNA, defining the sequence/length limits of the field-standard dsRNA detection reagent.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41390480/",
-      "score": 3,
-      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;STRUCTURE;VERIFY] - names a specific failure mode of the J2 reagent (needs >=14 bp; weak binding to GC-rich dsRNA) that directly motivates the register theme 'anti-dsRNA binder as a J2 replacement'; PDB 9OJV gives a defined epitope/paratope usable as a design target. Pub 2025-12-13 but only now PubMed-indexed. VERIFY the 14-bp requirement and 2.85 A figures. DOI 10.1038/s41467-025-67414-z."
-    },
-    {
-      "date": "2026-11-17",
-      "topic": "Binder engineering & structural characterization",
       "source": "Biochem Biophys Res Commun (PMID 43008701)",
       "title": "Identification of a novel panel of human DLL3-targeting nanobodies with therapeutic potential for small-cell lung cancer",
       "summary": "A panel of 18 anti-DLL3 nanobodies expressed as Fc-fusions was profiled by ELISA and biolayer interferometry (lead clone Nb6 showed sub-picomolar affinity and strict DLL3 selectivity with no DLL1/DLL4 cross-reactivity), and epitope mapping binned the clones into N-terminal and C-terminal groups with Nb6-Fc binding native cell-surface DLL3 and internalizing.",
@@ -8801,16 +8441,6 @@
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11528662/",
       "score": 3,
       "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE] \u2014 named failure mode (crude, semi-quant dsRNA dot-blot) on the anti-dsRNA/J2-replacement register theme; the J2 antibody is the incumbent reagent to displace."
-    },
-    {
-      "date": "2026-11-19",
-      "topic": "Regulatory / FDA",
-      "source": "Clinical Leader",
-      "title": "Recap: FDA's recent cell and gene therapy guidances, including May 2026 CMC flexibilities",
-      "summary": "The May 5, 2026 CMC-flexibility guidance offers latitude on analytical method validation, comparability, specifications and stability where sponsors can show the evidence supports the product.",
-      "url": "https://www.clinicalleader.com/doc/in-case-you-missed-them-recapping-the-fda-s-recent-guidances-for-cell-and-gene-therapies-0001",
-      "score": 3,
-      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 analytical-method-validation/comparability flexibility is directly relevant to how NL would position a novel critical reagent in CMC; recap source, verify specifics against the guidance."
     },
     {
       "date": "2026-11-19",
@@ -9061,6 +8691,66 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42528007/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:a;VERIFY] \u2014 a status-quo transduction-enhancer competitor (category a) that additionally tackles pre-existing anti-AAV immunity, competing with NL's drop-in-reagent positioning. Not recent (epub 2026-07-29). VERIFY the fold-enhancement and nAb-attenuation claims. DOI 10.1177/10430342261471124."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "AAV / LNP delivery",
+      "source": "Nanomedicine (PubMed)",
+      "title": "AAV peptide-conjugated LNPs highlight bottlenecks in LNP-mRNA delivery to photoreceptors",
+      "summary": "An AAV9 capsid-derived peptide (GS4) conjugated to maleimide-PEG-lipids on LNPs gave an 8.7-fold increase in photoreceptor mRNA transfection vs standard LNPs, though Cas9 editing stayed confined to the RPE.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064332/",
+      "score": 5,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c;VERIFY] \u2014 Covalent AAV-peptide->LNP conjugation to borrow viral tropism: a particle-modification competitor route (category c) that contrasts with the engager's non-covalent / unmodified-particle claim and confirms demand for retargeting vectors. VERIFY 8.7-fold figure. DOI 10.1016/j.nano.2026.103059."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "AAV / LNP delivery",
+      "source": "npj Biomedical Innovations (Nature)",
+      "title": "Challenges and innovations in cardiac AAV gene delivery as a platform for cardiac regeneration",
+      "summary": "Review of delivery routes, barriers, and biomaterial-based strategies for cardiac AAV gene therapy.",
+      "url": "https://www.nature.com/articles/s44385-026-00117-2",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 Background on cardiac AAV delivery routes and barriers; context for target-tissue delivery, not construct-changing."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Competitive & adjacent landscape",
+      "source": "BriefGlance (secondary)",
+      "title": "Breaking the Cargo Limit: AAVantgarde's dual-AAV approach in gene therapy",
+      "summary": "AAVantgarde (Milan) describes a dual-vector approach that splits large genes across two AAV vectors to get past AAV's packaging limit.",
+      "url": "https://briefglance.com/articles/breaking-the-cargo-limit-aavantgardes-strategic-leap-in-gene-therapy",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Vector-engineering competitor (category b): dual-AAV payload splitting. Secondary / promotional source; claims are company-stated \u2014 VERIFY against a primary release."
+    },
+    {
+      "date": "2026-11-23",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "SelectScience",
+      "title": "Why bioassay validation is no longer the finish line for biologics",
+      "summary": "CRO case report where a new plate lot for an ELISA-based host-cell-protein release assay pushed results out of specification because QC limits had not allowed for normal lot-to-lot variation, with a later lot failing roughly every other run.",
+      "url": "https://www.selectscience.net/article/why-bioassay-validation-is-no-longer-the-finish-line-for-biologics",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;VERIFY] \u2014 Named failure mode: HCP-ELISA plate-lot variability driving OOS results and intermittent run failure; bears on the defined recombinant anti-HCP-reagent replacement theme. Trade-press, not peer-reviewed \u2014 VERIFY."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "ACS Appl Bio Mater (PubMed)",
+      "title": "Quantification of multi-nucleic acid LNP formulations using LEGEND",
+      "summary": "LEGEND quantifies and distinguishes multiple nucleic-acid cargos co-formulated within a single LNP, which standard kit methods that measure only total encapsulated RNA cannot resolve.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43038321/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 LNP cargo-composition analytics (a CQA for the mRNA/LNP modality); adjacent to the register themes on LNP ligand/cargo characterization and counting species displayed on a particle. Method paper, not a binder. ACS Appl Bio Mater, epub 2026-11-16. DOI 10.1021/acsabm.6c01572."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "Competitive & adjacent landscape",
+      "source": "PR Newswire",
+      "title": "Ascidian and Exegenesis Bio enter strategic agreement for RNA exon editors with next-generation AAV capsids",
+      "summary": "Ascidian Therapeutics and Exegenesis Bio signed a strategic agreement pairing Ascidian's RNA exon editing with Exegenesis's AI-assisted capsid engineering (AAVarta) to develop next-generation AAV capsids.",
+      "url": "https://www.prnewswire.com/news-releases/ascidian-and-exegenesis-bio-enter-strategic-agreement-to-accelerate-development-of-rna-exon-editors-with-next-generation-aav-capsids-302936855.html",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Vector-engineering competitor route (category b): AI-assisted AAV capsid engineering/discovery, the opposite of the engager's unmodified-vector thesis. Announced 2026-11-12. Secondary PR source; capsid-engineering/AAVarta and 'financial terms not disclosed' are summary-derived \u2014 VERIFY against the primary release."
     }
   ]
 }
