@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24",
-  "total": 875,
+  "generated": "2026-11-25",
+  "total": 884,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8751,6 +8751,96 @@
       "url": "https://www.prnewswire.com/news-releases/ascidian-and-exegenesis-bio-enter-strategic-agreement-to-accelerate-development-of-rna-exon-editors-with-next-generation-aav-capsids-302936855.html",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Vector-engineering competitor route (category b): AI-assisted AAV capsid engineering/discovery, the opposite of the engager's unmodified-vector thesis. Announced 2026-11-12. Secondary PR source; capsid-engineering/AAVarta and 'financial terms not disclosed' are summary-derived \u2014 VERIFY against the primary release."
+    },
+    {
+      "date": "2026-11-24",
+      "topic": "Competitive & adjacent landscape",
+      "source": "bioRxiv",
+      "title": "Generative design of de novo AAV vectors with unique serological profiles",
+      "summary": "A variational autoencoder generates functional de novo AAV capsid proteins with novel serological profiles (one design ~18% divergent from the nearest natural AAV), framed as potentially the first fully de novo-designed AAV serotype.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764881v1",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] [PUBDATE:2026-11-06] \u2014 Capsid-engineering/directed-evolution competitor route (category b): generative de-novo capsid design requires vector engineering, the contrast to NL drop-in works-on-unmodified-vectors engager. VERIFY the 18%-divergence and first-de-novo-serotype claims."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Selective suppression and biasing of chemokine receptors CCR9 and ACKR4 through targeting CCL25 with de novo miniproteins",
+      "summary": "De novo-designed miniproteins that bind the chemokine CCL25 selectively suppress or bias signaling through its receptors CCR9 and ACKR4, demonstrating a ligand-targeting de novo binder campaign.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43076896/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 de novo miniprotein binder campaign (eLife, DOI 10.7554/eLife.111190) = the Phase-2 de-novo-binder capability; ligand-targeting design strategy. VERIFY any affinity/selectivity figures against source."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Design of mini-protein binders targeting CD46 to enhance complement-dependent cytotoxicity",
+      "summary": "Mini-protein binders designed against the cell-surface complement regulator CD46 enhance complement-dependent cytotoxicity of tumor cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43072333/",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 de novo mini-protein binders vs a cell-surface receptor (CD46), DOI 10.1016/j.ijbiomac.2026.155397; binder-design workflow + cell-surface target engagement relevant to Phase-2 design and the Cell-Arm targeting problem. VERIFY affinity claims."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Assessing Precision and Accuracy in AAV Capsid Ratio Determination Using Post-Ultracentrifugation CsCl Density Gradient Profiling and Multimodal Detection",
+      "summary": "Post-density-gradient-ultracentrifugation CsCl profiling with multimodal (UV/fluorescence) detection is evaluated for precision and accuracy in measuring AAV empty-to-full capsid ratio.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43070509/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 bears on the full-vs-empty AAV capsid theme; documents the current orthogonal density-based method a conformation-selective capsid binder would be positioned against. DOI 10.1177/10430342261507916."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Mechanistic Insights Into Host Cell Protein Co-Purification With Adeno-Associated Virus Vectors During the Density-Gradient Ultracentrifugation Process",
+      "summary": "Mechanistic study identifying and quantifying the host cell proteins and plasmid-related proteins that co-purify with AAV vectors during density-gradient ultracentrifugation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43070092/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 maps which HCPs/PRPs persist with AAV; relevant to the defined recombinant anti-HCP reagent theme (which AAV-process HCP targets a designed binder/ELISA would need to detect). DOI 10.1002/bit.70450."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Intracellular bismuth coordination of peptides and miniproteins enables functional screening of stable cyclic architectures",
+      "summary": "Intracellular bismuth(III)-thiolate coordination cyclizes and stabilizes peptides and miniproteins, enabling functional screening of stable cyclic architectures inside living cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039954/",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE] \u2014 route-M cyclization/stabilization + in-cell functional screening method relevant to the widened macrocycle/constrained-peptide buildable gate. Published Jul 2026 (DOI 10.1038/s42004-026-02148-7), newly indexed."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Augmenting the CATH database: a synthetic protein database for training biophysical-aware inverse folding models",
+      "summary": "A synthetic protein database augmenting CATH is built to train inverse-folding models that account for biophysical properties (stability, flexibility, solubility) alongside structure.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062557/",
+      "score": 3,
+      "notes": "[TRACK:A] \u2014 developability-aware inverse-folding training data/tooling applicable to de-novo binder sequence design and developability prediction (Phase-2 capability). DOI 10.1007/s10822-026-00979-z."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "An Integrating Sphere Based Method for Quantifying RNA Encapsulation Efficiency in Lipid Nanoparticles without Lysis",
+      "summary": "An integrating-sphere optical method quantifies RNA encapsulation efficiency in lipid nanoparticles without lysis, replacing conventional dye/lysis-based assays.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046379/",
+      "score": 3,
+      "notes": "[TRACK:B] \u2014 label-free LNP encapsulation-efficiency method (removes the dye/lysis reagent step); LNP critical-quality-attribute characterization within Track-B analytical scope. DOI 10.1021/acs.analchem.6c04173."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Affinity Engineering of a Hyaluronic Acid-Specific Carbohydrate-Binding Module Using a Rule-Constrained Large Language Model Agent",
+      "summary": "A rule-constrained large-language-model agent performs affinity engineering of a hyaluronic-acid-specific carbohydrate-binding module to produce a defined, recombinantly accessible high-affinity recognition element.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43049404/",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:DEFICIENCY;VERIFY] \u2014 named deficiency: lack of cost-effective high-affinity recognition elements for HA quantification; fix = designed recombinant binding module via LLM-agent affinity maturation (the Track-B thesis shape). CONTRADICTION/CAVEAT: analyte (HA, food matrix) is OFF Nautilus's modality list \u2014 method transfers, target does not. DOI 10.1021/acs.jafc.6c09480. VERIFY affinity claims."
     }
   ]
 }
