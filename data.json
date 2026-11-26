@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25",
-  "total": 884,
+  "generated": "2026-11-26",
+  "total": 888,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8841,6 +8841,46 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43049404/",
       "score": 3,
       "notes": "[TRACK:AB] [FLAG:DEFICIENCY;VERIFY] \u2014 named deficiency: lack of cost-effective high-affinity recognition elements for HA quantification; fix = designed recombinant binding module via LLM-agent affinity maturation (the Track-B thesis shape). CONTRADICTION/CAVEAT: analyte (HA, food matrix) is OFF Nautilus's modality list \u2014 method transfers, target does not. DOI 10.1021/acs.jafc.6c09480. VERIFY affinity claims."
+    },
+    {
+      "date": "2026-11-25",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "bioRxiv",
+      "title": "E. coli-produced nanobody fusions as a pan-serotype platform for AAV purification, quantification, and detection",
+      "summary": "E. coli-expressed fusions of the pan-serotype AAV-binding nanobody AAVX provide a sequence-defined, customizable reagent for one-step IMAC/affinity AAV capsid purification, ELISA capture and luciferase-detection, and label-free biolayer-interferometry capsid quantification.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762627v1",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:CANDIDATE;IP;VERIFY] \u2014 AAVX is the Phase-1 particle-arm tool VHH and an explicit register theme (pan-serotype AAV capsid binder for capsid-titer ELISA); shows a defined, E.coli-producible recombinant AAVX serving as ELISA/BLI/microscopy reagent (route-P critical-reagent candidate) and parallels NL's BLI particle-arm go/no-go axis; commercial-ligand posture (recombinant alternative to commercial AAVX resin \u2014 FTO relevance). bioRxiv 2026-10-28, ~28d, not peer-reviewed; VERIFY >90% purity/yield and BLI performance claims against source."
+    },
+    {
+      "date": "2026-11-26",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "PubMed",
+      "title": "Quality attributes of enriched empty, partial, full, and high-density rAAV post density gradient fractionations",
+      "summary": "Extensive QA characterization of rAAV capsid species (empty/partial/full/high-density) separated by CsCl density-gradient fractionation, mapping how capsid heterogeneity affects potency, safety and manufacturing consistency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085623/",
+      "score": 4,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] - evidence base for the conformation-selective full-vs-empty AAV capsid and capsid-titer register themes; characterizes the capsid-species populations a full/empty-discriminating binder would need to resolve."
+    },
+    {
+      "date": "2026-11-26",
+      "topic": "Binder engineering & structural characterization",
+      "source": "PubMed",
+      "title": "Reprogramming Protein Function by Expanding Chemical and Combinatorial Space: Integrating Chemical and Computational Strategies",
+      "summary": "Review of how combined chemical (including non-natural residues) and computational strategies expand the design space for engineering protein molecular recognition and function.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43046257/",
+      "score": 3,
+      "notes": "[TRACK:AB] - capability background for building designed/engineered binders, including the non-natural-chemistry (route-M-adjacent) end of the design space; no specific candidate or deficiency claimed."
+    },
+    {
+      "date": "2026-11-26",
+      "topic": "Critical reagents & analytical methods across modalities",
+      "source": "PubMed",
+      "title": "Matrix-matched stripping strategy and ultra-sensitive LC-MS/MS workflow to verify clearance of trace microbial proteins following peracetic acid sanitization of Protein A resin",
+      "summary": "Develops a matrix-matched acid-stripping and sub-ppm LC-MS/MS workflow to verify clearance of microbial protein carryover (e.g. flagellin) from peracetic-acid-sanitized Protein A resin in mAb purification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43044562/",
+      "score": 3,
+      "notes": "[TRACK:B] - analytical-methods background for the mAb modality (Protein A resin impurity clearance); LC-MS/MS applied where trace process-impurity detection is otherwise insufficient."
     }
   ]
 }
