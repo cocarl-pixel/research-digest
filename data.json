@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26",
-  "total": 888,
+  "generated": "2026-11-27",
+  "total": 893,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8881,6 +8881,56 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43044562/",
       "score": 3,
       "notes": "[TRACK:B] - analytical-methods background for the mAb modality (Protein A resin impurity clearance); LC-MS/MS applied where trace process-impurity detection is otherwise insufficient."
+    },
+    {
+      "date": "2026-11-26",
+      "topic": "AAV / LNP delivery",
+      "source": "preprints.org",
+      "title": "Capsid Killers: How VP1 and VP2 Throttle AAV Genome Packaging",
+      "summary": "A structural model argues that intraluminal VP1/VP2 N-terminal extensions occlude the AAV five-fold genome-entry channels so only all-VP3 pentons are packaging-competent, recasting VP1:VP2:VP3 stoichiometry as a threshold-dependent critical quality attribute and motivating a VP3-only capsid for better particle homogeneity.",
+      "url": "https://www.preprints.org/manuscript/202606.1522",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:VERIFY] \u2014 bears on Track-B capsid critical-quality-attribute analytics (empty/full and VP-composition characterization) and the full-vs-empty capsid binder theme; frames VP stoichiometry as a measurable CQA. Single-author theoretical/modeling preprint (preprints.org, posted 2026-08-11, DOI 10.20944/preprints202606.1522.v3), not peer-reviewed. VERIFY the ~36.8% single-genome ceiling and ~32% packaging-competent-at-1:1:2 figures vs source. >14d old \u2014 background."
+    },
+    {
+      "date": "2026-11-26",
+      "topic": "AI/ML in protein design",
+      "source": "bioRxiv",
+      "title": "mBER: Controllable de novo antibody design with million-scale experimental screening",
+      "summary": "A de novo antibody/binder design framework building on ColabDesign and BindCraft that supports partially constrained sequences and structures and, in reported experimental screening, yielded at least one hit for 115 of 116 targets.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.09.26.678877",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 directly on the Phase-2 de novo binder-design capability (replacing literature tool VHHs with owned de novo binders); high-throughput design+screening workflow. bioRxiv preprint posted 2025-09-26 (>1yr old), not peer-reviewed. VERIFY the 115/116-target hit-rate claim vs source. Background, not fresh-this-week."
+    },
+    {
+      "date": "2026-11-26",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv",
+      "title": "An AI-driven approach for nanobody affinity maturation",
+      "summary": "An AI-guided affinity-maturation workflow applied to an anti-B7-H3 nanobody, reporting a top variant with roughly 1.45-fold improved affinity over the parent clone.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687768",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:VERIFY] \u2014 affinity-maturation method relevant to maturing de novo particle-arm / cell-arm binders (Phase-2). bioRxiv preprint posted 2025-11-12 (~1yr old), not peer-reviewed. VERIFY the ~1.45-fold affinity-gain claim vs source. Background, not fresh-this-week."
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "AAV / LNP delivery",
+      "source": "Neuropharmacology (PubMed)",
+      "title": "Targeting purinergic receptors in glioblastoma with nanobody-displaying AAV vectors",
+      "summary": "CD73- or P2X7-specific nanobodies genetically inserted into a surface loop of the AAV9 capsid sharply increased transduction of receptor-expressing cells, demonstrating VHH-into-capsid insertion tolerance for receptor retargeting.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41933830/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] - Genetic nanobody-into-capsid insertion (AAV9 surface loop) is the vector-engineering retargeting route that Nautilus's non-covalent, unmodified-vector engager is positioned against; also a VHH capsid-insertion-tolerance datapoint for the insertion-site theme. e-pub 2026-04-01 (new to feed). PMID 41933830. DOI 10.1016/j.neuropharm.2026.110955"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Binder engineering & structural characterization",
+      "source": "bioRxiv (PubMed)",
+      "title": "A mosaic RBD-nanoparticle pan-sarbecovirus vaccine elicits nanobodies that target highly conserved epitopes",
+      "summary": "Llama immunization with a mosaic RBD-nanoparticle plus optofluidic single-B-cell screening yielded VHHs binding broadly conserved, occluded RBD epitopes, with VHH-RBD crystal structures confirming access unavailable to conventional two-domain antibodies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42999262/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:STRUCTURE] - VHH discovery strategy against broadly conserved/occluded epitopes with crystal-structure validation (VHH-RBD complexes); informs pan-serotype conserved-epitope capsid-binder strategy and VHH structural characterization for Track A. bioRxiv preprint (not peer-reviewed), posted 2026-10-15. PMID 42999262. DOI 10.64898/2026.10.13.758647"
     }
   ]
 }
