@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27",
-  "total": 893,
+  "generated": "2026-11-28",
+  "total": 906,
   "articles": [
     {
       "date": "2024-07-01",
@@ -8931,6 +8931,136 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42999262/",
       "score": 3,
       "notes": "[TRACK:A] [FLAG:STRUCTURE] - VHH discovery strategy against broadly conserved/occluded epitopes with crystal-structure validation (VHH-RBD complexes); informs pan-serotype conserved-epitope capsid-binder strategy and VHH structural characterization for Track A. bioRxiv preprint (not peer-reviewed), posted 2026-10-15. PMID 42999262. DOI 10.64898/2026.10.13.758647"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "Latent-X2: drug-like de novo antibodies with low immunogenicity",
+      "summary": "Reports zero-shot de novo design of VHH and scFv binders with developability profiles and low immunogenicity across a ten-donor human panel.",
+      "url": "https://arxiv.org/abs/2512.20263",
+      "score": 3,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] \u2014 De novo binder + developability/immunogenicity prediction; competitor capability (Latent Labs). Verify 9/18 target claim. [pub: 2025-12-01]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "AI/ML in protein design",
+      "source": "arXiv",
+      "title": "Inference-Time Steering Across Scaffolds and Epitopes for Sample-Efficient De Novo Nanobody Design",
+      "summary": "Method steers a generative model at inference time to design nanobodies against chosen epitopes using fewer samples.",
+      "url": "https://arxiv.org/abs/2610.13844",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:] \u2014 Epitope-directed de novo nanobody design relevant to Phase 2 particle/cell arm generation. [pub: 2026-10-01]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Binder engineering & structural characterization",
+      "source": "RSC Chem Commun",
+      "title": "The effect of peptide size on target affinity in mRNA display-derived macrocyclic peptides",
+      "summary": "Analysis of 40 published datasets finds potent macrocyclic binders are more reliably recovered from libraries with at least nine randomized residues.",
+      "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2026/CC/D5CC06167A",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:MACROCYCLE;VERIFY] \u2014 Screen-design guidance for route-M macrocycle binders; verify the \u22659-residue figure. [pub: 2026-07-01]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "AAV / LNP delivery",
+      "source": "Frontiers Mol Biosci",
+      "title": "Strategies of AAV capsid engineering for targeted delivery to brain, muscle, and retina",
+      "summary": "Review of capsid engineering approaches, noting receptor-informed designs targeting TfR1 or ALPL improve blood-brain barrier penetration.",
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2025.1750807/full",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:] \u2014 Background on insertion/receptor-targeting strategies relevant to particle-arm and cell-arm design. [pub: 2026-01-06]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Molecular Therapy: Oncology",
+      "title": "A facile chemical strategy to synthesize precise AAV-protein conjugates for targeted gene delivery",
+      "summary": "Genetic code expansion plus bioorthogonal chemistry covalently attaches recombinant proteins, including a full antibody, to the AAV capsid for receptor-selective delivery.",
+      "url": "https://doaj.org/article/5381f069e32e440385c4b15ecdbcda56",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:c] \u2014 Covalent conjugation competitor; contrast to the non-covalent, unmodified-particle engager approach. [pub: 2025-12-01]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Competitive & adjacent landscape",
+      "source": "Businesswire",
+      "title": "Dyno Therapeutics unveils next-generation AI-designed capsids for CNS and muscle (ASGCT 2026)",
+      "summary": "Dyno launched new AI-designed AAV capsids for CNS and muscle, trained on in vivo non-human-primate data and using receptor binding to cross the blood-brain barrier.",
+      "url": "https://www.businesswire.com/news/home/20260513474804/en/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b;VERIFY] \u2014 Capsid-engineering competitor (distinct category: requires vector engineering). [pub: 2026-05-13]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Critical reagents & analytical methods",
+      "source": "bioRxiv",
+      "title": "Double-Stranded RNA Profiling with Mass Photometry",
+      "summary": "Preprint describes a mass photometry method using the J2 antibody to identify dsRNA-positive species in mRNA samples.",
+      "url": "https://sciety.org/articles/activity/10.64898/2026.05.15.725554",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE;VERIFY] \u2014 Bears on anti-dsRNA/J2-replacement theme; method still J2-dependent (gap for a defined binder). [pub: 2026-05-15]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Critical reagents & analytical methods",
+      "source": "SCIEX",
+      "title": "LC-MS method for identification and relative quantification of mRNA capping structures (Cap0/Cap1)",
+      "summary": "A vendor LC-MS method distinguishes uncapped, Cap0 and Cap1 mRNA structures, which enzymatic and capillary-electrophoresis assays cannot resolve.",
+      "url": "https://sciex.com/content/dam/SCIEX/tech-notes/biopharma/ruo-mkt-02-14817-a/RUO-MKT-02-14817-A_.pdf",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:CANDIDATE] \u2014 Cap0/Cap1 discrimination theme; relies on MS, not a defined binder (gap a designed binder could fill). Undated vendor note \u2014 VERIFY date. [pub: 2026-01-01]"
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Critical-reagent deficiency signals",
+      "source": "Sigma-Aldrich",
+      "title": "Anti-dsRNA recombinant rJ2 clone (MABE1134) datasheet",
+      "summary": "The vendor states the recombinant rJ2 clone has not been validated for detecting dsRNA from in vitro transcription reactions.",
+      "url": "https://www.sigmaaldrich.com/VI/en/product/mm/mabe1134",
+      "score": 3,
+      "notes": "[TRACK:B] [FLAG:DEFICIENCY;CANDIDATE;VERIFY] \u2014 Named gap: recombinant J2 not validated for IVT dsRNA (the exact mRNA-QC use); supports a defined anti-dsRNA binder. [pub: 2026-01-01]"
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "AAV / LNP delivery",
+      "source": "PubMed",
+      "title": "Directed Evolution and Rational Design of Adeno-Associated Virus 5 Capsid Enhances Liver Tropism",
+      "summary": "A random-peptide library inserted into the AAV5 VR-VIII capsid region plus VP1/VP2 chimerization (AAV8/5L1) produced a capsid variant with markedly improved hepatocyte transduction in mouse and human hepatocytes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43086587/",
+      "score": 3,
+      "notes": "[TRACK:A] [FLAG:COMPETITOR:b] - Directed-evolution + rational-design capsid retargeting (peptide insertion in VR-VIII) is precisely the vector-engineering route the engager platform is positioned against; adds one data point to the capsid-engineering competitor category. DOI 10.1002/bit.70452."
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "Critical reagents & analytical methods",
+      "source": "PubMed",
+      "title": "Engineering and Analytics of Blebbed Lipid Nanoparticles for Next-Generation RNA Therapeutics",
+      "summary": "Opinion/roadmap arguing blebbed LNP morphology should be a controlled critical quality attribute, with a multi-parametric analytical toolkit (AI image analysis, Cryo-ToF-SIMS, AF4-SAXS, and single-particle loading quantification by NanoFCM/CLiC-ALEX).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43080845/",
+      "score": 3,
+      "notes": "[TRACK:B] - Maps the LNP single-particle/morphology CQA-characterization gap (incl. single-particle loading quantification), adjacent to the register theme of counting ligands displayed on a targeted particle; analytical-landscape background, not itself a binder-reagent candidate. DOI 10.2147/IJN.S637031."
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "AI/ML in protein design",
+      "source": "PubMed",
+      "title": "Benchmarking Machine Learning Models for Viral Nanobody Epitope Prediction",
+      "summary": "Head-to-head benchmark of Boltz-2, Chai-1 and AlphaFold3 on viral antigen-nanobody complexes found AF3 best (interface-DockQ success 65% at 100 seeds vs 18% Boltz-2, 30% Chai-1) and defined ipTM/CDR3-pLDDT confidence cutoffs that reliably excluded wrong poses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43070947/",
+      "score": 4,
+      "notes": "[TRACK:AB] [FLAG:VERIFY] - Directly informs Phase-2 de-novo-binder structural validation: benchmarks the exact co-folding tools (incl. Boltz-2, to which the company has API access) for nanobody epitope prediction and gives actionable confidence cutoffs (ipTM>=0.8, or ipTM>=0.6 + CDR3 pLDDT>=60); reported success-rate figures need source check. DOI 10.1021/acs.jcim.6c02430."
+    },
+    {
+      "date": "2026-11-28",
+      "topic": "AI/ML in protein design",
+      "source": "Research Square (preprint)",
+      "title": "Epitope-resolved evaluation of RFdiffusion for de novo binder design across the EGFR extracellular domain",
+      "summary": "Running RFdiffusion then ProteinMPNN then AF2 filtering across 11 EGFR-ectodomain epitopes, about 3.8% of 330k designs passed filters with strong epitope dependence (two DIII epitopes differed ~20-fold, 10.6% vs 0.5%); 11 SPR-tested binders all bound but only at micromolar affinity (0.54-11.5 uM), and AF3 ipTM did not predict affinity.",
+      "url": "https://www.researchsquare.com/article/rs-11712832/v1",
+      "score": 4,
+      "notes": "[TRACK:A] [FLAG:VERIFY] - Empirical Phase-2-relevant yield data for the de-novo binder pipeline: epitope shape dominates design success and in-silico confidence (ipTM) does not predict measured affinity, a caution for Phase-2 target/filter choice; preprint, not peer reviewed; pass-rate and KD figures need source check. DOI 10.21203/rs.3.rs-11712832/v1."
     }
   ]
 }
